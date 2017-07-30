@@ -1,0 +1,685 @@
+"player";"post";"lineup";"matchday"
+"Simon Mignolet";"Keeper";"starting";1
+"Ragnar Klavan";"Centre-Back";"starting";1
+"Dejan Lovren";"Centre-Back";"starting";1
+"Alberto Moreno";"Left-Back";"starting";1
+"Nathaniel Clyne";"Right-Back";"starting";1
+"Jordan Henderson";"Defensive Midfield";"starting";1
+"Georginio Wijnaldum";"Central Midfield";"starting";1
+"Adam Lallana";"Central Midfield";"starting";1
+"Philippe Coutinho";"Left Wing";"starting";1
+"Sadio Mané";"Right Wing";"starting";1
+"Roberto Firmino";"Centre-Forward";"starting";1
+"Alexander Manninger";"Keeper";"bench";1
+"Joel Matip";"Centre-Back";"bench";1
+"Trent Alexander-Arnold";"Right-Back";"bench";1
+"Kevin Stewart";"Defensive Midfield";"bench";1
+"Emre Can";"Defensive Midfield";"bench";1
+"Marko Grujic";"Central Midfield";"bench";1
+"Divock Origi";"Centre-Forward";"bench";1
+"Simon Mignolet";"Keeper";"starting";2
+"Ragnar Klavan";"Centre-Back";"starting";2
+"Dejan Lovren";"Centre-Back";"starting";2
+"James Milner";"Left-Back";"starting";2
+"Nathaniel Clyne";"Right-Back";"starting";2
+"Jordan Henderson";"Defensive Midfield";"starting";2
+"Georginio Wijnaldum";"Central Midfield";"starting";2
+"Adam Lallana";"Central Midfield";"starting";2
+"Philippe Coutinho";"Left Wing";"starting";2
+"Daniel Sturridge";"Right Wing";"starting";2
+"Roberto Firmino";"Centre-Forward";"starting";2
+"Alexander Manninger";"Keeper";"bench";2
+"Joel Matip";"Centre-Back";"bench";2
+"Alberto Moreno";"Left-Back";"bench";2
+"Kevin Stewart";"Defensive Midfield";"bench";2
+"Emre Can";"Defensive Midfield";"bench";2
+"Marko Grujic";"Central Midfield";"bench";2
+"Divock Origi";"Centre-Forward";"bench";2
+"Simon Mignolet";"Keeper";"starting";3
+"Dejan Lovren";"Centre-Back";"starting";3
+"Joel Matip";"Centre-Back";"starting";3
+"James Milner";"Left-Back";"starting";3
+"Nathaniel Clyne";"Right-Back";"starting";3
+"Jordan Henderson";"Defensive Midfield";"starting";3
+"Georginio Wijnaldum";"Central Midfield";"starting";3
+"Adam Lallana";"Central Midfield";"starting";3
+"Philippe Coutinho";"Left Wing";"starting";3
+"Sadio Mané";"Right Wing";"starting";3
+"Roberto Firmino";"Centre-Forward";"starting";3
+"Alexander Manninger";"Keeper";"bench";3
+"Alberto Moreno";"Left-Back";"bench";3
+"Kevin Stewart";"Defensive Midfield";"bench";3
+"Lucas Leiva";"Defensive Midfield";"bench";3
+"Marko Grujic";"Central Midfield";"bench";3
+"Daniel Sturridge";"Right Wing";"bench";3
+"Divock Origi";"Centre-Forward";"bench";3
+"Simon Mignolet";"Keeper";"starting";4
+"Joel Matip";"Centre-Back";"starting";4
+"Lucas Leiva";"Centre-Back";"starting";4
+"James Milner";"Left-Back";"starting";4
+"Nathaniel Clyne";"Right-Back";"starting";4
+"Jordan Henderson";"Defensive Midfield";"starting";4
+"Georginio Wijnaldum";"Central Midfield";"starting";4
+"Adam Lallana";"Central Midfield";"starting";4
+"Roberto Firmino";"Left Wing";"starting";4
+"Sadio Mané";"Right Wing";"starting";4
+"Daniel Sturridge";"Centre-Forward";"starting";4
+"Loris Karius";"Keeper";"bench";4
+"Ragnar Klavan";"Centre-Back";"bench";4
+"Alberto Moreno";"Left-Back";"bench";4
+"Kevin Stewart";"Defensive Midfield";"bench";4
+"Marko Grujic";"Central Midfield";"bench";4
+"Philippe Coutinho";"Left Wing";"bench";4
+"Divock Origi";"Centre-Forward";"bench";4
+"Simon Mignolet";"Keeper";"starting";5
+"Dejan Lovren";"Centre-Back";"starting";5
+"Joel Matip";"Centre-Back";"starting";5
+"James Milner";"Left-Back";"starting";5
+"Nathaniel Clyne";"Right-Back";"starting";5
+"Jordan Henderson";"Defensive Midfield";"starting";5
+"Georginio Wijnaldum";"Central Midfield";"starting";5
+"Philippe Coutinho";"Left Wing";"starting";5
+"Sadio Mané";"Right Wing";"starting";5
+"Adam Lallana";"Secondary Striker";"starting";5
+"Daniel Sturridge";"Centre-Forward";"starting";5
+"Loris Karius";"Keeper";"bench";5
+"Alberto Moreno";"Left-Back";"bench";5
+"Kevin Stewart";"Defensive Midfield";"bench";5
+"Lucas Leiva";"Defensive Midfield";"bench";5
+"Marko Grujic";"Central Midfield";"bench";5
+"Ovie Ejaria";"Attacking Midfield";"bench";5
+"Divock Origi";"Centre-Forward";"bench";5
+"Loris Karius";"Keeper";"starting";6
+"Ragnar Klavan";"Centre-Back";"starting";6
+"Joel Matip";"Centre-Back";"starting";6
+"James Milner";"Left-Back";"starting";6
+"Nathaniel Clyne";"Right-Back";"starting";6
+"Jordan Henderson";"Defensive Midfield";"starting";6
+"Georginio Wijnaldum";"Central Midfield";"starting";6
+"Adam Lallana";"Central Midfield";"starting";6
+"Philippe Coutinho";"Left Wing";"starting";6
+"Sadio Mané";"Right Wing";"starting";6
+"Roberto Firmino";"Centre-Forward";"starting";6
+"Simon Mignolet";"Keeper";"bench";6
+"Alberto Moreno";"Left-Back";"bench";6
+"Lucas Leiva";"Defensive Midfield";"bench";6
+"Emre Can";"Defensive Midfield";"bench";6
+"Marko Grujic";"Central Midfield";"bench";6
+"Daniel Sturridge";"Centre-Forward";"bench";6
+"Divock Origi";"Centre-Forward";"bench";6
+"Loris Karius";"Keeper";"starting";7
+"Dejan Lovren";"Centre-Back";"starting";7
+"Joel Matip";"Centre-Back";"starting";7
+"James Milner";"Left-Back";"starting";7
+"Nathaniel Clyne";"Right-Back";"starting";7
+"Jordan Henderson";"Defensive Midfield";"starting";7
+"Georginio Wijnaldum";"Central Midfield";"starting";7
+"Adam Lallana";"Central Midfield";"starting";7
+"Philippe Coutinho";"Left Wing";"starting";7
+"Sadio Mané";"Right Wing";"starting";7
+"Roberto Firmino";"Centre-Forward";"starting";7
+"Simon Mignolet";"Keeper";"bench";7
+"Ragnar Klavan";"Centre-Back";"bench";7
+"Alberto Moreno";"Left-Back";"bench";7
+"Lucas Leiva";"Defensive Midfield";"bench";7
+"Emre Can";"Defensive Midfield";"bench";7
+"Daniel Sturridge";"Centre-Forward";"bench";7
+"Divock Origi";"Centre-Forward";"bench";7
+"Loris Karius";"Keeper";"starting";8
+"Dejan Lovren";"Centre-Back";"starting";8
+"Joel Matip";"Centre-Back";"starting";8
+"James Milner";"Left-Back";"starting";8
+"Nathaniel Clyne";"Right-Back";"starting";8
+"Jordan Henderson";"Defensive Midfield";"starting";8
+"Emre Can";"Central Midfield";"starting";8
+"Philippe Coutinho";"Attacking Midfield";"starting";8
+"Roberto Firmino";"Left Wing";"starting";8
+"Sadio Mané";"Right Wing";"starting";8
+"Daniel Sturridge";"Centre-Forward";"starting";8
+"Simon Mignolet";"Keeper";"bench";8
+"Ragnar Klavan";"Centre-Back";"bench";8
+"Alberto Moreno";"Left-Back";"bench";8
+"Lucas Leiva";"Defensive Midfield";"bench";8
+"Marko Grujic";"Central Midfield";"bench";8
+"Adam Lallana";"Attacking Midfield";"bench";8
+"Divock Origi";"Centre-Forward";"bench";8
+"Loris Karius";"Keeper";"starting";9
+"Dejan Lovren";"Centre-Back";"starting";9
+"Joel Matip";"Centre-Back";"starting";9
+"James Milner";"Left-Back";"starting";9
+"Nathaniel Clyne";"Right-Back";"starting";9
+"Jordan Henderson";"Defensive Midfield";"starting";9
+"Emre Can";"Central Midfield";"starting";9
+"Adam Lallana";"Attacking Midfield";"starting";9
+"Philippe Coutinho";"Left Wing";"starting";9
+"Sadio Mané";"Right Wing";"starting";9
+"Roberto Firmino";"Centre-Forward";"starting";9
+"Simon Mignolet";"Keeper";"bench";9
+"Ragnar Klavan";"Centre-Back";"bench";9
+"Alberto Moreno";"Left-Back";"bench";9
+"Lucas Leiva";"Defensive Midfield";"bench";9
+"Georginio Wijnaldum";"Central Midfield";"bench";9
+"Daniel Sturridge";"Centre-Forward";"bench";9
+"Divock Origi";"Centre-Forward";"bench";9
+"Loris Karius";"Keeper";"starting";10
+"Dejan Lovren";"Centre-Back";"starting";10
+"Joel Matip";"Centre-Back";"starting";10
+"Alberto Moreno";"Left-Back";"starting";10
+"Nathaniel Clyne";"Right-Back";"starting";10
+"Emre Can";"Defensive Midfield";"starting";10
+"Jordan Henderson";"Central Midfield";"starting";10
+"Adam Lallana";"Attacking Midfield";"starting";10
+"Philippe Coutinho";"Left Wing";"starting";10
+"Sadio Mané";"Right Wing";"starting";10
+"Roberto Firmino";"Centre-Forward";"starting";10
+"Simon Mignolet";"Keeper";"bench";10
+"Ragnar Klavan";"Centre-Back";"bench";10
+"Connor Randall";"Right-Back";"bench";10
+"Lucas Leiva";"Defensive Midfield";"bench";10
+"Georginio Wijnaldum";"Attacking Midfield";"bench";10
+"Daniel Sturridge";"Centre-Forward";"bench";10
+"Divock Origi";"Centre-Forward";"bench";10
+"Loris Karius";"Keeper";"starting";11
+"Joel Matip";"Centre-Back";"starting";11
+"Lucas Leiva";"Centre-Back";"starting";11
+"James Milner";"Left-Back";"starting";11
+"Nathaniel Clyne";"Right-Back";"starting";11
+"Jordan Henderson";"Defensive Midfield";"starting";11
+"Emre Can";"Central Midfield";"starting";11
+"Adam Lallana";"Central Midfield";"starting";11
+"Philippe Coutinho";"Left Wing";"starting";11
+"Sadio Mané";"Right Wing";"starting";11
+"Roberto Firmino";"Centre-Forward";"starting";11
+"Simon Mignolet";"Keeper";"bench";11
+"Ragnar Klavan";"Centre-Back";"bench";11
+"Alberto Moreno";"Left-Back";"bench";11
+"Georginio Wijnaldum";"Central Midfield";"bench";11
+"Ovie Ejaria";"Attacking Midfield";"bench";11
+"Daniel Sturridge";"Centre-Forward";"bench";11
+"Divock Origi";"Centre-Forward";"bench";11
+"Loris Karius";"Keeper";"starting";12
+"Dejan Lovren";"Centre-Back";"starting";12
+"Joel Matip";"Centre-Back";"starting";12
+"James Milner";"Left-Back";"starting";12
+"Nathaniel Clyne";"Right-Back";"starting";12
+"Jordan Henderson";"Defensive Midfield";"starting";12
+"Emre Can";"Central Midfield";"starting";12
+"Georginio Wijnaldum";"Central Midfield";"starting";12
+"Philippe Coutinho";"Left Wing";"starting";12
+"Sadio Mané";"Right Wing";"starting";12
+"Roberto Firmino";"Centre-Forward";"starting";12
+"Simon Mignolet";"Keeper";"bench";12
+"Ragnar Klavan";"Centre-Back";"bench";12
+"Alberto Moreno";"Left-Back";"bench";12
+"Lucas Leiva";"Defensive Midfield";"bench";12
+"Marko Grujic";"Central Midfield";"bench";12
+"Daniel Sturridge";"Centre-Forward";"bench";12
+"Divock Origi";"Centre-Forward";"bench";12
+"Loris Karius";"Keeper";"starting";13
+"Dejan Lovren";"Centre-Back";"starting";13
+"Joel Matip";"Centre-Back";"starting";13
+"James Milner";"Left-Back";"starting";13
+"Nathaniel Clyne";"Right-Back";"starting";13
+"Jordan Henderson";"Defensive Midfield";"starting";13
+"Emre Can";"Central Midfield";"starting";13
+"Georginio Wijnaldum";"Central Midfield";"starting";13
+"Philippe Coutinho";"Left Wing";"starting";13
+"Sadio Mané";"Right Wing";"starting";13
+"Roberto Firmino";"Centre-Forward";"starting";13
+"Simon Mignolet";"Keeper";"bench";13
+"Ragnar Klavan";"Centre-Back";"bench";13
+"Alberto Moreno";"Left-Back";"bench";13
+"Lucas Leiva";"Defensive Midfield";"bench";13
+"Ovie Ejaria";"Attacking Midfield";"bench";13
+"Ben Woodburn";"Left Wing";"bench";13
+"Divock Origi";"Centre-Forward";"bench";13
+"Loris Karius";"Keeper";"starting";14
+"Dejan Lovren";"Centre-Back";"starting";14
+"Lucas Leiva";"Centre-Back";"starting";14
+"James Milner";"Left-Back";"starting";14
+"Nathaniel Clyne";"Right-Back";"starting";14
+"Jordan Henderson";"Defensive Midfield";"starting";14
+"Emre Can";"Central Midfield";"starting";14
+"Georginio Wijnaldum";"Central Midfield";"starting";14
+"Roberto Firmino";"Left Wing";"starting";14
+"Sadio Mané";"Right Wing";"starting";14
+"Divock Origi";"Centre-Forward";"starting";14
+"Simon Mignolet";"Keeper";"bench";14
+"Ragnar Klavan";"Centre-Back";"bench";14
+"Alberto Moreno";"Left-Back";"bench";14
+"Trent Alexander-Arnold";"Right-Back";"bench";14
+"Adam Lallana";"Right Midfield";"bench";14
+"Ovie Ejaria";"Attacking Midfield";"bench";14
+"Ben Woodburn";"Left Wing";"bench";14
+"Loris Karius";"Keeper";"starting";15
+"Dejan Lovren";"Centre-Back";"starting";15
+"Joel Matip";"Centre-Back";"starting";15
+"James Milner";"Left-Back";"starting";15
+"Nathaniel Clyne";"Right-Back";"starting";15
+"Jordan Henderson";"Defensive Midfield";"starting";15
+"Georginio Wijnaldum";"Central Midfield";"starting";15
+"Adam Lallana";"Central Midfield";"starting";15
+"Roberto Firmino";"Left Wing";"starting";15
+"Sadio Mané";"Right Wing";"starting";15
+"Divock Origi";"Centre-Forward";"starting";15
+"Simon Mignolet";"Keeper";"bench";15
+"Ragnar Klavan";"Centre-Back";"bench";15
+"Alberto Moreno";"Left-Back";"bench";15
+"Trent Alexander-Arnold";"Right-Back";"bench";15
+"Lucas Leiva";"Defensive Midfield";"bench";15
+"Ovie Ejaria";"Attacking Midfield";"bench";15
+"Ben Woodburn";"Left Wing";"bench";15
+"Simon Mignolet";"Keeper";"starting";16
+"Ragnar Klavan";"Centre-Back";"starting";16
+"Dejan Lovren";"Centre-Back";"starting";16
+"James Milner";"Left-Back";"starting";16
+"Nathaniel Clyne";"Right-Back";"starting";16
+"Jordan Henderson";"Defensive Midfield";"starting";16
+"Georginio Wijnaldum";"Central Midfield";"starting";16
+"Adam Lallana";"Central Midfield";"starting";16
+"Roberto Firmino";"Left Wing";"starting";16
+"Sadio Mané";"Right Wing";"starting";16
+"Divock Origi";"Centre-Forward";"starting";16
+"Loris Karius";"Keeper";"bench";16
+"Alberto Moreno";"Left-Back";"bench";16
+"Trent Alexander-Arnold";"Right-Back";"bench";16
+"Kevin Stewart";"Defensive Midfield";"bench";16
+"Lucas Leiva";"Defensive Midfield";"bench";16
+"Ovie Ejaria";"Attacking Midfield";"bench";16
+"Ben Woodburn";"Left Wing";"bench";16
+"Simon Mignolet";"Keeper";"starting";17
+"Ragnar Klavan";"Centre-Back";"starting";17
+"Dejan Lovren";"Centre-Back";"starting";17
+"James Milner";"Left-Back";"starting";17
+"Nathaniel Clyne";"Right-Back";"starting";17
+"Jordan Henderson";"Defensive Midfield";"starting";17
+"Georginio Wijnaldum";"Central Midfield";"starting";17
+"Adam Lallana";"Central Midfield";"starting";17
+"Roberto Firmino";"Left Wing";"starting";17
+"Sadio Mané";"Right Wing";"starting";17
+"Divock Origi";"Centre-Forward";"starting";17
+"Loris Karius";"Keeper";"bench";17
+"Alberto Moreno";"Left-Back";"bench";17
+"Trent Alexander-Arnold";"Right-Back";"bench";17
+"Lucas Leiva";"Defensive Midfield";"bench";17
+"Emre Can";"Central Midfield";"bench";17
+"Ben Woodburn";"Left Wing";"bench";17
+"Daniel Sturridge";"Centre-Forward";"bench";17
+"Simon Mignolet";"Keeper";"starting";18
+"Ragnar Klavan";"Centre-Back";"starting";18
+"Dejan Lovren";"Centre-Back";"starting";18
+"James Milner";"Left-Back";"starting";18
+"Nathaniel Clyne";"Right-Back";"starting";18
+"Jordan Henderson";"Defensive Midfield";"starting";18
+"Georginio Wijnaldum";"Central Midfield";"starting";18
+"Adam Lallana";"Central Midfield";"starting";18
+"Roberto Firmino";"Left Wing";"starting";18
+"Sadio Mané";"Right Wing";"starting";18
+"Divock Origi";"Centre-Forward";"starting";18
+"Loris Karius";"Keeper";"bench";18
+"Alberto Moreno";"Left-Back";"bench";18
+"Lucas Leiva";"Defensive Midfield";"bench";18
+"Emre Can";"Defensive Midfield";"bench";18
+"Ovie Ejaria";"Attacking Midfield";"bench";18
+"Ben Woodburn";"Left Wing";"bench";18
+"Daniel Sturridge";"Centre-Forward";"bench";18
+"Simon Mignolet";"Keeper";"starting";19
+"Ragnar Klavan";"Centre-Back";"starting";19
+"Dejan Lovren";"Centre-Back";"starting";19
+"James Milner";"Left-Back";"starting";19
+"Nathaniel Clyne";"Right-Back";"starting";19
+"Jordan Henderson";"Defensive Midfield";"starting";19
+"Emre Can";"Central Midfield";"starting";19
+"Georginio Wijnaldum";"Central Midfield";"starting";19
+"Adam Lallana";"Left Midfield";"starting";19
+"Sadio Mané";"Right Wing";"starting";19
+"Roberto Firmino";"Centre-Forward";"starting";19
+"Loris Karius";"Keeper";"bench";19
+"Alberto Moreno";"Left-Back";"bench";19
+"Trent Alexander-Arnold";"Right-Back";"bench";19
+"Lucas Leiva";"Defensive Midfield";"bench";19
+"Ovie Ejaria";"Attacking Midfield";"bench";19
+"Daniel Sturridge";"Centre-Forward";"bench";19
+"Divock Origi";"Centre-Forward";"bench";19
+"Simon Mignolet";"Keeper";"starting";20
+"Ragnar Klavan";"Centre-Back";"starting";20
+"Dejan Lovren";"Centre-Back";"starting";20
+"James Milner";"Left-Back";"starting";20
+"Nathaniel Clyne";"Right-Back";"starting";20
+"Emre Can";"Defensive Midfield";"starting";20
+"Georginio Wijnaldum";"Central Midfield";"starting";20
+"Adam Lallana";"Central Midfield";"starting";20
+"Roberto Firmino";"Left Wing";"starting";20
+"Sadio Mané";"Right Wing";"starting";20
+"Daniel Sturridge";"Centre-Forward";"starting";20
+"Loris Karius";"Keeper";"bench";20
+"Alberto Moreno";"Left-Back";"bench";20
+"Trent Alexander-Arnold";"Right-Back";"bench";20
+"Kevin Stewart";"Defensive Midfield";"bench";20
+"Lucas Leiva";"Defensive Midfield";"bench";20
+"Ovie Ejaria";"Attacking Midfield";"bench";20
+"Divock Origi";"Centre-Forward";"bench";20
+"Simon Mignolet";"Keeper";"starting";21
+"Ragnar Klavan";"Centre-Back";"starting";21
+"Dejan Lovren";"Centre-Back";"starting";21
+"James Milner";"Left-Back";"starting";21
+"Trent Alexander-Arnold";"Right-Back";"starting";21
+"Emre Can";"Defensive Midfield";"starting";21
+"Georginio Wijnaldum";"Central Midfield";"starting";21
+"Jordan Henderson";"Central Midfield";"starting";21
+"Adam Lallana";"Left Wing";"starting";21
+"Roberto Firmino";"Right Wing";"starting";21
+"Divock Origi";"Centre-Forward";"starting";21
+"Loris Karius";"Keeper";"bench";21
+"Joe Gomez";"Centre-Back";"bench";21
+"Alberto Moreno";"Left-Back";"bench";21
+"Kevin Stewart";"Defensive Midfield";"bench";21
+"Philippe Coutinho";"Attacking Midfield";"bench";21
+"Ovie Ejaria";"Attacking Midfield";"bench";21
+"Daniel Sturridge";"Centre-Forward";"bench";21
+"Simon Mignolet";"Keeper";"starting";22
+"Ragnar Klavan";"Centre-Back";"starting";22
+"Dejan Lovren";"Centre-Back";"starting";22
+"James Milner";"Left-Back";"starting";22
+"Nathaniel Clyne";"Right-Back";"starting";22
+"Jordan Henderson";"Defensive Midfield";"starting";22
+"Emre Can";"Central Midfield";"starting";22
+"Georginio Wijnaldum";"Central Midfield";"starting";22
+"Adam Lallana";"Right Midfield";"starting";22
+"Philippe Coutinho";"Left Wing";"starting";22
+"Roberto Firmino";"Centre-Forward";"starting";22
+"Loris Karius";"Keeper";"bench";22
+"Joel Matip";"Centre-Back";"bench";22
+"Alberto Moreno";"Left-Back";"bench";22
+"Lucas Leiva";"Defensive Midfield";"bench";22
+"Ben Woodburn";"Left Wing";"bench";22
+"Daniel Sturridge";"Centre-Forward";"bench";22
+"Divock Origi";"Centre-Forward";"bench";22
+"Simon Mignolet";"Keeper";"starting";23
+"Dejan Lovren";"Centre-Back";"starting";23
+"Joel Matip";"Centre-Back";"starting";23
+"James Milner";"Left-Back";"starting";23
+"Nathaniel Clyne";"Right-Back";"starting";23
+"Jordan Henderson";"Defensive Midfield";"starting";23
+"Emre Can";"Central Midfield";"starting";23
+"Georginio Wijnaldum";"Central Midfield";"starting";23
+"Philippe Coutinho";"Left Wing";"starting";23
+"Adam Lallana";"Right Wing";"starting";23
+"Roberto Firmino";"Centre-Forward";"starting";23
+"Loris Karius";"Keeper";"bench";23
+"Ragnar Klavan";"Centre-Back";"bench";23
+"Alberto Moreno";"Left-Back";"bench";23
+"Lucas Leiva";"Defensive Midfield";"bench";23
+"Sadio Mané";"Right Wing";"bench";23
+"Daniel Sturridge";"Centre-Forward";"bench";23
+"Divock Origi";"Centre-Forward";"bench";23
+"Simon Mignolet";"Keeper";"starting";24
+"Joel Matip";"Centre-Back";"starting";24
+"Lucas Leiva";"Centre-Back";"starting";24
+"James Milner";"Left-Back";"starting";24
+"Nathaniel Clyne";"Right-Back";"starting";24
+"Emre Can";"Defensive Midfield";"starting";24
+"Jordan Henderson";"Central Midfield";"starting";24
+"Adam Lallana";"Attacking Midfield";"starting";24
+"Philippe Coutinho";"Left Wing";"starting";24
+"Sadio Mané";"Right Wing";"starting";24
+"Roberto Firmino";"Centre-Forward";"starting";24
+"Loris Karius";"Keeper";"bench";24
+"Joe Gomez";"Centre-Back";"bench";24
+"Alberto Moreno";"Left-Back";"bench";24
+"Trent Alexander-Arnold";"Right-Back";"bench";24
+"Georginio Wijnaldum";"Central Midfield";"bench";24
+"Daniel Sturridge";"Centre-Forward";"bench";24
+"Divock Origi";"Centre-Forward";"bench";24
+"Simon Mignolet";"Keeper";"starting";25
+"Joel Matip";"Centre-Back";"starting";25
+"Lucas Leiva";"Centre-Back";"starting";25
+"James Milner";"Left-Back";"starting";25
+"Nathaniel Clyne";"Right-Back";"starting";25
+"Jordan Henderson";"Defensive Midfield";"starting";25
+"Georginio Wijnaldum";"Central Midfield";"starting";25
+"Adam Lallana";"Central Midfield";"starting";25
+"Philippe Coutinho";"Left Wing";"starting";25
+"Sadio Mané";"Right Wing";"starting";25
+"Roberto Firmino";"Centre-Forward";"starting";25
+"Loris Karius";"Keeper";"bench";25
+"Ragnar Klavan";"Centre-Back";"bench";25
+"Alberto Moreno";"Left-Back";"bench";25
+"Trent Alexander-Arnold";"Right-Back";"bench";25
+"Emre Can";"Defensive Midfield";"bench";25
+"Daniel Sturridge";"Centre-Forward";"bench";25
+"Divock Origi";"Centre-Forward";"bench";25
+"Simon Mignolet";"Keeper";"starting";26
+"Joel Matip";"Centre-Back";"starting";26
+"Lucas Leiva";"Centre-Back";"starting";26
+"James Milner";"Left-Back";"starting";26
+"Nathaniel Clyne";"Right-Back";"starting";26
+"Emre Can";"Defensive Midfield";"starting";26
+"Georginio Wijnaldum";"Central Midfield";"starting";26
+"Adam Lallana";"Central Midfield";"starting";26
+"Philippe Coutinho";"Left Wing";"starting";26
+"Sadio Mané";"Right Wing";"starting";26
+"Roberto Firmino";"Centre-Forward";"starting";26
+"Loris Karius";"Keeper";"bench";26
+"Ragnar Klavan";"Centre-Back";"bench";26
+"Alberto Moreno";"Left-Back";"bench";26
+"Trent Alexander-Arnold";"Right-Back";"bench";26
+"Kevin Stewart";"Defensive Midfield";"bench";26
+"Ben Woodburn";"Left Wing";"bench";26
+"Divock Origi";"Centre-Forward";"bench";26
+"Simon Mignolet";"Keeper";"starting";27
+"Ragnar Klavan";"Centre-Back";"starting";27
+"Joel Matip";"Centre-Back";"starting";27
+"James Milner";"Left-Back";"starting";27
+"Nathaniel Clyne";"Right-Back";"starting";27
+"Emre Can";"Defensive Midfield";"starting";27
+"Georginio Wijnaldum";"Central Midfield";"starting";27
+"Adam Lallana";"Central Midfield";"starting";27
+"Philippe Coutinho";"Left Wing";"starting";27
+"Sadio Mané";"Right Wing";"starting";27
+"Roberto Firmino";"Centre-Forward";"starting";27
+"Loris Karius";"Keeper";"bench";27
+"Dejan Lovren";"Centre-Back";"bench";27
+"Alberto Moreno";"Left-Back";"bench";27
+"Trent Alexander-Arnold";"Right-Back";"bench";27
+"Lucas Leiva";"Defensive Midfield";"bench";27
+"Ben Woodburn";"Left Wing";"bench";27
+"Divock Origi";"Centre-Forward";"bench";27
+"Simon Mignolet";"Keeper";"starting";28
+"Ragnar Klavan";"Centre-Back";"starting";28
+"Joel Matip";"Centre-Back";"starting";28
+"James Milner";"Left-Back";"starting";28
+"Nathaniel Clyne";"Right-Back";"starting";28
+"Emre Can";"Defensive Midfield";"starting";28
+"Georginio Wijnaldum";"Central Midfield";"starting";28
+"Adam Lallana";"Central Midfield";"starting";28
+"Philippe Coutinho";"Left Wing";"starting";28
+"Sadio Mané";"Right Wing";"starting";28
+"Divock Origi";"Centre-Forward";"starting";28
+"Loris Karius";"Keeper";"bench";28
+"Joe Gomez";"Centre-Back";"bench";28
+"Alberto Moreno";"Left-Back";"bench";28
+"Trent Alexander-Arnold";"Right-Back";"bench";28
+"Lucas Leiva";"Defensive Midfield";"bench";28
+"Ben Woodburn";"Left Wing";"bench";28
+"Harry Wilson";"Right Wing";"bench";28
+"Simon Mignolet";"Keeper";"starting";29
+"Ragnar Klavan";"Centre-Back";"starting";29
+"Joel Matip";"Centre-Back";"starting";29
+"James Milner";"Left-Back";"starting";29
+"Nathaniel Clyne";"Right-Back";"starting";29
+"Emre Can";"Defensive Midfield";"starting";29
+"Georginio Wijnaldum";"Central Midfield";"starting";29
+"Adam Lallana";"Central Midfield";"starting";29
+"Philippe Coutinho";"Left Wing";"starting";29
+"Sadio Mané";"Right Wing";"starting";29
+"Roberto Firmino";"Centre-Forward";"starting";29
+"Loris Karius";"Keeper";"bench";29
+"Dejan Lovren";"Centre-Back";"bench";29
+"Alberto Moreno";"Left-Back";"bench";29
+"Trent Alexander-Arnold";"Right-Back";"bench";29
+"Lucas Leiva";"Defensive Midfield";"bench";29
+"Ben Woodburn";"Left Wing";"bench";29
+"Divock Origi";"Centre-Forward";"bench";29
+"Simon Mignolet";"Keeper";"starting";30
+"Dejan Lovren";"Centre-Back";"starting";30
+"Joel Matip";"Centre-Back";"starting";30
+"James Milner";"Left-Back";"starting";30
+"Nathaniel Clyne";"Right-Back";"starting";30
+"Lucas Leiva";"Defensive Midfield";"starting";30
+"Emre Can";"Central Midfield";"starting";30
+"Georginio Wijnaldum";"Central Midfield";"starting";30
+"Philippe Coutinho";"Left Wing";"starting";30
+"Sadio Mané";"Right Wing";"starting";30
+"Roberto Firmino";"Centre-Forward";"starting";30
+"Loris Karius";"Keeper";"bench";30
+"Ragnar Klavan";"Centre-Back";"bench";30
+"Alberto Moreno";"Left-Back";"bench";30
+"Trent Alexander-Arnold";"Right Midfield";"bench";30
+"Marko Grujic";"Central Midfield";"bench";30
+"Ben Woodburn";"Left Wing";"bench";30
+"Divock Origi";"Centre-Forward";"bench";30
+"Simon Mignolet";"Keeper";"starting";31
+"Ragnar Klavan";"Centre-Back";"starting";31
+"Dejan Lovren";"Centre-Back";"starting";31
+"James Milner";"Left-Back";"starting";31
+"Nathaniel Clyne";"Right-Back";"starting";31
+"Lucas Leiva";"Defensive Midfield";"starting";31
+"Emre Can";"Central Midfield";"starting";31
+"Georginio Wijnaldum";"Central Midfield";"starting";31
+"Philippe Coutinho";"Left Wing";"starting";31
+"Roberto Firmino";"Right Wing";"starting";31
+"Divock Origi";"Centre-Forward";"starting";31
+"Loris Karius";"Keeper";"bench";31
+"Joel Matip";"Centre-Back";"bench";31
+"Alberto Moreno";"Left-Back";"bench";31
+"Trent Alexander-Arnold";"Right-Back";"bench";31
+"Marko Grujic";"Central Midfield";"bench";31
+"Ben Woodburn";"Left Wing";"bench";31
+"Daniel Sturridge";"Centre-Forward";"bench";31
+"Simon Mignolet";"Keeper";"starting";32
+"Ragnar Klavan";"Centre-Back";"starting";32
+"Dejan Lovren";"Centre-Back";"starting";32
+"Joel Matip";"Centre-Back";"starting";32
+"Emre Can";"Defensive Midfield";"starting";32
+"Georginio Wijnaldum";"Central Midfield";"starting";32
+"James Milner";"Central Midfield";"starting";32
+"Trent Alexander-Arnold";"Right Midfield";"starting";32
+"Nathaniel Clyne";"Left Midfield";"starting";32
+"Ben Woodburn";"Secondary Striker";"starting";32
+"Divock Origi";"Centre-Forward";"starting";32
+"Loris Karius";"Keeper";"bench";32
+"Alberto Moreno";"Left-Back";"bench";32
+"Lucas Leiva";"Defensive Midfield";"bench";32
+"Marko Grujic";"Central Midfield";"bench";32
+"Philippe Coutinho";"Attacking Midfield";"bench";32
+"Roberto Firmino";"Secondary Striker";"bench";32
+"Daniel Sturridge";"Centre-Forward";"bench";32
+"Simon Mignolet";"Keeper";"starting";33
+"Dejan Lovren";"Centre-Back";"starting";33
+"Joel Matip";"Centre-Back";"starting";33
+"James Milner";"Left-Back";"starting";33
+"Nathaniel Clyne";"Right-Back";"starting";33
+"Lucas Leiva";"Defensive Midfield";"starting";33
+"Emre Can";"Central Midfield";"starting";33
+"Georginio Wijnaldum";"Central Midfield";"starting";33
+"Philippe Coutinho";"Left Wing";"starting";33
+"Roberto Firmino";"Right Wing";"starting";33
+"Divock Origi";"Centre-Forward";"starting";33
+"Loris Karius";"Keeper";"bench";33
+"Joe Gomez";"Centre-Back";"bench";33
+"Alberto Moreno";"Left-Back";"bench";33
+"Trent Alexander-Arnold";"Right-Back";"bench";33
+"Marko Grujic";"Central Midfield";"bench";33
+"Ben Woodburn";"Left Wing";"bench";33
+"Daniel Sturridge";"Centre-Forward";"bench";33
+"Simon Mignolet";"Keeper";"starting";34
+"Dejan Lovren";"Centre-Back";"starting";34
+"Joel Matip";"Centre-Back";"starting";34
+"Lucas Leiva";"Centre-Back";"starting";34
+"Emre Can";"Defensive Midfield";"starting";34
+"Nathaniel Clyne";"Right Midfield";"starting";34
+"James Milner";"Left Midfield";"starting";34
+"Georginio Wijnaldum";"Attacking Midfield";"starting";34
+"Roberto Firmino";"Attacking Midfield";"starting";34
+"Philippe Coutinho";"Secondary Striker";"starting";34
+"Divock Origi";"Centre-Forward";"starting";34
+"Loris Karius";"Keeper";"bench";34
+"Joe Gomez";"Centre-Back";"bench";34
+"Alberto Moreno";"Left-Back";"bench";34
+"Trent Alexander-Arnold";"Right-Back";"bench";34
+"Marko Grujic";"Central Midfield";"bench";34
+"Ben Woodburn";"Left Wing";"bench";34
+"Rhian Brewster";"Centre-Forward";"bench";34
+"Simon Mignolet";"Keeper";"starting";35
+"Dejan Lovren";"Centre-Back";"starting";35
+"Joel Matip";"Centre-Back";"starting";35
+"James Milner";"Left-Back";"starting";35
+"Nathaniel Clyne";"Right-Back";"starting";35
+"Lucas Leiva";"Defensive Midfield";"starting";35
+"Emre Can";"Central Midfield";"starting";35
+"Georginio Wijnaldum";"Central Midfield";"starting";35
+"Roberto Firmino";"Left Wing";"starting";35
+"Philippe Coutinho";"Right Wing";"starting";35
+"Divock Origi";"Centre-Forward";"starting";35
+"Loris Karius";"Keeper";"bench";35
+"Ragnar Klavan";"Centre-Back";"bench";35
+"Alberto Moreno";"Left-Back";"bench";35
+"Trent Alexander-Arnold";"Right-Back";"bench";35
+"Marko Grujic";"Central Midfield";"bench";35
+"Adam Lallana";"Right Wing";"bench";35
+"Daniel Sturridge";"Centre-Forward";"bench";35
+"Simon Mignolet";"Keeper";"starting";36
+"Dejan Lovren";"Centre-Back";"starting";36
+"Joel Matip";"Centre-Back";"starting";36
+"James Milner";"Left-Back";"starting";36
+"Nathaniel Clyne";"Right-Back";"starting";36
+"Lucas Leiva";"Defensive Midfield";"starting";36
+"Emre Can";"Central Midfield";"starting";36
+"Georginio Wijnaldum";"Central Midfield";"starting";36
+"Philippe Coutinho";"Left Wing";"starting";36
+"Roberto Firmino";"Right Wing";"starting";36
+"Divock Origi";"Centre-Forward";"starting";36
+"Loris Karius";"Keeper";"bench";36
+"Ragnar Klavan";"Centre-Back";"bench";36
+"Alberto Moreno";"Left-Back";"bench";36
+"Trent Alexander-Arnold";"Right-Back";"bench";36
+"Marko Grujic";"Central Midfield";"bench";36
+"Adam Lallana";"Central Midfield";"bench";36
+"Daniel Sturridge";"Centre-Forward";"bench";36
+"Simon Mignolet";"Keeper";"starting";37
+"Dejan Lovren";"Centre-Back";"starting";37
+"Joel Matip";"Centre-Back";"starting";37
+"James Milner";"Left-Back";"starting";37
+"Nathaniel Clyne";"Right-Back";"starting";37
+"Emre Can";"Defensive Midfield";"starting";37
+"Georginio Wijnaldum";"Right Midfield";"starting";37
+"Philippe Coutinho";"Left Midfield";"starting";37
+"Adam Lallana";"Attacking Midfield";"starting";37
+"Daniel Sturridge";"Centre-Forward";"starting";37
+"Divock Origi";"Centre-Forward";"starting";37
+"Loris Karius";"Keeper";"bench";37
+"Ragnar Klavan";"Centre-Back";"bench";37
+"Alberto Moreno";"Left-Back";"bench";37
+"Trent Alexander-Arnold";"Right-Back";"bench";37
+"Lucas Leiva";"Defensive Midfield";"bench";37
+"Marko Grujic";"Central Midfield";"bench";37
+"Ben Woodburn";"Left Wing";"bench";37
+"Simon Mignolet";"Keeper";"starting";38
+"Dejan Lovren";"Centre-Back";"starting";38
+"Joel Matip";"Centre-Back";"starting";38
+"James Milner";"Left-Back";"starting";38
+"Nathaniel Clyne";"Right-Back";"starting";38
+"Emre Can";"Defensive Midfield";"starting";38
+"Georginio Wijnaldum";"Right Midfield";"starting";38
+"Philippe Coutinho";"Left Midfield";"starting";38
+"Adam Lallana";"Attacking Midfield";"starting";38
+"Roberto Firmino";"Secondary Striker";"starting";38
+"Daniel Sturridge";"Centre-Forward";"starting";38
+"Loris Karius";"Keeper";"bench";38
+"Ragnar Klavan";"Centre-Back";"bench";38
+"Alberto Moreno";"Left-Back";"bench";38
+"Trent Alexander-Arnold";"Right-Back";"bench";38
+"Lucas Leiva";"Defensive Midfield";"bench";38
+"Marko Grujic";"Central Midfield";"bench";38
+"Divock Origi";"Centre-Forward";"bench";38

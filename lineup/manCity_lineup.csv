@@ -1,0 +1,685 @@
+"player";"lineup";"post";"matchday"
+"Willy Caballero";"starting";"Keeper";1
+"John Stones";"starting";"Centre-Back";1
+"Aleksandar Kolarov";"starting";"Centre-Back";1
+"Gaël Clichy";"starting";"Left-Back";1
+"Bacary Sagna";"starting";"Right-Back";1
+"Fernandinho";"starting";"Defensive Midfield";1
+"David Silva";"starting";"Central Midfield";1
+"Kevin De Bruyne";"starting";"Central Midfield";1
+"Nolito";"starting";"Left Wing";1
+"Raheem Sterling";"starting";"Right Wing";1
+"Sergio Agüero";"starting";"Centre-Forward";1
+"Joe Hart";"bench";"Keeper";1
+"Nicolás Otamendi";"bench";"Centre-Back";1
+"Pablo Zabaleta";"bench";"Right-Back";1
+"Fernando";"bench";"Defensive Midfield";1
+"Fabian Delph";"bench";"Central Midfield";1
+"Jesús Navas";"bench";"Right Wing";1
+"Kelechi Iheanacho";"bench";"Centre-Forward";1
+"Willy Caballero";"starting";"Keeper";2
+"John Stones";"starting";"Centre-Back";2
+"Nicolás Otamendi";"starting";"Centre-Back";2
+"Aleksandar Kolarov";"starting";"Left-Back";2
+"Pablo Zabaleta";"starting";"Right-Back";2
+"Fernandinho";"starting";"Defensive Midfield";2
+"David Silva";"starting";"Central Midfield";2
+"Kevin De Bruyne";"starting";"Central Midfield";2
+"Raheem Sterling";"starting";"Left Wing";2
+"Jesús Navas";"starting";"Right Wing";2
+"Sergio Agüero";"starting";"Centre-Forward";2
+"Joe Hart";"bench";"Keeper";2
+"Gaël Clichy";"bench";"Left-Back";2
+"Pablo Maffeo";"bench";"Right-Back";2
+"Fernando";"bench";"Defensive Midfield";2
+"Fabian Delph";"bench";"Central Midfield";2
+"Nolito";"bench";"Left Wing";2
+"Kelechi Iheanacho";"bench";"Centre-Forward";2
+"Willy Caballero";"starting";"Keeper";3
+"John Stones";"starting";"Centre-Back";3
+"Nicolás Otamendi";"starting";"Centre-Back";3
+"Gaël Clichy";"starting";"Left-Back";3
+"Pablo Zabaleta";"starting";"Right-Back";3
+"Fernandinho";"starting";"Defensive Midfield";3
+"David Silva";"starting";"Central Midfield";3
+"Kevin De Bruyne";"starting";"Central Midfield";3
+"Nolito";"starting";"Left Wing";3
+"Raheem Sterling";"starting";"Right Wing";3
+"Sergio Agüero";"starting";"Centre-Forward";3
+"Joe Hart";"bench";"Keeper";3
+"Aleksandar Kolarov";"bench";"Left-Back";3
+"Fernando";"bench";"Defensive Midfield";3
+"Fabian Delph";"bench";"Central Midfield";3
+"Samir Nasri";"bench";"Left Wing";3
+"Jesús Navas";"bench";"Right Wing";3
+"Kelechi Iheanacho";"bench";"Centre-Forward";3
+"Claudio Bravo";"starting";"Keeper";4
+"John Stones";"starting";"Centre-Back";4
+"Nicolás Otamendi";"starting";"Centre-Back";4
+"Aleksandar Kolarov";"starting";"Left-Back";4
+"Bacary Sagna";"starting";"Right-Back";4
+"Fernandinho";"starting";"Defensive Midfield";4
+"David Silva";"starting";"Central Midfield";4
+"Kevin De Bruyne";"starting";"Attacking Midfield";4
+"Nolito";"starting";"Left Wing";4
+"Raheem Sterling";"starting";"Right Wing";4
+"Kelechi Iheanacho";"starting";"Centre-Forward";4
+"Willy Caballero";"bench";"Keeper";4
+"Gaël Clichy";"bench";"Left-Back";4
+"Pablo Zabaleta";"bench";"Right-Back";4
+"Fernando";"bench";"Defensive Midfield";4
+"Aleix García";"bench";"Defensive Midfield";4
+"Leroy Sané";"bench";"Right Wing";4
+"Jesús Navas";"bench";"Right Wing";4
+"Claudio Bravo";"starting";"Keeper";5
+"Nicolás Otamendi";"starting";"Centre-Back";5
+"Aleksandar Kolarov";"starting";"Centre-Back";5
+"Gaël Clichy";"starting";"Left-Back";5
+"Bacary Sagna";"starting";"Right-Back";5
+"Fernandinho";"starting";"Defensive Midfield";5
+"Ilkay Gündogan";"starting";"Central Midfield";5
+"Kevin De Bruyne";"starting";"Attacking Midfield";5
+"Nolito";"starting";"Left Wing";5
+"Raheem Sterling";"starting";"Right Wing";5
+"Kelechi Iheanacho";"starting";"Centre-Forward";5
+"Willy Caballero";"bench";"Keeper";5
+"Vincent Kompany";"bench";"Centre-Back";5
+"John Stones";"bench";"Centre-Back";5
+"Pablo Zabaleta";"bench";"Right-Back";5
+"Aleix García";"bench";"Defensive Midfield";5
+"Leroy Sané";"bench";"Right Wing";5
+"Jesús Navas";"bench";"Right Wing";5
+"Claudio Bravo";"starting";"Keeper";6
+"John Stones";"starting";"Centre-Back";6
+"Nicolás Otamendi";"starting";"Centre-Back";6
+"Aleksandar Kolarov";"starting";"Left-Back";6
+"Bacary Sagna";"starting";"Right-Back";6
+"Fernandinho";"starting";"Defensive Midfield";6
+"Ilkay Gündogan";"starting";"Central Midfield";6
+"Kevin De Bruyne";"starting";"Attacking Midfield";6
+"David Silva";"starting";"Left Wing";6
+"Raheem Sterling";"starting";"Right Wing";6
+"Sergio Agüero";"starting";"Centre-Forward";6
+"Willy Caballero";"bench";"Keeper";6
+"Gaël Clichy";"bench";"Left-Back";6
+"Pablo Zabaleta";"bench";"Right-Back";6
+"Fernando";"bench";"Defensive Midfield";6
+"Leroy Sané";"bench";"Left Wing";6
+"Jesús Navas";"bench";"Left Wing";6
+"Kelechi Iheanacho";"bench";"Centre-Forward";6
+"Claudio Bravo";"starting";"Keeper";7
+"John Stones";"starting";"Centre-Back";7
+"Nicolás Otamendi";"starting";"Centre-Back";7
+"Aleksandar Kolarov";"starting";"Left-Back";7
+"Pablo Zabaleta";"starting";"Right-Back";7
+"Fernando";"starting";"Defensive Midfield";7
+"Fernandinho";"starting";"Central Midfield";7
+"David Silva";"starting";"Attacking Midfield";7
+"Raheem Sterling";"starting";"Left Wing";7
+"Jesús Navas";"starting";"Right Wing";7
+"Sergio Agüero";"starting";"Centre-Forward";7
+"Willy Caballero";"bench";"Keeper";7
+"Gaël Clichy";"bench";"Left-Back";7
+"Bacary Sagna";"bench";"Right-Back";7
+"Aleix García";"bench";"Defensive Midfield";7
+"Ilkay Gündogan";"bench";"Left Midfield";7
+"Leroy Sané";"bench";"Left Wing";7
+"Kelechi Iheanacho";"bench";"Centre-Forward";7
+"Claudio Bravo";"starting";"Keeper";8
+"John Stones";"starting";"Centre-Back";8
+"Nicolás Otamendi";"starting";"Centre-Back";8
+"Gaël Clichy";"starting";"Centre-Back";8
+"Fernandinho";"starting";"Defensive Midfield";8
+"Ilkay Gündogan";"starting";"Defensive Midfield";8
+"Leroy Sané";"starting";"Right Midfield";8
+"Raheem Sterling";"starting";"Left Midfield";8
+"David Silva";"starting";"Attacking Midfield";8
+"Kevin De Bruyne";"starting";"Attacking Midfield";8
+"Kelechi Iheanacho";"starting";"Centre-Forward";8
+"Willy Caballero";"bench";"Keeper";8
+"Vincent Kompany";"bench";"Centre-Back";8
+"Aleksandar Kolarov";"bench";"Left-Back";8
+"Pablo Zabaleta";"bench";"Right-Back";8
+"Fernando";"bench";"Defensive Midfield";8
+"Nolito";"bench";"Left Midfield";8
+"Sergio Agüero";"bench";"Centre-Forward";8
+"Claudio Bravo";"starting";"Keeper";9
+"Vincent Kompany";"starting";"Centre-Back";9
+"John Stones";"starting";"Centre-Back";9
+"Aleksandar Kolarov";"starting";"Centre-Back";9
+"Fernandinho";"starting";"Defensive Midfield";9
+"Ilkay Gündogan";"starting";"Defensive Midfield";9
+"Leroy Sané";"starting";"Right Midfield";9
+"David Silva";"starting";"Left Midfield";9
+"Kevin De Bruyne";"starting";"Attacking Midfield";9
+"Raheem Sterling";"starting";"Secondary Striker";9
+"Sergio Agüero";"starting";"Centre-Forward";9
+"Willy Caballero";"bench";"Keeper";9
+"Nicolás Otamendi";"bench";"Centre-Back";9
+"Gaël Clichy";"bench";"Left-Back";9
+"Fernando";"bench";"Defensive Midfield";9
+"Nolito";"bench";"Left Wing";9
+"Jesús Navas";"bench";"Right Midfield";9
+"Kelechi Iheanacho";"bench";"Centre-Forward";9
+"Claudio Bravo";"starting";"Keeper";10
+"John Stones";"starting";"Centre-Back";10
+"Nicolás Otamendi";"starting";"Centre-Back";10
+"Aleksandar Kolarov";"starting";"Left-Back";10
+"Fernando";"starting";"Right-Back";10
+"Fernandinho";"starting";"Defensive Midfield";10
+"Ilkay Gündogan";"starting";"Central Midfield";10
+"David Silva";"starting";"Attacking Midfield";10
+"Nolito";"starting";"Left Wing";10
+"Raheem Sterling";"starting";"Right Wing";10
+"Sergio Agüero";"starting";"Centre-Forward";10
+"Willy Caballero";"bench";"Keeper";10
+"Vincent Kompany";"bench";"Centre-Back";10
+"Gaël Clichy";"bench";"Left-Back";10
+"Aleix García";"bench";"Central Midfield";10
+"Kevin De Bruyne";"bench";"Left Wing";10
+"Jesús Navas";"bench";"Right Wing";10
+"Kelechi Iheanacho";"bench";"Centre-Forward";10
+"Claudio Bravo";"starting";"Keeper";11
+"John Stones";"starting";"Centre-Back";11
+"Aleksandar Kolarov";"starting";"Centre-Back";11
+"Gaël Clichy";"starting";"Left-Back";11
+"Pablo Zabaleta";"starting";"Right-Back";11
+"Fernandinho";"starting";"Defensive Midfield";11
+"Ilkay Gündogan";"starting";"Central Midfield";11
+"David Silva";"starting";"Attacking Midfield";11
+"Kevin De Bruyne";"starting";"Left Wing";11
+"Jesús Navas";"starting";"Right Wing";11
+"Sergio Agüero";"starting";"Centre-Forward";11
+"Willy Caballero";"bench";"Keeper";11
+"Vincent Kompany";"bench";"Centre-Back";11
+"Pablo Maffeo";"bench";"Right-Back";11
+"Aleix García";"bench";"Central Midfield";11
+"Leroy Sané";"bench";"Left Wing";11
+"Nolito";"bench";"Left Wing";11
+"Kelechi Iheanacho";"bench";"Centre-Forward";11
+"Claudio Bravo";"starting";"Keeper";12
+"Vincent Kompany";"starting";"Centre-Back";12
+"Nicolás Otamendi";"starting";"Centre-Back";12
+"Aleksandar Kolarov";"starting";"Left-Back";12
+"Bacary Sagna";"starting";"Right-Back";12
+"Fernandinho";"starting";"Defensive Midfield";12
+"Yaya Touré";"starting";"Central Midfield";12
+"Kevin De Bruyne";"starting";"Attacking Midfield";12
+"Nolito";"starting";"Left Wing";12
+"Raheem Sterling";"starting";"Right Wing";12
+"Sergio Agüero";"starting";"Centre-Forward";12
+"Willy Caballero";"bench";"Keeper";12
+"Pablo Zabaleta";"bench";"Right-Back";12
+"Fernando";"bench";"Defensive Midfield";12
+"David Silva";"bench";"Left Wing";12
+"Leroy Sané";"bench";"Left Wing";12
+"Jesús Navas";"bench";"Right Wing";12
+"Kelechi Iheanacho";"bench";"Centre-Forward";12
+"Claudio Bravo";"starting";"Keeper";13
+"Nicolás Otamendi";"starting";"Centre-Back";13
+"Aleksandar Kolarov";"starting";"Centre-Back";13
+"Gaël Clichy";"starting";"Left-Back";13
+"Bacary Sagna";"starting";"Right-Back";13
+"Fernando";"starting";"Defensive Midfield";13
+"Fernandinho";"starting";"Central Midfield";13
+"Yaya Touré";"starting";"Attacking Midfield";13
+"Nolito";"starting";"Left Wing";13
+"Raheem Sterling";"starting";"Right Wing";13
+"Sergio Agüero";"starting";"Centre-Forward";13
+"Willy Caballero";"bench";"Keeper";13
+"Pablo Zabaleta";"bench";"Right-Back";13
+"David Silva";"bench";"Attacking Midfield";13
+"Kevin De Bruyne";"bench";"Attacking Midfield";13
+"Leroy Sané";"bench";"Left Wing";13
+"Jesús Navas";"bench";"Right Wing";13
+"Kelechi Iheanacho";"bench";"Centre-Forward";13
+"Claudio Bravo";"starting";"Keeper";14
+"John Stones";"starting";"Centre-Back";14
+"Nicolás Otamendi";"starting";"Centre-Back";14
+"Aleksandar Kolarov";"starting";"Centre-Back";14
+"Fernandinho";"starting";"Defensive Midfield";14
+"Ilkay Gündogan";"starting";"Defensive Midfield";14
+"Jesús Navas";"starting";"Right Midfield";14
+"Leroy Sané";"starting";"Left Midfield";14
+"David Silva";"starting";"Attacking Midfield";14
+"Kevin De Bruyne";"starting";"Attacking Midfield";14
+"Sergio Agüero";"starting";"Centre-Forward";14
+"Willy Caballero";"bench";"Keeper";14
+"Gaël Clichy";"bench";"Left-Back";14
+"Bacary Sagna";"bench";"Right-Back";14
+"Pablo Zabaleta";"bench";"Right-Back";14
+"Fernando";"bench";"Defensive Midfield";14
+"Yaya Touré";"bench";"Central Midfield";14
+"Kelechi Iheanacho";"bench";"Centre-Forward";14
+"Claudio Bravo";"starting";"Keeper";15
+"John Stones";"starting";"Centre-Back";15
+"Bacary Sagna";"starting";"Centre-Back";15
+"Aleksandar Kolarov";"starting";"Left-Back";15
+"Pablo Zabaleta";"starting";"Right-Back";15
+"Fernando";"starting";"Defensive Midfield";15
+"Ilkay Gündogan";"starting";"Central Midfield";15
+"David Silva";"starting";"Attacking Midfield";15
+"Kevin De Bruyne";"starting";"Left Wing";15
+"Jesús Navas";"starting";"Right Wing";15
+"Kelechi Iheanacho";"starting";"Centre-Forward";15
+"Willy Caballero";"bench";"Keeper";15
+"Tosin Adarabioyo";"bench";"Centre-Back";15
+"Gaël Clichy";"bench";"Left-Back";15
+"Yaya Touré";"bench";"Central Midfield";15
+"Leroy Sané";"bench";"Left Wing";15
+"Raheem Sterling";"bench";"Left Wing";15
+"Nolito";"bench";"Centre-Forward";15
+"Claudio Bravo";"starting";"Keeper";16
+"Nicolás Otamendi";"starting";"Centre-Back";16
+"Aleksandar Kolarov";"starting";"Centre-Back";16
+"Gaël Clichy";"starting";"Left-Back";16
+"Pablo Zabaleta";"starting";"Right-Back";16
+"Ilkay Gündogan";"starting";"Defensive Midfield";16
+"Yaya Touré";"starting";"Defensive Midfield";16
+"Kevin De Bruyne";"starting";"Attacking Midfield";16
+"David Silva";"starting";"Left Wing";16
+"Raheem Sterling";"starting";"Right Wing";16
+"Nolito";"starting";"Centre-Forward";16
+"Willy Caballero";"bench";"Keeper";16
+"John Stones";"bench";"Centre-Back";16
+"Bacary Sagna";"bench";"Right-Back";16
+"Fernando";"bench";"Defensive Midfield";16
+"Leroy Sané";"bench";"Left Wing";16
+"Jesús Navas";"bench";"Right Wing";16
+"Kelechi Iheanacho";"bench";"Centre-Forward";16
+"Claudio Bravo";"starting";"Keeper";17
+"Nicolás Otamendi";"starting";"Centre-Back";17
+"Aleksandar Kolarov";"starting";"Centre-Back";17
+"Gaël Clichy";"starting";"Left-Back";17
+"Pablo Zabaleta";"starting";"Right-Back";17
+"Fernando";"starting";"Defensive Midfield";17
+"Yaya Touré";"starting";"Central Midfield";17
+"David Silva";"starting";"Attacking Midfield";17
+"Kevin De Bruyne";"starting";"Left Wing";17
+"Leroy Sané";"starting";"Right Wing";17
+"Raheem Sterling";"starting";"Centre-Forward";17
+"Willy Caballero";"bench";"Keeper";17
+"John Stones";"bench";"Centre-Back";17
+"Bacary Sagna";"bench";"Right-Back";17
+"Aleix García";"bench";"Defensive Midfield";17
+"Nolito";"bench";"Left Wing";17
+"Jesús Navas";"bench";"Right Wing";17
+"Kelechi Iheanacho";"bench";"Centre-Forward";17
+"Claudio Bravo";"starting";"Keeper";18
+"John Stones";"starting";"Centre-Back";18
+"Nicolás Otamendi";"starting";"Centre-Back";18
+"Gaël Clichy";"starting";"Left-Back";18
+"Bacary Sagna";"starting";"Right-Back";18
+"Fernandinho";"starting";"Defensive Midfield";18
+"Yaya Touré";"starting";"Central Midfield";18
+"David Silva";"starting";"Attacking Midfield";18
+"Kevin De Bruyne";"starting";"Left Wing";18
+"Raheem Sterling";"starting";"Right Wing";18
+"Nolito";"starting";"Centre-Forward";18
+"Willy Caballero";"bench";"Keeper";18
+"Aleksandar Kolarov";"bench";"Centre-Back";18
+"Pablo Zabaleta";"bench";"Right-Back";18
+"Fernando";"bench";"Defensive Midfield";18
+"Aleix García";"bench";"Defensive Midfield";18
+"Jesús Navas";"bench";"Right Wing";18
+"Kelechi Iheanacho";"bench";"Centre-Forward";18
+"Claudio Bravo";"starting";"Keeper";19
+"John Stones";"starting";"Centre-Back";19
+"Nicolás Otamendi";"starting";"Centre-Back";19
+"Aleksandar Kolarov";"starting";"Left-Back";19
+"Pablo Zabaleta";"starting";"Right-Back";19
+"Fernandinho";"starting";"Defensive Midfield";19
+"Yaya Touré";"starting";"Defensive Midfield";19
+"David Silva";"starting";"Attacking Midfield";19
+"Kevin De Bruyne";"starting";"Left Wing";19
+"Raheem Sterling";"starting";"Right Wing";19
+"Sergio Agüero";"starting";"Centre-Forward";19
+"Willy Caballero";"bench";"Keeper";19
+"Gaël Clichy";"bench";"Left-Back";19
+"Bacary Sagna";"bench";"Right-Back";19
+"Fernando";"bench";"Defensive Midfield";19
+"Aleix García";"bench";"Defensive Midfield";19
+"Jesús Navas";"bench";"Right Wing";19
+"Kelechi Iheanacho";"bench";"Centre-Forward";19
+"Claudio Bravo";"starting";"Keeper";20
+"Nicolás Otamendi";"starting";"Centre-Back";20
+"Aleksandar Kolarov";"starting";"Centre-Back";20
+"Gaël Clichy";"starting";"Left-Back";20
+"Bacary Sagna";"starting";"Right-Back";20
+"Fernandinho";"starting";"Defensive Midfield";20
+"Yaya Touré";"starting";"Defensive Midfield";20
+"Kevin De Bruyne";"starting";"Attacking Midfield";20
+"Raheem Sterling";"starting";"Left Wing";20
+"Jesús Navas";"starting";"Right Wing";20
+"Kelechi Iheanacho";"starting";"Centre-Forward";20
+"Willy Caballero";"bench";"Keeper";20
+"John Stones";"bench";"Centre-Back";20
+"Pablo Zabaleta";"bench";"Right-Back";20
+"Aleix García";"bench";"Defensive Midfield";20
+"David Silva";"bench";"Central Midfield";20
+"Nolito";"bench";"Left Wing";20
+"Sergio Agüero";"bench";"Centre-Forward";20
+"Claudio Bravo";"starting";"Keeper";21
+"John Stones";"starting";"Centre-Back";21
+"Nicolás Otamendi";"starting";"Centre-Back";21
+"Gaël Clichy";"starting";"Left-Back";21
+"Bacary Sagna";"starting";"Right-Back";21
+"Yaya Touré";"starting";"Defensive Midfield";21
+"Pablo Zabaleta";"starting";"Right Midfield";21
+"Kevin De Bruyne";"starting";"Left Midfield";21
+"David Silva";"starting";"Attacking Midfield";21
+"Raheem Sterling";"starting";"Secondary Striker";21
+"Sergio Agüero";"starting";"Centre-Forward";21
+"Willy Caballero";"bench";"Keeper";21
+"Aleksandar Kolarov";"bench";"Left-Back";21
+"Aleix García";"bench";"Defensive Midfield";21
+"Fabian Delph";"bench";"Central Midfield";21
+"Leroy Sané";"bench";"Left Wing";21
+"Jesús Navas";"bench";"Right Wing";21
+"Kelechi Iheanacho";"bench";"Left Wing";21
+"Claudio Bravo";"starting";"Keeper";22
+"Nicolás Otamendi";"starting";"Centre-Back";22
+"Aleksandar Kolarov";"starting";"Centre-Back";22
+"Gaël Clichy";"starting";"Left-Back";22
+"Pablo Zabaleta";"starting";"Right-Back";22
+"Yaya Touré";"starting";"Defensive Midfield";22
+"David Silva";"starting";"Central Midfield";22
+"Kevin De Bruyne";"starting";"Central Midfield";22
+"Leroy Sané";"starting";"Left Wing";22
+"Raheem Sterling";"starting";"Right Wing";22
+"Sergio Agüero";"starting";"Centre-Forward";22
+"Willy Caballero";"bench";"Keeper";22
+"Vincent Kompany";"bench";"Centre-Back";22
+"John Stones";"bench";"Centre-Back";22
+"Fernando";"bench";"Defensive Midfield";22
+"Fabian Delph";"bench";"Central Midfield";22
+"Nolito";"bench";"Left Wing";22
+"Gabriel Jesus";"bench";"Centre-Forward";22
+"Willy Caballero";"starting";"Keeper";23
+"John Stones";"starting";"Centre-Back";23
+"Nicolás Otamendi";"starting";"Centre-Back";23
+"Aleksandar Kolarov";"starting";"Left-Back";23
+"Bacary Sagna";"starting";"Right-Back";23
+"Yaya Touré";"starting";"Defensive Midfield";23
+"David Silva";"starting";"Central Midfield";23
+"Kevin De Bruyne";"starting";"Central Midfield";23
+"Leroy Sané";"starting";"Left Wing";23
+"Raheem Sterling";"starting";"Right Wing";23
+"Gabriel Jesus";"starting";"Centre-Forward";23
+"Claudio Bravo";"bench";"Keeper";23
+"Vincent Kompany";"bench";"Centre-Back";23
+"Pablo Zabaleta";"bench";"Right-Back";23
+"Fernandinho";"bench";"Central Midfield";23
+"Fabian Delph";"bench";"Central Midfield";23
+"Jesús Navas";"bench";"Right Wing";23
+"Sergio Agüero";"bench";"Centre-Forward";23
+"Willy Caballero";"starting";"Keeper";24
+"John Stones";"starting";"Centre-Back";24
+"Aleksandar Kolarov";"starting";"Centre-Back";24
+"Gaël Clichy";"starting";"Left-Back";24
+"Fernandinho";"starting";"Right-Back";24
+"Yaya Touré";"starting";"Defensive Midfield";24
+"David Silva";"starting";"Central Midfield";24
+"Kevin De Bruyne";"starting";"Central Midfield";24
+"Leroy Sané";"starting";"Left Wing";24
+"Raheem Sterling";"starting";"Right Wing";24
+"Gabriel Jesus";"starting";"Centre-Forward";24
+"Claudio Bravo";"bench";"Keeper";24
+"Vincent Kompany";"bench";"Centre-Back";24
+"Pablo Zabaleta";"bench";"Right-Back";24
+"Fernando";"bench";"Defensive Midfield";24
+"Fabian Delph";"bench";"Central Midfield";24
+"Jesús Navas";"bench";"Right Wing";24
+"Sergio Agüero";"bench";"Centre-Forward";24
+"Willy Caballero";"starting";"Keeper";25
+"John Stones";"starting";"Centre-Back";25
+"Aleksandar Kolarov";"starting";"Centre-Back";25
+"Fernandinho";"starting";"Left-Back";25
+"Bacary Sagna";"starting";"Right-Back";25
+"Yaya Touré";"starting";"Defensive Midfield";25
+"David Silva";"starting";"Central Midfield";25
+"Kevin De Bruyne";"starting";"Central Midfield";25
+"Leroy Sané";"starting";"Left Wing";25
+"Raheem Sterling";"starting";"Right Wing";25
+"Gabriel Jesus";"starting";"Centre-Forward";25
+"Claudio Bravo";"bench";"Keeper";25
+"Vincent Kompany";"bench";"Centre-Back";25
+"Nicolás Otamendi";"bench";"Centre-Back";25
+"Fernando";"bench";"Defensive Midfield";25
+"Fabian Delph";"bench";"Central Midfield";25
+"Nolito";"bench";"Left Wing";25
+"Sergio Agüero";"bench";"Centre-Forward";25
+"Claudio Bravo";"starting";"Keeper";26
+"Vincent Kompany";"starting";"Centre-Back";26
+"Nicolás Otamendi";"starting";"Centre-Back";26
+"Aleksandar Kolarov";"starting";"Left-Back";26
+"Pablo Zabaleta";"starting";"Right-Back";26
+"Fernandinho";"starting";"Defensive Midfield";26
+"Yaya Touré";"starting";"Defensive Midfield";26
+"Leroy Sané";"starting";"Left Wing";26
+"Raheem Sterling";"starting";"Right Wing";26
+"Kevin De Bruyne";"starting";"Secondary Striker";26
+"Sergio Agüero";"starting";"Centre-Forward";26
+"Willy Caballero";"bench";"Keeper";26
+"Gaël Clichy";"bench";"Left-Back";26
+"Bacary Sagna";"bench";"Right-Back";26
+"Fernando";"bench";"Defensive Midfield";26
+"Aleix García";"bench";"Defensive Midfield";26
+"Jesús Navas";"bench";"Right Wing";26
+"Gabriel Jesus";"bench";"Centre-Forward";26
+"Willy Caballero";"starting";"Keeper";27
+"John Stones";"starting";"Centre-Back";27
+"Aleksandar Kolarov";"starting";"Centre-Back";27
+"Gaël Clichy";"starting";"Left-Back";27
+"Bacary Sagna";"starting";"Right-Back";27
+"Fernandinho";"starting";"Defensive Midfield";27
+"Yaya Touré";"starting";"Central Midfield";27
+"David Silva";"starting";"Attacking Midfield";27
+"Leroy Sané";"starting";"Left Wing";27
+"Raheem Sterling";"starting";"Right Wing";27
+"Sergio Agüero";"starting";"Centre-Forward";27
+"Claudio Bravo";"bench";"Keeper";27
+"Nicolás Otamendi";"bench";"Centre-Back";27
+"Fernando";"bench";"Defensive Midfield";27
+"Fabian Delph";"bench";"Central Midfield";27
+"Kevin De Bruyne";"bench";"Central Midfield";27
+"Nolito";"bench";"Left Wing";27
+"Kelechi Iheanacho";"bench";"Centre-Forward";27
+"Willy Caballero";"starting";"Keeper";28
+"Nicolás Otamendi";"starting";"Centre-Back";28
+"Aleksandar Kolarov";"starting";"Centre-Back";28
+"Gaël Clichy";"starting";"Left-Back";28
+"Bacary Sagna";"starting";"Right-Back";28
+"Fernandinho";"starting";"Defensive Midfield";28
+"Yaya Touré";"starting";"Defensive Midfield";28
+"Kevin De Bruyne";"starting";"Attacking Midfield";28
+"Leroy Sané";"starting";"Left Wing";28
+"Jesús Navas";"starting";"Right Wing";28
+"Sergio Agüero";"starting";"Centre-Forward";28
+"Claudio Bravo";"bench";"Keeper";28
+"John Stones";"bench";"Centre-Back";28
+"Pablo Zabaleta";"bench";"Right-Back";28
+"Fabian Delph";"bench";"Central Midfield";28
+"David Silva";"bench";"Right Midfield";28
+"Nolito";"bench";"Left Wing";28
+"Kelechi Iheanacho";"bench";"Centre-Forward";28
+"Willy Caballero";"starting";"Keeper";29
+"John Stones";"starting";"Centre-Back";29
+"Nicolás Otamendi";"starting";"Centre-Back";29
+"Gaël Clichy";"starting";"Left-Back";29
+"Fernandinho";"starting";"Right-Back";29
+"Yaya Touré";"starting";"Defensive Midfield";29
+"David Silva";"starting";"Central Midfield";29
+"Kevin De Bruyne";"starting";"Central Midfield";29
+"Leroy Sané";"starting";"Left Wing";29
+"Raheem Sterling";"starting";"Right Wing";29
+"Sergio Agüero";"starting";"Centre-Forward";29
+"Claudio Bravo";"bench";"Keeper";29
+"Aleksandar Kolarov";"bench";"Left-Back";29
+"Bacary Sagna";"bench";"Right-Back";29
+"Fernando";"bench";"Defensive Midfield";29
+"Aleix García";"bench";"Defensive Midfield";29
+"Nolito";"bench";"Left Wing";29
+"Kelechi Iheanacho";"bench";"Centre-Forward";29
+"Willy Caballero";"starting";"Keeper";30
+"John Stones";"starting";"Centre-Back";30
+"Nicolás Otamendi";"starting";"Centre-Back";30
+"Gaël Clichy";"starting";"Left-Back";30
+"Jesús Navas";"starting";"Right-Back";30
+"Fernandinho";"starting";"Defensive Midfield";30
+"David Silva";"starting";"Central Midfield";30
+"Kevin De Bruyne";"starting";"Central Midfield";30
+"Leroy Sané";"starting";"Left Wing";30
+"Raheem Sterling";"starting";"Right Wing";30
+"Sergio Agüero";"starting";"Centre-Forward";30
+"Claudio Bravo";"bench";"Keeper";30
+"Vincent Kompany";"bench";"Centre-Back";30
+"Aleksandar Kolarov";"bench";"Left-Back";30
+"Pablo Zabaleta";"bench";"Right-Back";30
+"Fabian Delph";"bench";"Central Midfield";30
+"Yaya Touré";"bench";"Central Midfield";30
+"Nolito";"bench";"Left Wing";30
+"Willy Caballero";"starting";"Keeper";31
+"Vincent Kompany";"starting";"Centre-Back";31
+"John Stones";"starting";"Centre-Back";31
+"Gaël Clichy";"starting";"Left-Back";31
+"Jesús Navas";"starting";"Right-Back";31
+"Fernandinho";"starting";"Defensive Midfield";31
+"Fabian Delph";"starting";"Defensive Midfield";31
+"David Silva";"starting";"Attacking Midfield";31
+"Leroy Sané";"starting";"Left Wing";31
+"Kevin De Bruyne";"starting";"Right Wing";31
+"Sergio Agüero";"starting";"Centre-Forward";31
+"Claudio Bravo";"bench";"Keeper";31
+"Aleksandar Kolarov";"bench";"Left-Back";31
+"Pablo Zabaleta";"bench";"Right-Back";31
+"Fernando";"bench";"Defensive Midfield";31
+"Yaya Touré";"bench";"Central Midfield";31
+"Raheem Sterling";"bench";"Left Wing";31
+"Nolito";"bench";"Left Wing";31
+"Claudio Bravo";"starting";"Keeper";32
+"John Stones";"starting";"Centre-Back";32
+"Aleksandar Kolarov";"starting";"Centre-Back";32
+"Gaël Clichy";"starting";"Left-Back";32
+"Jesús Navas";"starting";"Right-Back";32
+"Fabian Delph";"starting";"Defensive Midfield";32
+"Yaya Touré";"starting";"Defensive Midfield";32
+"David Silva";"starting";"Attacking Midfield";32
+"Leroy Sané";"starting";"Left Wing";32
+"Raheem Sterling";"starting";"Right Wing";32
+"Sergio Agüero";"starting";"Centre-Forward";32
+"Willy Caballero";"bench";"Keeper";32
+"Vincent Kompany";"bench";"Centre-Back";32
+"Pablo Zabaleta";"bench";"Right-Back";32
+"Fernando";"bench";"Defensive Midfield";32
+"Kevin De Bruyne";"bench";"Attacking Midfield";32
+"Nolito";"bench";"Left Wing";32
+"Kelechi Iheanacho";"bench";"Centre-Forward";32
+"Claudio Bravo";"starting";"Keeper";33
+"Vincent Kompany";"starting";"Centre-Back";33
+"Nicolás Otamendi";"starting";"Centre-Back";33
+"Gaël Clichy";"starting";"Left-Back";33
+"Jesús Navas";"starting";"Right-Back";33
+"Fernandinho";"starting";"Defensive Midfield";33
+"Yaya Touré";"starting";"Central Midfield";33
+"David Silva";"starting";"Attacking Midfield";33
+"Leroy Sané";"starting";"Left Wing";33
+"Kevin De Bruyne";"starting";"Right Wing";33
+"Sergio Agüero";"starting";"Centre-Forward";33
+"Willy Caballero";"bench";"Keeper";33
+"Aleksandar Kolarov";"bench";"Left-Back";33
+"Pablo Zabaleta";"bench";"Right-Back";33
+"Fernando";"bench";"Defensive Midfield";33
+"Aleix García";"bench";"Defensive Midfield";33
+"Raheem Sterling";"bench";"Left Wing";33
+"Kelechi Iheanacho";"bench";"Centre-Forward";33
+"Willy Caballero";"starting";"Keeper";34
+"Vincent Kompany";"starting";"Centre-Back";34
+"Nicolás Otamendi";"starting";"Centre-Back";34
+"Aleksandar Kolarov";"starting";"Left-Back";34
+"Fernandinho";"starting";"Right-Back";34
+"Yaya Touré";"starting";"Defensive Midfield";34
+"David Silva";"starting";"Central Midfield";34
+"Kevin De Bruyne";"starting";"Central Midfield";34
+"Leroy Sané";"starting";"Left Wing";34
+"Gabriel Jesus";"starting";"Right Wing";34
+"Sergio Agüero";"starting";"Centre-Forward";34
+"Angus Gunn";"bench";"Keeper";34
+"John Stones";"bench";"Centre-Back";34
+"Gaël Clichy";"bench";"Left-Back";34
+"Pablo Zabaleta";"bench";"Right-Back";34
+"Fernando";"bench";"Defensive Midfield";34
+"Raheem Sterling";"bench";"Left Wing";34
+"Jesús Navas";"bench";"Right Wing";34
+"Willy Caballero";"starting";"Keeper";35
+"Vincent Kompany";"starting";"Centre-Back";35
+"Nicolás Otamendi";"starting";"Centre-Back";35
+"Aleksandar Kolarov";"starting";"Centre-Back";35
+"Fernandinho";"starting";"Defensive Midfield";35
+"Aleix García";"starting";"Defensive Midfield";35
+"Jesús Navas";"starting";"Right Midfield";35
+"Gaël Clichy";"starting";"Left Midfield";35
+"Kevin De Bruyne";"starting";"Attacking Midfield";35
+"Sergio Agüero";"starting";"Centre-Forward";35
+"Gabriel Jesus";"starting";"Centre-Forward";35
+"Angus Gunn";"bench";"Keeper";35
+"Bacary Sagna";"bench";"Right-Back";35
+"Pablo Zabaleta";"bench";"Right-Back";35
+"Fernando";"bench";"Defensive Midfield";35
+"Leroy Sané";"bench";"Left Wing";35
+"Raheem Sterling";"bench";"Right Wing";35
+"Nolito";"bench";"Left Wing";35
+"Willy Caballero";"starting";"Keeper";36
+"Vincent Kompany";"starting";"Centre-Back";36
+"Nicolás Otamendi";"starting";"Centre-Back";36
+"Gaël Clichy";"starting";"Left-Back";36
+"Fernandinho";"starting";"Right-Back";36
+"Yaya Touré";"starting";"Defensive Midfield";36
+"David Silva";"starting";"Central Midfield";36
+"Kevin De Bruyne";"starting";"Central Midfield";36
+"Raheem Sterling";"starting";"Left Wing";36
+"Leroy Sané";"starting";"Right Wing";36
+"Gabriel Jesus";"starting";"Centre-Forward";36
+"Angus Gunn";"bench";"Keeper";36
+"Aleksandar Kolarov";"bench";"Left-Back";36
+"Bacary Sagna";"bench";"Right-Back";36
+"Pablo Zabaleta";"bench";"Right-Back";36
+"Fernando";"bench";"Defensive Midfield";36
+"Jesús Navas";"bench";"Right Wing";36
+"Kelechi Iheanacho";"bench";"Centre-Forward";36
+"Willy Caballero";"starting";"Keeper";37
+"Vincent Kompany";"starting";"Centre-Back";37
+"Nicolás Otamendi";"starting";"Centre-Back";37
+"Gaël Clichy";"starting";"Left-Back";37
+"Fernandinho";"starting";"Right-Back";37
+"Yaya Touré";"starting";"Defensive Midfield";37
+"David Silva";"starting";"Central Midfield";37
+"Kevin De Bruyne";"starting";"Central Midfield";37
+"Leroy Sané";"starting";"Left Wing";37
+"Raheem Sterling";"starting";"Right Wing";37
+"Gabriel Jesus";"starting";"Centre-Forward";37
+"Angus Gunn";"bench";"Keeper";37
+"Aleksandar Kolarov";"bench";"Left-Back";37
+"Pablo Zabaleta";"bench";"Right-Back";37
+"Fernando";"bench";"Defensive Midfield";37
+"Nolito";"bench";"Left Wing";37
+"Jesús Navas";"bench";"Right Wing";37
+"Sergio Agüero";"bench";"Centre-Forward";37
+"Willy Caballero";"starting";"Keeper";38
+"Vincent Kompany";"starting";"Centre-Back";38
+"Nicolás Otamendi";"starting";"Centre-Back";38
+"Gaël Clichy";"starting";"Left-Back";38
+"Fernandinho";"starting";"Right-Back";38
+"Yaya Touré";"starting";"Defensive Midfield";38
+"David Silva";"starting";"Central Midfield";38
+"Kevin De Bruyne";"starting";"Central Midfield";38
+"Leroy Sané";"starting";"Left Wing";38
+"Gabriel Jesus";"starting";"Right Wing";38
+"Sergio Agüero";"starting";"Centre-Forward";38
+"Angus Gunn";"bench";"Keeper";38
+"John Stones";"bench";"Centre-Back";38
+"Aleksandar Kolarov";"bench";"Left-Back";38
+"Bacary Sagna";"bench";"Right-Back";38
+"Raheem Sterling";"bench";"Left Wing";38
+"Jesús Navas";"bench";"Right Wing";38
+"Kelechi Iheanacho";"bench";"Centre-Forward";38

@@ -1,0 +1,685 @@
+"player";"post";"lineup";"matchday"
+"David de Gea";"Keeper";"starting";1
+"Eric Bailly";"Centre-Back";"starting";1
+"Daley Blind";"Centre-Back";"starting";1
+"Luke Shaw";"Left-Back";"starting";1
+"Antonio Valencia";"Right-Back";"starting";1
+"Marouane Fellaini";"Defensive Midfield";"starting";1
+"Ander Herrera";"Central Midfield";"starting";1
+"Anthony Martial";"Left Wing";"starting";1
+"Juan Mata";"Right Wing";"starting";1
+"Wayne Rooney";"Secondary Striker";"starting";1
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";1
+"Sergio Romero";"Keeper";"bench";1
+"Marcos Rojo";"Centre-Back";"bench";1
+"Michael Carrick";"Defensive Midfield";"bench";1
+"Morgan Schneiderlin";"Central Midfield";"bench";1
+"Henrikh Mkhitaryan";"Right Wing";"bench";1
+"Memphis Depay";"Left Wing";"bench";1
+"Marcus Rashford";"Centre-Forward";"bench";1
+"David de Gea";"Keeper";"starting";2
+"Eric Bailly";"Centre-Back";"starting";2
+"Daley Blind";"Centre-Back";"starting";2
+"Luke Shaw";"Left-Back";"starting";2
+"Antonio Valencia";"Right-Back";"starting";2
+"Marouane Fellaini";"Defensive Midfield";"starting";2
+"Paul Pogba";"Central Midfield";"starting";2
+"Anthony Martial";"Left Wing";"starting";2
+"Juan Mata";"Right Wing";"starting";2
+"Wayne Rooney";"Secondary Striker";"starting";2
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";2
+"Sergio Romero";"Keeper";"bench";2
+"Chris Smalling";"Centre-Back";"bench";2
+"Morgan Schneiderlin";"Defensive Midfield";"bench";2
+"Ander Herrera";"Central Midfield";"bench";2
+"Ashley Young";"Left Midfield";"bench";2
+"Henrikh Mkhitaryan";"Right Wing";"bench";2
+"Marcus Rashford";"Centre-Forward";"bench";2
+"David de Gea";"Keeper";"starting";3
+"Eric Bailly";"Centre-Back";"starting";3
+"Daley Blind";"Centre-Back";"starting";3
+"Luke Shaw";"Left-Back";"starting";3
+"Antonio Valencia";"Right-Back";"starting";3
+"Marouane Fellaini";"Defensive Midfield";"starting";3
+"Paul Pogba";"Central Midfield";"starting";3
+"Anthony Martial";"Left Wing";"starting";3
+"Juan Mata";"Right Wing";"starting";3
+"Wayne Rooney";"Secondary Striker";"starting";3
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";3
+"Sergio Romero";"Keeper";"bench";3
+"Chris Smalling";"Centre-Back";"bench";3
+"Morgan Schneiderlin";"Defensive Midfield";"bench";3
+"Ander Herrera";"Central Midfield";"bench";3
+"Ashley Young";"Left Midfield";"bench";3
+"Henrikh Mkhitaryan";"Right Wing";"bench";3
+"Marcus Rashford";"Centre-Forward";"bench";3
+"David de Gea";"Keeper";"starting";4
+"Eric Bailly";"Centre-Back";"starting";4
+"Daley Blind";"Centre-Back";"starting";4
+"Luke Shaw";"Left-Back";"starting";4
+"Antonio Valencia";"Right-Back";"starting";4
+"Paul Pogba";"Defensive Midfield";"starting";4
+"Marouane Fellaini";"Central Midfield";"starting";4
+"Jesse Lingard";"Left Wing";"starting";4
+"Henrikh Mkhitaryan";"Right Wing";"starting";4
+"Wayne Rooney";"Secondary Striker";"starting";4
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";4
+"Sergio Romero";"Keeper";"bench";4
+"Chris Smalling";"Centre-Back";"bench";4
+"Morgan Schneiderlin";"Defensive Midfield";"bench";4
+"Ander Herrera";"Right Midfield";"bench";4
+"Juan Mata";"Attacking Midfield";"bench";4
+"Anthony Martial";"Centre-Forward";"bench";4
+"Marcus Rashford";"Left Wing";"bench";4
+"David de Gea";"Keeper";"starting";5
+"Eric Bailly";"Centre-Back";"starting";5
+"Chris Smalling";"Centre-Back";"starting";5
+"Luke Shaw";"Left-Back";"starting";5
+"Antonio Valencia";"Right-Back";"starting";5
+"Marouane Fellaini";"Defensive Midfield";"starting";5
+"Paul Pogba";"Central Midfield";"starting";5
+"Marcus Rashford";"Left Wing";"starting";5
+"Anthony Martial";"Right Wing";"starting";5
+"Wayne Rooney";"Secondary Striker";"starting";5
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";5
+"Sergio Romero";"Keeper";"bench";5
+"Daley Blind";"Left-Back";"bench";5
+"Michael Carrick";"Defensive Midfield";"bench";5
+"Ander Herrera";"Central Midfield";"bench";5
+"Ashley Young";"Left Midfield";"bench";5
+"Juan Mata";"Attacking Midfield";"bench";5
+"Memphis Depay";"Left Wing";"bench";5
+"David de Gea";"Keeper";"starting";6
+"Eric Bailly";"Centre-Back";"starting";6
+"Chris Smalling";"Centre-Back";"starting";6
+"Daley Blind";"Left-Back";"starting";6
+"Antonio Valencia";"Right-Back";"starting";6
+"Ander Herrera";"Defensive Midfield";"starting";6
+"Paul Pogba";"Central Midfield";"starting";6
+"Juan Mata";"Attacking Midfield";"starting";6
+"Marcus Rashford";"Left Wing";"starting";6
+"Jesse Lingard";"Right Wing";"starting";6
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";6
+"Sergio Romero";"Keeper";"bench";6
+"Marcos Rojo";"Centre-Back";"bench";6
+"Michael Carrick";"Defensive Midfield";"bench";6
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";6
+"Marouane Fellaini";"Central Midfield";"bench";6
+"Ashley Young";"Right Midfield";"bench";6
+"Wayne Rooney";"Secondary Striker";"bench";6
+"David de Gea";"Keeper";"starting";7
+"Eric Bailly";"Centre-Back";"starting";7
+"Chris Smalling";"Centre-Back";"starting";7
+"Daley Blind";"Left-Back";"starting";7
+"Antonio Valencia";"Right-Back";"starting";7
+"Paul Pogba";"Defensive Midfield";"starting";7
+"Ander Herrera";"Central Midfield";"starting";7
+"Juan Mata";"Attacking Midfield";"starting";7
+"Marcus Rashford";"Left Wing";"starting";7
+"Jesse Lingard";"Right Wing";"starting";7
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";7
+"Sergio Romero";"Keeper";"bench";7
+"Matteo Darmian";"Right-Back";"bench";7
+"Michael Carrick";"Defensive Midfield";"bench";7
+"Marouane Fellaini";"Central Midfield";"bench";7
+"Memphis Depay";"Right Wing";"bench";7
+"Wayne Rooney";"Attacking Midfield";"bench";7
+"Anthony Martial";"Left Wing";"bench";7
+"David de Gea";"Keeper";"starting";8
+"Eric Bailly";"Centre-Back";"starting";8
+"Chris Smalling";"Centre-Back";"starting";8
+"Daley Blind";"Left-Back";"starting";8
+"Antonio Valencia";"Right-Back";"starting";8
+"Ander Herrera";"Defensive Midfield";"starting";8
+"Marouane Fellaini";"Central Midfield";"starting";8
+"Ashley Young";"Left Midfield";"starting";8
+"Paul Pogba";"Attacking Midfield";"starting";8
+"Marcus Rashford";"Right Wing";"starting";8
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";8
+"Sergio Romero";"Keeper";"bench";8
+"Marcos Rojo";"Centre-Back";"bench";8
+"Luke Shaw";"Left-Back";"bench";8
+"Michael Carrick";"Defensive Midfield";"bench";8
+"Juan Mata";"Attacking Midfield";"bench";8
+"Jesse Lingard";"Left Wing";"bench";8
+"Wayne Rooney";"Secondary Striker";"bench";8
+"David de Gea";"Keeper";"starting";9
+"Eric Bailly";"Centre-Back";"starting";9
+"Chris Smalling";"Centre-Back";"starting";9
+"Daley Blind";"Left-Back";"starting";9
+"Antonio Valencia";"Right-Back";"starting";9
+"Paul Pogba";"Central Midfield";"starting";9
+"Ander Herrera";"Central Midfield";"starting";9
+"Marouane Fellaini";"Central Midfield";"starting";9
+"Marcus Rashford";"Left Wing";"starting";9
+"Jesse Lingard";"Right Wing";"starting";9
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";9
+"Sergio Romero";"Keeper";"bench";9
+"Marcos Rojo";"Centre-Back";"bench";9
+"Matteo Darmian";"Right-Back";"bench";9
+"Michael Carrick";"Defensive Midfield";"bench";9
+"Ashley Young";"Left Midfield";"bench";9
+"Juan Mata";"Attacking Midfield";"bench";9
+"Anthony Martial";"Centre-Forward";"bench";9
+"David de Gea";"Keeper";"starting";10
+"Marcos Rojo";"Centre-Back";"starting";10
+"Daley Blind";"Centre-Back";"starting";10
+"Luke Shaw";"Left-Back";"starting";10
+"Matteo Darmian";"Right-Back";"starting";10
+"Paul Pogba";"Defensive Midfield";"starting";10
+"Ander Herrera";"Defensive Midfield";"starting";10
+"Jesse Lingard";"Attacking Midfield";"starting";10
+"Marcus Rashford";"Left Wing";"starting";10
+"Juan Mata";"Right Wing";"starting";10
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";10
+"Sergio Romero";"Keeper";"bench";10
+"Michael Carrick";"Defensive Midfield";"bench";10
+"Morgan Schneiderlin";"Defensive Midfield";"bench";10
+"Marouane Fellaini";"Central Midfield";"bench";10
+"Ashley Young";"Left Midfield";"bench";10
+"Memphis Depay";"Secondary Striker";"bench";10
+"Wayne Rooney";"Attacking Midfield";"bench";10
+"David de Gea";"Keeper";"starting";11
+"Marcos Rojo";"Centre-Back";"starting";11
+"Phil Jones";"Centre-Back";"starting";11
+"Matteo Darmian";"Left-Back";"starting";11
+"Ashley Young";"Right-Back";"starting";11
+"Michael Carrick";"Defensive Midfield";"starting";11
+"Paul Pogba";"Central Midfield";"starting";11
+"Marouane Fellaini";"Central Midfield";"starting";11
+"Wayne Rooney";"Left Wing";"starting";11
+"Juan Mata";"Right Wing";"starting";11
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";11
+"Sergio Romero";"Keeper";"bench";11
+"Daley Blind";"Left-Back";"bench";11
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";11
+"Morgan Schneiderlin";"Defensive Midfield";"bench";11
+"Jesse Lingard";"Right Wing";"bench";11
+"Anthony Martial";"Centre-Forward";"bench";11
+"Marcus Rashford";"Centre-Forward";"bench";11
+"David de Gea";"Keeper";"starting";12
+"Marcos Rojo";"Centre-Back";"starting";12
+"Phil Jones";"Centre-Back";"starting";12
+"Matteo Darmian";"Left-Back";"starting";12
+"Antonio Valencia";"Right-Back";"starting";12
+"Michael Carrick";"Defensive Midfield";"starting";12
+"Paul Pogba";"Central Midfield";"starting";12
+"Ander Herrera";"Central Midfield";"starting";12
+"Anthony Martial";"Left Wing";"starting";12
+"Juan Mata";"Right Wing";"starting";12
+"Marcus Rashford";"Centre-Forward";"starting";12
+"Sergio Romero";"Keeper";"bench";12
+"Daley Blind";"Left-Back";"bench";12
+"Morgan Schneiderlin";"Defensive Midfield";"bench";12
+"Ashley Young";"Left Midfield";"bench";12
+"Memphis Depay";"Left Wing";"bench";12
+"Jesse Lingard";"Left Wing";"bench";12
+"Wayne Rooney";"Centre-Forward";"bench";12
+"David de Gea";"Keeper";"starting";13
+"Marcos Rojo";"Centre-Back";"starting";13
+"Phil Jones";"Centre-Back";"starting";13
+"Matteo Darmian";"Left-Back";"starting";13
+"Antonio Valencia";"Right-Back";"starting";13
+"Paul Pogba";"Defensive Midfield";"starting";13
+"Ander Herrera";"Defensive Midfield";"starting";13
+"Juan Mata";"Attacking Midfield";"starting";13
+"Marcus Rashford";"Left Wing";"starting";13
+"Jesse Lingard";"Right Wing";"starting";13
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";13
+"Sergio Romero";"Keeper";"bench";13
+"Daley Blind";"Left-Back";"bench";13
+"Marouane Fellaini";"Defensive Midfield";"bench";13
+"Bastian Schweinsteiger";"Central Midfield";"bench";13
+"Ashley Young";"Left Midfield";"bench";13
+"Henrikh Mkhitaryan";"Attacking Midfield";"bench";13
+"Wayne Rooney";"Left Wing";"bench";13
+"David de Gea";"Keeper";"starting";14
+"Marcos Rojo";"Centre-Back";"starting";14
+"Phil Jones";"Centre-Back";"starting";14
+"Matteo Darmian";"Left-Back";"starting";14
+"Antonio Valencia";"Right-Back";"starting";14
+"Michael Carrick";"Defensive Midfield";"starting";14
+"Ander Herrera";"Central Midfield";"starting";14
+"Paul Pogba";"Attacking Midfield";"starting";14
+"Anthony Martial";"Left Wing";"starting";14
+"Henrikh Mkhitaryan";"Right Wing";"starting";14
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";14
+"Sergio Romero";"Keeper";"bench";14
+"Eric Bailly";"Centre-Back";"bench";14
+"Daley Blind";"Left-Back";"bench";14
+"Marouane Fellaini";"Central Midfield";"bench";14
+"Juan Mata";"Attacking Midfield";"bench";14
+"Jesse Lingard";"Left Wing";"bench";14
+"Marcus Rashford";"Left Wing";"bench";14
+"David de Gea";"Keeper";"starting";15
+"Marcos Rojo";"Centre-Back";"starting";15
+"Phil Jones";"Centre-Back";"starting";15
+"Matteo Darmian";"Left-Back";"starting";15
+"Antonio Valencia";"Right-Back";"starting";15
+"Michael Carrick";"Defensive Midfield";"starting";15
+"Paul Pogba";"Central Midfield";"starting";15
+"Ander Herrera";"Central Midfield";"starting";15
+"Anthony Martial";"Left Wing";"starting";15
+"Henrikh Mkhitaryan";"Right Wing";"starting";15
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";15
+"Sergio Romero";"Keeper";"bench";15
+"Eric Bailly";"Centre-Back";"bench";15
+"Daley Blind";"Left-Back";"bench";15
+"Marouane Fellaini";"Central Midfield";"bench";15
+"Juan Mata";"Attacking Midfield";"bench";15
+"Wayne Rooney";"Secondary Striker";"bench";15
+"Marcus Rashford";"Left Wing";"bench";15
+"David de Gea";"Keeper";"starting";16
+"Marcos Rojo";"Centre-Back";"starting";16
+"Phil Jones";"Centre-Back";"starting";16
+"Daley Blind";"Left-Back";"starting";16
+"Eric Bailly";"Right-Back";"starting";16
+"Michael Carrick";"Defensive Midfield";"starting";16
+"Paul Pogba";"Central Midfield";"starting";16
+"Ander Herrera";"Central Midfield";"starting";16
+"Wayne Rooney";"Left Wing";"starting";16
+"Juan Mata";"Right Wing";"starting";16
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";16
+"Sergio Romero";"Keeper";"bench";16
+"Matteo Darmian";"Right-Back";"bench";16
+"Marouane Fellaini";"Central Midfield";"bench";16
+"Bastian Schweinsteiger";"Central Midfield";"bench";16
+"Ashley Young";"Left Midfield";"bench";16
+"Jesse Lingard";"Right Wing";"bench";16
+"Marcus Rashford";"Left Wing";"bench";16
+"David de Gea";"Keeper";"starting";17
+"Marcos Rojo";"Centre-Back";"starting";17
+"Phil Jones";"Centre-Back";"starting";17
+"Matteo Darmian";"Left-Back";"starting";17
+"Antonio Valencia";"Right-Back";"starting";17
+"Michael Carrick";"Defensive Midfield";"starting";17
+"Paul Pogba";"Central Midfield";"starting";17
+"Ander Herrera";"Central Midfield";"starting";17
+"Wayne Rooney";"Left Wing";"starting";17
+"Jesse Lingard";"Right Wing";"starting";17
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";17
+"Sergio Romero";"Keeper";"bench";17
+"Chris Smalling";"Centre-Back";"bench";17
+"Daley Blind";"Left-Back";"bench";17
+"Marouane Fellaini";"Left Midfield";"bench";17
+"Juan Mata";"Attacking Midfield";"bench";17
+"Anthony Martial";"Centre-Forward";"bench";17
+"Marcus Rashford";"Right Wing";"bench";17
+"David de Gea";"Keeper";"starting";18
+"Marcos Rojo";"Centre-Back";"starting";18
+"Phil Jones";"Centre-Back";"starting";18
+"Daley Blind";"Left-Back";"starting";18
+"Antonio Valencia";"Right-Back";"starting";18
+"Michael Carrick";"Defensive Midfield";"starting";18
+"Paul Pogba";"Central Midfield";"starting";18
+"Ander Herrera";"Central Midfield";"starting";18
+"Jesse Lingard";"Left Wing";"starting";18
+"Juan Mata";"Right Wing";"starting";18
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";18
+"Sergio Romero";"Keeper";"bench";18
+"Chris Smalling";"Centre-Back";"bench";18
+"Matteo Darmian";"Right-Back";"bench";18
+"Marouane Fellaini";"Central Midfield";"bench";18
+"Henrikh Mkhitaryan";"Right Wing";"bench";18
+"Anthony Martial";"Left Wing";"bench";18
+"Marcus Rashford";"Centre-Forward";"bench";18
+"David de Gea";"Keeper";"starting";19
+"Eric Bailly";"Centre-Back";"starting";19
+"Chris Smalling";"Centre-Back";"starting";19
+"Daley Blind";"Left-Back";"starting";19
+"Antonio Valencia";"Right-Back";"starting";19
+"Marouane Fellaini";"Defensive Midfield";"starting";19
+"Paul Pogba";"Central Midfield";"starting";19
+"Ander Herrera";"Central Midfield";"starting";19
+"Anthony Martial";"Left Wing";"starting";19
+"Henrikh Mkhitaryan";"Right Wing";"starting";19
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";19
+"Sergio Romero";"Keeper";"bench";19
+"Marcos Rojo";"Centre-Back";"bench";19
+"Phil Jones";"Centre-Back";"bench";19
+"Bastian Schweinsteiger";"Central Midfield";"bench";19
+"Juan Mata";"Attacking Midfield";"bench";19
+"Jesse Lingard";"Left Wing";"bench";19
+"Marcus Rashford";"Centre-Forward";"bench";19
+"David de Gea";"Keeper";"starting";20
+"Marcos Rojo";"Centre-Back";"starting";20
+"Phil Jones";"Centre-Back";"starting";20
+"Matteo Darmian";"Left-Back";"starting";20
+"Antonio Valencia";"Right-Back";"starting";20
+"Michael Carrick";"Defensive Midfield";"starting";20
+"Paul Pogba";"Central Midfield";"starting";20
+"Ander Herrera";"Attacking Midfield";"starting";20
+"Jesse Lingard";"Left Wing";"starting";20
+"Henrikh Mkhitaryan";"Right Wing";"starting";20
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";20
+"Sergio Romero";"Keeper";"bench";20
+"Chris Smalling";"Centre-Back";"bench";20
+"Marouane Fellaini";"Central Midfield";"bench";20
+"Ashley Young";"Left Midfield";"bench";20
+"Juan Mata";"Right Wing";"bench";20
+"Anthony Martial";"Centre-Forward";"bench";20
+"Marcus Rashford";"Left Wing";"bench";20
+"David de Gea";"Keeper";"starting";21
+"Marcos Rojo";"Centre-Back";"starting";21
+"Phil Jones";"Centre-Back";"starting";21
+"Matteo Darmian";"Left-Back";"starting";21
+"Antonio Valencia";"Right-Back";"starting";21
+"Michael Carrick";"Defensive Midfield";"starting";21
+"Paul Pogba";"Central Midfield";"starting";21
+"Ander Herrera";"Central Midfield";"starting";21
+"Anthony Martial";"Left Wing";"starting";21
+"Henrikh Mkhitaryan";"Right Wing";"starting";21
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";21
+"Sergio Romero";"Keeper";"bench";21
+"Chris Smalling";"Centre-Back";"bench";21
+"Daley Blind";"Left-Back";"bench";21
+"Marouane Fellaini";"Central Midfield";"bench";21
+"Juan Mata";"Attacking Midfield";"bench";21
+"Wayne Rooney";"Secondary Striker";"bench";21
+"Marcus Rashford";"Centre-Forward";"bench";21
+"David de Gea";"Keeper";"starting";22
+"Phil Jones";"Centre-Back";"starting";22
+"Chris Smalling";"Centre-Back";"starting";22
+"Daley Blind";"Left-Back";"starting";22
+"Antonio Valencia";"Right-Back";"starting";22
+"Ander Herrera";"Defensive Midfield";"starting";22
+"Paul Pogba";"Central Midfield";"starting";22
+"Marouane Fellaini";"Central Midfield";"starting";22
+"Henrikh Mkhitaryan";"Left Wing";"starting";22
+"Juan Mata";"Right Wing";"starting";22
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";22
+"Sergio Romero";"Keeper";"bench";22
+"Matteo Darmian";"Right-Back";"bench";22
+"Michael Carrick";"Defensive Midfield";"bench";22
+"Bastian Schweinsteiger";"Central Midfield";"bench";22
+"Jesse Lingard";"Right Wing";"bench";22
+"Wayne Rooney";"Attacking Midfield";"bench";22
+"Marcus Rashford";"Left Wing";"bench";22
+"David de Gea";"Keeper";"starting";23
+"Marcos Rojo";"Centre-Back";"starting";23
+"Phil Jones";"Centre-Back";"starting";23
+"Daley Blind";"Left-Back";"starting";23
+"Antonio Valencia";"Right-Back";"starting";23
+"Michael Carrick";"Defensive Midfield";"starting";23
+"Paul Pogba";"Central Midfield";"starting";23
+"Ander Herrera";"Central Midfield";"starting";23
+"Marcus Rashford";"Left Wing";"starting";23
+"Henrikh Mkhitaryan";"Right Wing";"starting";23
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";23
+"Sergio Romero";"Keeper";"bench";23
+"Chris Smalling";"Centre-Back";"bench";23
+"Ashley Young";"Left Midfield";"bench";23
+"Juan Mata";"Right Wing";"bench";23
+"Jesse Lingard";"Left Wing";"bench";23
+"Wayne Rooney";"Attacking Midfield";"bench";23
+"Anthony Martial";"Centre-Forward";"bench";23
+"David de Gea";"Keeper";"starting";24
+"Eric Bailly";"Centre-Back";"starting";24
+"Chris Smalling";"Centre-Back";"starting";24
+"Marcos Rojo";"Left-Back";"starting";24
+"Antonio Valencia";"Right-Back";"starting";24
+"Paul Pogba";"Defensive Midfield";"starting";24
+"Ander Herrera";"Defensive Midfield";"starting";24
+"Henrikh Mkhitaryan";"Attacking Midfield";"starting";24
+"Marcus Rashford";"Left Wing";"starting";24
+"Juan Mata";"Right Wing";"starting";24
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";24
+"Sergio Romero";"Keeper";"bench";24
+"Daley Blind";"Left-Back";"bench";24
+"Michael Carrick";"Defensive Midfield";"bench";24
+"Marouane Fellaini";"Central Midfield";"bench";24
+"Ashley Young";"Left Midfield";"bench";24
+"Jesse Lingard";"Left Wing";"bench";24
+"Anthony Martial";"Centre-Forward";"bench";24
+"David de Gea";"Keeper";"starting";25
+"Eric Bailly";"Centre-Back";"starting";25
+"Chris Smalling";"Centre-Back";"starting";25
+"Daley Blind";"Left-Back";"starting";25
+"Antonio Valencia";"Right-Back";"starting";25
+"Paul Pogba";"Defensive Midfield";"starting";25
+"Ander Herrera";"Central Midfield";"starting";25
+"Henrikh Mkhitaryan";"Attacking Midfield";"starting";25
+"Anthony Martial";"Left Wing";"starting";25
+"Juan Mata";"Right Wing";"starting";25
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";25
+"Sergio Romero";"Keeper";"bench";25
+"Matteo Darmian";"Right-Back";"bench";25
+"Michael Carrick";"Defensive Midfield";"bench";25
+"Marouane Fellaini";"Central Midfield";"bench";25
+"Jesse Lingard";"Left Wing";"bench";25
+"Wayne Rooney";"Secondary Striker";"bench";25
+"Marcus Rashford";"Left Wing";"bench";25
+"David de Gea";"Keeper";"starting";26
+"Eric Bailly";"Centre-Back";"starting";26
+"Daley Blind";"Centre-Back";"starting";26
+"Matteo Darmian";"Left-Back";"starting";26
+"Antonio Valencia";"Right-Back";"starting";26
+"Michael Carrick";"Defensive Midfield";"starting";26
+"Ander Herrera";"Central Midfield";"starting";26
+"Marouane Fellaini";"Central Midfield";"starting";26
+"Anthony Martial";"Left Wing";"starting";26
+"Henrikh Mkhitaryan";"Right Wing";"starting";26
+"Marcus Rashford";"Centre-Forward";"starting";26
+"Sergio Romero";"Keeper";"bench";26
+"Axel Tuanzebe";"Centre-Back";"bench";26
+"Luke Shaw";"Left-Back";"bench";26
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";26
+"Ashley Young";"Left Midfield";"bench";26
+"Jesse Lingard";"Left Wing";"bench";26
+"Wayne Rooney";"Secondary Striker";"bench";26
+"David de Gea";"Keeper";"starting";27
+"Marcos Rojo";"Centre-Back";"starting";27
+"Phil Jones";"Centre-Back";"starting";27
+"Luke Shaw";"Left-Back";"starting";27
+"Antonio Valencia";"Right-Back";"starting";27
+"Michael Carrick";"Defensive Midfield";"starting";27
+"Paul Pogba";"Defensive Midfield";"starting";27
+"Anthony Martial";"Left Wing";"starting";27
+"Juan Mata";"Right Wing";"starting";27
+"Wayne Rooney";"Secondary Striker";"starting";27
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";27
+"Sergio Romero";"Keeper";"bench";27
+"Chris Smalling";"Centre-Back";"bench";27
+"Daley Blind";"Left-Back";"bench";27
+"Ander Herrera";"Central Midfield";"bench";27
+"Marouane Fellaini";"Defensive Midfield";"bench";27
+"Jesse Lingard";"Left Midfield";"bench";27
+"Marcus Rashford";"Right Wing";"bench";27
+"Sergio Romero";"Keeper";"starting";28
+"Phil Jones";"Centre-Back";"starting";28
+"Chris Smalling";"Centre-Back";"starting";28
+"Matteo Darmian";"Left-Back";"starting";28
+"Eric Bailly";"Right-Back";"starting";28
+"Axel Tuanzebe";"Defensive Midfield";"starting";28
+"Marouane Fellaini";"Central Midfield";"starting";28
+"Henrikh Mkhitaryan";"Attacking Midfield";"starting";28
+"Anthony Martial";"Left Wing";"starting";28
+"Juan Mata";"Right Wing";"starting";28
+"Wayne Rooney";"Centre-Forward";"starting";28
+"Joel Pereira";"Keeper";"bench";28
+"Demetri Mitchell";"Left-Back";"bench";28
+"Michael Carrick";"Defensive Midfield";"bench";28
+"Ander Herrera";"Central Midfield";"bench";28
+"Scott McTominay";"Attacking Midfield";"bench";28
+"Jesse Lingard";"Left Wing";"bench";28
+"Marcus Rashford";"Centre-Forward";"bench";28
+"David de Gea";"Keeper";"starting";29
+"Eric Bailly";"Centre-Back";"starting";29
+"Phil Jones";"Centre-Back";"starting";29
+"Chris Smalling";"Centre-Back";"starting";29
+"Michael Carrick";"Defensive Midfield";"starting";29
+"Marouane Fellaini";"Defensive Midfield";"starting";29
+"Antonio Valencia";"Right Midfield";"starting";29
+"Ashley Young";"Left Midfield";"starting";29
+"Juan Mata";"Attacking Midfield";"starting";29
+"Jesse Lingard";"Attacking Midfield";"starting";29
+"Marcus Rashford";"Centre-Forward";"starting";29
+"Sergio Romero";"Keeper";"bench";29
+"Marcos Rojo";"Left-Back";"bench";29
+"Luke Shaw";"Left-Back";"bench";29
+"Matteo Darmian";"Right-Back";"bench";29
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";29
+"Henrikh Mkhitaryan";"Attacking Midfield";"bench";29
+"Anthony Martial";"Centre-Forward";"bench";29
+"David de Gea";"Keeper";"starting";30
+"Marcos Rojo";"Centre-Back";"starting";30
+"Eric Bailly";"Centre-Back";"starting";30
+"Ashley Young";"Left-Back";"starting";30
+"Antonio Valencia";"Right-Back";"starting";30
+"Michael Carrick";"Defensive Midfield";"starting";30
+"Marouane Fellaini";"Defensive Midfield";"starting";30
+"Henrikh Mkhitaryan";"Attacking Midfield";"starting";30
+"Anthony Martial";"Left Wing";"starting";30
+"Jesse Lingard";"Right Wing";"starting";30
+"Marcus Rashford";"Centre-Forward";"starting";30
+"Sergio Romero";"Keeper";"bench";30
+"Axel Tuanzebe";"Centre-Back";"bench";30
+"Daley Blind";"Left-Back";"bench";30
+"Matteo Darmian";"Right-Back";"bench";30
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";30
+"Matthew Willock";"Central Midfield";"bench";30
+"Wayne Rooney";"Secondary Striker";"bench";30
+"David de Gea";"Keeper";"starting";31
+"Marcos Rojo";"Centre-Back";"starting";31
+"Eric Bailly";"Centre-Back";"starting";31
+"Daley Blind";"Left-Back";"starting";31
+"Ashley Young";"Right-Back";"starting";31
+"Michael Carrick";"Defensive Midfield";"starting";31
+"Ander Herrera";"Central Midfield";"starting";31
+"Marouane Fellaini";"Central Midfield";"starting";31
+"Marcus Rashford";"Left Wing";"starting";31
+"Jesse Lingard";"Right Wing";"starting";31
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";31
+"Sergio Romero";"Keeper";"bench";31
+"Luke Shaw";"Left-Back";"bench";31
+"Matteo Darmian";"Right-Back";"bench";31
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";31
+"Paul Pogba";"Defensive Midfield";"bench";31
+"Henrikh Mkhitaryan";"Attacking Midfield";"bench";31
+"Anthony Martial";"Centre-Forward";"bench";31
+"Sergio Romero";"Keeper";"starting";32
+"Marcos Rojo";"Centre-Back";"starting";32
+"Eric Bailly";"Centre-Back";"starting";32
+"Luke Shaw";"Left-Back";"starting";32
+"Matteo Darmian";"Right-Back";"starting";32
+"Ander Herrera";"Defensive Midfield";"starting";32
+"Marouane Fellaini";"Right Midfield";"starting";32
+"Paul Pogba";"Left Midfield";"starting";32
+"Henrikh Mkhitaryan";"Attacking Midfield";"starting";32
+"Jesse Lingard";"Attacking Midfield";"starting";32
+"Zlatan Ibrahimovic";"Centre-Forward";"starting";32
+"Joel Pereira";"Keeper";"bench";32
+"Axel Tuanzebe";"Centre-Back";"bench";32
+"Daley Blind";"Left-Back";"bench";32
+"Michael Carrick";"Defensive Midfield";"bench";32
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";32
+"Anthony Martial";"Left Wing";"bench";32
+"Marcus Rashford";"Right Wing";"bench";32
+"David de Gea";"Keeper";"starting";33
+"Marcos Rojo";"Centre-Back";"starting";33
+"Eric Bailly";"Centre-Back";"starting";33
+"Matteo Darmian";"Centre-Back";"starting";33
+"Paul Pogba";"Central Midfield";"starting";33
+"Ander Herrera";"Central Midfield";"starting";33
+"Marouane Fellaini";"Central Midfield";"starting";33
+"Antonio Valencia";"Right Midfield";"starting";33
+"Ashley Young";"Left Midfield";"starting";33
+"Jesse Lingard";"Secondary Striker";"starting";33
+"Marcus Rashford";"Centre-Forward";"starting";33
+"Sergio Romero";"Keeper";"bench";33
+"Daley Blind";"Left-Back";"bench";33
+"Luke Shaw";"Left-Back";"bench";33
+"Michael Carrick";"Defensive Midfield";"bench";33
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";33
+"Henrikh Mkhitaryan";"Attacking Midfield";"bench";33
+"Zlatan Ibrahimovic";"Centre-Forward";"bench";33
+"David de Gea";"Keeper";"starting";34
+"Eric Bailly";"Centre-Back";"starting";34
+"Daley Blind";"Centre-Back";"starting";34
+"Matteo Darmian";"Left-Back";"starting";34
+"Ashley Young";"Right-Back";"starting";34
+"Marouane Fellaini";"Defensive Midfield";"starting";34
+"Paul Pogba";"Central Midfield";"starting";34
+"Ander Herrera";"Central Midfield";"starting";34
+"Wayne Rooney";"Left Wing";"starting";34
+"Jesse Lingard";"Right Wing";"starting";34
+"Anthony Martial";"Centre-Forward";"starting";34
+"Sergio Romero";"Keeper";"bench";34
+"Axel Tuanzebe";"Centre-Back";"bench";34
+"Luke Shaw";"Left-Back";"bench";34
+"Michael Carrick";"Defensive Midfield";"bench";34
+"Timothy Fosu-Mensah";"Defensive Midfield";"bench";34
+"Henrikh Mkhitaryan";"Right Wing";"bench";34
+"Marcus Rashford";"Centre-Forward";"bench";34
+"David de Gea";"Keeper";"starting";35
+"Eric Bailly";"Centre-Back";"starting";35
+"Daley Blind";"Centre-Back";"starting";35
+"Luke Shaw";"Left-Back";"starting";35
+"Ashley Young";"Right-Back";"starting";35
+"Michael Carrick";"Defensive Midfield";"starting";35
+"Ander Herrera";"Central Midfield";"starting";35
+"Wayne Rooney";"Attacking Midfield";"starting";35
+"Anthony Martial";"Left Wing";"starting";35
+"Jesse Lingard";"Right Wing";"starting";35
+"Marcus Rashford";"Centre-Forward";"starting";35
+"Sergio Romero";"Keeper";"bench";35
+"Axel Tuanzebe";"Centre-Back";"bench";35
+"Antonio Valencia";"Right-Back";"bench";35
+"Matteo Darmian";"Centre-Back";"bench";35
+"Juan Mata";"Attacking Midfield";"bench";35
+"Henrikh Mkhitaryan";"Attacking Midfield";"bench";35
+"Scott McTominay";"Attacking Midfield";"bench";35
+"David de Gea";"Keeper";"starting";36
+"Phil Jones";"Centre-Back";"starting";36
+"Chris Smalling";"Centre-Back";"starting";36
+"Matteo Darmian";"Left-Back";"starting";36
+"Axel Tuanzebe";"Right-Back";"starting";36
+"Michael Carrick";"Defensive Midfield";"starting";36
+"Ander Herrera";"Central Midfield";"starting";36
+"Wayne Rooney";"Attacking Midfield";"starting";36
+"Henrikh Mkhitaryan";"Left Wing";"starting";36
+"Juan Mata";"Right Wing";"starting";36
+"Anthony Martial";"Centre-Forward";"starting";36
+"Sergio Romero";"Keeper";"bench";36
+"Eric Bailly";"Centre-Back";"bench";36
+"Daley Blind";"Left-Back";"bench";36
+"Paul Pogba";"Central Midfield";"bench";36
+"Scott McTominay";"Centre-Forward";"bench";36
+"Jesse Lingard";"Left Wing";"bench";36
+"Marcus Rashford";"Centre-Forward";"bench";36
+"David de Gea";"Keeper";"starting";37
+"Phil Jones";"Centre-Back";"starting";37
+"Chris Smalling";"Centre-Back";"starting";37
+"Daley Blind";"Left-Back";"starting";37
+"Eric Bailly";"Right-Back";"starting";37
+"Axel Tuanzebe";"Defensive Midfield";"starting";37
+"Michael Carrick";"Defensive Midfield";"starting";37
+"Juan Mata";"Attacking Midfield";"starting";37
+"Anthony Martial";"Left Wing";"starting";37
+"Jesse Lingard";"Right Wing";"starting";37
+"Wayne Rooney";"Centre-Forward";"starting";37
+"Sergio Romero";"Keeper";"bench";37
+"Demetri Mitchell";"Left-Back";"bench";37
+"Matteo Darmian";"Right-Back";"bench";37
+"Ander Herrera";"Central Midfield";"bench";37
+"Henrikh Mkhitaryan";"Central Midfield";"bench";37
+"Scott McTominay";"Attacking Midfield";"bench";37
+"Marcus Rashford";"Centre-Forward";"bench";37
+"Joel Pereira";"Keeper";"starting";38
+"Eric Bailly";"Centre-Back";"starting";38
+"Phil Jones";"Centre-Back";"starting";38
+"Demetri Mitchell";"Left-Back";"starting";38
+"Timothy Fosu-Mensah";"Right-Back";"starting";38
+"Axel Tuanzebe";"Defensive Midfield";"starting";38
+"Paul Pogba";"Central Midfield";"starting";38
+"Scott McTominay";"Central Midfield";"starting";38
+"Josh Harrop";"Right Midfield";"starting";38
+"Jesse Lingard";"Left Wing";"starting";38
+"Wayne Rooney";"Centre-Forward";"starting";38
+"Kieran O'Hara";"Keeper";"bench";38
+"Daley Blind";"Left-Back";"bench";38
+"Michael Carrick";"Defensive Midfield";"bench";38
+"Matthew Willock";"Central Midfield";"bench";38
+"Angel Gomes";"Attacking Midfield";"bench";38
+"Zachary Dearnley";"Right Wing";"bench";38
+"Anthony Martial";"Left Wing";"bench";38

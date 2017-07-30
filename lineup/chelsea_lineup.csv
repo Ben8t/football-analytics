@@ -1,0 +1,685 @@
+"player";"lineup";"post";"matchday"
+"Thibaut Courtois";"starting";"Keeper";1
+"Gary Cahill";"starting";"Centre-Back";1
+"John Terry";"starting";"Centre-Back";1
+"César Azpilicueta";"starting";"Left-Back";1
+"Branislav Ivanovic";"starting";"Right-Back";1
+"N'Golo Kanté";"starting";"Defensive Midfield";1
+"Nemanja Matic";"starting";"Central Midfield";1
+"Oscar";"starting";"Attacking Midfield";1
+"Eden Hazard";"starting";"Left Wing";1
+"Willian";"starting";"Right Wing";1
+"Diego Costa";"starting";"Centre-Forward";1
+"Asmir Begovic";"bench";"Keeper";1
+"Ola Aina";"bench";"Right-Back";1
+"Cesc Fàbregas";"bench";"Central Midfield";1
+"Ruben Loftus-Cheek";"bench";"Central Midfield";1
+"Pedro";"bench";"Right Wing";1
+"Victor Moses";"bench";"Left Wing";1
+"Michy Batshuayi";"bench";"Centre-Forward";1
+"Thibaut Courtois";"starting";"Keeper";2
+"Gary Cahill";"starting";"Centre-Back";2
+"John Terry";"starting";"Centre-Back";2
+"César Azpilicueta";"starting";"Left-Back";2
+"Branislav Ivanovic";"starting";"Right-Back";2
+"N'Golo Kanté";"starting";"Defensive Midfield";2
+"Nemanja Matic";"starting";"Central Midfield";2
+"Oscar";"starting";"Attacking Midfield";2
+"Eden Hazard";"starting";"Left Wing";2
+"Pedro";"starting";"Right Wing";2
+"Diego Costa";"starting";"Centre-Forward";2
+"Asmir Begovic";"bench";"Keeper";2
+"Ola Aina";"bench";"Right-Back";2
+"Nathaniel Chalobah";"bench";"Defensive Midfield";2
+"Cesc Fàbregas";"bench";"Central Midfield";2
+"Ruben Loftus-Cheek";"bench";"Central Midfield";2
+"Victor Moses";"bench";"Left Wing";2
+"Michy Batshuayi";"bench";"Centre-Forward";2
+"Thibaut Courtois";"starting";"Keeper";3
+"Gary Cahill";"starting";"Centre-Back";3
+"John Terry";"starting";"Centre-Back";3
+"César Azpilicueta";"starting";"Left-Back";3
+"Branislav Ivanovic";"starting";"Right-Back";3
+"N'Golo Kanté";"starting";"Defensive Midfield";3
+"Nemanja Matic";"starting";"Central Midfield";3
+"Oscar";"starting";"Attacking Midfield";3
+"Eden Hazard";"starting";"Left Wing";3
+"Willian";"starting";"Right Wing";3
+"Diego Costa";"starting";"Centre-Forward";3
+"Asmir Begovic";"bench";"Keeper";3
+"Ola Aina";"bench";"Right-Back";3
+"Cesc Fàbregas";"bench";"Central Midfield";3
+"Ruben Loftus-Cheek";"bench";"Central Midfield";3
+"Pedro";"bench";"Left Wing";3
+"Victor Moses";"bench";"Right Wing";3
+"Michy Batshuayi";"bench";"Centre-Forward";3
+"Thibaut Courtois";"starting";"Keeper";4
+"Gary Cahill";"starting";"Centre-Back";4
+"John Terry";"starting";"Centre-Back";4
+"César Azpilicueta";"starting";"Left-Back";4
+"Branislav Ivanovic";"starting";"Right-Back";4
+"N'Golo Kanté";"starting";"Defensive Midfield";4
+"Nemanja Matic";"starting";"Central Midfield";4
+"Oscar";"starting";"Attacking Midfield";4
+"Eden Hazard";"starting";"Left Wing";4
+"Willian";"starting";"Right Wing";4
+"Diego Costa";"starting";"Centre-Forward";4
+"Asmir Begovic";"bench";"Keeper";4
+"David Luiz";"bench";"Centre-Back";4
+"Marcos Alonso";"bench";"Left-Back";4
+"Cesc Fàbregas";"bench";"Central Midfield";4
+"Pedro";"bench";"Right Wing";4
+"Victor Moses";"bench";"Right Wing";4
+"Michy Batshuayi";"bench";"Centre-Forward";4
+"Thibaut Courtois";"starting";"Keeper";5
+"David Luiz";"starting";"Centre-Back";5
+"Gary Cahill";"starting";"Centre-Back";5
+"César Azpilicueta";"starting";"Left-Back";5
+"Branislav Ivanovic";"starting";"Right-Back";5
+"N'Golo Kanté";"starting";"Defensive Midfield";5
+"Nemanja Matic";"starting";"Central Midfield";5
+"Oscar";"starting";"Attacking Midfield";5
+"Eden Hazard";"starting";"Left Wing";5
+"Willian";"starting";"Right Wing";5
+"Diego Costa";"starting";"Centre-Forward";5
+"Asmir Begovic";"bench";"Keeper";5
+"Marcos Alonso";"bench";"Left-Back";5
+"Ola Aina";"bench";"Right-Back";5
+"Cesc Fàbregas";"bench";"Central Midfield";5
+"Pedro";"bench";"Left Wing";5
+"Victor Moses";"bench";"Right Wing";5
+"Michy Batshuayi";"bench";"Centre-Forward";5
+"Thibaut Courtois";"starting";"Keeper";6
+"David Luiz";"starting";"Centre-Back";6
+"Gary Cahill";"starting";"Centre-Back";6
+"César Azpilicueta";"starting";"Left-Back";6
+"Branislav Ivanovic";"starting";"Right-Back";6
+"N'Golo Kanté";"starting";"Defensive Midfield";6
+"Nemanja Matic";"starting";"Central Midfield";6
+"Cesc Fàbregas";"starting";"Central Midfield";6
+"Eden Hazard";"starting";"Left Wing";6
+"Willian";"starting";"Right Wing";6
+"Diego Costa";"starting";"Centre-Forward";6
+"Asmir Begovic";"bench";"Keeper";6
+"Marcos Alonso";"bench";"Left-Back";6
+"Nathaniel Chalobah";"bench";"Defensive Midfield";6
+"Oscar";"bench";"Attacking Midfield";6
+"Pedro";"bench";"Left Wing";6
+"Victor Moses";"bench";"Right Wing";6
+"Michy Batshuayi";"bench";"Centre-Forward";6
+"Thibaut Courtois";"starting";"Keeper";7
+"David Luiz";"starting";"Centre-Back";7
+"Gary Cahill";"starting";"Centre-Back";7
+"César Azpilicueta";"starting";"Centre-Back";7
+"Nemanja Matic";"starting";"Defensive Midfield";7
+"N'Golo Kanté";"starting";"Defensive Midfield";7
+"Victor Moses";"starting";"Right Midfield";7
+"Marcos Alonso";"starting";"Left Midfield";7
+"Eden Hazard";"starting";"Attacking Midfield";7
+"Willian";"starting";"Attacking Midfield";7
+"Diego Costa";"starting";"Centre-Forward";7
+"Asmir Begovic";"bench";"Keeper";7
+"Branislav Ivanovic";"bench";"Centre-Back";7
+"Nathaniel Chalobah";"bench";"Defensive Midfield";7
+"Cesc Fàbregas";"bench";"Central Midfield";7
+"Oscar";"bench";"Attacking Midfield";7
+"Pedro";"bench";"Right Wing";7
+"Michy Batshuayi";"bench";"Centre-Forward";7
+"Thibaut Courtois";"starting";"Keeper";8
+"David Luiz";"starting";"Centre-Back";8
+"Gary Cahill";"starting";"Centre-Back";8
+"César Azpilicueta";"starting";"Centre-Back";8
+"Nemanja Matic";"starting";"Defensive Midfield";8
+"N'Golo Kanté";"starting";"Defensive Midfield";8
+"Victor Moses";"starting";"Right Midfield";8
+"Marcos Alonso";"starting";"Left Midfield";8
+"Eden Hazard";"starting";"Attacking Midfield";8
+"Pedro";"starting";"Attacking Midfield";8
+"Diego Costa";"starting";"Centre-Forward";8
+"Asmir Begovic";"bench";"Keeper";8
+"John Terry";"bench";"Centre-Back";8
+"Ola Aina";"bench";"Right-Back";8
+"Nathaniel Chalobah";"bench";"Central Midfield";8
+"Ruben Loftus-Cheek";"bench";"Central Midfield";8
+"Michy Batshuayi";"bench";"Centre-Forward";8
+"Dominic Solanke";"bench";"Centre-Forward";8
+"Thibaut Courtois";"starting";"Keeper";9
+"David Luiz";"starting";"Centre-Back";9
+"Gary Cahill";"starting";"Centre-Back";9
+"César Azpilicueta";"starting";"Centre-Back";9
+"Nemanja Matic";"starting";"Defensive Midfield";9
+"N'Golo Kanté";"starting";"Defensive Midfield";9
+"Victor Moses";"starting";"Right Midfield";9
+"Marcos Alonso";"starting";"Left Midfield";9
+"Eden Hazard";"starting";"Attacking Midfield";9
+"Pedro";"starting";"Attacking Midfield";9
+"Diego Costa";"starting";"Centre-Forward";9
+"Asmir Begovic";"bench";"Keeper";9
+"John Terry";"bench";"Centre-Back";9
+"Ola Aina";"bench";"Right-Back";9
+"Nathaniel Chalobah";"bench";"Defensive Midfield";9
+"Oscar";"bench";"Attacking Midfield";9
+"Willian";"bench";"Right Wing";9
+"Michy Batshuayi";"bench";"Centre-Forward";9
+"Thibaut Courtois";"starting";"Keeper";10
+"David Luiz";"starting";"Centre-Back";10
+"Gary Cahill";"starting";"Centre-Back";10
+"César Azpilicueta";"starting";"Centre-Back";10
+"Nemanja Matic";"starting";"Defensive Midfield";10
+"N'Golo Kanté";"starting";"Defensive Midfield";10
+"Victor Moses";"starting";"Right Midfield";10
+"Marcos Alonso";"starting";"Left Midfield";10
+"Eden Hazard";"starting";"Attacking Midfield";10
+"Pedro";"starting";"Attacking Midfield";10
+"Diego Costa";"starting";"Centre-Forward";10
+"Asmir Begovic";"bench";"Keeper";10
+"Branislav Ivanovic";"bench";"Centre-Back";10
+"John Terry";"bench";"Centre-Back";10
+"Nathaniel Chalobah";"bench";"Defensive Midfield";10
+"Oscar";"bench";"Attacking Midfield";10
+"Willian";"bench";"Attacking Midfield";10
+"Michy Batshuayi";"bench";"Centre-Forward";10
+"Thibaut Courtois";"starting";"Keeper";11
+"David Luiz";"starting";"Centre-Back";11
+"Gary Cahill";"starting";"Centre-Back";11
+"César Azpilicueta";"starting";"Centre-Back";11
+"Nemanja Matic";"starting";"Defensive Midfield";11
+"N'Golo Kanté";"starting";"Defensive Midfield";11
+"Victor Moses";"starting";"Right Midfield";11
+"Marcos Alonso";"starting";"Left Midfield";11
+"Eden Hazard";"starting";"Left Wing";11
+"Pedro";"starting";"Right Wing";11
+"Diego Costa";"starting";"Centre-Forward";11
+"Asmir Begovic";"bench";"Keeper";11
+"Branislav Ivanovic";"bench";"Centre-Back";11
+"John Terry";"bench";"Centre-Back";11
+"Ola Aina";"bench";"Right-Back";11
+"Nathaniel Chalobah";"bench";"Defensive Midfield";11
+"Oscar";"bench";"Attacking Midfield";11
+"Michy Batshuayi";"bench";"Centre-Forward";11
+"Thibaut Courtois";"starting";"Keeper";12
+"David Luiz";"starting";"Centre-Back";12
+"Gary Cahill";"starting";"Centre-Back";12
+"César Azpilicueta";"starting";"Centre-Back";12
+"Nemanja Matic";"starting";"Defensive Midfield";12
+"N'Golo Kanté";"starting";"Defensive Midfield";12
+"Victor Moses";"starting";"Right Midfield";12
+"Marcos Alonso";"starting";"Left Midfield";12
+"Eden Hazard";"starting";"Attacking Midfield";12
+"Pedro";"starting";"Attacking Midfield";12
+"Diego Costa";"starting";"Centre-Forward";12
+"Asmir Begovic";"bench";"Keeper";12
+"Branislav Ivanovic";"bench";"Centre-Back";12
+"John Terry";"bench";"Centre-Back";12
+"Nathaniel Chalobah";"bench";"Defensive Midfield";12
+"Cesc Fàbregas";"bench";"Central Midfield";12
+"Oscar";"bench";"Attacking Midfield";12
+"Michy Batshuayi";"bench";"Centre-Forward";12
+"Thibaut Courtois";"starting";"Keeper";13
+"David Luiz";"starting";"Centre-Back";13
+"Gary Cahill";"starting";"Centre-Back";13
+"César Azpilicueta";"starting";"Centre-Back";13
+"Nemanja Matic";"starting";"Defensive Midfield";13
+"N'Golo Kanté";"starting";"Defensive Midfield";13
+"Victor Moses";"starting";"Right Midfield";13
+"Marcos Alonso";"starting";"Left Midfield";13
+"Eden Hazard";"starting";"Attacking Midfield";13
+"Pedro";"starting";"Attacking Midfield";13
+"Diego Costa";"starting";"Centre-Forward";13
+"Asmir Begovic";"bench";"Keeper";13
+"Branislav Ivanovic";"bench";"Right-Back";13
+"Nathaniel Chalobah";"bench";"Defensive Midfield";13
+"Cesc Fàbregas";"bench";"Central Midfield";13
+"Oscar";"bench";"Attacking Midfield";13
+"Willian";"bench";"Attacking Midfield";13
+"Michy Batshuayi";"bench";"Centre-Forward";13
+"Thibaut Courtois";"starting";"Keeper";14
+"David Luiz";"starting";"Centre-Back";14
+"Gary Cahill";"starting";"Centre-Back";14
+"César Azpilicueta";"starting";"Centre-Back";14
+"N'Golo Kanté";"starting";"Defensive Midfield";14
+"Cesc Fàbregas";"starting";"Defensive Midfield";14
+"Victor Moses";"starting";"Right Midfield";14
+"Marcos Alonso";"starting";"Left Midfield";14
+"Eden Hazard";"starting";"Attacking Midfield";14
+"Pedro";"starting";"Attacking Midfield";14
+"Diego Costa";"starting";"Centre-Forward";14
+"Asmir Begovic";"bench";"Keeper";14
+"Branislav Ivanovic";"bench";"Centre-Back";14
+"Ola Aina";"bench";"Right-Back";14
+"Nathaniel Chalobah";"bench";"Defensive Midfield";14
+"Oscar";"bench";"Attacking Midfield";14
+"Willian";"bench";"Attacking Midfield";14
+"Michy Batshuayi";"bench";"Centre-Forward";14
+"Thibaut Courtois";"starting";"Keeper";15
+"David Luiz";"starting";"Centre-Back";15
+"Gary Cahill";"starting";"Centre-Back";15
+"César Azpilicueta";"starting";"Centre-Back";15
+"Nemanja Matic";"starting";"Defensive Midfield";15
+"N'Golo Kanté";"starting";"Defensive Midfield";15
+"Victor Moses";"starting";"Right Midfield";15
+"Marcos Alonso";"starting";"Left Midfield";15
+"Eden Hazard";"starting";"Attacking Midfield";15
+"Pedro";"starting";"Attacking Midfield";15
+"Diego Costa";"starting";"Centre-Forward";15
+"Asmir Begovic";"bench";"Keeper";15
+"Branislav Ivanovic";"bench";"Centre-Back";15
+"Ola Aina";"bench";"Right-Back";15
+"Nathaniel Chalobah";"bench";"Defensive Midfield";15
+"Cesc Fàbregas";"bench";"Attacking Midfield";15
+"Willian";"bench";"Attacking Midfield";15
+"Michy Batshuayi";"bench";"Centre-Forward";15
+"Thibaut Courtois";"starting";"Keeper";16
+"David Luiz";"starting";"Centre-Back";16
+"Gary Cahill";"starting";"Centre-Back";16
+"César Azpilicueta";"starting";"Centre-Back";16
+"N'Golo Kanté";"starting";"Defensive Midfield";16
+"Cesc Fàbregas";"starting";"Defensive Midfield";16
+"Victor Moses";"starting";"Right Midfield";16
+"Marcos Alonso";"starting";"Left Midfield";16
+"Pedro";"starting";"Attacking Midfield";16
+"Willian";"starting";"Attacking Midfield";16
+"Diego Costa";"starting";"Centre-Forward";16
+"Asmir Begovic";"bench";"Keeper";16
+"Branislav Ivanovic";"bench";"Centre-Back";16
+"Kurt Zouma";"bench";"Centre-Back";16
+"Nemanja Matic";"bench";"Defensive Midfield";16
+"Nathaniel Chalobah";"bench";"Defensive Midfield";16
+"Ruben Loftus-Cheek";"bench";"Central Midfield";16
+"Michy Batshuayi";"bench";"Centre-Forward";16
+"Thibaut Courtois";"starting";"Keeper";17
+"David Luiz";"starting";"Centre-Back";17
+"Gary Cahill";"starting";"Centre-Back";17
+"César Azpilicueta";"starting";"Centre-Back";17
+"Nemanja Matic";"starting";"Defensive Midfield";17
+"N'Golo Kanté";"starting";"Defensive Midfield";17
+"Victor Moses";"starting";"Right Midfield";17
+"Marcos Alonso";"starting";"Left Midfield";17
+"Eden Hazard";"starting";"Attacking Midfield";17
+"Willian";"starting";"Attacking Midfield";17
+"Diego Costa";"starting";"Centre-Forward";17
+"Asmir Begovic";"bench";"Keeper";17
+"Branislav Ivanovic";"bench";"Right-Back";17
+"Kurt Zouma";"bench";"Centre-Back";17
+"Nathaniel Chalobah";"bench";"Defensive Midfield";17
+"Cesc Fàbregas";"bench";"Attacking Midfield";17
+"Pedro";"bench";"Right Wing";17
+"Michy Batshuayi";"bench";"Centre-Forward";17
+"Thibaut Courtois";"starting";"Keeper";18
+"David Luiz";"starting";"Centre-Back";18
+"Gary Cahill";"starting";"Centre-Back";18
+"César Azpilicueta";"starting";"Centre-Back";18
+"Nemanja Matic";"starting";"Defensive Midfield";18
+"Cesc Fàbregas";"starting";"Defensive Midfield";18
+"Victor Moses";"starting";"Right Midfield";18
+"Marcos Alonso";"starting";"Left Midfield";18
+"Pedro";"starting";"Attacking Midfield";18
+"Willian";"starting";"Attacking Midfield";18
+"Eden Hazard";"starting";"Centre-Forward";18
+"Asmir Begovic";"bench";"Keeper";18
+"Branislav Ivanovic";"bench";"Centre-Back";18
+"Kurt Zouma";"bench";"Centre-Back";18
+"Ola Aina";"bench";"Right-Back";18
+"Nathaniel Chalobah";"bench";"Defensive Midfield";18
+"Ruben Loftus-Cheek";"bench";"Central Midfield";18
+"Michy Batshuayi";"bench";"Centre-Forward";18
+"Thibaut Courtois";"starting";"Keeper";19
+"David Luiz";"starting";"Centre-Back";19
+"Gary Cahill";"starting";"Centre-Back";19
+"César Azpilicueta";"starting";"Centre-Back";19
+"N'Golo Kanté";"starting";"Defensive Midfield";19
+"Cesc Fàbregas";"starting";"Defensive Midfield";19
+"Victor Moses";"starting";"Right Midfield";19
+"Marcos Alonso";"starting";"Left Midfield";19
+"Eden Hazard";"starting";"Attacking Midfield";19
+"Willian";"starting";"Attacking Midfield";19
+"Diego Costa";"starting";"Centre-Forward";19
+"Asmir Begovic";"bench";"Keeper";19
+"Branislav Ivanovic";"bench";"Right-Back";19
+"Kurt Zouma";"bench";"Centre-Back";19
+"Nemanja Matic";"bench";"Defensive Midfield";19
+"Nathaniel Chalobah";"bench";"Defensive Midfield";19
+"Ruben Loftus-Cheek";"bench";"Central Midfield";19
+"Michy Batshuayi";"bench";"Centre-Forward";19
+"Thibaut Courtois";"starting";"Keeper";20
+"David Luiz";"starting";"Centre-Back";20
+"Gary Cahill";"starting";"Centre-Back";20
+"César Azpilicueta";"starting";"Centre-Back";20
+"Nemanja Matic";"starting";"Defensive Midfield";20
+"N'Golo Kanté";"starting";"Defensive Midfield";20
+"Victor Moses";"starting";"Right Midfield";20
+"Marcos Alonso";"starting";"Left Midfield";20
+"Eden Hazard";"starting";"Attacking Midfield";20
+"Pedro";"starting";"Attacking Midfield";20
+"Diego Costa";"starting";"Centre-Forward";20
+"Asmir Begovic";"bench";"Keeper";20
+"Branislav Ivanovic";"bench";"Centre-Back";20
+"Kurt Zouma";"bench";"Centre-Back";20
+"Nathaniel Chalobah";"bench";"Defensive Midfield";20
+"Cesc Fàbregas";"bench";"Defensive Midfield";20
+"Willian";"bench";"Right Midfield";20
+"Michy Batshuayi";"bench";"Centre-Forward";20
+"Thibaut Courtois";"starting";"Keeper";21
+"David Luiz";"starting";"Centre-Back";21
+"Gary Cahill";"starting";"Centre-Back";21
+"César Azpilicueta";"starting";"Centre-Back";21
+"Nemanja Matic";"starting";"Defensive Midfield";21
+"N'Golo Kanté";"starting";"Defensive Midfield";21
+"Victor Moses";"starting";"Right Midfield";21
+"Marcos Alonso";"starting";"Left Midfield";21
+"Pedro";"starting";"Attacking Midfield";21
+"Willian";"starting";"Attacking Midfield";21
+"Eden Hazard";"starting";"Centre-Forward";21
+"Asmir Begovic";"bench";"Keeper";21
+"Branislav Ivanovic";"bench";"Centre-Back";21
+"Kurt Zouma";"bench";"Centre-Back";21
+"Nathaniel Chalobah";"bench";"Defensive Midfield";21
+"Cesc Fàbregas";"bench";"Attacking Midfield";21
+"Ruben Loftus-Cheek";"bench";"Attacking Midfield";21
+"Michy Batshuayi";"bench";"Centre-Forward";21
+"Thibaut Courtois";"starting";"Keeper";22
+"David Luiz";"starting";"Centre-Back";22
+"Gary Cahill";"starting";"Centre-Back";22
+"César Azpilicueta";"starting";"Centre-Back";22
+"Nemanja Matic";"starting";"Defensive Midfield";22
+"N'Golo Kanté";"starting";"Defensive Midfield";22
+"Victor Moses";"starting";"Right Midfield";22
+"Marcos Alonso";"starting";"Left Midfield";22
+"Eden Hazard";"starting";"Attacking Midfield";22
+"Pedro";"starting";"Attacking Midfield";22
+"Diego Costa";"starting";"Centre-Forward";22
+"Asmir Begovic";"bench";"Keeper";22
+"Nathan Aké";"bench";"Centre-Back";22
+"Kurt Zouma";"bench";"Centre-Back";22
+"Nathaniel Chalobah";"bench";"Defensive Midfield";22
+"Cesc Fàbregas";"bench";"Attacking Midfield";22
+"Willian";"bench";"Attacking Midfield";22
+"Michy Batshuayi";"bench";"Centre-Forward";22
+"Thibaut Courtois";"starting";"Keeper";23
+"David Luiz";"starting";"Centre-Back";23
+"Gary Cahill";"starting";"Centre-Back";23
+"César Azpilicueta";"starting";"Centre-Back";23
+"Nemanja Matic";"starting";"Defensive Midfield";23
+"N'Golo Kanté";"starting";"Defensive Midfield";23
+"Victor Moses";"starting";"Right Midfield";23
+"Marcos Alonso";"starting";"Left Midfield";23
+"Eden Hazard";"starting";"Attacking Midfield";23
+"Willian";"starting";"Attacking Midfield";23
+"Diego Costa";"starting";"Centre-Forward";23
+"Asmir Begovic";"bench";"Keeper";23
+"Kurt Zouma";"bench";"Centre-Back";23
+"John Terry";"bench";"Centre-Back";23
+"Nathaniel Chalobah";"bench";"Defensive Midfield";23
+"Cesc Fàbregas";"bench";"Attacking Midfield";23
+"Pedro";"bench";"Attacking Midfield";23
+"Michy Batshuayi";"bench";"Centre-Forward";23
+"Thibaut Courtois";"starting";"Keeper";24
+"David Luiz";"starting";"Centre-Back";24
+"Gary Cahill";"starting";"Centre-Back";24
+"César Azpilicueta";"starting";"Centre-Back";24
+"Nemanja Matic";"starting";"Defensive Midfield";24
+"N'Golo Kanté";"starting";"Defensive Midfield";24
+"Victor Moses";"starting";"Right Midfield";24
+"Marcos Alonso";"starting";"Left Midfield";24
+"Eden Hazard";"starting";"Attacking Midfield";24
+"Pedro";"starting";"Attacking Midfield";24
+"Diego Costa";"starting";"Centre-Forward";24
+"Asmir Begovic";"bench";"Keeper";24
+"Kurt Zouma";"bench";"Centre-Back";24
+"John Terry";"bench";"Centre-Back";24
+"Nathaniel Chalobah";"bench";"Defensive Midfield";24
+"Cesc Fàbregas";"bench";"Attacking Midfield";24
+"Willian";"bench";"Attacking Midfield";24
+"Michy Batshuayi";"bench";"Centre-Forward";24
+"Thibaut Courtois";"starting";"Keeper";25
+"David Luiz";"starting";"Centre-Back";25
+"Gary Cahill";"starting";"Centre-Back";25
+"César Azpilicueta";"starting";"Centre-Back";25
+"Nemanja Matic";"starting";"Defensive Midfield";25
+"N'Golo Kanté";"starting";"Defensive Midfield";25
+"Victor Moses";"starting";"Right Midfield";25
+"Marcos Alonso";"starting";"Left Midfield";25
+"Eden Hazard";"starting";"Attacking Midfield";25
+"Pedro";"starting";"Attacking Midfield";25
+"Diego Costa";"starting";"Centre-Forward";25
+"Asmir Begovic";"bench";"Keeper";25
+"Nathan Aké";"bench";"Centre-Back";25
+"Kurt Zouma";"bench";"Centre-Back";25
+"Nathaniel Chalobah";"bench";"Defensive Midfield";25
+"Cesc Fàbregas";"bench";"Defensive Midfield";25
+"Willian";"bench";"Right Midfield";25
+"Michy Batshuayi";"bench";"Centre-Forward";25
+"Thibaut Courtois";"starting";"Keeper";26
+"David Luiz";"starting";"Centre-Back";26
+"Gary Cahill";"starting";"Centre-Back";26
+"César Azpilicueta";"starting";"Centre-Back";26
+"N'Golo Kanté";"starting";"Defensive Midfield";26
+"Cesc Fàbregas";"starting";"Defensive Midfield";26
+"Victor Moses";"starting";"Right Midfield";26
+"Marcos Alonso";"starting";"Left Midfield";26
+"Eden Hazard";"starting";"Attacking Midfield";26
+"Pedro";"starting";"Attacking Midfield";26
+"Diego Costa";"starting";"Centre-Forward";26
+"Asmir Begovic";"bench";"Keeper";26
+"Kurt Zouma";"bench";"Centre-Back";26
+"John Terry";"bench";"Centre-Back";26
+"Nemanja Matic";"bench";"Defensive Midfield";26
+"Ruben Loftus-Cheek";"bench";"Central Midfield";26
+"Willian";"bench";"Attacking Midfield";26
+"Michy Batshuayi";"bench";"Centre-Forward";26
+"Thibaut Courtois";"starting";"Keeper";27
+"David Luiz";"starting";"Centre-Back";27
+"Gary Cahill";"starting";"Centre-Back";27
+"César Azpilicueta";"starting";"Centre-Back";27
+"N'Golo Kanté";"starting";"Defensive Midfield";27
+"Cesc Fàbregas";"starting";"Defensive Midfield";27
+"Victor Moses";"starting";"Right Midfield";27
+"Marcos Alonso";"starting";"Left Midfield";27
+"Eden Hazard";"starting";"Attacking Midfield";27
+"Pedro";"starting";"Attacking Midfield";27
+"Diego Costa";"starting";"Centre-Forward";27
+"Asmir Begovic";"bench";"Keeper";27
+"Kurt Zouma";"bench";"Centre-Back";27
+"John Terry";"bench";"Centre-Back";27
+"Nemanja Matic";"bench";"Defensive Midfield";27
+"Ruben Loftus-Cheek";"bench";"Central Midfield";27
+"Willian";"bench";"Attacking Midfield";27
+"Michy Batshuayi";"bench";"Centre-Forward";27
+"Asmir Begovic";"starting";"Keeper";28
+"Nathan Aké";"starting";"Centre-Back";28
+"Kurt Zouma";"starting";"Centre-Back";28
+"John Terry";"starting";"Centre-Back";28
+"N'Golo Kanté";"starting";"Defensive Midfield";28
+"Nathaniel Chalobah";"starting";"Defensive Midfield";28
+"César Azpilicueta";"starting";"Right Midfield";28
+"Kenedy";"starting";"Left Midfield";28
+"Eden Hazard";"starting";"Attacking Midfield";28
+"Willian";"starting";"Attacking Midfield";28
+"Michy Batshuayi";"starting";"Centre-Forward";28
+"Eduardo";"bench";"Keeper";28
+"Gary Cahill";"bench";"Centre-Back";28
+"Marcos Alonso";"bench";"Left-Back";28
+"Ola Aina";"bench";"Left-Back";28
+"Cesc Fàbregas";"bench";"Defensive Midfield";28
+"Pedro";"bench";"Centre-Forward";28
+"Diego Costa";"bench";"Centre-Forward";28
+"Thibaut Courtois";"starting";"Keeper";29
+"David Luiz";"starting";"Centre-Back";29
+"Gary Cahill";"starting";"Centre-Back";29
+"César Azpilicueta";"starting";"Centre-Back";29
+"Nemanja Matic";"starting";"Defensive Midfield";29
+"N'Golo Kanté";"starting";"Defensive Midfield";29
+"Victor Moses";"starting";"Right Midfield";29
+"Marcos Alonso";"starting";"Left Midfield";29
+"Pedro";"starting";"Attacking Midfield";29
+"Willian";"starting";"Attacking Midfield";29
+"Diego Costa";"starting";"Centre-Forward";29
+"Asmir Begovic";"bench";"Keeper";29
+"Nathan Aké";"bench";"Centre-Back";29
+"Kurt Zouma";"bench";"Centre-Back";29
+"Nathaniel Chalobah";"bench";"Defensive Midfield";29
+"Cesc Fàbregas";"bench";"Central Midfield";29
+"Ruben Loftus-Cheek";"bench";"Central Midfield";29
+"Michy Batshuayi";"bench";"Centre-Forward";29
+"Thibaut Courtois";"starting";"Keeper";30
+"David Luiz";"starting";"Centre-Back";30
+"Gary Cahill";"starting";"Centre-Back";30
+"César Azpilicueta";"starting";"Centre-Back";30
+"Nemanja Matic";"starting";"Defensive Midfield";30
+"N'Golo Kanté";"starting";"Defensive Midfield";30
+"Pedro";"starting";"Right Midfield";30
+"Marcos Alonso";"starting";"Left Midfield";30
+"Cesc Fàbregas";"starting";"Attacking Midfield";30
+"Eden Hazard";"starting";"Attacking Midfield";30
+"Diego Costa";"starting";"Centre-Forward";30
+"Asmir Begovic";"bench";"Keeper";30
+"Kurt Zouma";"bench";"Centre-Back";30
+"John Terry";"bench";"Centre-Back";30
+"Nathaniel Chalobah";"bench";"Defensive Midfield";30
+"Ruben Loftus-Cheek";"bench";"Central Midfield";30
+"Willian";"bench";"Right Wing";30
+"Michy Batshuayi";"bench";"Centre-Forward";30
+"Thibaut Courtois";"starting";"Keeper";31
+"David Luiz";"starting";"Centre-Back";31
+"Kurt Zouma";"starting";"Centre-Back";31
+"Gary Cahill";"starting";"Centre-Back";31
+"N'Golo Kanté";"starting";"Defensive Midfield";31
+"Cesc Fàbregas";"starting";"Defensive Midfield";31
+"César Azpilicueta";"starting";"Right Midfield";31
+"Marcos Alonso";"starting";"Left Midfield";31
+"Eden Hazard";"starting";"Attacking Midfield";31
+"Pedro";"starting";"Attacking Midfield";31
+"Diego Costa";"starting";"Centre-Forward";31
+"Asmir Begovic";"bench";"Keeper";31
+"Nathan Aké";"bench";"Centre-Back";31
+"John Terry";"bench";"Centre-Back";31
+"Nemanja Matic";"bench";"Defensive Midfield";31
+"Ruben Loftus-Cheek";"bench";"Central Midfield";31
+"Willian";"bench";"Right Wing";31
+"Michy Batshuayi";"bench";"Centre-Forward";31
+"Thibaut Courtois";"starting";"Keeper";32
+"David Luiz";"starting";"Centre-Back";32
+"Gary Cahill";"starting";"Centre-Back";32
+"César Azpilicueta";"starting";"Centre-Back";32
+"Nemanja Matic";"starting";"Defensive Midfield";32
+"N'Golo Kanté";"starting";"Defensive Midfield";32
+"Victor Moses";"starting";"Right Midfield";32
+"Marcos Alonso";"starting";"Left Midfield";32
+"Eden Hazard";"starting";"Attacking Midfield";32
+"Pedro";"starting";"Attacking Midfield";32
+"Diego Costa";"starting";"Centre-Forward";32
+"Asmir Begovic";"bench";"Keeper";32
+"Kurt Zouma";"bench";"Centre-Back";32
+"John Terry";"bench";"Centre-Back";32
+"Nathaniel Chalobah";"bench";"Defensive Midfield";32
+"Cesc Fàbregas";"bench";"Central Midfield";32
+"Willian";"bench";"Right Wing";32
+"Michy Batshuayi";"bench";"Centre-Forward";32
+"Asmir Begovic";"starting";"Keeper";33
+"David Luiz";"starting";"Centre-Back";33
+"Kurt Zouma";"starting";"Centre-Back";33
+"Gary Cahill";"starting";"Centre-Back";33
+"Nemanja Matic";"starting";"Defensive Midfield";33
+"N'Golo Kanté";"starting";"Defensive Midfield";33
+"Victor Moses";"starting";"Right Midfield";33
+"César Azpilicueta";"starting";"Left Midfield";33
+"Eden Hazard";"starting";"Attacking Midfield";33
+"Pedro";"starting";"Attacking Midfield";33
+"Diego Costa";"starting";"Centre-Forward";33
+"Eduardo";"bench";"Keeper";33
+"Nathan Aké";"bench";"Centre-Back";33
+"John Terry";"bench";"Centre-Back";33
+"Cesc Fàbregas";"bench";"Central Midfield";33
+"Ruben Loftus-Cheek";"bench";"Central Midfield";33
+"Willian";"bench";"Right Wing";33
+"Michy Batshuayi";"bench";"Centre-Forward";33
+"Thibaut Courtois";"starting";"Keeper";34
+"David Luiz";"starting";"Centre-Back";34
+"Gary Cahill";"starting";"Centre-Back";34
+"César Azpilicueta";"starting";"Centre-Back";34
+"Nemanja Matic";"starting";"Defensive Midfield";34
+"N'Golo Kanté";"starting";"Defensive Midfield";34
+"Victor Moses";"starting";"Right Midfield";34
+"Marcos Alonso";"starting";"Left Midfield";34
+"Cesc Fàbregas";"starting";"Attacking Midfield";34
+"Eden Hazard";"starting";"Attacking Midfield";34
+"Diego Costa";"starting";"Centre-Forward";34
+"Asmir Begovic";"bench";"Keeper";34
+"Nathan Aké";"bench";"Centre-Back";34
+"John Terry";"bench";"Centre-Back";34
+"Nathaniel Chalobah";"bench";"Defensive Midfield";34
+"Pedro";"bench";"Attacking Midfield";34
+"Willian";"bench";"Right Wing";34
+"Michy Batshuayi";"bench";"Centre-Forward";34
+"Thibaut Courtois";"starting";"Keeper";35
+"David Luiz";"starting";"Centre-Back";35
+"Gary Cahill";"starting";"Centre-Back";35
+"César Azpilicueta";"starting";"Centre-Back";35
+"Nemanja Matic";"starting";"Defensive Midfield";35
+"N'Golo Kanté";"starting";"Defensive Midfield";35
+"Victor Moses";"starting";"Right Midfield";35
+"Marcos Alonso";"starting";"Left Midfield";35
+"Eden Hazard";"starting";"Attacking Midfield";35
+"Pedro";"starting";"Attacking Midfield";35
+"Diego Costa";"starting";"Centre-Forward";35
+"Asmir Begovic";"bench";"Keeper";35
+"Nathan Aké";"bench";"Centre-Back";35
+"Kurt Zouma";"bench";"Centre-Back";35
+"Nathaniel Chalobah";"bench";"Defensive Midfield";35
+"Cesc Fàbregas";"bench";"Attacking Midfield";35
+"Willian";"bench";"Attacking Midfield";35
+"Michy Batshuayi";"bench";"Centre-Forward";35
+"Thibaut Courtois";"starting";"Keeper";36
+"David Luiz";"starting";"Centre-Back";36
+"Gary Cahill";"starting";"Centre-Back";36
+"César Azpilicueta";"starting";"Centre-Back";36
+"Nemanja Matic";"starting";"Defensive Midfield";36
+"Cesc Fàbregas";"starting";"Defensive Midfield";36
+"Victor Moses";"starting";"Right Midfield";36
+"Marcos Alonso";"starting";"Left Midfield";36
+"Eden Hazard";"starting";"Attacking Midfield";36
+"Pedro";"starting";"Attacking Midfield";36
+"Diego Costa";"starting";"Centre-Forward";36
+"Asmir Begovic";"bench";"Keeper";36
+"Nathan Aké";"bench";"Centre-Back";36
+"Kurt Zouma";"bench";"Centre-Back";36
+"John Terry";"bench";"Centre-Back";36
+"Nathaniel Chalobah";"bench";"Defensive Midfield";36
+"Ruben Loftus-Cheek";"bench";"Central Midfield";36
+"Willian";"bench";"Attacking Midfield";36
+"Thibaut Courtois";"starting";"Keeper";37
+"David Luiz";"starting";"Centre-Back";37
+"Gary Cahill";"starting";"Centre-Back";37
+"César Azpilicueta";"starting";"Centre-Back";37
+"Nemanja Matic";"starting";"Defensive Midfield";37
+"Cesc Fàbregas";"starting";"Defensive Midfield";37
+"Victor Moses";"starting";"Right Midfield";37
+"Marcos Alonso";"starting";"Left Midfield";37
+"Eden Hazard";"starting";"Attacking Midfield";37
+"Pedro";"starting";"Attacking Midfield";37
+"Diego Costa";"starting";"Centre-Forward";37
+"Asmir Begovic";"bench";"Keeper";37
+"Nathan Aké";"bench";"Centre-Back";37
+"Kurt Zouma";"bench";"Centre-Back";37
+"John Terry";"bench";"Centre-Back";37
+"N'Golo Kanté";"bench";"Defensive Midfield";37
+"Willian";"bench";"Attacking Midfield";37
+"Michy Batshuayi";"bench";"Secondary Striker";37
+"Thibaut Courtois";"starting";"Keeper";38
+"David Luiz";"starting";"Centre-Back";38
+"John Terry";"starting";"Centre-Back";38
+"César Azpilicueta";"starting";"Centre-Back";38
+"N'Golo Kanté";"starting";"Defensive Midfield";38
+"Cesc Fàbregas";"starting";"Defensive Midfield";38
+"Victor Moses";"starting";"Right Midfield";38
+"Marcos Alonso";"starting";"Left Midfield";38
+"Eden Hazard";"starting";"Attacking Midfield";38
+"Willian";"starting";"Attacking Midfield";38
+"Diego Costa";"starting";"Centre-Forward";38
+"Asmir Begovic";"bench";"Keeper";38
+"Kurt Zouma";"bench";"Centre-Back";38
+"Gary Cahill";"bench";"Centre-Back";38
+"Nemanja Matic";"bench";"Defensive Midfield";38
+"Nathaniel Chalobah";"bench";"Defensive Midfield";38
+"Pedro";"bench";"Attacking Midfield";38
+"Michy Batshuayi";"bench";"Centre-Forward";38

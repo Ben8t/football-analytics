@@ -1,0 +1,685 @@
+"player";"post";"lineup";"matchday"
+"Hugo Lloris";"Keeper";"starting";1
+"Jan Vertonghen";"Centre-Back";"starting";1
+"Toby Alderweireld";"Centre-Back";"starting";1
+"Danny Rose";"Left-Back";"starting";1
+"Kyle Walker";"Right-Back";"starting";1
+"Victor Wanyama";"Defensive Midfield";"starting";1
+"Eric Dier";"Defensive Midfield";"starting";1
+"Christian Eriksen";"Left Midfield";"starting";1
+"Dele Alli";"Attacking Midfield";"starting";1
+"Érik Lamela";"Right Wing";"starting";1
+"Harry Kane";"Centre-Forward";"starting";1
+"Michel Vorm";"Keeper";"bench";1
+"Cameron Carter-Vickers";"Centre-Back";"bench";1
+"Ben Davies";"Left-Back";"bench";1
+"Ryan Mason";"Central Midfield";"bench";1
+"Harry Winks";"Central Midfield";"bench";1
+"Josh Onomah";"Attacking Midfield";"bench";1
+"Vincent Janssen";"Centre-Forward";"bench";1
+"Michel Vorm";"Keeper";"starting";2
+"Jan Vertonghen";"Centre-Back";"starting";2
+"Toby Alderweireld";"Centre-Back";"starting";2
+"Danny Rose";"Left-Back";"starting";2
+"Kyle Walker";"Right-Back";"starting";2
+"Victor Wanyama";"Defensive Midfield";"starting";2
+"Eric Dier";"Defensive Midfield";"starting";2
+"Christian Eriksen";"Right Midfield";"starting";2
+"Érik Lamela";"Left Wing";"starting";2
+"Vincent Janssen";"Centre-Forward";"starting";2
+"Harry Kane";"Centre-Forward";"starting";2
+"Luke McGee";"Keeper";"bench";2
+"Cameron Carter-Vickers";"Centre-Back";"bench";2
+"Ben Davies";"Left-Back";"bench";2
+"Tom Carroll";"Central Midfield";"bench";2
+"Ryan Mason";"Central Midfield";"bench";2
+"Dele Alli";"Left Midfield";"bench";2
+"Josh Onomah";"Attacking Midfield";"bench";2
+"Michel Vorm";"Keeper";"starting";3
+"Jan Vertonghen";"Centre-Back";"starting";3
+"Toby Alderweireld";"Centre-Back";"starting";3
+"Danny Rose";"Left-Back";"starting";3
+"Kyle Walker";"Right-Back";"starting";3
+"Victor Wanyama";"Defensive Midfield";"starting";3
+"Eric Dier";"Defensive Midfield";"starting";3
+"Christian Eriksen";"Left Midfield";"starting";3
+"Dele Alli";"Attacking Midfield";"starting";3
+"Érik Lamela";"Right Wing";"starting";3
+"Harry Kane";"Centre-Forward";"starting";3
+"Luke McGee";"Keeper";"bench";3
+"Cameron Carter-Vickers";"Centre-Back";"bench";3
+"Ben Davies";"Left-Back";"bench";3
+"Harry Winks";"Central Midfield";"bench";3
+"Josh Onomah";"Right Midfield";"bench";3
+"Heung-Min Son";"Left Wing";"bench";3
+"Vincent Janssen";"Centre-Forward";"bench";3
+"Hugo Lloris";"Keeper";"starting";4
+"Jan Vertonghen";"Centre-Back";"starting";4
+"Toby Alderweireld";"Centre-Back";"starting";4
+"Ben Davies";"Left-Back";"starting";4
+"Kyle Walker";"Right-Back";"starting";4
+"Victor Wanyama";"Defensive Midfield";"starting";4
+"Eric Dier";"Defensive Midfield";"starting";4
+"Christian Eriksen";"Right Midfield";"starting";4
+"Dele Alli";"Attacking Midfield";"starting";4
+"Heung-Min Son";"Left Wing";"starting";4
+"Harry Kane";"Centre-Forward";"starting";4
+"Michel Vorm";"Keeper";"bench";4
+"Cameron Carter-Vickers";"Centre-Back";"bench";4
+"Kieran Trippier";"Right-Back";"bench";4
+"Moussa Sissoko";"Central Midfield";"bench";4
+"Harry Winks";"Central Midfield";"bench";4
+"Érik Lamela";"Right Wing";"bench";4
+"Vincent Janssen";"Centre-Forward";"bench";4
+"Hugo Lloris";"Keeper";"starting";5
+"Toby Alderweireld";"Centre-Back";"starting";5
+"Eric Dier";"Centre-Back";"starting";5
+"Jan Vertonghen";"Left-Back";"starting";5
+"Kyle Walker";"Right-Back";"starting";5
+"Victor Wanyama";"Defensive Midfield";"starting";5
+"Mousa Dembélé";"Central Midfield";"starting";5
+"Moussa Sissoko";"Right Midfield";"starting";5
+"Dele Alli";"Attacking Midfield";"starting";5
+"Heung-Min Son";"Left Wing";"starting";5
+"Harry Kane";"Centre-Forward";"starting";5
+"Michel Vorm";"Keeper";"bench";5
+"Ben Davies";"Left-Back";"bench";5
+"Kieran Trippier";"Right-Back";"bench";5
+"Harry Winks";"Central Midfield";"bench";5
+"Christian Eriksen";"Attacking Midfield";"bench";5
+"Érik Lamela";"Secondary Striker";"bench";5
+"Vincent Janssen";"Centre-Forward";"bench";5
+"Hugo Lloris";"Keeper";"starting";6
+"Jan Vertonghen";"Centre-Back";"starting";6
+"Toby Alderweireld";"Centre-Back";"starting";6
+"Ben Davies";"Left-Back";"starting";6
+"Kyle Walker";"Right-Back";"starting";6
+"Victor Wanyama";"Defensive Midfield";"starting";6
+"Dele Alli";"Central Midfield";"starting";6
+"Christian Eriksen";"Central Midfield";"starting";6
+"Moussa Sissoko";"Right Midfield";"starting";6
+"Heung-Min Son";"Left Wing";"starting";6
+"Vincent Janssen";"Centre-Forward";"starting";6
+"Michel Vorm";"Keeper";"bench";6
+"Kevin Wimmer";"Centre-Back";"bench";6
+"Cameron Carter-Vickers";"Centre-Back";"bench";6
+"Kieran Trippier";"Right-Back";"bench";6
+"Harry Winks";"Central Midfield";"bench";6
+"Georges-Kevin N'Koudou";"Left Wing";"bench";6
+"Érik Lamela";"Right Wing";"bench";6
+"Hugo Lloris";"Keeper";"starting";7
+"Jan Vertonghen";"Centre-Back";"starting";7
+"Toby Alderweireld";"Centre-Back";"starting";7
+"Danny Rose";"Left-Back";"starting";7
+"Kyle Walker";"Right-Back";"starting";7
+"Victor Wanyama";"Defensive Midfield";"starting";7
+"Christian Eriksen";"Central Midfield";"starting";7
+"Moussa Sissoko";"Right Midfield";"starting";7
+"Dele Alli";"Attacking Midfield";"starting";7
+"Érik Lamela";"Left Wing";"starting";7
+"Heung-Min Son";"Centre-Forward";"starting";7
+"Michel Vorm";"Keeper";"bench";7
+"Ben Davies";"Left-Back";"bench";7
+"Kieran Trippier";"Right-Back";"bench";7
+"Eric Dier";"Defensive Midfield";"bench";7
+"Harry Winks";"Central Midfield";"bench";7
+"Georges-Kevin N'Koudou";"Left Wing";"bench";7
+"Vincent Janssen";"Centre-Forward";"bench";7
+"Hugo Lloris";"Keeper";"starting";8
+"Jan Vertonghen";"Centre-Back";"starting";8
+"Toby Alderweireld";"Centre-Back";"starting";8
+"Ben Davies";"Left-Back";"starting";8
+"Kyle Walker";"Right-Back";"starting";8
+"Victor Wanyama";"Defensive Midfield";"starting";8
+"Dele Alli";"Central Midfield";"starting";8
+"Christian Eriksen";"Central Midfield";"starting";8
+"Moussa Sissoko";"Right Midfield";"starting";8
+"Érik Lamela";"Left Wing";"starting";8
+"Vincent Janssen";"Centre-Forward";"starting";8
+"Michel Vorm";"Keeper";"bench";8
+"Kieran Trippier";"Right-Back";"bench";8
+"Eric Dier";"Centre-Back";"bench";8
+"Mousa Dembélé";"Central Midfield";"bench";8
+"Josh Onomah";"Attacking Midfield";"bench";8
+"Heung-Min Son";"Left Wing";"bench";8
+"Georges-Kevin N'Koudou";"Left Wing";"bench";8
+"Hugo Lloris";"Keeper";"starting";9
+"Jan Vertonghen";"Centre-Back";"starting";9
+"Eric Dier";"Centre-Back";"starting";9
+"Danny Rose";"Left-Back";"starting";9
+"Kyle Walker";"Right-Back";"starting";9
+"Victor Wanyama";"Defensive Midfield";"starting";9
+"Mousa Dembélé";"Central Midfield";"starting";9
+"Christian Eriksen";"Left Midfield";"starting";9
+"Dele Alli";"Attacking Midfield";"starting";9
+"Érik Lamela";"Right Wing";"starting";9
+"Heung-Min Son";"Centre-Forward";"starting";9
+"Michel Vorm";"Keeper";"bench";9
+"Kevin Wimmer";"Centre-Back";"bench";9
+"Ben Davies";"Left-Back";"bench";9
+"Kieran Trippier";"Right-Back";"bench";9
+"Moussa Sissoko";"Right Midfield";"bench";9
+"Harry Winks";"Central Midfield";"bench";9
+"Vincent Janssen";"Centre-Forward";"bench";9
+"Hugo Lloris";"Keeper";"starting";10
+"Jan Vertonghen";"Centre-Back";"starting";10
+"Eric Dier";"Centre-Back";"starting";10
+"Danny Rose";"Left-Back";"starting";10
+"Kyle Walker";"Right-Back";"starting";10
+"Victor Wanyama";"Defensive Midfield";"starting";10
+"Mousa Dembélé";"Central Midfield";"starting";10
+"Christian Eriksen";"Left Midfield";"starting";10
+"Dele Alli";"Attacking Midfield";"starting";10
+"Heung-Min Son";"Right Wing";"starting";10
+"Vincent Janssen";"Centre-Forward";"starting";10
+"Michel Vorm";"Keeper";"bench";10
+"Cameron Carter-Vickers";"Centre-Back";"bench";10
+"Ben Davies";"Left-Back";"bench";10
+"Kieran Trippier";"Right-Back";"bench";10
+"Harry Winks";"Defensive Midfield";"bench";10
+"Josh Onomah";"Attacking Midfield";"bench";10
+"Georges-Kevin N'Koudou";"Left Wing";"bench";10
+"Hugo Lloris";"Keeper";"starting";11
+"Jan Vertonghen";"Centre-Back";"starting";11
+"Kevin Wimmer";"Centre-Back";"starting";11
+"Eric Dier";"Centre-Back";"starting";11
+"Danny Rose";"Left-Back";"starting";11
+"Kyle Walker";"Right-Back";"starting";11
+"Victor Wanyama";"Defensive Midfield";"starting";11
+"Mousa Dembélé";"Defensive Midfield";"starting";11
+"Christian Eriksen";"Attacking Midfield";"starting";11
+"Heung-Min Son";"Centre-Forward";"starting";11
+"Harry Kane";"Centre-Forward";"starting";11
+"Michel Vorm";"Keeper";"bench";11
+"Cameron Carter-Vickers";"Centre-Back";"bench";11
+"Kieran Trippier";"Right-Back";"bench";11
+"Harry Winks";"Central Midfield";"bench";11
+"Josh Onomah";"Attacking Midfield";"bench";11
+"Georges-Kevin N'Koudou";"Left Wing";"bench";11
+"Vincent Janssen";"Centre-Forward";"bench";11
+"Hugo Lloris";"Keeper";"starting";12
+"Jan Vertonghen";"Centre-Back";"starting";12
+"Eric Dier";"Centre-Back";"starting";12
+"Danny Rose";"Left-Back";"starting";12
+"Kyle Walker";"Right-Back";"starting";12
+"Victor Wanyama";"Defensive Midfield";"starting";12
+"Mousa Dembélé";"Central Midfield";"starting";12
+"Harry Winks";"Central Midfield";"starting";12
+"Christian Eriksen";"Attacking Midfield";"starting";12
+"Harry Kane";"Secondary Striker";"starting";12
+"Vincent Janssen";"Centre-Forward";"starting";12
+"Michel Vorm";"Keeper";"bench";12
+"Kevin Wimmer";"Centre-Back";"bench";12
+"Cameron Carter-Vickers";"Centre-Back";"bench";12
+"Kieran Trippier";"Right-Back";"bench";12
+"Dele Alli";"Attacking Midfield";"bench";12
+"Josh Onomah";"Attacking Midfield";"bench";12
+"Heung-Min Son";"Right Wing";"bench";12
+"Hugo Lloris";"Keeper";"starting";13
+"Jan Vertonghen";"Centre-Back";"starting";13
+"Eric Dier";"Centre-Back";"starting";13
+"Kevin Wimmer";"Left-Back";"starting";13
+"Kyle Walker";"Right-Back";"starting";13
+"Victor Wanyama";"Defensive Midfield";"starting";13
+"Mousa Dembélé";"Central Midfield";"starting";13
+"Dele Alli";"Central Midfield";"starting";13
+"Christian Eriksen";"Right Midfield";"starting";13
+"Heung-Min Son";"Left Wing";"starting";13
+"Harry Kane";"Centre-Forward";"starting";13
+"Michel Vorm";"Keeper";"bench";13
+"Cameron Carter-Vickers";"Centre-Back";"bench";13
+"Kieran Trippier";"Right-Back";"bench";13
+"Harry Winks";"Central Midfield";"bench";13
+"Josh Onomah";"Attacking Midfield";"bench";13
+"Georges-Kevin N'Koudou";"Left Wing";"bench";13
+"Vincent Janssen";"Centre-Forward";"bench";13
+"Hugo Lloris";"Keeper";"starting";14
+"Jan Vertonghen";"Centre-Back";"starting";14
+"Eric Dier";"Centre-Back";"starting";14
+"Danny Rose";"Left-Back";"starting";14
+"Kyle Walker";"Right-Back";"starting";14
+"Victor Wanyama";"Defensive Midfield";"starting";14
+"Mousa Dembélé";"Central Midfield";"starting";14
+"Christian Eriksen";"Right Midfield";"starting";14
+"Dele Alli";"Attacking Midfield";"starting";14
+"Heung-Min Son";"Left Wing";"starting";14
+"Harry Kane";"Centre-Forward";"starting";14
+"Michel Vorm";"Keeper";"bench";14
+"Kevin Wimmer";"Centre-Back";"bench";14
+"Cameron Carter-Vickers";"Centre-Back";"bench";14
+"Moussa Sissoko";"Right Midfield";"bench";14
+"Harry Winks";"Central Midfield";"bench";14
+"Josh Onomah";"Attacking Midfield";"bench";14
+"Georges-Kevin N'Koudou";"Left Wing";"bench";14
+"Hugo Lloris";"Keeper";"starting";15
+"Jan Vertonghen";"Centre-Back";"starting";15
+"Toby Alderweireld";"Centre-Back";"starting";15
+"Danny Rose";"Left-Back";"starting";15
+"Kyle Walker";"Right-Back";"starting";15
+"Victor Wanyama";"Defensive Midfield";"starting";15
+"Mousa Dembélé";"Central Midfield";"starting";15
+"Dele Alli";"Left Midfield";"starting";15
+"Christian Eriksen";"Attacking Midfield";"starting";15
+"Heung-Min Son";"Right Wing";"starting";15
+"Harry Kane";"Centre-Forward";"starting";15
+"Michel Vorm";"Keeper";"bench";15
+"Kevin Wimmer";"Centre-Back";"bench";15
+"Ben Davies";"Left-Back";"bench";15
+"Eric Dier";"Defensive Midfield";"bench";15
+"Moussa Sissoko";"Right Midfield";"bench";15
+"Harry Winks";"Central Midfield";"bench";15
+"Georges-Kevin N'Koudou";"Left Wing";"bench";15
+"Hugo Lloris";"Keeper";"starting";16
+"Jan Vertonghen";"Centre-Back";"starting";16
+"Toby Alderweireld";"Centre-Back";"starting";16
+"Eric Dier";"Centre-Back";"starting";16
+"Victor Wanyama";"Defensive Midfield";"starting";16
+"Kyle Walker";"Right Midfield";"starting";16
+"Danny Rose";"Left Midfield";"starting";16
+"Christian Eriksen";"Attacking Midfield";"starting";16
+"Dele Alli";"Left Wing";"starting";16
+"Moussa Sissoko";"Right Wing";"starting";16
+"Harry Kane";"Centre-Forward";"starting";16
+"Michel Vorm";"Keeper";"bench";16
+"Ben Davies";"Left-Back";"bench";16
+"Kieran Trippier";"Right-Back";"bench";16
+"Harry Winks";"Defensive Midfield";"bench";16
+"Josh Onomah";"Attacking Midfield";"bench";16
+"Heung-Min Son";"Centre-Forward";"bench";16
+"Georges-Kevin N'Koudou";"Left Wing";"bench";16
+"Hugo Lloris";"Keeper";"starting";17
+"Jan Vertonghen";"Centre-Back";"starting";17
+"Eric Dier";"Centre-Back";"starting";17
+"Danny Rose";"Left-Back";"starting";17
+"Kyle Walker";"Right-Back";"starting";17
+"Victor Wanyama";"Defensive Midfield";"starting";17
+"Harry Winks";"Central Midfield";"starting";17
+"Christian Eriksen";"Right Midfield";"starting";17
+"Mousa Dembélé";"Left Midfield";"starting";17
+"Dele Alli";"Attacking Midfield";"starting";17
+"Harry Kane";"Centre-Forward";"starting";17
+"Michel Vorm";"Keeper";"bench";17
+"Kevin Wimmer";"Centre-Back";"bench";17
+"Ben Davies";"Left-Back";"bench";17
+"Kieran Trippier";"Right-Back";"bench";17
+"Moussa Sissoko";"Right Midfield";"bench";17
+"Heung-Min Son";"Left Wing";"bench";17
+"Georges-Kevin N'Koudou";"Left Wing";"bench";17
+"Hugo Lloris";"Keeper";"starting";18
+"Jan Vertonghen";"Centre-Back";"starting";18
+"Eric Dier";"Centre-Back";"starting";18
+"Danny Rose";"Left-Back";"starting";18
+"Kyle Walker";"Right-Back";"starting";18
+"Victor Wanyama";"Defensive Midfield";"starting";18
+"Mousa Dembélé";"Central Midfield";"starting";18
+"Moussa Sissoko";"Right Midfield";"starting";18
+"Dele Alli";"Left Midfield";"starting";18
+"Christian Eriksen";"Attacking Midfield";"starting";18
+"Harry Kane";"Centre-Forward";"starting";18
+"Michel Vorm";"Keeper";"bench";18
+"Kevin Wimmer";"Centre-Back";"bench";18
+"Ben Davies";"Left-Back";"bench";18
+"Harry Winks";"Central Midfield";"bench";18
+"Heung-Min Son";"Left Wing";"bench";18
+"Georges-Kevin N'Koudou";"Left Wing";"bench";18
+"Vincent Janssen";"Centre-Forward";"bench";18
+"Hugo Lloris";"Keeper";"starting";19
+"Kevin Wimmer";"Centre-Back";"starting";19
+"Toby Alderweireld";"Centre-Back";"starting";19
+"Eric Dier";"Centre-Back";"starting";19
+"Victor Wanyama";"Defensive Midfield";"starting";19
+"Dele Alli";"Central Midfield";"starting";19
+"Kieran Trippier";"Right Midfield";"starting";19
+"Danny Rose";"Left Midfield";"starting";19
+"Christian Eriksen";"Attacking Midfield";"starting";19
+"Heung-Min Son";"Centre-Forward";"starting";19
+"Harry Kane";"Centre-Forward";"starting";19
+"Michel Vorm";"Keeper";"bench";19
+"Cameron Carter-Vickers";"Centre-Back";"bench";19
+"Ben Davies";"Left-Back";"bench";19
+"Mousa Dembélé";"Central Midfield";"bench";19
+"Moussa Sissoko";"Central Midfield";"bench";19
+"Harry Winks";"Central Midfield";"bench";19
+"Vincent Janssen";"Centre-Forward";"bench";19
+"Hugo Lloris";"Keeper";"starting";20
+"Jan Vertonghen";"Centre-Back";"starting";20
+"Toby Alderweireld";"Centre-Back";"starting";20
+"Eric Dier";"Centre-Back";"starting";20
+"Victor Wanyama";"Defensive Midfield";"starting";20
+"Mousa Dembélé";"Defensive Midfield";"starting";20
+"Kyle Walker";"Right Midfield";"starting";20
+"Danny Rose";"Left Midfield";"starting";20
+"Dele Alli";"Attacking Midfield";"starting";20
+"Christian Eriksen";"Attacking Midfield";"starting";20
+"Harry Kane";"Centre-Forward";"starting";20
+"Michel Vorm";"Keeper";"bench";20
+"Kevin Wimmer";"Centre-Back";"bench";20
+"Ben Davies";"Left-Back";"bench";20
+"Kieran Trippier";"Right-Back";"bench";20
+"Moussa Sissoko";"Attacking Midfield";"bench";20
+"Harry Winks";"Defensive Midfield";"bench";20
+"Heung-Min Son";"Left Wing";"bench";20
+"Hugo Lloris";"Keeper";"starting";21
+"Jan Vertonghen";"Centre-Back";"starting";21
+"Toby Alderweireld";"Centre-Back";"starting";21
+"Eric Dier";"Centre-Back";"starting";21
+"Victor Wanyama";"Defensive Midfield";"starting";21
+"Mousa Dembélé";"Defensive Midfield";"starting";21
+"Kyle Walker";"Right Midfield";"starting";21
+"Danny Rose";"Left Midfield";"starting";21
+"Dele Alli";"Attacking Midfield";"starting";21
+"Christian Eriksen";"Attacking Midfield";"starting";21
+"Harry Kane";"Centre-Forward";"starting";21
+"Michel Vorm";"Keeper";"bench";21
+"Ben Davies";"Centre-Back";"bench";21
+"Kieran Trippier";"Right-Back";"bench";21
+"Moussa Sissoko";"Central Midfield";"bench";21
+"Harry Winks";"Defensive Midfield";"bench";21
+"Heung-Min Son";"Left Wing";"bench";21
+"Georges-Kevin N'Koudou";"Left Wing";"bench";21
+"Hugo Lloris";"Keeper";"starting";22
+"Kevin Wimmer";"Centre-Back";"starting";22
+"Toby Alderweireld";"Centre-Back";"starting";22
+"Eric Dier";"Centre-Back";"starting";22
+"Victor Wanyama";"Defensive Midfield";"starting";22
+"Mousa Dembélé";"Defensive Midfield";"starting";22
+"Kyle Walker";"Right Midfield";"starting";22
+"Danny Rose";"Left Midfield";"starting";22
+"Dele Alli";"Attacking Midfield";"starting";22
+"Christian Eriksen";"Attacking Midfield";"starting";22
+"Harry Kane";"Centre-Forward";"starting";22
+"Michel Vorm";"Keeper";"bench";22
+"Cameron Carter-Vickers";"Centre-Back";"bench";22
+"Ben Davies";"Left-Back";"bench";22
+"Kieran Trippier";"Right-Back";"bench";22
+"Moussa Sissoko";"Central Midfield";"bench";22
+"Harry Winks";"Central Midfield";"bench";22
+"Heung-Min Son";"Left Wing";"bench";22
+"Michel Vorm";"Keeper";"starting";23
+"Toby Alderweireld";"Centre-Back";"starting";23
+"Eric Dier";"Centre-Back";"starting";23
+"Danny Rose";"Left-Back";"starting";23
+"Kyle Walker";"Right-Back";"starting";23
+"Victor Wanyama";"Defensive Midfield";"starting";23
+"Mousa Dembélé";"Central Midfield";"starting";23
+"Dele Alli";"Left Midfield";"starting";23
+"Christian Eriksen";"Attacking Midfield";"starting";23
+"Heung-Min Son";"Right Wing";"starting";23
+"Harry Kane";"Centre-Forward";"starting";23
+"Pau López";"Keeper";"bench";23
+"Kevin Wimmer";"Centre-Back";"bench";23
+"Cameron Carter-Vickers";"Centre-Back";"bench";23
+"Ben Davies";"Left-Back";"bench";23
+"Moussa Sissoko";"Right Midfield";"bench";23
+"Harry Winks";"Central Midfield";"bench";23
+"Vincent Janssen";"Centre-Forward";"bench";23
+"Hugo Lloris";"Keeper";"starting";24
+"Toby Alderweireld";"Centre-Back";"starting";24
+"Eric Dier";"Centre-Back";"starting";24
+"Ben Davies";"Left-Back";"starting";24
+"Kyle Walker";"Right-Back";"starting";24
+"Victor Wanyama";"Defensive Midfield";"starting";24
+"Mousa Dembélé";"Central Midfield";"starting";24
+"Christian Eriksen";"Right Midfield";"starting";24
+"Dele Alli";"Attacking Midfield";"starting";24
+"Heung-Min Son";"Left Wing";"starting";24
+"Harry Kane";"Centre-Forward";"starting";24
+"Michel Vorm";"Keeper";"bench";24
+"Kevin Wimmer";"Centre-Back";"bench";24
+"Cameron Carter-Vickers";"Centre-Back";"bench";24
+"Moussa Sissoko";"Left Midfield";"bench";24
+"Harry Winks";"Central Midfield";"bench";24
+"Josh Onomah";"Attacking Midfield";"bench";24
+"Vincent Janssen";"Centre-Forward";"bench";24
+"Hugo Lloris";"Keeper";"starting";25
+"Toby Alderweireld";"Centre-Back";"starting";25
+"Eric Dier";"Centre-Back";"starting";25
+"Ben Davies";"Left-Back";"starting";25
+"Kyle Walker";"Right-Back";"starting";25
+"Victor Wanyama";"Defensive Midfield";"starting";25
+"Mousa Dembélé";"Defensive Midfield";"starting";25
+"Christian Eriksen";"Right Midfield";"starting";25
+"Dele Alli";"Left Midfield";"starting";25
+"Heung-Min Son";"Secondary Striker";"starting";25
+"Harry Kane";"Centre-Forward";"starting";25
+"Michel Vorm";"Keeper";"bench";25
+"Kevin Wimmer";"Centre-Back";"bench";25
+"Kieran Trippier";"Right-Back";"bench";25
+"Moussa Sissoko";"Right Midfield";"bench";25
+"Harry Winks";"Central Midfield";"bench";25
+"Georges-Kevin N'Koudou";"Left Wing";"bench";25
+"Vincent Janssen";"Centre-Forward";"bench";25
+"Hugo Lloris";"Keeper";"starting";26
+"Jan Vertonghen";"Centre-Back";"starting";26
+"Toby Alderweireld";"Centre-Back";"starting";26
+"Eric Dier";"Centre-Back";"starting";26
+"Victor Wanyama";"Defensive Midfield";"starting";26
+"Mousa Dembélé";"Defensive Midfield";"starting";26
+"Kyle Walker";"Right Midfield";"starting";26
+"Ben Davies";"Left Midfield";"starting";26
+"Dele Alli";"Attacking Midfield";"starting";26
+"Christian Eriksen";"Attacking Midfield";"starting";26
+"Harry Kane";"Centre-Forward";"starting";26
+"Michel Vorm";"Keeper";"bench";26
+"Kevin Wimmer";"Centre-Back";"bench";26
+"Kieran Trippier";"Right-Back";"bench";26
+"Moussa Sissoko";"Central Midfield";"bench";26
+"Harry Winks";"Central Midfield";"bench";26
+"Heung-Min Son";"Centre-Forward";"bench";26
+"Vincent Janssen";"Centre-Forward";"bench";26
+"Hugo Lloris";"Keeper";"starting";27
+"Jan Vertonghen";"Centre-Back";"starting";27
+"Toby Alderweireld";"Centre-Back";"starting";27
+"Eric Dier";"Centre-Back";"starting";27
+"Victor Wanyama";"Defensive Midfield";"starting";27
+"Mousa Dembélé";"Defensive Midfield";"starting";27
+"Kyle Walker";"Right Midfield";"starting";27
+"Ben Davies";"Left Midfield";"starting";27
+"Dele Alli";"Attacking Midfield";"starting";27
+"Christian Eriksen";"Attacking Midfield";"starting";27
+"Harry Kane";"Centre-Forward";"starting";27
+"Michel Vorm";"Keeper";"bench";27
+"Kevin Wimmer";"Centre-Back";"bench";27
+"Kieran Trippier";"Right-Back";"bench";27
+"Moussa Sissoko";"Central Midfield";"bench";27
+"Harry Winks";"Defensive Midfield";"bench";27
+"Heung-Min Son";"Left Wing";"bench";27
+"Vincent Janssen";"Centre-Forward";"bench";27
+"Hugo Lloris";"Keeper";"starting";28
+"Jan Vertonghen";"Centre-Back";"starting";28
+"Toby Alderweireld";"Centre-Back";"starting";28
+"Eric Dier";"Centre-Back";"starting";28
+"Victor Wanyama";"Defensive Midfield";"starting";28
+"Mousa Dembélé";"Defensive Midfield";"starting";28
+"Kyle Walker";"Right Midfield";"starting";28
+"Ben Davies";"Left Midfield";"starting";28
+"Dele Alli";"Attacking Midfield";"starting";28
+"Christian Eriksen";"Attacking Midfield";"starting";28
+"Harry Kane";"Centre-Forward";"starting";28
+"Pau López";"Keeper";"bench";28
+"Kevin Wimmer";"Centre-Back";"bench";28
+"Kieran Trippier";"Right-Back";"bench";28
+"Moussa Sissoko";"Right Midfield";"bench";28
+"Heung-Min Son";"Left Wing";"bench";28
+"Georges-Kevin N'Koudou";"Left Wing";"bench";28
+"Vincent Janssen";"Centre-Forward";"bench";28
+"Hugo Lloris";"Keeper";"starting";29
+"Jan Vertonghen";"Centre-Back";"starting";29
+"Toby Alderweireld";"Centre-Back";"starting";29
+"Eric Dier";"Centre-Back";"starting";29
+"Victor Wanyama";"Defensive Midfield";"starting";29
+"Mousa Dembélé";"Defensive Midfield";"starting";29
+"Kyle Walker";"Right Midfield";"starting";29
+"Ben Davies";"Left Midfield";"starting";29
+"Dele Alli";"Attacking Midfield";"starting";29
+"Christian Eriksen";"Attacking Midfield";"starting";29
+"Heung-Min Son";"Centre-Forward";"starting";29
+"Michel Vorm";"Keeper";"bench";29
+"Kevin Wimmer";"Centre-Back";"bench";29
+"Kieran Trippier";"Right-Back";"bench";29
+"Moussa Sissoko";"Central Midfield";"bench";29
+"Harry Winks";"Attacking Midfield";"bench";29
+"Josh Onomah";"Attacking Midfield";"bench";29
+"Vincent Janssen";"Centre-Forward";"bench";29
+"Hugo Lloris";"Keeper";"starting";30
+"Jan Vertonghen";"Centre-Back";"starting";30
+"Toby Alderweireld";"Centre-Back";"starting";30
+"Eric Dier";"Centre-Back";"starting";30
+"Victor Wanyama";"Defensive Midfield";"starting";30
+"Harry Winks";"Defensive Midfield";"starting";30
+"Kieran Trippier";"Right Midfield";"starting";30
+"Ben Davies";"Left Midfield";"starting";30
+"Dele Alli";"Attacking Midfield";"starting";30
+"Christian Eriksen";"Attacking Midfield";"starting";30
+"Vincent Janssen";"Centre-Forward";"starting";30
+"Michel Vorm";"Keeper";"bench";30
+"Cameron Carter-Vickers";"Centre-Back";"bench";30
+"Kyle Walker";"Right-Back";"bench";30
+"Mousa Dembélé";"Central Midfield";"bench";30
+"Moussa Sissoko";"Right Midfield";"bench";30
+"Heung-Min Son";"Centre-Forward";"bench";30
+"Georges-Kevin N'Koudou";"Left Wing";"bench";30
+"Michel Vorm";"Keeper";"starting";31
+"Jan Vertonghen";"Centre-Back";"starting";31
+"Toby Alderweireld";"Centre-Back";"starting";31
+"Ben Davies";"Left-Back";"starting";31
+"Kyle Walker";"Right-Back";"starting";31
+"Eric Dier";"Defensive Midfield";"starting";31
+"Mousa Dembélé";"Central Midfield";"starting";31
+"Moussa Sissoko";"Right Midfield";"starting";31
+"Dele Alli";"Left Midfield";"starting";31
+"Christian Eriksen";"Attacking Midfield";"starting";31
+"Heung-Min Son";"Centre-Forward";"starting";31
+"Pau López";"Keeper";"bench";31
+"Kevin Wimmer";"Centre-Back";"bench";31
+"Cameron Carter-Vickers";"Centre-Back";"bench";31
+"Kieran Trippier";"Right-Back";"bench";31
+"Josh Onomah";"Attacking Midfield";"bench";31
+"Georges-Kevin N'Koudou";"Left Midfield";"bench";31
+"Vincent Janssen";"Centre-Forward";"bench";31
+"Hugo Lloris";"Keeper";"starting";32
+"Jan Vertonghen";"Centre-Back";"starting";32
+"Toby Alderweireld";"Centre-Back";"starting";32
+"Ben Davies";"Left-Back";"starting";32
+"Kieran Trippier";"Right-Back";"starting";32
+"Eric Dier";"Defensive Midfield";"starting";32
+"Mousa Dembélé";"Central Midfield";"starting";32
+"Christian Eriksen";"Right Midfield";"starting";32
+"Dele Alli";"Attacking Midfield";"starting";32
+"Heung-Min Son";"Left Wing";"starting";32
+"Vincent Janssen";"Centre-Forward";"starting";32
+"Pau López";"Keeper";"bench";32
+"Kevin Wimmer";"Centre-Back";"bench";32
+"Kyle Walker";"Right-Back";"bench";32
+"Moussa Sissoko";"Central Midfield";"bench";32
+"Josh Onomah";"Attacking Midfield";"bench";32
+"Georges-Kevin N'Koudou";"Left Wing";"bench";32
+"Harry Kane";"Centre-Forward";"bench";32
+"Hugo Lloris";"Keeper";"starting";33
+"Jan Vertonghen";"Centre-Back";"starting";33
+"Toby Alderweireld";"Centre-Back";"starting";33
+"Ben Davies";"Left-Back";"starting";33
+"Kyle Walker";"Right-Back";"starting";33
+"Eric Dier";"Defensive Midfield";"starting";33
+"Mousa Dembélé";"Central Midfield";"starting";33
+"Christian Eriksen";"Right Midfield";"starting";33
+"Dele Alli";"Attacking Midfield";"starting";33
+"Heung-Min Son";"Left Wing";"starting";33
+"Harry Kane";"Centre-Forward";"starting";33
+"Pau López";"Keeper";"bench";33
+"Kevin Wimmer";"Centre-Back";"bench";33
+"Kieran Trippier";"Right-Back";"bench";33
+"Victor Wanyama";"Defensive Midfield";"bench";33
+"Moussa Sissoko";"Right Midfield";"bench";33
+"Josh Onomah";"Attacking Midfield";"bench";33
+"Vincent Janssen";"Centre-Forward";"bench";33
+"Hugo Lloris";"Keeper";"starting";34
+"Jan Vertonghen";"Centre-Back";"starting";34
+"Toby Alderweireld";"Centre-Back";"starting";34
+"Eric Dier";"Centre-Back";"starting";34
+"Victor Wanyama";"Defensive Midfield";"starting";34
+"Mousa Dembélé";"Defensive Midfield";"starting";34
+"Moussa Sissoko";"Right Midfield";"starting";34
+"Ben Davies";"Left Midfield";"starting";34
+"Dele Alli";"Attacking Midfield";"starting";34
+"Heung-Min Son";"Secondary Striker";"starting";34
+"Harry Kane";"Centre-Forward";"starting";34
+"Michel Vorm";"Keeper";"bench";34
+"Kevin Wimmer";"Centre-Back";"bench";34
+"Filip Lesniak";"Defensive Midfield";"bench";34
+"Christian Eriksen";"Attacking Midfield";"bench";34
+"Georges-Kevin N'Koudou";"Left Wing";"bench";34
+"Samuel Shashoua";"Right Wing";"bench";34
+"Vincent Janssen";"Centre-Forward";"bench";34
+"Hugo Lloris";"Keeper";"starting";35
+"Jan Vertonghen";"Centre-Back";"starting";35
+"Toby Alderweireld";"Centre-Back";"starting";35
+"Ben Davies";"Left-Back";"starting";35
+"Kieran Trippier";"Right-Back";"starting";35
+"Victor Wanyama";"Defensive Midfield";"starting";35
+"Eric Dier";"Defensive Midfield";"starting";35
+"Christian Eriksen";"Right Midfield";"starting";35
+"Dele Alli";"Left Midfield";"starting";35
+"Heung-Min Son";"Secondary Striker";"starting";35
+"Harry Kane";"Centre-Forward";"starting";35
+"Michel Vorm";"Keeper";"bench";35
+"Kevin Wimmer";"Centre-Back";"bench";35
+"Kyle Walker";"Right-Back";"bench";35
+"Mousa Dembélé";"Central Midfield";"bench";35
+"Moussa Sissoko";"Central Midfield";"bench";35
+"Georges-Kevin N'Koudou";"Left Wing";"bench";35
+"Vincent Janssen";"Centre-Forward";"bench";35
+"Hugo Lloris";"Keeper";"starting";36
+"Jan Vertonghen";"Centre-Back";"starting";36
+"Toby Alderweireld";"Centre-Back";"starting";36
+"Ben Davies";"Left-Back";"starting";36
+"Kyle Walker";"Right-Back";"starting";36
+"Victor Wanyama";"Defensive Midfield";"starting";36
+"Eric Dier";"Defensive Midfield";"starting";36
+"Dele Alli";"Left Midfield";"starting";36
+"Christian Eriksen";"Attacking Midfield";"starting";36
+"Heung-Min Son";"Right Wing";"starting";36
+"Harry Kane";"Centre-Forward";"starting";36
+"Michel Vorm";"Keeper";"bench";36
+"Kevin Wimmer";"Centre-Back";"bench";36
+"Kieran Trippier";"Right-Back";"bench";36
+"Mousa Dembélé";"Defensive Midfield";"bench";36
+"Moussa Sissoko";"Central Midfield";"bench";36
+"Georges-Kevin N'Koudou";"Left Wing";"bench";36
+"Vincent Janssen";"Centre-Forward";"bench";36
+"Hugo Lloris";"Keeper";"starting";37
+"Jan Vertonghen";"Centre-Back";"starting";37
+"Toby Alderweireld";"Centre-Back";"starting";37
+"Ben Davies";"Left-Back";"starting";37
+"Kieran Trippier";"Right-Back";"starting";37
+"Eric Dier";"Defensive Midfield";"starting";37
+"Victor Wanyama";"Central Midfield";"starting";37
+"Dele Alli";"Left Midfield";"starting";37
+"Christian Eriksen";"Attacking Midfield";"starting";37
+"Heung-Min Son";"Right Wing";"starting";37
+"Harry Kane";"Centre-Forward";"starting";37
+"Michel Vorm";"Keeper";"bench";37
+"Kevin Wimmer";"Centre-Back";"bench";37
+"Kyle Walker";"Right-Back";"bench";37
+"Mousa Dembélé";"Left Midfield";"bench";37
+"Moussa Sissoko";"Central Midfield";"bench";37
+"Georges-Kevin N'Koudou";"Left Wing";"bench";37
+"Vincent Janssen";"Centre-Forward";"bench";37
+"Hugo Lloris";"Keeper";"starting";38
+"Jan Vertonghen";"Centre-Back";"starting";38
+"Toby Alderweireld";"Centre-Back";"starting";38
+"Ben Davies";"Left-Back";"starting";38
+"Kieran Trippier";"Right-Back";"starting";38
+"Victor Wanyama";"Defensive Midfield";"starting";38
+"Eric Dier";"Defensive Midfield";"starting";38
+"Christian Eriksen";"Right Midfield";"starting";38
+"Dele Alli";"Attacking Midfield";"starting";38
+"Heung-Min Son";"Left Wing";"starting";38
+"Harry Kane";"Centre-Forward";"starting";38
+"Michel Vorm";"Keeper";"bench";38
+"Kevin Wimmer";"Centre-Back";"bench";38
+"Filip Lesniak";"Defensive Midfield";"bench";38
+"Mousa Dembélé";"Central Midfield";"bench";38
+"Moussa Sissoko";"Right Midfield";"bench";38
+"Georges-Kevin N'Koudou";"Left Wing";"bench";38
+"Vincent Janssen";"Centre-Forward";"bench";38

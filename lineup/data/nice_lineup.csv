@@ -1,0 +1,681 @@
+"player";"lineup";"post";"matchday"
+"Yoan Cardinale";"starting";"Keeper";1
+"Malang Sarr";"starting";"Centre-Back";1
+"Paul Baysse";"starting";"Centre-Back";1
+"Dalbert";"starting";"Left-Back";1
+"Arnaud Souquet";"starting";"Right-Back";1
+"Rémi Walter";"starting";"Defensive Midfield";1
+"Jean Michaël Seri";"starting";"Central Midfield";1
+"Vincent Koziello";"starting";"Central Midfield";1
+"Arnaud Lusamba";"starting";"Left Wing";1
+"Vincent Marcel";"starting";"Right Wing";1
+"Alassane Pléa";"starting";"Centre-Forward";1
+"Mouez Hassen";"bench";"Keeper";1
+"Mathieu Bodmer";"bench";"Centre-Back";1
+"Albert Rafetraniaina";"bench";"Defensive Midfield";1
+"Wylan Cyprien";"bench";"Central Midfield";1
+"Julien Vercauteren";"bench";"Right Wing";1
+"Anastasios Donis";"bench";"Centre-Forward";1
+"Alexy Bosetti";"bench";"Centre-Forward";1
+"Yoan Cardinale";"starting";"Keeper";2
+"Malang Sarr";"starting";"Centre-Back";2
+"Paul Baysse";"starting";"Centre-Back";2
+"Dalbert";"starting";"Left-Back";2
+"Ricardo Pereira";"starting";"Right-Back";2
+"Mathieu Bodmer";"starting";"Defensive Midfield";2
+"Jean Michaël Seri";"starting";"Central Midfield";2
+"Vincent Koziello";"starting";"Central Midfield";2
+"Valentin Eysseric";"starting";"Left Wing";2
+"Wylan Cyprien";"starting";"Right Wing";2
+"Alassane Pléa";"starting";"Centre-Forward";2
+"Mouez Hassen";"bench";"Keeper";2
+"Olivier Boscagli";"bench";"Left-Back";2
+"Arnaud Souquet";"bench";"Right-Back";2
+"Rémi Walter";"bench";"Defensive Midfield";2
+"Arnaud Lusamba";"bench";"Attacking Midfield";2
+"Vincent Marcel";"bench";"Right Wing";2
+"Anastasios Donis";"bench";"Centre-Forward";2
+"Yoan Cardinale";"starting";"Keeper";3
+"Malang Sarr";"starting";"Centre-Back";3
+"Paul Baysse";"starting";"Centre-Back";3
+"Dalbert";"starting";"Left-Back";3
+"Ricardo Pereira";"starting";"Right-Back";3
+"Mathieu Bodmer";"starting";"Defensive Midfield";3
+"Jean Michaël Seri";"starting";"Central Midfield";3
+"Vincent Koziello";"starting";"Central Midfield";3
+"Wylan Cyprien";"starting";"Right Midfield";3
+"Valentin Eysseric";"starting";"Left Wing";3
+"Alassane Pléa";"starting";"Centre-Forward";3
+"Mouez Hassen";"bench";"Keeper";3
+"Dante";"bench";"Centre-Back";3
+"Arnaud Souquet";"bench";"Right-Back";3
+"Rémi Walter";"bench";"Defensive Midfield";3
+"Arnaud Lusamba";"bench";"Attacking Midfield";3
+"Vincent Marcel";"bench";"Right Wing";3
+"Alexy Bosetti";"bench";"Centre-Forward";3
+"Yoan Cardinale";"starting";"Keeper";4
+"Dante";"starting";"Centre-Back";4
+"Malang Sarr";"starting";"Centre-Back";4
+"Paul Baysse";"starting";"Centre-Back";4
+"Jean Michaël Seri";"starting";"Central Midfield";4
+"Vincent Koziello";"starting";"Central Midfield";4
+"Ricardo Pereira";"starting";"Right Midfield";4
+"Dalbert";"starting";"Left Midfield";4
+"Wylan Cyprien";"starting";"Attacking Midfield";4
+"Mario Balotelli";"starting";"Centre-Forward";4
+"Alassane Pléa";"starting";"Centre-Forward";4
+"Mouez Hassen";"bench";"Keeper";4
+"Olivier Boscagli";"bench";"Left-Back";4
+"Arnaud Souquet";"bench";"Right-Back";4
+"Rémi Walter";"bench";"Defensive Midfield";4
+"Younès Belhanda";"bench";"Attacking Midfield";4
+"Arnaud Lusamba";"bench";"Attacking Midfield";4
+"Valentin Eysseric";"bench";"Left Wing";4
+"Yoan Cardinale";"starting";"Keeper";5
+"Dante";"starting";"Centre-Back";5
+"Malang Sarr";"starting";"Centre-Back";5
+"Paul Baysse";"starting";"Centre-Back";5
+"Dalbert";"starting";"Left-Back";5
+"Arnaud Souquet";"starting";"Right-Back";5
+"Mathieu Bodmer";"starting";"Defensive Midfield";5
+"Rémi Walter";"starting";"Defensive Midfield";5
+"Arnaud Lusamba";"starting";"Attacking Midfield";5
+"Younès Belhanda";"starting";"Secondary Striker";5
+"Alassane Pléa";"starting";"Centre-Forward";5
+"Mouez Hassen";"bench";"Keeper";5
+"Olivier Boscagli";"bench";"Left-Back";5
+"Ricardo Pereira";"bench";"Right-Back";5
+"Wylan Cyprien";"bench";"Central Midfield";5
+"Vincent Koziello";"bench";"Central Midfield";5
+"Valentin Eysseric";"bench";"Attacking Midfield";5
+"Anastasios Donis";"bench";"Centre-Forward";5
+"Yoan Cardinale";"starting";"Keeper";6
+"Dante";"starting";"Centre-Back";6
+"Malang Sarr";"starting";"Centre-Back";6
+"Paul Baysse";"starting";"Centre-Back";6
+"Jean Michaël Seri";"starting";"Defensive Midfield";6
+"Wylan Cyprien";"starting";"Central Midfield";6
+"Vincent Koziello";"starting";"Central Midfield";6
+"Ricardo Pereira";"starting";"Right Midfield";6
+"Dalbert";"starting";"Left Midfield";6
+"Younès Belhanda";"starting";"Secondary Striker";6
+"Mario Balotelli";"starting";"Centre-Forward";6
+"Mouez Hassen";"bench";"Keeper";6
+"Mathieu Bodmer";"bench";"Centre-Back";6
+"Arnaud Souquet";"bench";"Right-Back";6
+"Arnaud Lusamba";"bench";"Attacking Midfield";6
+"Valentin Eysseric";"bench";"Attacking Midfield";6
+"Anastasios Donis";"bench";"Centre-Forward";6
+"Alassane Pléa";"bench";"Centre-Forward";6
+"Yoan Cardinale";"starting";"Keeper";7
+"Dante";"starting";"Centre-Back";7
+"Malang Sarr";"starting";"Centre-Back";7
+"Paul Baysse";"starting";"Centre-Back";7
+"Mathieu Bodmer";"starting";"Defensive Midfield";7
+"Rémi Walter";"starting";"Defensive Midfield";7
+"Wylan Cyprien";"starting";"Central Midfield";7
+"Ricardo Pereira";"starting";"Right Midfield";7
+"Dalbert";"starting";"Left Midfield";7
+"Valentin Eysseric";"starting";"Centre-Forward";7
+"Alassane Pléa";"starting";"Centre-Forward";7
+"Mouez Hassen";"bench";"Keeper";7
+"Arnaud Souquet";"bench";"Right-Back";7
+"Vincent Koziello";"bench";"Central Midfield";7
+"Younès Belhanda";"bench";"Attacking Midfield";7
+"Arnaud Lusamba";"bench";"Attacking Midfield";7
+"Julien Vercauteren";"bench";"Right Wing";7
+"Anastasios Donis";"bench";"Centre-Forward";7
+"Yoan Cardinale";"starting";"Keeper";8
+"Dante";"starting";"Centre-Back";8
+"Malang Sarr";"starting";"Centre-Back";8
+"Paul Baysse";"starting";"Centre-Back";8
+"Mathieu Bodmer";"starting";"Defensive Midfield";8
+"Jean Michaël Seri";"starting";"Central Midfield";8
+"Wylan Cyprien";"starting";"Central Midfield";8
+"Ricardo Pereira";"starting";"Right Midfield";8
+"Dalbert";"starting";"Left Midfield";8
+"Younès Belhanda";"starting";"Secondary Striker";8
+"Mario Balotelli";"starting";"Centre-Forward";8
+"Mouez Hassen";"bench";"Keeper";8
+"Arnaud Souquet";"bench";"Right-Back";8
+"Rémi Walter";"bench";"Defensive Midfield";8
+"Vincent Koziello";"bench";"Central Midfield";8
+"Valentin Eysseric";"bench";"Attacking Midfield";8
+"Anastasios Donis";"bench";"Centre-Forward";8
+"Alassane Pléa";"bench";"Centre-Forward";8
+"Yoan Cardinale";"starting";"Keeper";9
+"Dante";"starting";"Centre-Back";9
+"Malang Sarr";"starting";"Centre-Back";9
+"Paul Baysse";"starting";"Centre-Back";9
+"Rémi Walter";"starting";"Defensive Midfield";9
+"Jean Michaël Seri";"starting";"Central Midfield";9
+"Wylan Cyprien";"starting";"Central Midfield";9
+"Ricardo Pereira";"starting";"Right Midfield";9
+"Dalbert";"starting";"Left Midfield";9
+"Younès Belhanda";"starting";"Secondary Striker";9
+"Mario Balotelli";"starting";"Centre-Forward";9
+"Mouez Hassen";"bench";"Keeper";9
+"Mathieu Bodmer";"bench";"Centre-Back";9
+"Arnaud Souquet";"bench";"Right-Back";9
+"Vincent Koziello";"bench";"Central Midfield";9
+"Valentin Eysseric";"bench";"Attacking Midfield";9
+"Anastasios Donis";"bench";"Centre-Forward";9
+"Alassane Pléa";"bench";"Centre-Forward";9
+"Yoan Cardinale";"starting";"Keeper";10
+"Dante";"starting";"Centre-Back";10
+"Malang Sarr";"starting";"Centre-Back";10
+"Ricardo Pereira";"starting";"Left-Back";10
+"Arnaud Souquet";"starting";"Right-Back";10
+"Rémi Walter";"starting";"Defensive Midfield";10
+"Jean Michaël Seri";"starting";"Central Midfield";10
+"Wylan Cyprien";"starting";"Right Midfield";10
+"Younès Belhanda";"starting";"Attacking Midfield";10
+"Valentin Eysseric";"starting";"Left Wing";10
+"Alassane Pléa";"starting";"Centre-Forward";10
+"Mouez Hassen";"bench";"Keeper";10
+"Mathieu Bodmer";"bench";"Centre-Back";10
+"Olivier Boscagli";"bench";"Left-Back";10
+"Patrick Burner";"bench";"Right-Back";10
+"Vincent Koziello";"bench";"Central Midfield";10
+"Arnaud Lusamba";"bench";"Attacking Midfield";10
+"Anastasios Donis";"bench";"Centre-Forward";10
+"Yoan Cardinale";"starting";"Keeper";11
+"Dante";"starting";"Centre-Back";11
+"Malang Sarr";"starting";"Centre-Back";11
+"Ricardo Pereira";"starting";"Left-Back";11
+"Arnaud Souquet";"starting";"Right-Back";11
+"Mathieu Bodmer";"starting";"Defensive Midfield";11
+"Jean Michaël Seri";"starting";"Central Midfield";11
+"Wylan Cyprien";"starting";"Central Midfield";11
+"Younès Belhanda";"starting";"Left Wing";11
+"Alassane Pléa";"starting";"Right Wing";11
+"Mario Balotelli";"starting";"Centre-Forward";11
+"Walter Benítez";"bench";"Keeper";11
+"Olivier Boscagli";"bench";"Left-Back";11
+"Patrick Burner";"bench";"Right-Back";11
+"Vincent Koziello";"bench";"Central Midfield";11
+"Arnaud Lusamba";"bench";"Attacking Midfield";11
+"Valentin Eysseric";"bench";"Attacking Midfield";11
+"Anastasios Donis";"bench";"Centre-Forward";11
+"Yoan Cardinale";"starting";"Keeper";12
+"Dante";"starting";"Centre-Back";12
+"Malang Sarr";"starting";"Centre-Back";12
+"Dalbert";"starting";"Left-Back";12
+"Ricardo Pereira";"starting";"Right-Back";12
+"Mathieu Bodmer";"starting";"Defensive Midfield";12
+"Jean Michaël Seri";"starting";"Central Midfield";12
+"Wylan Cyprien";"starting";"Central Midfield";12
+"Younès Belhanda";"starting";"Left Wing";12
+"Alassane Pléa";"starting";"Right Wing";12
+"Mario Balotelli";"starting";"Centre-Forward";12
+"Walter Benítez";"bench";"Keeper";12
+"Olivier Boscagli";"bench";"Left-Back";12
+"Arnaud Souquet";"bench";"Right-Back";12
+"Rémi Walter";"bench";"Defensive Midfield";12
+"Vincent Koziello";"bench";"Central Midfield";12
+"Valentin Eysseric";"bench";"Attacking Midfield";12
+"Anastasios Donis";"bench";"Centre-Forward";12
+"Yoan Cardinale";"starting";"Keeper";13
+"Dante";"starting";"Centre-Back";13
+"Malang Sarr";"starting";"Centre-Back";13
+"Dalbert";"starting";"Left-Back";13
+"Ricardo Pereira";"starting";"Right-Back";13
+"Wylan Cyprien";"starting";"Defensive Midfield";13
+"Rémi Walter";"starting";"Central Midfield";13
+"Jean Michaël Seri";"starting";"Central Midfield";13
+"Younès Belhanda";"starting";"Left Wing";13
+"Valentin Eysseric";"starting";"Right Wing";13
+"Alassane Pléa";"starting";"Centre-Forward";13
+"Walter Benítez";"bench";"Keeper";13
+"Mathieu Bodmer";"bench";"Centre-Back";13
+"Olivier Boscagli";"bench";"Left-Back";13
+"Arnaud Souquet";"bench";"Right-Back";13
+"Vincent Koziello";"bench";"Central Midfield";13
+"Vincent Marcel";"bench";"Right Wing";13
+"Anastasios Donis";"bench";"Centre-Forward";13
+"Yoan Cardinale";"starting";"Keeper";14
+"Dante";"starting";"Centre-Back";14
+"Malang Sarr";"starting";"Centre-Back";14
+"Dalbert";"starting";"Left-Back";14
+"Ricardo Pereira";"starting";"Right-Back";14
+"Wylan Cyprien";"starting";"Defensive Midfield";14
+"Rémi Walter";"starting";"Central Midfield";14
+"Jean Michaël Seri";"starting";"Central Midfield";14
+"Younès Belhanda";"starting";"Left Wing";14
+"Valentin Eysseric";"starting";"Right Wing";14
+"Alassane Pléa";"starting";"Centre-Forward";14
+"Walter Benítez";"bench";"Keeper";14
+"Mathieu Bodmer";"bench";"Centre-Back";14
+"Olivier Boscagli";"bench";"Left-Back";14
+"Arnaud Souquet";"bench";"Right-Back";14
+"Vincent Koziello";"bench";"Central Midfield";14
+"Vincent Marcel";"bench";"Right Wing";14
+"Anastasios Donis";"bench";"Centre-Forward";14
+"Yoan Cardinale";"starting";"Keeper";15
+"Dante";"starting";"Centre-Back";15
+"Malang Sarr";"starting";"Centre-Back";15
+"Dalbert";"starting";"Left-Back";15
+"Ricardo Pereira";"starting";"Right-Back";15
+"Wylan Cyprien";"starting";"Defensive Midfield";15
+"Jean Michaël Seri";"starting";"Central Midfield";15
+"Vincent Koziello";"starting";"Central Midfield";15
+"Younès Belhanda";"starting";"Left Wing";15
+"Valentin Eysseric";"starting";"Right Wing";15
+"Alassane Pléa";"starting";"Centre-Forward";15
+"Walter Benítez";"bench";"Keeper";15
+"Mathieu Bodmer";"bench";"Centre-Back";15
+"Olivier Boscagli";"bench";"Left-Back";15
+"Arnaud Souquet";"bench";"Right-Back";15
+"Rémi Walter";"bench";"Defensive Midfield";15
+"Vincent Marcel";"bench";"Right Wing";15
+"Anastasios Donis";"bench";"Centre-Forward";15
+"Yoan Cardinale";"starting";"Keeper";16
+"Dante";"starting";"Centre-Back";16
+"Malang Sarr";"starting";"Centre-Back";16
+"Dalbert";"starting";"Left-Back";16
+"Ricardo Pereira";"starting";"Right-Back";16
+"Wylan Cyprien";"starting";"Defensive Midfield";16
+"Rémi Walter";"starting";"Central Midfield";16
+"Jean Michaël Seri";"starting";"Central Midfield";16
+"Younès Belhanda";"starting";"Left Wing";16
+"Valentin Eysseric";"starting";"Right Wing";16
+"Alassane Pléa";"starting";"Centre-Forward";16
+"Walter Benítez";"bench";"Keeper";16
+"Mathieu Bodmer";"bench";"Centre-Back";16
+"Olivier Boscagli";"bench";"Left-Back";16
+"Arnaud Souquet";"bench";"Right-Back";16
+"Vincent Koziello";"bench";"Central Midfield";16
+"Vincent Marcel";"bench";"Right Wing";16
+"Anastasios Donis";"bench";"Centre-Forward";16
+"Yoan Cardinale";"starting";"Keeper";17
+"Dante";"starting";"Centre-Back";17
+"Malang Sarr";"starting";"Centre-Back";17
+"Arnaud Souquet";"starting";"Centre-Back";17
+"Rémi Walter";"starting";"Defensive Midfield";17
+"Jean Michaël Seri";"starting";"Central Midfield";17
+"Wylan Cyprien";"starting";"Central Midfield";17
+"Ricardo Pereira";"starting";"Right Midfield";17
+"Dalbert";"starting";"Left Midfield";17
+"Younès Belhanda";"starting";"Secondary Striker";17
+"Alassane Pléa";"starting";"Centre-Forward";17
+"Walter Benítez";"bench";"Keeper";17
+"Mathieu Bodmer";"bench";"Centre-Back";17
+"Olivier Boscagli";"bench";"Left-Back";17
+"Vincent Koziello";"bench";"Central Midfield";17
+"Vincent Marcel";"bench";"Right Wing";17
+"Anastasios Donis";"bench";"Centre-Forward";17
+"Mario Balotelli";"bench";"Centre-Forward";17
+"Yoan Cardinale";"starting";"Keeper";18
+"Maxime Le Marchand";"starting";"Centre-Back";18
+"Dante";"starting";"Centre-Back";18
+"Malang Sarr";"starting";"Left-Back";18
+"Arnaud Souquet";"starting";"Right-Back";18
+"Wylan Cyprien";"starting";"Defensive Midfield";18
+"Rémi Walter";"starting";"Central Midfield";18
+"Jean Michaël Seri";"starting";"Central Midfield";18
+"Younès Belhanda";"starting";"Left Wing";18
+"Alassane Pléa";"starting";"Right Wing";18
+"Mario Balotelli";"starting";"Centre-Forward";18
+"Walter Benítez";"bench";"Keeper";18
+"Mathieu Bodmer";"bench";"Centre-Back";18
+"Patrick Burner";"bench";"Right-Back";18
+"Vincent Koziello";"bench";"Central Midfield";18
+"Arnaud Lusamba";"bench";"Attacking Midfield";18
+"Vincent Marcel";"bench";"Right Wing";18
+"Anastasios Donis";"bench";"Centre-Forward";18
+"Yoan Cardinale";"starting";"Keeper";19
+"Maxime Le Marchand";"starting";"Centre-Back";19
+"Malang Sarr";"starting";"Centre-Back";19
+"Patrick Burner";"starting";"Left-Back";19
+"Arnaud Souquet";"starting";"Right-Back";19
+"Wylan Cyprien";"starting";"Defensive Midfield";19
+"Jean Michaël Seri";"starting";"Central Midfield";19
+"Vincent Koziello";"starting";"Central Midfield";19
+"Younès Belhanda";"starting";"Left Wing";19
+"Alassane Pléa";"starting";"Right Wing";19
+"Mario Balotelli";"starting";"Centre-Forward";19
+"Walter Benítez";"bench";"Keeper";19
+"Mathieu Bodmer";"bench";"Centre-Back";19
+"Rémi Walter";"bench";"Defensive Midfield";19
+"Arnaud Lusamba";"bench";"Attacking Midfield";19
+"Vincent Marcel";"bench";"Right Wing";19
+"Anastasios Donis";"bench";"Centre-Forward";19
+"Alexy Bosetti";"bench";"Centre-Forward";19
+"Walter Benítez";"starting";"Keeper";20
+"Dante";"starting";"Centre-Back";20
+"Malang Sarr";"starting";"Centre-Back";20
+"Paul Baysse";"starting";"Centre-Back";20
+"Wylan Cyprien";"starting";"Central Midfield";20
+"Vincent Koziello";"starting";"Central Midfield";20
+"Arnaud Souquet";"starting";"Right Midfield";20
+"Dalbert";"starting";"Left Midfield";20
+"Arnaud Lusamba";"starting";"Left Wing";20
+"Ricardo Pereira";"starting";"Right Wing";20
+"Alassane Pléa";"starting";"Centre-Forward";20
+"Simon Pouplin";"bench";"Keeper";20
+"Joakim Balmy";"bench";"Abwehr";20
+"Patrick Burner";"bench";"Right-Back";20
+"Hicham Mahou";"bench";"Right Wing";20
+"Vincent Marcel";"bench";"Right Wing";20
+"Anastasios Donis";"bench";"Centre-Forward";20
+"Alexy Bosetti";"bench";"Centre-Forward";20
+"Walter Benítez";"starting";"Keeper";21
+"Dante";"starting";"Centre-Back";21
+"Malang Sarr";"starting";"Centre-Back";21
+"Arnaud Souquet";"starting";"Centre-Back";21
+"Rémi Walter";"starting";"Central Midfield";21
+"Wylan Cyprien";"starting";"Central Midfield";21
+"Vincent Koziello";"starting";"Central Midfield";21
+"Patrick Burner";"starting";"Right Midfield";21
+"Dalbert";"starting";"Left Midfield";21
+"Mario Balotelli";"starting";"Centre-Forward";21
+"Alassane Pléa";"starting";"Centre-Forward";21
+"Simon Pouplin";"bench";"Keeper";21
+"Joakim Balmy";"bench";"Abwehr";21
+"Arnaud Lusamba";"bench";"Attacking Midfield";21
+"Hicham Mahou";"bench";"Right Wing";21
+"Vincent Marcel";"bench";"Right Wing";21
+"Anastasios Donis";"bench";"Centre-Forward";21
+"Alexy Bosetti";"bench";"Centre-Forward";21
+"Yoan Cardinale";"starting";"Keeper";22
+"Dante";"starting";"Centre-Back";22
+"Malang Sarr";"starting";"Centre-Back";22
+"Dalbert";"starting";"Left-Back";22
+"Arnaud Souquet";"starting";"Right-Back";22
+"Wylan Cyprien";"starting";"Defensive Midfield";22
+"Jean Michaël Seri";"starting";"Central Midfield";22
+"Vincent Koziello";"starting";"Central Midfield";22
+"Valentin Eysseric";"starting";"Left Wing";22
+"Alassane Pléa";"starting";"Right Wing";22
+"Mario Balotelli";"starting";"Centre-Forward";22
+"Walter Benítez";"bench";"Keeper";22
+"Maxime Le Marchand";"bench";"Centre-Back";22
+"Paul Baysse";"bench";"Centre-Back";22
+"Patrick Burner";"bench";"Right-Back";22
+"Rémi Walter";"bench";"Defensive Midfield";22
+"Vincent Marcel";"bench";"Right Wing";22
+"Anastasios Donis";"bench";"Centre-Forward";22
+"Yoan Cardinale";"starting";"Keeper";23
+"Dante";"starting";"Centre-Back";23
+"Malang Sarr";"starting";"Centre-Back";23
+"Paul Baysse";"starting";"Centre-Back";23
+"Jean Michaël Seri";"starting";"Central Midfield";23
+"Wylan Cyprien";"starting";"Central Midfield";23
+"Arnaud Souquet";"starting";"Right Midfield";23
+"Dalbert";"starting";"Left Midfield";23
+"Valentin Eysseric";"starting";"Left Wing";23
+"Alassane Pléa";"starting";"Right Wing";23
+"Mario Balotelli";"starting";"Centre-Forward";23
+"Walter Benítez";"bench";"Keeper";23
+"Maxime Le Marchand";"bench";"Centre-Back";23
+"Patrick Burner";"bench";"Right-Back";23
+"Rémi Walter";"bench";"Defensive Midfield";23
+"Vincent Koziello";"bench";"Central Midfield";23
+"Younès Belhanda";"bench";"Attacking Midfield";23
+"Anastasios Donis";"bench";"Centre-Forward";23
+"Yoan Cardinale";"starting";"Keeper";24
+"Dante";"starting";"Centre-Back";24
+"Paul Baysse";"starting";"Centre-Back";24
+"Dalbert";"starting";"Left-Back";24
+"Arnaud Souquet";"starting";"Right-Back";24
+"Wylan Cyprien";"starting";"Defensive Midfield";24
+"Rémi Walter";"starting";"Central Midfield";24
+"Jean Michaël Seri";"starting";"Central Midfield";24
+"Younès Belhanda";"starting";"Left Wing";24
+"Valentin Eysseric";"starting";"Right Wing";24
+"Alassane Pléa";"starting";"Centre-Forward";24
+"Walter Benítez";"bench";"Keeper";24
+"Maxime Le Marchand";"bench";"Centre-Back";24
+"Patrick Burner";"bench";"Right-Back";24
+"Mounir Obbadi";"bench";"Central Midfield";24
+"Bassem Srarfi";"bench";"Right Wing";24
+"Vincent Marcel";"bench";"Right Wing";24
+"Mario Balotelli";"bench";"Centre-Forward";24
+"Yoan Cardinale";"starting";"Keeper";25
+"Dante";"starting";"Centre-Back";25
+"Paul Baysse";"starting";"Centre-Back";25
+"Dalbert";"starting";"Left-Back";25
+"Arnaud Souquet";"starting";"Right-Back";25
+"Wylan Cyprien";"starting";"Defensive Midfield";25
+"Jean Michaël Seri";"starting";"Central Midfield";25
+"Vincent Koziello";"starting";"Central Midfield";25
+"Younès Belhanda";"starting";"Left Wing";25
+"Valentin Eysseric";"starting";"Right Wing";25
+"Alassane Pléa";"starting";"Centre-Forward";25
+"Walter Benítez";"bench";"Keeper";25
+"Maxime Le Marchand";"bench";"Centre-Back";25
+"Patrick Burner";"bench";"Right-Back";25
+"Rémi Walter";"bench";"Defensive Midfield";25
+"Mounir Obbadi";"bench";"Central Midfield";25
+"Bassem Srarfi";"bench";"Right Wing";25
+"Anastasios Donis";"bench";"Centre-Forward";25
+"Yoan Cardinale";"starting";"Keeper";26
+"Dante";"starting";"Centre-Back";26
+"Paul Baysse";"starting";"Centre-Back";26
+"Dalbert";"starting";"Left-Back";26
+"Arnaud Souquet";"starting";"Right-Back";26
+"Wylan Cyprien";"starting";"Defensive Midfield";26
+"Jean Michaël Seri";"starting";"Central Midfield";26
+"Mounir Obbadi";"starting";"Central Midfield";26
+"Younès Belhanda";"starting";"Left Wing";26
+"Valentin Eysseric";"starting";"Right Wing";26
+"Mario Balotelli";"starting";"Centre-Forward";26
+"Walter Benítez";"bench";"Keeper";26
+"Maxime Le Marchand";"bench";"Centre-Back";26
+"Patrick Burner";"bench";"Right-Back";26
+"Rémi Walter";"bench";"Defensive Midfield";26
+"Vincent Koziello";"bench";"Central Midfield";26
+"Bassem Srarfi";"bench";"Right Wing";26
+"Anastasios Donis";"bench";"Centre-Forward";26
+"Yoan Cardinale";"starting";"Keeper";27
+"Dante";"starting";"Centre-Back";27
+"Paul Baysse";"starting";"Centre-Back";27
+"Dalbert";"starting";"Left-Back";27
+"Arnaud Souquet";"starting";"Right-Back";27
+"Mounir Obbadi";"starting";"Defensive Midfield";27
+"Jean Michaël Seri";"starting";"Central Midfield";27
+"Wylan Cyprien";"starting";"Central Midfield";27
+"Younès Belhanda";"starting";"Left Wing";27
+"Valentin Eysseric";"starting";"Right Wing";27
+"Anastasios Donis";"starting";"Centre-Forward";27
+"Walter Benítez";"bench";"Keeper";27
+"Maxime Le Marchand";"bench";"Centre-Back";27
+"Patrick Burner";"bench";"Right-Back";27
+"Rémi Walter";"bench";"Defensive Midfield";27
+"Vincent Koziello";"bench";"Central Midfield";27
+"Bassem Srarfi";"bench";"Right Wing";27
+"Mickaël Le Bihan";"bench";"Centre-Forward";27
+"Yoan Cardinale";"starting";"Keeper";28
+"Dante";"starting";"Centre-Back";28
+"Paul Baysse";"starting";"Centre-Back";28
+"Dalbert";"starting";"Left-Back";28
+"Arnaud Souquet";"starting";"Right-Back";28
+"Wylan Cyprien";"starting";"Defensive Midfield";28
+"Rémi Walter";"starting";"Central Midfield";28
+"Jean Michaël Seri";"starting";"Central Midfield";28
+"Younès Belhanda";"starting";"Left Wing";28
+"Valentin Eysseric";"starting";"Right Wing";28
+"Mario Balotelli";"starting";"Centre-Forward";28
+"Walter Benítez";"bench";"Keeper";28
+"Maxime Le Marchand";"bench";"Centre-Back";28
+"Patrick Burner";"bench";"Right-Back";28
+"Vincent Koziello";"bench";"Central Midfield";28
+"Vincent Marcel";"bench";"Right Wing";28
+"Mickaël Le Bihan";"bench";"Centre-Forward";28
+"Yoan Cardinale";"starting";"Keeper";29
+"Dante";"starting";"Centre-Back";29
+"Paul Baysse";"starting";"Centre-Back";29
+"Dalbert";"starting";"Left-Back";29
+"Arnaud Souquet";"starting";"Right-Back";29
+"Wylan Cyprien";"starting";"Defensive Midfield";29
+"Rémi Walter";"starting";"Central Midfield";29
+"Jean Michaël Seri";"starting";"Central Midfield";29
+"Valentin Eysseric";"starting";"Left Wing";29
+"Vincent Marcel";"starting";"Right Wing";29
+"Mario Balotelli";"starting";"Centre-Forward";29
+"Walter Benítez";"bench";"Keeper";29
+"Malang Sarr";"bench";"Centre-Back";29
+"Ricardo Pereira";"bench";"Right-Back";29
+"Mounir Obbadi";"bench";"Central Midfield";29
+"Vincent Koziello";"bench";"Central Midfield";29
+"Anastasios Donis";"bench";"Centre-Forward";29
+"Mickaël Le Bihan";"bench";"Centre-Forward";29
+"Yoan Cardinale";"starting";"Keeper";30
+"Maxime Le Marchand";"starting";"Centre-Back";30
+"Dante";"starting";"Centre-Back";30
+"Dalbert";"starting";"Left-Back";30
+"Arnaud Souquet";"starting";"Right-Back";30
+"Jean Michaël Seri";"starting";"Central Midfield";30
+"Mounir Obbadi";"starting";"Central Midfield";30
+"Ricardo Pereira";"starting";"Right Midfield";30
+"Younès Belhanda";"starting";"Attacking Midfield";30
+"Valentin Eysseric";"starting";"Left Wing";30
+"Mario Balotelli";"starting";"Centre-Forward";30
+"Walter Benítez";"bench";"Keeper";30
+"Malang Sarr";"bench";"Centre-Back";30
+"Vincent Koziello";"bench";"Central Midfield";30
+"Bassem Srarfi";"bench";"Right Wing";30
+"Vincent Marcel";"bench";"Right Wing";30
+"Anastasios Donis";"bench";"Centre-Forward";30
+"Mickaël Le Bihan";"bench";"Centre-Forward";30
+"Yoan Cardinale";"starting";"Keeper";31
+"Maxime Le Marchand";"starting";"Centre-Back";31
+"Dante";"starting";"Centre-Back";31
+"Dalbert";"starting";"Left-Back";31
+"Arnaud Souquet";"starting";"Right-Back";31
+"Jean Michaël Seri";"starting";"Central Midfield";31
+"Vincent Koziello";"starting";"Central Midfield";31
+"Ricardo Pereira";"starting";"Right Midfield";31
+"Younès Belhanda";"starting";"Attacking Midfield";31
+"Valentin Eysseric";"starting";"Left Wing";31
+"Mario Balotelli";"starting";"Centre-Forward";31
+"Walter Benítez";"bench";"Keeper";31
+"Malang Sarr";"bench";"Centre-Back";31
+"Patrick Burner";"bench";"Right-Back";31
+"Bassem Srarfi";"bench";"Right Wing";31
+"Vincent Marcel";"bench";"Right Wing";31
+"Anastasios Donis";"bench";"Centre-Forward";31
+"Mickaël Le Bihan";"bench";"Centre-Forward";31
+"Yoan Cardinale";"starting";"Keeper";32
+"Maxime Le Marchand";"starting";"Centre-Back";32
+"Dante";"starting";"Centre-Back";32
+"Dalbert";"starting";"Left-Back";32
+"Arnaud Souquet";"starting";"Right-Back";32
+"Jean Michaël Seri";"starting";"Central Midfield";32
+"Vincent Koziello";"starting";"Central Midfield";32
+"Ricardo Pereira";"starting";"Right Midfield";32
+"Younès Belhanda";"starting";"Attacking Midfield";32
+"Valentin Eysseric";"starting";"Left Wing";32
+"Mario Balotelli";"starting";"Centre-Forward";32
+"Walter Benítez";"bench";"Keeper";32
+"Malang Sarr";"bench";"Centre-Back";32
+"Patrick Burner";"bench";"Right-Back";32
+"Rémi Walter";"bench";"Defensive Midfield";32
+"Bassem Srarfi";"bench";"Right Wing";32
+"Anastasios Donis";"bench";"Centre-Forward";32
+"Mickaël Le Bihan";"bench";"Centre-Forward";32
+"Yoan Cardinale";"starting";"Keeper";33
+"Maxime Le Marchand";"starting";"Centre-Back";33
+"Dante";"starting";"Centre-Back";33
+"Dalbert";"starting";"Left-Back";33
+"Arnaud Souquet";"starting";"Right-Back";33
+"Jean Michaël Seri";"starting";"Defensive Midfield";33
+"Vincent Koziello";"starting";"Defensive Midfield";33
+"Younès Belhanda";"starting";"Attacking Midfield";33
+"Valentin Eysseric";"starting";"Left Wing";33
+"Ricardo Pereira";"starting";"Right Wing";33
+"Mickaël Le Bihan";"starting";"Centre-Forward";33
+"Walter Benítez";"bench";"Keeper";33
+"Malang Sarr";"bench";"Centre-Back";33
+"Patrick Burner";"bench";"Right-Back";33
+"Rémi Walter";"bench";"Defensive Midfield";33
+"Bassem Srarfi";"bench";"Right Wing";33
+"Vincent Marcel";"bench";"Right Wing";33
+"Anastasios Donis";"bench";"Centre-Forward";33
+"Yoan Cardinale";"starting";"Keeper";34
+"Maxime Le Marchand";"starting";"Centre-Back";34
+"Dante";"starting";"Centre-Back";34
+"Dalbert";"starting";"Left-Back";34
+"Arnaud Souquet";"starting";"Right-Back";34
+"Jean Michaël Seri";"starting";"Central Midfield";34
+"Vincent Koziello";"starting";"Central Midfield";34
+"Ricardo Pereira";"starting";"Right Midfield";34
+"Younès Belhanda";"starting";"Attacking Midfield";34
+"Valentin Eysseric";"starting";"Left Wing";34
+"Mickaël Le Bihan";"starting";"Centre-Forward";34
+"Walter Benítez";"bench";"Keeper";34
+"Malang Sarr";"bench";"Centre-Back";34
+"Paul Baysse";"bench";"Centre-Back";34
+"Rémi Walter";"bench";"Defensive Midfield";34
+"Bassem Srarfi";"bench";"Right Wing";34
+"Anastasios Donis";"bench";"Centre-Forward";34
+"Mario Balotelli";"bench";"Centre-Forward";34
+"Yoan Cardinale";"starting";"Keeper";35
+"Dante";"starting";"Centre-Back";35
+"Paul Baysse";"starting";"Centre-Back";35
+"Dalbert";"starting";"Left-Back";35
+"Arnaud Souquet";"starting";"Right-Back";35
+"Jean Michaël Seri";"starting";"Central Midfield";35
+"Vincent Koziello";"starting";"Central Midfield";35
+"Ricardo Pereira";"starting";"Right Midfield";35
+"Younès Belhanda";"starting";"Attacking Midfield";35
+"Valentin Eysseric";"starting";"Left Wing";35
+"Mario Balotelli";"starting";"Centre-Forward";35
+"Walter Benítez";"bench";"Keeper";35
+"Malang Sarr";"bench";"Centre-Back";35
+"Rémi Walter";"bench";"Defensive Midfield";35
+"Mounir Obbadi";"bench";"Central Midfield";35
+"Bassem Srarfi";"bench";"Right Wing";35
+"Anastasios Donis";"bench";"Centre-Forward";35
+"Mickaël Le Bihan";"bench";"Centre-Forward";35
+"Yoan Cardinale";"starting";"Keeper";36
+"Dante";"starting";"Centre-Back";36
+"Paul Baysse";"starting";"Centre-Back";36
+"Dalbert";"starting";"Left-Back";36
+"Arnaud Souquet";"starting";"Right-Back";36
+"Jean Michaël Seri";"starting";"Central Midfield";36
+"Vincent Koziello";"starting";"Central Midfield";36
+"Ricardo Pereira";"starting";"Right Midfield";36
+"Younès Belhanda";"starting";"Attacking Midfield";36
+"Valentin Eysseric";"starting";"Left Wing";36
+"Mario Balotelli";"starting";"Centre-Forward";36
+"Walter Benítez";"bench";"Keeper";36
+"Malang Sarr";"bench";"Centre-Back";36
+"Rémi Walter";"bench";"Defensive Midfield";36
+"Mounir Obbadi";"bench";"Central Midfield";36
+"Bassem Srarfi";"bench";"Right Wing";36
+"Anastasios Donis";"bench";"Centre-Forward";36
+"Mickaël Le Bihan";"bench";"Centre-Forward";36
+"Yoan Cardinale";"starting";"Keeper";37
+"Dante";"starting";"Centre-Back";37
+"Paul Baysse";"starting";"Centre-Back";37
+"Malang Sarr";"starting";"Left-Back";37
+"Arnaud Souquet";"starting";"Right-Back";37
+"Jean Michaël Seri";"starting";"Central Midfield";37
+"Vincent Koziello";"starting";"Central Midfield";37
+"Younès Belhanda";"starting";"Attacking Midfield";37
+"Vincent Marcel";"starting";"Left Wing";37
+"Anastasios Donis";"starting";"Right Wing";37
+"Mario Balotelli";"starting";"Centre-Forward";37
+"Walter Benítez";"bench";"Keeper";37
+"Patrick Burner";"bench";"Right-Back";37
+"Rémi Walter";"bench";"Defensive Midfield";37
+"Bassem Srarfi";"bench";"Right Wing";37
+"Yoan Cardinale";"starting";"Keeper";38
+"Maxime Le Marchand";"starting";"Centre-Back";38
+"Malang Sarr";"starting";"Centre-Back";38
+"Arnaud Souquet";"starting";"Centre-Back";38
+"Rémi Walter";"starting";"Central Midfield";38
+"Jean Michaël Seri";"starting";"Central Midfield";38
+"Vincent Koziello";"starting";"Central Midfield";38
+"Patrick Burner";"starting";"Right Midfield";38
+"Dalbert";"starting";"Left Midfield";38
+"Younès Belhanda";"starting";"Centre-Forward";38
+"Anastasios Donis";"starting";"Centre-Forward";38
+"Walter Benítez";"bench";"Keeper";38
+"Gautier Lloris";"bench";"Centre-Back";38
+"Ricardo Pereira";"bench";"Right-Back";38
+"Hicham Mahou";"bench";"Right Wing";38
+"Bassem Srarfi";"bench";"Right Wing";38
+"Vincent Marcel";"bench";"Right Wing";38
+"Alexy Bosetti";"bench";"Centre-Forward";38

@@ -53,16 +53,17 @@ getLineUp <- function(url,team){
 
 #https://www.transfermarkt.com/arsenal-fc/spielplan/verein/11/plus/0?saison_id=2016
 #https://www.transfermarkt.com/chelsea-fc/spielplan/verein/631/plus/0?saison_id=2016
+#https://www.transfermarkt.com/ogc-nice/spielplan/verein/417/plus/0?saison_id=2016
 # Return url list of match
 getMatchUrl <- function(url){
-	purrr::map(1:38,function(x) url %>% read_html() %>% html_nodes(xpath=paste0('//*[@id="main"]/div[9]/div[1]/div[6]/div[3]/table/tbody/tr[',x,']/td[10]/a')) %>% html_attr(.,"href") %>% paste0("https://www.transfermarkt.com",.) %>% str_replace_all(.,'index','aufstellung'))
+	purrr::map(1:38,function(x) url %>% read_html() %>% html_nodes(xpath=paste0('//*[@id="main"]/div[9]/div[1]/div[5]/div[3]/table/tbody/tr[',x,']/td[10]/a')) %>% html_attr(.,"href") %>% paste0("https://www.transfermarkt.com",.) %>% str_replace_all(.,'index','aufstellung'))
 }
 # Return home/away (ie 1/2) list
 getHomeAwayUrl <- function(url){
-	ifelse(purrr::map(1:38,function(x) url %>% read_html() %>% html_nodes(xpath=paste0('//*[@id="main"]/div[9]/div[1]/div[6]/div[3]/table/tbody/tr[',x,']/td[4]')) %>% html_text())=="H",1,2)
+	ifelse(purrr::map(1:38,function(x) url %>% read_html() %>% html_nodes(xpath=paste0('//*[@id="main"]/div[9]/div[1]/div[5]/div[3]/table/tbody/tr[',x,']/td[4]')) %>% html_text())=="H",1,2)
 }
 
-url='https://www.transfermarkt.com/spurs/spielplan/verein/148/saison_id/2016'
+url='https://www.transfermarkt.com/ogc-nice/spielplan/verein/417/plus/0?saison_id=2016'
 all=map2(getMatchUrl(url),getHomeAwayUrl(url),function(a,b)getLineUp(a,b))
 all=do.call(rbind,all)
 all$player = gsub("[[:space:]]*$","",all$player)
@@ -107,6 +108,11 @@ all = read.csv2("tottenham_lineup.csv")
 # unique(b$player)
 ggplot() +geom_point(data=all,aes(x=matchday,y=player,color=lineup),size=2) + scale_colour_manual(values=c("#ff8a80","#69f0ae")) + scale_y_discrete(limits=c("Hugo Lloris","Michel Vorm","Luke McGee","Pau López","","Toby Alderweireld","Jan Vertonghen","Kevin Wimmer","Ben Davies","Eric Dier","Danny Rose","Kyle Walker","Kieran Trippier","Cameron Carter-Vickers","","Victor Wanyama","Mousa Dembélé","Harry Winks","Ryan Mason","Tom Carroll","Filip Lesniak","","Dele Alli","Christian Eriksen","Heung-Min Son","Moussa Sissoko","Érik Lamela","Georges-Kevin N'Koudou","Josh Onomah","Samuel Shashoua","","Harry Kane","Vincent Janssen"))+ scale_x_continuous(breaks=c(1,10,20,30,38))+labs(x="Matchday", y="",title="Tottenham Squad Rotation",subtitle="2016-2017 season",caption="by Benoit Pimpaud / @Ben8t",color="") + theme_ipsum_rc()
 
+# Nice
+all = read.csv2("nice_lineup.csv")
+# b=unique(all %>% select(player,post)) %>% arrange(desc(post))
+# unique(b$player)
+ggplot() + geom_point(data=all,aes(x=matchday,y=player,color=lineup),size=2) + scale_colour_manual(values=c("#ff8a80","#69f0ae")) + scale_y_discrete(limits=c("Yoan Cardinale","Walter Benítez","Mouez Hassen","Simon Pouplin","","Malang Sarr","Paul Baysse","Mathieu Bodmer","Dante","Arnaud Souquet","Maxime Le Marchand","Ricardo Pereira","Dalbert","Olivier Boscagli","Patrick Burner","Gautier Lloris","","Jean Michaël Seri","Wylan Cyprien","Rémi Walter","Vincent Koziello","Mounir Obbadi","Albert Rafetraniaina","","Younès Belhanda","Valentin Eysseric","Arnaud Lusamba","Saïd Benrahma","Julien Vercauteren","Bassem Srarfi","Hicham Mahou","Vincent Marcel","","Mario Balotelli","Alassane Pléa","Anastasios Donis","Alexy Bosetti","Mickaël Le Bihan"))+ scale_x_continuous(breaks=c(1,10,20,30,38))+labs(x="Matchday", y="",title="OGN Nice Squad Rotation",subtitle="2016-2017 season",caption="by Benoit Pimpaud / @Ben8t",color="") + theme_ipsum_rc()
 
 
 

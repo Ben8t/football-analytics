@@ -5,28 +5,40 @@ library(tidyverse)
 library(hrbrthemes)
 library(jsonlite)
 
+
+# VARIABLE
+TEAM = "away"
+
+# Load data
 data = jsonlite::fromJSON("test.json")
 
 event = data.frame(id=data$events$id,eventId=data$events$eventId,minute=data$events$minute,second=data$events$second,teamId=data$events$teamId,playerId=data$events$playerId,x=data$events$x,y=data$events$y,typeValue=data$events$type$value,typeDisplayName=data$events$type$displayName,period=data$events$period$value,isTouch=data$events$isTouch,outcome=data$events$outcomeType$value)
 
 player= data$playerIdNameDictionary %>% t %>% as.data.frame() %>% t %>% as.data.frame() %>% tibble::rownames_to_column() %>% select(playerName=V1,playerId=rowname) %>% mutate(playerId=as.numeric(playerId),playerName=unlist(playerName))
 
-home_lineup = data$home$formations$playerIds[[1]] %>% as.data.frame() %>% select(.,playerId=.) %>% slice(1:11)
-away_lineup = data$away$formations$playerIds[[1]] %>% as.data.frame() %>% select(.,playerId=.) %>% slice(1:11)
+# Select team
+if(TEAM=="home"){
+    lineup = data$home$formations$playerIds[[1]] %>% as.data.frame() %>% select(.,playerId=.) %>% slice(1:11)
+}else if(TEAM=="away"){
+    lineup = data$away$formations$playerIds[[1]] %>% as.data.frame() %>% select(.,playerId=.) %>% slice(1:11)
+}
 
+# Bind all data
 full = left_join(event,player,by=c("playerId"))
 
-
+# Create dataset for each type
 pass = full %>% na.omit() %>% filter(typeValue==1) %>% filter(outcome==1)
 touch = full %>% na.omit() %>% filter(isTouch==TRUE)
+shot = full %>% na.omit() %>% filter(typeValue==15 | typeValue==16)
 
-tomap = touch %>%
-	filter(playerId %in% away_lineup$playerId) %>% 
+# Create dataset for ggplot2
+tomap_touch = touch %>%
+	filter(playerId %in% lineup$playerId) %>% 
 	group_by(teamId,playerName) %>% 
 	summarise(x_avg=mean(x),y_avg=mean(y),n=n())
 
 
-
+# fucntion to create circle on center
 circleFun <- function(center = c(0,0),diameter = 1, npoints = 100){
     r = diameter / 2
     tt <- seq(0,2*pi,length.out = npoints)
@@ -35,11 +47,10 @@ circleFun <- function(center = c(0,0),diameter = 1, npoints = 100){
     return(data.frame(x = xx, y = yy))
 }
 
-
 circle <- circleFun(c(50,50),20,npoints = 100)
 
-
-g <- ggplot(tomap,aes(x=x_avg,y=y_avg)) +
+# Plot
+g_touch <- ggplot(tomap_touch,aes(x=x_avg,y=y_avg)) +
     xlim(0,100) + 
     ylim(0,100)+
     stat_density_2d(aes(fill = ..density..),geom = "tile", contour = FALSE)+

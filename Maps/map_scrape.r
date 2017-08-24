@@ -68,7 +68,8 @@ g_touch <- ggplot(tomap_touch,aes(x=x_avg,y=y_avg)) +
     theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank())+
     labs(x="", y="",title="Touchmap \nArsenal away at Stoke City",subtitle="Premier League - 19/08/2017",caption="Dot size : touches - Dot position : average touch position \n \n by Benoit Pimpaud / @Ben8t",color="") +theme(legend.position='none')
 
-
+# Save plot
+ggsave(filename = "test.png",g_touch, units = "cm",width = 20,height = 17,dpi=700)
 
 
 

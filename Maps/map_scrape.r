@@ -1,8 +1,8 @@
 # map_scrape.r
 # WhoScored : copy(JSON.stringify(matchCentreData));
 
-args = commandArgs(trailingOnly=TRUE)
-# args = c("test.json","away","red")
+ args = commandArgs(trailingOnly=TRUE)
+# args = c("test.json","away","#90caf9","Manchester City","26092017")
 library(tidyverse)
 library(hrbrthemes)
 library(jsonlite)
@@ -14,6 +14,8 @@ library(gridExtra)
 DATA_FILE = args[1]
 TEAM = args[2]
 TEAM_COLOR =args[3]
+TEAM_NAME = args[4]
+DATE = args[5]
 
 # Data ---------------------------------------------------------------
 
@@ -59,13 +61,13 @@ pattern = players %>%
     summarise(n=n()) %>% 
     separate(pattern,into=c("p1","p2","p3"),sep=",",remove=FALSE) %>% 
     arrange(desc(n)) %>% 
-    slice(1:10)
-pattern$x1=rep(1,10)
-pattern$y1=10:1
-pattern$x2=rep(1.5,10)
-pattern$y2=9.7:0.7
-pattern$x3=rep(2,10)
-pattern$y3=10:1
+    slice(1:5)
+pattern$x1=rep(1,5)
+pattern$y1=5:1
+pattern$x2=rep(1.5,5)
+pattern$y2=5:1
+pattern$x3=rep(2,5)
+pattern$y3=5:1
 pattern_tomap <- rbind(pattern %>% 
     select(p=p1,x=x1,y=y1,n,pattern),pattern %>% select(p=p2,x=x2,y=y2,n,pattern),pattern %>% select(p=p3,x=x3,y=y3,n,pattern)) %>%
     separate(p,into=c("firstname","name"),fill="left")
@@ -117,8 +119,40 @@ g_pattern <- ggplot(pattern_tomap,aes(x,y,group=pattern)) +
 
 
 # Save plot
-ggsave(filename = "g_touch.png",g_touch,width =14,height=8,dpi=300)
-ggsave(filename = "g_pattern.png",g_pattern,width =5,height=8,dpi=300)
+ggsave(filename = paste0("g_touch_",TEAM_NAME,DATE,".png"),g_touch,width =14,height=8,dpi=300)
+ggsave(filename = paste0("g_pattern_",TEAM_NAME,DATE,".png"),g_pattern,width =5,height=8,dpi=300)
 
 
 
+# Test ------------------------------------------------------
+# https://briatte.github.io/ggnetwork/
+to_pattern = full %>% filter(playerId %in% lineup$playerId)
+players=data.frame()
+for(i in c(1:(nrow(to_pattern)-2))){
+    if(to_pattern$typeValue[i]==1 & to_pattern$typeValue[i+1]==1){
+        players = rbind(players,data.frame(from=to_pattern$playerName[i],to=to_pattern$playerName[i+1]))
+    }
+}
+
+meta <- tomap_touch %>% select(name=playerName,x_avg,y_avg,nb_touch=n)
+meta2=data.frame(name=meta$name,x_avg=meta$x_avg,y_avg=meta$y_avg,nb_touch=meta$nb_touch)
+df <- players %>% group_by(from,to) %>% summarise(n=n()) %>% filter(n>4)
+
+library(igraph)
+g <- graph.data.frame(df, directed = TRUE, vertices = meta2)
+lo <- layout.norm(as.matrix(meta2[,2:3]))
+
+plot.igraph(g,layout = lo)
+
+library(ggnetwork)
+g2 <- ggnetwork(g,layout=lo,weights = "n")
+map <- ggplot(g2, aes(x = x, y = y, xend = xend, yend = yend)) +
+    geom_edges(aes(color = n),size=1,arrow = arrow(length = unit(9, "pt"), type = "closed"),curvature = 0.05) +
+    scale_color_gradientn("Passes",colours = c("#b9f6ca","#69f0ae","#00e676","#1b5e20"))+
+    geom_nodes(aes(size=nb_touch),shape = 21, colour = "white", fill = TEAM_COLOR, stroke = 1) +
+    scale_size("Touches",range = c(0,15),limits=c(1,max(tomap_touch$n)))+
+    geom_nodelabel_repel(aes(label = vertex.names),color=TEAM_COLOR,box.padding = unit(1,"lines")) +
+    theme_ipsum_rc()+
+    theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank())
+
+ggsave(filename = paste0("g_map_",TEAM_NAME,DATE,".png"),map,width =14,height=8,dpi=300)

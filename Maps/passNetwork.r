@@ -2,7 +2,7 @@
 # WhoScored : copy(JSON.stringify(matchCentreData));
 
  args = commandArgs(trailingOnly=TRUE)
-# args = c("test.json","away","#90caf9")
+# args = c("test.json","away","#90caf9",5)
 library(tidyverse)
 library(hrbrthemes)
 library(jsonlite)
@@ -14,6 +14,7 @@ library(gridExtra)
 DATA_FILE = args[1]
 TEAM = args[2]
 TEAM_COLOR =args[3]
+PASS_NUMBERS = args[4]
 
 # Data ---------------------------------------------------------------
 
@@ -134,7 +135,7 @@ for(i in c(1:(nrow(to_pattern)-2))){
 
 meta <- tomap_touch %>% select(name=playerName,x_avg,y_avg,nb_touch=n)
 meta2=data.frame(name=meta$name,x_avg=meta$x_avg,y_avg=meta$y_avg,nb_touch=meta$nb_touch)
-df <- players %>% group_by(from,to) %>% summarise(n=n()) %>% filter(n>4)
+df <- players %>% group_by(from,to) %>% summarise(n=n()) %>% filter(n>=PASS_NUMBERS)
 
 library(igraph)
 g <- graph.data.frame(df, directed = TRUE, vertices = meta2)

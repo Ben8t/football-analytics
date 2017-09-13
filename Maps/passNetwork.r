@@ -1,5 +1,6 @@
 # map_scrape.r
 # WhoScored : copy(JSON.stringify(matchCentreData));
+# Teams colors : https://docs.google.com/spreadsheets/d/1H4E8SfuZXglshXfNBNOxW6nWtsLfYfhXvRLB6bD_acA/edit?usp=sharing
 
  args = commandArgs(trailingOnly=TRUE)
 # args = c("test.json","away","#90caf9",5)
@@ -17,15 +18,21 @@ TEAM_COLOR =args[3]
 PASS_NUMBERS = args[4]
 
 # Data ---------------------------------------------------------------
-
-# Load data
+# Load data from json file (WhoScored)
 data = jsonlite::fromJSON(DATA_FILE)
-
+# get event
 event = data.frame(id=data$events$id,eventId=data$events$eventId,minute=data$events$minute,second=data$events$second,teamId=data$events$teamId,playerId=data$events$playerId,x=data$events$x,y=data$events$y,typeValue=data$events$type$value,typeDisplayName=data$events$type$displayName,period=data$events$period$value,isTouch=data$events$isTouch,outcome=data$events$outcomeType$value)
+# get player list
+player= data$playerIdNameDictionary %>%
+    t %>% 
+    as.data.frame() %>% 
+    t %>% 
+    as.data.frame() %>% 
+    tibble::rownames_to_column() %>% 
+    select(playerName=V1,playerId=rowname) %>% 
+    mutate(playerId=as.numeric(playerId),playerName=unlist(playerName))
 
-player= data$playerIdNameDictionary %>% t %>% as.data.frame() %>% t %>% as.data.frame() %>% tibble::rownames_to_column() %>% select(playerName=V1,playerId=rowname) %>% mutate(playerId=as.numeric(playerId),playerName=unlist(playerName))
-
-# Select team
+# Select team (home or away)
 if(TEAM=="home"){
     lineup = data$home$formations$playerIds[[1]] %>% as.data.frame() %>% select(.,playerId=.) %>% slice(1:11)
 }else if(TEAM=="away"){
@@ -36,11 +43,18 @@ if(TEAM=="home"){
 full = left_join(event,player,by=c("playerId"))
 
 # Create dataset for each type
-pass = full %>% na.omit() %>% filter(typeValue==1) %>% filter(outcome==1)
-touch = full %>% na.omit() %>% filter(isTouch==TRUE)
-shot = full %>% na.omit() %>% filter(typeValue==15 | typeValue==16)
+pass = full %>% 
+    na.omit() %>% 
+    filter(typeValue==1) %>%  # keeping just successfull passes
+    filter(outcome==1)
+touch = full %>% 
+    na.omit() %>% 
+    filter(isTouch==TRUE) # keeping only Touch == TRUE
+shot = full %>% 
+    na.omit() %>% 
+    filter(typeValue==15 | typeValue==16)
 
-# Create dataset for ggplot2
+# Create dataset for ggplot2 - touchmap
 tomap_touch = touch %>%
     filter(playerId %in% lineup$playerId) %>% 
     group_by(teamId,playerName) %>% 
@@ -126,6 +140,8 @@ g_pattern <- ggplot(pattern_tomap,aes(x,y,group=pattern)) +
 # Passnetwork ------------------------------------------------------
 # https://briatte.github.io/ggnetwork/
 to_pattern = full %>% filter(playerId %in% lineup$playerId)
+
+# Each pass from X to Y
 players=data.frame()
 for(i in c(1:(nrow(to_pattern)-2))){
     if(to_pattern$typeValue[i]==1 & to_pattern$typeValue[i+1]==1){
@@ -135,7 +151,10 @@ for(i in c(1:(nrow(to_pattern)-2))){
 
 meta <- tomap_touch %>% select(name=playerName,x_avg,y_avg,nb_touch=n)
 meta2=data.frame(name=meta$name,x_avg=meta$x_avg,y_avg=meta$y_avg,nb_touch=meta$nb_touch)
-df <- players %>% group_by(from,to) %>% summarise(n=n()) %>% filter(n>=PASS_NUMBERS)
+df <- players %>% 
+    group_by(from,to) %>% 
+    summarise(n=n()) %>% 
+    filter(n>=PASS_NUMBERS)
 
 library(igraph)
 g <- graph.data.frame(df, directed = TRUE, vertices = meta2)

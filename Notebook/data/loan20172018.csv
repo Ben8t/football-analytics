@@ -1,0 +1,768 @@
+Position,Age,End,Start,Value,Team,League
+Keeper,24,30/06/2019,30/06/2018,2250000,Juventus Turin,Serie A
+Keeper,26,30/06/2019,30/06/2018,900000,Juventus Turin,Serie A
+Keeper,23,30/06/2020,30/06/2018,540000,Juventus Turin,Serie A
+Keeper,20,30/06/2021,30/06/2018,450000,Juventus Turin,Serie A
+Keeper,27,30/06/2018,30/06/2018,158000,Juventus Turin,Serie A
+Keeper,25,30/06/2018,30/06/2018,45000,Juventus Turin,Serie A
+Defender,23,30/06/2021,30/06/2018,13500000,Juventus Turin,Serie A
+Defender,22,30/06/2022,30/06/2018,540000,Juventus Turin,Serie A
+Defender,22,NA,30/06/2018,495000,Juventus Turin,Serie A
+Defender,20,30/06/2018,30/06/2018,90000,Juventus Turin,Serie A
+Defender,19,30/06/2019,30/06/2018,68000,Juventus Turin,Serie A
+Defender,19,NA,30/06/2018,68000,Juventus Turin,Serie A
+Defender,19,30/06/2018,30/06/2018,68000,Juventus Turin,Serie A
+Defender,19,30/06/2020,30/06/2018,810000,Juventus Turin,Serie A
+Defender,22,30/06/2019,30/06/2018,203000,Juventus Turin,Serie A
+Defender,19,30/06/2018,30/06/2018,90000,Juventus Turin,Serie A
+Defender,18,NA,30/06/2018,68000,Juventus Turin,Serie A
+Defender,20,30/06/2020,30/06/2018,68000,Juventus Turin,Serie A
+Defender,24,30/06/2018,30/06/2018,45000,Juventus Turin,Serie A
+Defender,20,30/06/2020,30/06/2018,3600000,Juventus Turin,Serie A
+Defender,23,30/06/2019,30/06/2018,900000,Juventus Turin,Serie A
+Defender,22,30/06/2019,30/06/2018,360000,Juventus Turin,Serie A
+Defender,18,NA,30/06/2018,23000,Juventus Turin,Serie A
+Midfield,29,30/06/2020,30/06/2018,7200000,Juventus Turin,Serie A
+Midfield,20,30/06/2021,30/06/2018,2700000,Juventus Turin,Serie A
+Midfield,27,30/06/2019,30/06/2018,1800000,Juventus Turin,Serie A
+Midfield,21,30/06/2018,30/11/2017,180000,Juventus Turin,Serie A
+Midfield,19,NA,30/06/2018,90000,Juventus Turin,Serie A
+Midfield,19,NA,30/06/2018,23000,Juventus Turin,Serie A
+Midfield,21,30/06/2019,30/06/2018,810000,Juventus Turin,Serie A
+Midfield,19,30/06/2019,30/06/2018,540000,Juventus Turin,Serie A
+Midfield,20,30/06/2019,30/06/2018,450000,Juventus Turin,Serie A
+Midfield,24,NA,30/06/2018,7200000,Juventus Turin,Serie A
+Midfield,19,30/06/2019,30/06/2018,630000,Juventus Turin,Serie A
+Midfield,20,30/06/2019,30/06/2018,540000,Juventus Turin,Serie A
+Midfield,19,30/06/2020,30/06/2018,315000,Juventus Turin,Serie A
+Midfield,19,30/06/2020,30/06/2018,180000,Juventus Turin,Serie A
+Midfield,24,30/06/2020,30/06/2018,135000,Juventus Turin,Serie A
+Midfield,20,NA,30/06/2018,45000,Juventus Turin,Serie A
+Midfield,20,30/06/2021,30/06/2019,3150000,Juventus Turin,Serie A
+Midfield,19,NA,30/06/2018,450000,Juventus Turin,Serie A
+Forward,21,NA,30/06/2018,135000,Juventus Turin,Serie A
+Forward,19,NA,30/06/2018,45000,Juventus Turin,Serie A
+Forward,21,30/06/2020,30/06/2018,2250000,Juventus Turin,Serie A
+Forward,17,30/06/2020,30/06/2018,1350000,Juventus Turin,Serie A
+Forward,24,30/06/2018,30/06/2018,675000,Juventus Turin,Serie A
+Forward,21,30/06/2019,30/06/2018,248000,Juventus Turin,Serie A
+Forward,23,30/06/2019,30/06/2018,225000,Juventus Turin,Serie A
+Forward,23,30/06/2018,30/06/2018,203000,Juventus Turin,Serie A
+Forward,23,30/06/2019,30/06/2018,90000,Juventus Turin,Serie A
+Forward,20,30/06/2018,30/06/2018,90000,Juventus Turin,Serie A
+Forward,20,30/06/2019,30/06/2018,90000,Juventus Turin,Serie A
+Keeper,25,30/06/2020,30/06/2018,5400000,Atalanta,Serie A
+Keeper,21,30/06/2019,30/06/2018,720000,Atalanta,Serie A
+Keeper,22,NA,30/06/2018,203000,Atalanta,Serie A
+Keeper,23,NA,30/06/2018,180000,Atalanta,Serie A
+Keeper,20,NA,30/06/2018,158000,Atalanta,Serie A
+Keeper,21,NA,30/06/2018,113000,Atalanta,Serie A
+Keeper,18,NA,30/06/2018,68000,Atalanta,Serie A
+Keeper,18,NA,30/06/2018,68000,Atalanta,Serie A
+Defender,24,30/06/2019,30/06/2018,630000,Atalanta,Serie A
+Defender,24,30/06/2020,30/06/2018,450000,Atalanta,Serie A
+Defender,18,NA,30/06/2018,270000,Atalanta,Serie A
+Defender,21,30/06/2018,30/06/2018,270000,Atalanta,Serie A
+Defender,32,30/06/2018,30/06/2018,203000,Atalanta,Serie A
+Defender,24,NA,30/06/2018,203000,Atalanta,Serie A
+Defender,21,NA,30/06/2018,135000,Atalanta,Serie A
+Defender,23,NA,30/06/2018,135000,Atalanta,Serie A
+Defender,22,NA,30/06/2018,90000,Atalanta,Serie A
+Defender,20,NA,30/06/2018,90000,Atalanta,Serie A
+Defender,20,NA,30/06/2018,68000,Atalanta,Serie A
+Defender,19,NA,30/06/2018,45000,Atalanta,Serie A
+Defender,22,NA,30/06/2018,360000,Atalanta,Serie A
+Defender,21,30/06/2020,30/06/2018,270000,Atalanta,Serie A
+Defender,19,NA,30/06/2018,158000,Atalanta,Serie A
+Defender,24,NA,30/06/2018,405000,Atalanta,Serie A
+Defender,24,30/06/2019,30/06/2018,270000,Atalanta,Serie A
+Defender,20,NA,30/06/2018,135000,Atalanta,Serie A
+Defender,23,NA,30/06/2018,90000,Atalanta,Serie A
+Defender,21,NA,30/06/2018,68000,Atalanta,Serie A
+Defender,19,30/06/2020,30/06/2018,45000,Atalanta,Serie A
+Midfield,24,NA,30/06/2018,225000,Atalanta,Serie A
+Midfield,20,NA,30/06/2018,113000,Atalanta,Serie A
+Midfield,22,NA,30/06/2018,45000,Atalanta,Serie A
+Midfield,23,NA,30/06/2018,675000,Atalanta,Serie A
+Midfield,20,30/06/2022,30/06/2018,540000,Atalanta,Serie A
+Midfield,21,NA,30/06/2018,540000,Atalanta,Serie A
+Midfield,23,NA,30/06/2018,248000,Atalanta,Serie A
+Midfield,21,NA,30/06/2018,225000,Atalanta,Serie A
+Midfield,20,NA,30/06/2018,180000,Atalanta,Serie A
+Midfield,23,NA,30/06/2018,90000,Atalanta,Serie A
+Midfield,20,NA,30/06/2018,45000,Atalanta,Serie A
+Midfield,25,30/06/2018,30/06/2018,630000,Atalanta,Serie A
+Midfield,22,NA,30/06/2018,315000,Atalanta,Serie A
+Midfield,20,30/06/2021,30/06/2018,1350000,Atalanta,Serie A
+Midfield,21,NA,30/06/2018,68000,Atalanta,Serie A
+Midfield,26,30/06/2019,30/06/2018,1350000,Atalanta,Serie A
+Midfield,20,NA,30/06/2018,270000,Atalanta,Serie A
+Forward,28,NA,30/06/2018,450000,Atalanta,Serie A
+Forward,27,30/06/2021,30/06/2018,3600000,Atalanta,Serie A
+Forward,23,30/06/2019,30/06/2018,585000,Atalanta,Serie A
+Forward,18,NA,NA,315000,Atalanta,Serie A
+Forward,19,NA,30/06/2018,270000,Atalanta,Serie A
+Forward,21,NA,30/06/2018,90000,Atalanta,Serie A
+Defender,19,NA,30/06/2018,90000,Benevento,Serie A
+Keeper,25,30/06/2019,30/06/2018,315000,Bologna,Serie A
+Keeper,20,30/06/2020,30/06/2018,68000,Bologna,Serie A
+Keeper,19,NA,30/06/2018,23000,Bologna,Serie A
+Defender,24,30/06/2020,30/06/2018,1620000,Bologna,Serie A
+Defender,23,30/06/2021,30/06/2018,1080000,Bologna,Serie A
+Defender,22,30/06/2021,30/06/2018,270000,Bologna,Serie A
+Midfield,31,30/06/2020,30/12/2017,2700000,Bologna,Serie A
+Midfield,25,30/06/2019,30/06/2018,2250000,Bologna,Serie A
+Midfield,19,NA,30/06/2018,68000,Bologna,Serie A
+Midfield,25,30/06/2019,30/06/2018,1980000,Bologna,Serie A
+Midfield,24,NA,30/06/2018,180000,Bologna,Serie A
+Midfield,19,NA,30/06/2018,180000,Bologna,Serie A
+Forward,21,30/06/2019,30/06/2018,68000,Bologna,Serie A
+Keeper,17,NA,30/06/2018,45000,Cagliari,Serie A
+Keeper,20,30/06/2018,30/06/2018,45000,Cagliari,Serie A
+Defender,23,30/06/2019,30/06/2018,1620000,Cagliari,Serie A
+Defender,26,30/06/2020,30/06/2018,1440000,Cagliari,Serie A
+Defender,19,30/06/2018,30/06/2018,68000,Cagliari,Serie A
+Defender,20,30/06/2020,30/06/2018,90000,Cagliari,Serie A
+Defender,19,NA,30/06/2018,45000,Cagliari,Serie A
+Midfield,20,30/06/2020,30/06/2018,630000,Cagliari,Serie A
+Midfield,20,NA,30/06/2018,113000,Cagliari,Serie A
+Midfield,24,30/06/2019,30/06/2018,315000,Cagliari,Serie A
+Midfield,18,NA,30/06/2018,158000,Cagliari,Serie A
+Midfield,19,NA,NA,90000,Cagliari,Serie A
+Forward,19,30/06/2020,30/06/2018,450000,Cagliari,Serie A
+Forward,21,30/06/2018,30/06/2018,360000,Cagliari,Serie A
+Keeper,23,30/06/2019,30/06/2018,135000,Chievo,Serie A
+Keeper,20,NA,30/06/2018,23000,Chievo,Serie A
+Defender,21,NA,30/06/2018,1080000,Chievo,Serie A
+Defender,26,30/06/2020,30/06/2018,270000,Chievo,Serie A
+Defender,21,NA,30/06/2018,45000,Chievo,Serie A
+Defender,22,30/06/2020,30/06/2018,23000,Chievo,Serie A
+Defender,21,NA,30/06/2018,23000,Chievo,Serie A
+Defender,21,30/06/2018,30/06/2018,225000,Chievo,Serie A
+Defender,24,NA,30/06/2018,203000,Chievo,Serie A
+Defender,21,NA,30/06/2018,180000,Chievo,Serie A
+Defender,19,NA,30/06/2018,90000,Chievo,Serie A
+Defender,19,NA,30/06/2018,45000,Chievo,Serie A
+Midfield,27,30/06/2019,30/06/2018,540000,Chievo,Serie A
+Midfield,21,NA,30/06/2018,540000,Chievo,Serie A
+Midfield,19,NA,30/06/2018,360000,Chievo,Serie A
+Midfield,23,NA,30/06/2018,225000,Chievo,Serie A
+Midfield,21,NA,30/06/2018,203000,Chievo,Serie A
+Midfield,33,NA,30/06/2018,158000,Chievo,Serie A
+Midfield,21,NA,30/06/2018,113000,Chievo,Serie A
+Midfield,22,NA,30/06/2018,180000,Chievo,Serie A
+Midfield,21,NA,30/06/2018,293000,Chievo,Serie A
+Midfield,25,NA,30/06/2018,270000,Chievo,Serie A
+Midfield,21,30/06/2020,30/06/2020,450000,Chievo,Serie A
+Midfield,19,30/06/2021,30/06/2018,45000,Chievo,Serie A
+Forward,26,NA,30/06/2018,540000,Chievo,Serie A
+Forward,34,30/06/2019,30/06/2018,450000,Chievo,Serie A
+Forward,23,NA,30/06/2018,293000,Chievo,Serie A
+Forward,19,30/06/2020,30/06/2018,180000,Chievo,Serie A
+Forward,21,30/06/2020,30/06/2018,90000,Chievo,Serie A
+Defender,25,30/06/2019,30/06/2018,900000,Crotone,Serie A
+Defender,21,NA,30/06/2018,113000,Crotone,Serie A
+Defender,21,30/06/2018,30/06/2018,90000,Crotone,Serie A
+Defender,20,NA,30/06/2018,23000,Crotone,Serie A
+Defender,18,30/06/2019,30/06/2018,158000,Crotone,Serie A
+Defender,21,30/06/2018,30/06/2018,203000,Crotone,Serie A
+Midfield,17,NA,30/06/2018,23000,Crotone,Serie A
+Midfield,24,30/06/2018,30/06/2018,225000,Crotone,Serie A
+Midfield,26,30/06/2019,30/06/2018,720000,Crotone,Serie A
+Midfield,21,NA,30/06/2018,68000,Crotone,Serie A
+Defender,30,30/06/2020,30/06/2018,2970000,Fiorentina,Serie A
+Defender,18,NA,NA,-,Fiorentina,Serie A
+Defender,21,30/06/2019,30/06/2018,135000,Fiorentina,Serie A
+Defender,20,30/06/2021,30/06/2018,1350000,Fiorentina,Serie A
+Defender,22,30/06/2021,30/06/2018,900000,Fiorentina,Serie A
+Defender,24,30/06/2020,31/12/2017,630000,Fiorentina,Serie A
+Midfield,23,30/06/2020,30/06/2018,270000,Fiorentina,Serie A
+Midfield,20,30/06/2021,30/06/2018,630000,Fiorentina,Serie A
+Midfield,19,30/06/2020,30/06/2018,540000,Fiorentina,Serie A
+Midfield,25,30/06/2018,30/06/2018,315000,Fiorentina,Serie A
+Midfield,21,NA,30/06/2018,113000,Fiorentina,Serie A
+Midfield,24,30/06/2018,30/06/2018,2250000,Fiorentina,Serie A
+Midfield,22,30/06/2020,30/06/2018,810000,Fiorentina,Serie A
+Midfield,20,NA,30/06/2018,203000,Fiorentina,Serie A
+Midfield,19,30/06/2019,30/06/2018,180000,Fiorentina,Serie A
+Midfield,19,NA,30/06/2018,113000,Fiorentina,Serie A
+Forward,18,NA,30/06/2018,495000,Fiorentina,Serie A
+Forward,18,NA,30/06/2018,135000,Fiorentina,Serie A
+Keeper,22,NA,30/06/2018,68000,Genoa,Serie A
+Defender,23,NA,30/06/2018,540000,Genoa,Serie A
+Defender,21,NA,30/06/2018,45000,Genoa,Serie A
+Defender,29,30/06/2018,30/06/2018,720000,Genoa,Serie A
+Defender,24,30/06/2019,30/06/2018,900000,Genoa,Serie A
+Defender,19,30/06/2019,30/06/2018,113000,Genoa,Serie A
+Midfield,25,30/06/2020,30/06/2018,3150000,Genoa,Serie A
+Midfield,19,NA,30/06/2018,158000,Genoa,Serie A
+Midfield,19,NA,30/06/2018,113000,Genoa,Serie A
+Midfield,19,NA,30/06/2018,90000,Genoa,Serie A
+Midfield,19,NA,30/06/2018,90000,Genoa,Serie A
+Midfield,20,NA,30/06/2018,68000,Genoa,Serie A
+Midfield,19,NA,30/06/2018,45000,Genoa,Serie A
+Midfield,20,30/06/2019,30/06/2018,270000,Genoa,Serie A
+Midfield,19,NA,30/06/2018,45000,Genoa,Serie A
+Midfield,22,30/06/2021,30/06/2018,720000,Genoa,Serie A
+Midfield,19,30/06/2019,30/06/2018,68000,Genoa,Serie A
+Midfield,21,30/06/2021,30/06/2018,1980000,Genoa,Serie A
+Midfield,22,30/06/2019,30/06/2018,900000,Genoa,Serie A
+Midfield,23,NA,31/05/2018,225000,Genoa,Serie A
+Midfield,23,NA,30/06/2018,765000,Genoa,Serie A
+Midfield,19,NA,30/06/2018,113000,Genoa,Serie A
+Midfield,22,NA,30/06/2018,68000,Genoa,Serie A
+Midfield,20,30/06/2020,30/06/2018,45000,Genoa,Serie A
+Forward,20,NA,30/06/2018,540000,Genoa,Serie A
+Forward,19,30/06/2020,30/06/2018,225000,Genoa,Serie A
+Forward,22,NA,30/06/2018,113000,Genoa,Serie A
+Keeper,21,30/06/2019,30/06/2018,23000,Verona,Serie A
+Defender,26,30/06/2020,30/06/2018,675000,Verona,Serie A
+Defender,19,30/06/2020,30/06/2018,113000,Verona,Serie A
+Defender,21,NA,30/06/2018,90000,Verona,Serie A
+Defender,19,30/06/2020,30/06/2018,180000,Verona,Serie A
+Defender,21,NA,30/06/2018,68000,Verona,Serie A
+Defender,19,NA,30/06/2018,113000,Verona,Serie A
+Midfield,25,30/06/2020,30/06/2018,3150000,Verona,Serie A
+Midfield,20,30/06/2020,30/06/2018,180000,Verona,Serie A
+Midfield,20,30/06/2019,30/06/2018,45000,Verona,Serie A
+Midfield,19,NA,30/06/2018,45000,Verona,Serie A
+Forward,25,30/06/2019,30/06/2019,540000,Verona,Serie A
+Forward,21,NA,30/06/2018,270000,Verona,Serie A
+Forward,19,NA,30/06/2018,158000,Verona,Serie A
+Keeper,25,30/06/2019,30/06/2018,3150000,Inter Milan,Serie A
+Keeper,23,NA,30/06/2018,1620000,Inter Milan,Serie A
+Keeper,20,30/06/2020,30/06/2018,270000,Inter Milan,Serie A
+Keeper,20,30/06/2020,30/06/2018,135000,Inter Milan,Serie A
+Keeper,21,NA,30/06/2018,68000,Inter Milan,Serie A
+Defender,18,30/06/2022,30/06/2019,1350000,Inter Milan,Serie A
+Defender,19,NA,30/06/2018,90000,Inter Milan,Serie A
+Defender,20,30/06/2018,30/06/2018,45000,Inter Milan,Serie A
+Defender,21,30/06/2018,30/06/2018,45000,Inter Milan,Serie A
+Defender,19,30/06/2020,30/06/2018,113000,Inter Milan,Serie A
+Defender,23,30/06/2018,30/06/2018,225000,Inter Milan,Serie A
+Defender,19,NA,30/06/2018,113000,Inter Milan,Serie A
+Midfield,20,30/06/2018,30/06/2018,90000,Inter Milan,Serie A
+Midfield,24,30/06/2021,30/06/2018,16200000,Inter Milan,Serie A
+Midfield,21,30/06/2021,30/06/2021,540000,Inter Milan,Serie A
+Midfield,20,NA,30/06/2018,225000,Inter Milan,Serie A
+Midfield,19,NA,NA,135000,Inter Milan,Serie A
+Midfield,21,30/06/2018,30/06/2018,68000,Inter Milan,Serie A
+Midfield,24,NA,30/06/2018,68000,Inter Milan,Serie A
+Midfield,23,30/06/2019,30/06/2018,360000,Inter Milan,Serie A
+Midfield,21,30/06/2021,30/06/2018,13500000,Inter Milan,Serie A
+Midfield,29,30/06/2019,30/06/2018,3600000,Inter Milan,Serie A
+Midfield,21,30/06/2018,30/06/2018,360000,Inter Milan,Serie A
+Midfield,19,30/06/2022,30/06/2018,315000,Inter Milan,Serie A
+Midfield,19,30/06/2021,30/06/2018,135000,Inter Milan,Serie A
+Forward,19,NA,30/06/2018,270000,Inter Milan,Serie A
+Forward,22,30/06/2018,30/06/2018,45000,Inter Milan,Serie A
+Forward,21,30/06/2020,30/06/2018,1350000,Inter Milan,Serie A
+Forward,25,30/06/2020,30/06/2018,1080000,Inter Milan,Serie A
+Forward,20,30/06/2020,30/06/2018,810000,Inter Milan,Serie A
+Forward,24,30/06/2020,30/06/2018,450000,Inter Milan,Serie A
+Forward,20,30/06/2020,30/06/2018,180000,Inter Milan,Serie A
+Keeper,19,NA,30/06/2018,45000,Lazio,Serie A
+Defender,20,30/06/2022,30/06/2018,360000,Lazio,Serie A
+Defender,22,30/06/2019,30/06/2018,180000,Lazio,Serie A
+Midfield,23,30/06/2020,30/06/2018,5400000,Lazio,Serie A
+Midfield,21,30/06/2019,30/06/2018,630000,Lazio,Serie A
+Midfield,24,30/06/2019,30/06/2018,315000,Lazio,Serie A
+Midfield,22,30/06/2019,30/06/2018,2700000,Lazio,Serie A
+Midfield,22,30/06/2022,30/06/2018,630000,Lazio,Serie A
+Midfield,20,30/06/2018,30/06/2018,360000,Lazio,Serie A
+Midfield,19,30/06/2020,30/06/2018,113000,Lazio,Serie A
+Forward,20,30/06/2020,30/06/2018,225000,Lazio,Serie A
+Keeper,17,30/06/2020,30/06/2018,270000,AC Milan,Serie A
+Defender,22,30/06/2020,30/06/2018,630000,AC Milan,Serie A
+Defender,19,NA,NA,68000,AC Milan,Serie A
+Defender,19,30/06/2021,30/06/2019,450000,AC Milan,Serie A
+Midfield,26,30/06/2019,30/06/2018,9000000,AC Milan,Serie A
+Midfield,32,30/06/2018,15/01/2018,4500000,AC Milan,Serie A
+Midfield,21,NA,30/06/2018,135000,AC Milan,Serie A
+Forward,31,30/06/2020,30/06/2018,16200000,AC Milan,Serie A
+Keeper,21,30/06/2019,30/06/2018,113000,Napoli,Serie A
+Defender,21,NA,30/06/2018,900000,Napoli,Serie A
+Defender,22,30/06/2021,30/06/2018,180000,Napoli,Serie A
+Defender,20,30/06/2019,30/06/2018,45000,Napoli,Serie A
+Defender,21,NA,30/06/2018,113000,Napoli,Serie A
+Midfield,21,30/06/2019,30/06/2018,135000,Napoli,Serie A
+Midfield,22,30/06/2020,30/06/2018,2880000,Napoli,Serie A
+Midfield,21,NA,30/06/2018,225000,Napoli,Serie A
+Midfield,21,NA,30/06/2018,135000,Napoli,Serie A
+Midfield,21,30/06/2022,30/06/2018,270000,Napoli,Serie A
+Midfield,23,30/06/2020,30/06/2018,630000,Napoli,Serie A
+Midfield,20,30/06/2019,30/06/2018,360000,Napoli,Serie A
+Midfield,19,30/06/2019,30/06/2018,180000,Napoli,Serie A
+Forward,25,NA,30/06/2018,4050000,Napoli,Serie A
+Forward,19,30/06/2021,30/06/2018,405000,Napoli,Serie A
+Keeper,19,30/06/2019,30/06/2018,90000,AS Roma,Serie A
+Defender,30,30/06/2019,30/06/2018,3150000,AS Roma,Serie A
+Defender,25,30/06/2019,30/06/2018,900000,AS Roma,Serie A
+Defender,21,NA,30/06/2018,630000,AS Roma,Serie A
+Defender,21,30/06/2020,30/06/2018,450000,AS Roma,Serie A
+Defender,26,30/06/2021,30/06/2018,6300000,AS Roma,Serie A
+Defender,21,30/06/2019,30/06/2018,180000,AS Roma,Serie A
+Defender,19,NA,30/06/2018,225000,AS Roma,Serie A
+Defender,20,NA,30/06/2018,135000,AS Roma,Serie A
+Defender,19,NA,30/06/2018,68000,AS Roma,Serie A
+Midfield,20,NA,30/06/2018,180000,AS Roma,Serie A
+Midfield,21,30/06/2019,30/06/2018,135000,AS Roma,Serie A
+Midfield,23,NA,30/06/2018,450000,AS Roma,Serie A
+Midfield,20,NA,30/06/2018,315000,AS Roma,Serie A
+Midfield,19,30/06/2020,30/06/2018,158000,AS Roma,Serie A
+Midfield,19,NA,30/06/2018,135000,AS Roma,Serie A
+Midfield,22,30/06/2020,30/06/2018,90000,AS Roma,Serie A
+Midfield,20,NA,30/06/2018,158000,AS Roma,Serie A
+Midfield,24,NA,30/06/2018,158000,AS Roma,Serie A
+Midfield,24,30/06/2019,30/06/2018,6300000,AS Roma,Serie A
+Midfield,21,30/06/2020,30/06/2018,1350000,AS Roma,Serie A
+Midfield,21,30/06/2019,30/06/2018,315000,AS Roma,Serie A
+Midfield,22,NA,30/06/2018,90000,AS Roma,Serie A
+Forward,20,30/06/2020,30/06/2018,2250000,AS Roma,Serie A
+Forward,20,30/06/2020,30/06/2018,1800000,AS Roma,Serie A
+Forward,19,NA,NA,315000,AS Roma,Serie A
+Forward,18,30/06/2022,30/06/2018,315000,AS Roma,Serie A
+Forward,19,NA,30/06/2018,45000,AS Roma,Serie A
+Keeper,22,30/06/2020,30/06/2018,135000,Sampdoria,Serie A
+Defender,21,30/06/2021,30/06/2018,900000,Sampdoria,Serie A
+Defender,19,NA,30/06/2018,113000,Sampdoria,Serie A
+Defender,20,NA,NA,90000,Sampdoria,Serie A
+Defender,19,NA,30/06/2018,45000,Sampdoria,Serie A
+Defender,21,NA,30/06/2018,23000,Sampdoria,Serie A
+Midfield,19,NA,NA,225000,Sampdoria,Serie A
+Midfield,21,30/06/2020,30/06/2018,540000,Sampdoria,Serie A
+Midfield,21,NA,30/06/2018,450000,Sampdoria,Serie A
+Midfield,19,30/06/2019,30/06/2018,293000,Sampdoria,Serie A
+Midfield,20,NA,30/06/2018,113000,Sampdoria,Serie A
+Midfield,20,30/06/2018,30/06/2018,90000,Sampdoria,Serie A
+Midfield,22,NA,30/06/2018,135000,Sampdoria,Serie A
+Forward,21,30/06/2020,30/06/2022,13500000,Sampdoria,Serie A
+Forward,20,30/06/2021,30/06/2018,1800000,Sampdoria,Serie A
+Forward,20,NA,30/06/2018,450000,Sampdoria,Serie A
+Forward,18,NA,30/06/2018,405000,Sampdoria,Serie A
+Forward,18,NA,30/06/2018,248000,Sampdoria,Serie A
+Defender,25,30/06/2021,30/06/2018,3600000,Sassuolo,Serie A
+Defender,19,NA,30/06/2018,405000,Sassuolo,Serie A
+Defender,21,30/06/2020,30/06/2018,225000,Sassuolo,Serie A
+Defender,28,NA,30/06/2018,113000,Sassuolo,Serie A
+Defender,19,NA,30/06/2018,90000,Sassuolo,Serie A
+Defender,20,NA,30/06/2018,90000,Sassuolo,Serie A
+Midfield,19,NA,30/06/2018,68000,Sassuolo,Serie A
+Midfield,18,NA,30/06/2018,-,Sassuolo,Serie A
+Midfield,20,NA,30/06/2018,630000,Sassuolo,Serie A
+Midfield,22,30/06/2022,30/06/2018,405000,Sassuolo,Serie A
+Midfield,20,NA,30/06/2018,113000,Sassuolo,Serie A
+Midfield,19,30/06/2020,30/06/2018,90000,Sassuolo,Serie A
+Midfield,20,NA,30/06/2018,68000,Sassuolo,Serie A
+Midfield,19,30/06/2020,30/06/2018,68000,Sassuolo,Serie A
+Midfield,19,NA,30/06/2018,68000,Sassuolo,Serie A
+Midfield,23,NA,30/06/2018,3150000,Sassuolo,Serie A
+Forward,26,30/06/2020,30/06/2018,8100000,Sassuolo,Serie A
+Forward,24,30/06/2020,30/06/2018,2250000,Sassuolo,Serie A
+Forward,21,NA,30/06/2018,450000,Sassuolo,Serie A
+Forward,21,NA,30/06/2018,158000,Sassuolo,Serie A
+Forward,19,NA,30/06/2018,90000,Sassuolo,Serie A
+Keeper,19,30/06/2020,30/06/2018,68000,SPAL,Serie A
+Defender,19,NA,30/06/2018,113000,SPAL,Serie A
+Defender,19,NA,30/06/2018,68000,SPAL,Serie A
+Defender,20,NA,30/06/2018,45000,SPAL,Serie A
+Defender,21,NA,30/06/2018,203000,SPAL,Serie A
+Midfield,19,NA,30/06/2018,45000,SPAL,Serie A
+Midfield,27,NA,30/06/2018,720000,SPAL,Serie A
+Midfield,19,NA,30/06/2018,135000,SPAL,Serie A
+Midfield,21,30/06/2019,30/06/2018,113000,SPAL,Serie A
+Midfield,20,30/06/2020,30/06/2018,68000,SPAL,Serie A
+Midfield,19,NA,NA,68000,SPAL,Serie A
+Midfield,21,30/06/2020,30/06/2018,45000,SPAL,Serie A
+Forward,19,NA,30/06/2018,113000,SPAL,Serie A
+Forward,24,30/06/2020,30/06/2018,540000,SPAL,Serie A
+Forward,26,30/06/2019,30/06/2018,135000,SPAL,Serie A
+Keeper,20,30/06/2019,30/06/2018,450000,Torino,Serie A
+Keeper,19,30/06/2019,30/06/2018,113000,Torino,Serie A
+Keeper,19,NA,30/06/2018,45000,Torino,Serie A
+Defender,23,30/06/2019,30/06/2018,1350000,Torino,Serie A
+Defender,31,30/06/2019,31/05/2018,450000,Torino,Serie A
+Defender,18,NA,30/06/2018,135000,Torino,Serie A
+Defender,20,NA,30/06/2018,45000,Torino,Serie A
+Defender,28,30/06/2019,30/06/2018,1350000,Torino,Serie A
+Defender,21,NA,30/06/2018,180000,Torino,Serie A
+Defender,19,NA,30/06/2018,90000,Torino,Serie A
+Defender,20,NA,30/06/2018,90000,Torino,Serie A
+Midfield,21,30/06/2020,30/06/2018,1980000,Torino,Serie A
+Midfield,21,NA,30/06/2018,90000,Torino,Serie A
+Midfield,19,NA,30/06/2018,90000,Torino,Serie A
+Midfield,18,NA,30/06/2018,113000,Torino,Serie A
+Midfield,19,30/06/2021,30/06/2018,113000,Torino,Serie A
+Midfield,20,30/06/2018,30/06/2018,90000,Torino,Serie A
+Midfield,20,30/06/2020,30/06/2018,68000,Torino,Serie A
+Midfield,20,30/06/2020,30/06/2018,68000,Torino,Serie A
+Midfield,18,NA,30/06/2018,23000,Torino,Serie A
+Forward,19,NA,30/06/2018,-,Torino,Serie A
+Midfield,20,NA,30/06/2018,158000,Torino,Serie A
+Midfield,19,NA,30/06/2018,90000,Torino,Serie A
+Midfield,21,30/06/2020,30/06/2018,1080000,Torino,Serie A
+Midfield,22,30/06/2019,30/06/2018,360000,Torino,Serie A
+Midfield,20,30/06/2020,30/06/2018,68000,Torino,Serie A
+Forward,23,30/06/2018,30/06/2018,360000,Torino,Serie A
+Forward,19,30/06/2018,30/06/2018,113000,Udinese,Serie A
+Keeper,32,30/06/2019,30/06/2018,3600000,Udinese,Serie A
+Keeper,20,30/06/2022,30/06/2018,3600000,Udinese,Serie A
+Keeper,20,30/06/2020,30/06/2018,90000,Udinese,Serie A
+Defender,29,30/06/2019,30/06/2018,2430000,Udinese,Serie A
+Defender,26,30/06/2019,30/06/2018,1350000,Udinese,Serie A
+Defender,25,30/06/2020,30/06/2018,720000,Udinese,Serie A
+Defender,20,NA,30/06/2018,540000,Udinese,Serie A
+Defender,20,NA,30/06/2018,270000,Udinese,Serie A
+Midfield,25,30/06/2018,30/06/2018,1350000,Udinese,Serie A
+Midfield,19,NA,30/06/2018,68000,Udinese,Serie A
+Midfield,26,30/06/2020,30/06/2018,4500000,Udinese,Serie A
+Midfield,27,30/06/2018,30/06/2018,1800000,Udinese,Serie A
+Midfield,22,30/06/2018,30/06/2018,1440000,Udinese,Serie A
+Midfield,30,30/06/2019,30/06/2018,1350000,Udinese,Serie A
+Midfield,21,30/06/2019,30/11/2017,720000,Udinese,Serie A
+Midfield,18,30/06/2022,30/06/2018,450000,Udinese,Serie A
+Midfield,21,30/06/2019,30/06/2019,450000,Udinese,Serie A
+Midfield,19,NA,30/06/2018,-,Udinese,Serie A
+Midfield,19,30/06/2019,30/06/2018,135000,Udinese,Serie A
+Forward,22,30/06/2019,31/12/2017,1350000,Udinese,Serie A
+Forward,22,NA,30/06/2018,293000,Udinese,Serie A
+Keeper,25,30/06/2022,30/06/2018,900000,Arsenal,Premier League
+Defender,25,30/06/2020,31/05/2018,4500000,Arsenal,Premier League
+Midfield,19,30/06/2021,30/06/2018,270000,Arsenal,Premier League
+Midfield,25,30/06/2018,30/06/2018,5400000,Arsenal,Premier League
+Forward,22,NA,30/06/2018,2250000,Arsenal,Premier League
+Forward,29,30/06/2020,30/06/2018,13500000,Arsenal,Premier League
+Keeper,23,30/06/2021,31/05/2018,225000,Chelsea,Premier League
+Defender,22,30/06/2023,31/05/2018,13500000,Chelsea,Premier League
+Defender,24,30/06/2021,31/05/2018,4500000,Chelsea,Premier League
+Defender,25,30/06/2020,31/05/2018,2700000,Chelsea,Premier League
+Defender,22,30/06/2020,30/06/2018,1800000,Chelsea,Premier League
+Defender,23,30/06/2020,30/06/2018,1800000,Chelsea,Premier League
+Defender,22,NA,30/06/2018,810000,Chelsea,Premier League
+Defender,20,30/06/2020,31/05/2018,1350000,Chelsea,Premier League
+Defender,24,30/06/2019,30/06/2018,1350000,Chelsea,Premier League
+Midfield,22,30/06/2021,30/06/2018,7200000,Chelsea,Premier League
+Midfield,24,30/06/2020,30/06/2018,6750000,Chelsea,Premier League
+Midfield,22,30/06/2022,31/05/2018,4950000,Chelsea,Premier League
+Midfield,21,30/06/2021,31/05/2018,4500000,Chelsea,Premier League
+Midfield,20,30/06/2020,31/05/2018,2250000,Chelsea,Premier League
+Midfield,23,30/06/2020,31/05/2018,2250000,Chelsea,Premier League
+Midfield,21,30/06/2020,30/06/2017,1130000,Chelsea,Premier League
+Midfield,20,30/06/2019,30/06/2018,360000,Chelsea,Premier League
+Forward,19,30/06/2022,31/05/2018,7200000,Chelsea,Premier League
+Defender,19,30/06/2020,31/05/2018,450000,Tottenham,Premier League
+Midfield,20,30/06/2021,31/05/2018,2250000,Tottenham,Premier League
+Forward,23,30/06/2020,30/06/2018,11700000,Tottenham,Premier League
+Keeper,30,30/06/2019,31/05/2018,11700000,Manchester City,Premier League
+Keeper,21,30/06/2020,31/05/2018,900000,Manchester City,Premier League
+Defender,22,30/06/2020,30/06/2018,3600000,Manchester City,Premier League
+Defender,24,30/06/2019,30/06/2018,360000,Manchester City,Premier League
+Defender,20,30/06/2019,30/06/2018,450000,Manchester City,Premier League
+Midfield,20,30/06/2020,30/06/2018,900000,Manchester City,Premier League
+Midfield,27,30/06/2019,30/06/2019,540000,Manchester City,Premier League
+Midfield,19,30/06/2022,30/06/2018,5400000,Manchester City,Premier League
+Midfield,24,NA,30/06/2018,540000,Manchester City,Premier League
+Midfield,20,30/06/2020,31/05/2018,6750000,Manchester City,Premier League
+Midfield,21,30/06/2021,30/06/2018,900000,Manchester City,Premier League
+Midfield,20,30/06/2018,30/06/2018,270000,Manchester City,Premier League
+Forward,24,NA,30/06/2018,3600000,Manchester City,Premier League
+Midfield,21,30/06/2019,31/05/2018,450000,Liverpool,Premier League
+Midfield,20,30/06/2020,31/05/2018,1800000,Liverpool,Premier League
+Forward,22,30/06/2019,30/06/2018,10800000,Liverpool,Premier League
+Keeper,24,30/06/2018,31/05/2018,900000,Manchester United,Premier League
+Defender,19,30/06/2020,31/05/2018,2250000,Manchester United,Premier League
+Defender,20,30/06/2020,31/05/2018,2700000,Manchester United,Premier League
+Midfield,21,30/06/2019,30/06/2018,4500000,Manchester United,Premier League
+Defender,23,30/06/2019,31/05/2018,900000,Everton,Premier League
+Defender,22,30/06/2018,31/05/2018,450000,Everton,Premier League
+Defender,21,30/06/2020,31/05/2018,2700000,Everton,Premier League
+Midfield,22,30/06/2018,10/01/2018,225000,Everton,Premier League
+Midfield,20,30/06/2022,30/06/2018,6300000,Everton,Premier League
+Midfield,26,30/06/2020,30/06/2018,9000000,Southampton,Premier League
+Midfield,22,30/06/2021,31/05/2018,900000,Southampton,Premier League
+Forward,22,30/06/2021,31/05/2018,2250000,Southampton,Premier League
+Keeper,25,30/06/2018,31/05/2018,225000,Bournemouth,Premier League
+Defender,19,NA,01/01/2018,-,Bournemouth,Premier League
+Defender,21,30/06/2018,31/05/2018,225000,Bournemouth,Premier League
+Midfield,29,30/06/2020,30/06/2018,6300000,Bournemouth,Premier League
+Forward,29,30/06/2019,31/05/2018,2700000,Bournemouth,Premier League
+Defender,17,30/06/2019,01/01/2018,225000,West Bromwich Albion,Premier League
+Midfield,17,NA,31/05/2018,-,West Bromwich Albion,Premier League
+Midfield,18,30/06/2019,31/05/2018,1350000,West Bromwich Albion,Premier League
+Forward,20,30/06/2020,30/06/2019,630000,West Bromwich Albion,Premier League
+Defender,18,30/06/2021,30/06/2018,4500000,West Ham,Premier League
+Defender,21,30/06/2020,01/01/2018,900000,West Ham,Premier League
+Midfield,21,30/06/2019,01/01/2018,450000,West Ham,Premier League
+Midfield,30,30/06/2020,31/05/2018,6300000,West Ham,Premier League
+Midfield,25,30/06/2020,30/06/2018,9000000,Leicester,Premier League
+Midfield,20,30/06/2021,30/06/2018,5400000,Leicester,Premier League
+Defender,25,30/06/2019,30/06/2018,2700000,Stoke City,Premier League
+Defender,20,30/06/2019,31/05/2018,225000,Stoke City,Premier League
+Midfield,25,30/06/2021,30/06/2018,10800000,Stoke City,Premier League
+Forward,27,30/06/2020,30/06/2018,4500000,Stoke City,Premier League
+Defender,22,30/06/2018,31/05/2018,68000,Crystal Palace,Premier League
+Midfield,23,30/06/2018,31/05/2018,900000,Crystal Palace,Premier League
+Forward,22,30/06/2018,28/02/2018,90000,Crystal Palace,Premier League
+Defender,25,30/06/2019,30/06/2018,2250000,Swansea,Premier League
+Midfield,22,30/06/2019,31/05/2018,1350000,Swansea,Premier League
+Midfield,28,30/06/2020,30/06/2018,4050000,Swansea,Premier League
+Forward,25,30/06/2020,30/06/2018,7200000,Swansea,Premier League
+Defender,24,30/06/2018,31/05/2018,225000,Burnley,Premier League
+Defender,23,NA,06/01/2018,225000,Burnley,Premier League
+Forward,22,30/06/2018,31/05/2018,900000,Burnley,Premier League
+Keeper,30,30/06/2019,30/06/2018,2700000,Watford,Premier League
+Defender,24,30/06/2021,30/06/2018,1800000,Watford,Premier League
+Midfield,30,30/06/2019,30/06/2018,4050000,Watford,Premier League
+Forward,20,30/06/2020,30/06/2018,2700000,Watford,Premier League
+Forward,21,30/06/2021,30/06/2018,1800000,Watford,Premier League
+Keeper,25,30/06/2021,30/06/2018,4500000,Newcastle,Premier League
+Midfield,25,30/06/2021,30/06/2018,2250000,Newcastle,Premier League
+Forward,20,30/06/2020,01/01/2018,1350000,Newcastle,Premier League
+Forward,21,30/06/2020,31/05/2018,450000,Newcastle,Premier League
+Keeper,21,30/06/2021,31/05/2018,225000,Brighton,Premier League
+Defender,21,30/06/2018,01/01/2018,90000,Brighton,Premier League
+Midfield,24,30/06/2018,31/05/2018,675000,Brighton,Premier League
+Midfield,26,30/06/2019,31/05/2018,2250000,Brighton,Premier League
+Midfield,21,30/06/2020,31/12/2017,360000,Brighton,Premier League
+Midfield,26,30/06/2018,31/05/2018,180000,Brighton,Premier League
+Midfield,26,30/06/2018,02/01/2018,900000,Brighton,Premier League
+Defender,21,30/06/2019,31/05/2018,225000,Huddersfield,Premier League
+Midfield,22,30/06/2019,31/05/2018,225000,Huddersfield,Premier League
+Midfield,27,30/06/2019,31/05/2018,450000,Huddersfield,Premier League
+Forward,23,30/06/2018,31/05/2018,225000,Huddersfield,Premier League
+Midfield,27,30/06/2021,30/06/2018,22500000,PSG,Ligue1
+Midfield,24,30/06/2021,30/06/2018,6750000,PSG,Ligue1
+Midfield,19,30/06/2019,30/06/2018,630000,PSG,Ligue1
+Midfield,20,30/06/2021,30/06/2018,15300000,PSG,Ligue1
+Forward,24,30/06/2019,30/06/2018,2250000,PSG,Ligue1
+Forward,19,30/06/2020,30/06/2018,1350000,PSG,Ligue1
+Defender,24,30/06/2018,30/06/2018,630000,Amiens,Ligue1
+Midfield,20,30/06/2020,30/06/2018,900000,Amiens,Ligue1
+Midfield,23,30/06/2019,30/06/2018,135000,Amiens,Ligue1
+Forward,25,NA,30/06/2018,180000,Amiens,Ligue1
+Defender,26,30/06/2017,30/06/2018,180000,Angers,Ligue1
+Defender,21,30/06/2019,30/06/2019,135000,Angers,Ligue1
+Midfield,26,30/06/2018,30/06/2018,180000,Angers,Ligue1
+Forward,28,NA,30/06/2018,360000,Angers,Ligue1
+Forward,21,30/06/2019,30/06/2019,270000,Angers,Ligue1
+Keeper,20,30/06/2021,30/06/2018,720000,Bordeaux,Ligue1
+Midfield,20,30/06/2020,30/06/2018,1130000,Bordeaux,Ligue1
+Forward,24,30/06/2020,30/06/2018,7200000,Bordeaux,Ligue1
+Forward,21,30/06/2019,30/06/2018,-,Bordeaux,Ligue1
+Keeper,23,30/06/2019,30/06/2018,270000,Caen,Ligue1
+Defender,29,30/06/2019,30/06/2018,1350000,Caen,Ligue1
+Defender,25,30/06/2019,30/06/2018,540000,Caen,Ligue1
+Forward,25,30/06/2020,30/06/2020,900000,Caen,Ligue1
+Keeper,22,NA,30/06/2018,90000,Dijon,Ligue1
+Midfield,22,30/06/2019,30/06/2018,270000,Dijon,Ligue1
+Forward,23,NA,30/06/2018,225000,Dijon,Ligue1
+Keeper,21,NA,NA,135000,Guingamp,Ligue1
+Defender,30,30/06/2018,31/12/2017,1130000,Guingamp,Ligue1
+Defender,22,30/06/2022,30/06/2018,225000,Guingamp,Ligue1
+Midfield,19,30/06/2021,30/06/2018,135000,Guingamp,Ligue1
+Keeper,22,30/06/2018,30/06/2018,135000,Lille,Ligue1
+Defender,28,30/06/2019,30/06/2018,1170000,Lille,Ligue1
+Defender,19,30/06/2021,30/06/2018,540000,Lille,Ligue1
+Defender,22,30/06/2019,30/06/2018,135000,Lille,Ligue1
+Midfield,22,NA,30/06/2018,1130000,Lille,Ligue1
+Midfield,20,30/06/2019,30/06/2019,225000,Lille,Ligue1
+Midfield,25,30/06/2020,30/06/2018,1580000,Lille,Ligue1
+Midfield,20,30/06/2019,30/06/2018,360000,Lille,Ligue1
+Forward,29,30/06/2020,30/06/2018,4500000,Lille,Ligue1
+Defender,27,30/06/2020,30/06/2018,6750000,Olympique Lyon,Ligue1
+Midfield,23,30/06/2020,30/06/2018,9900000,Olympique Lyon,Ligue1
+Midfield,21,30/06/2019,30/06/2018,1130000,Olympique Lyon,Ligue1
+Midfield,21,30/06/2019,30/06/2018,720000,Olympique Lyon,Ligue1
+Forward,20,30/06/2021,30/06/2018,1800000,Olympique Lyon,Ligue1
+Forward,21,30/06/2019,30/06/2018,900000,Olympique Lyon,Ligue1
+Forward,21,30/06/2019,30/06/2019,270000,Olympique Lyon,Ligue1
+Defender,32,30/06/2019,30/06/2018,1350000,Olympique Marseille,Ligue1
+Midfield,27,30/06/2020,30/06/2018,6750000,Olympique Marseille,Ligue1
+Midfield,22,30/06/2021,30/06/2018,720000,Olympique Marseille,Ligue1
+Defender,19,30/06/2018,30/06/2018,225000,FC Metz,Ligue1
+Midfield,20,NA,30/06/2018,135000,FC Metz,Ligue1
+Midfield,21,30/06/2019,30/06/2018,540000,FC Metz,Ligue1
+Midfield,21,30/06/2019,30/06/2018,450000,FC Metz,Ligue1
+Midfield,22,30/06/2019,31/12/2017,405000,FC Metz,Ligue1
+Forward,22,30/06/2020,30/06/2018,1350000,FC Metz,Ligue1
+Keeper,23,30/06/2019,30/06/2018,1080000,AS Monaco,Ligue1
+Defender,29,30/06/2018,30/06/2018,900000,AS Monaco,Ligue1
+Defender,20,30/06/2020,30/06/2018,360000,AS Monaco,Ligue1
+Midfield,21,30/06/2021,30/06/2018,2700000,AS Monaco,Ligue1
+Midfield,22,30/06/2020,30/06/2018,360000,AS Monaco,Ligue1
+Midfield,20,NA,30/06/2019,1800000,AS Monaco,Ligue1
+Forward,18,30/06/2019,30/06/2018,31500000,AS Monaco,Ligue1
+Forward,27,30/06/2018,30/06/2018,2250000,AS Monaco,Ligue1
+Forward,20,30/06/2021,30/06/2018,225000,AS Monaco,Ligue1
+Keeper,26,30/06/2019,30/06/2018,540000,Montpellier,Ligue1
+Defender,20,30/06/2020,30/06/2018,-,Montpellier,Ligue1
+Midfield,22,30/06/2022,30/06/2018,900000,Nantes,Ligue1
+Forward,22,30/06/2020,30/06/2018,2250000,Nantes,Ligue1
+Keeper,22,30/06/2019,30/06/2018,900000,OGC Nice,Ligue1
+Defender,19,30/06/2021,30/06/2021,720000,OGC Nice,Ligue1
+Midfield,22,30/06/2019,30/06/2018,900000,OGC Nice,Ligue1
+Midfield,30,30/06/2019,30/06/2018,1800000,Stade Rennais,Ligue1
+Midfield,26,30/06/2019,30/06/2018,1580000,Stade Rennais,Ligue1
+Midfield,20,30/06/2021,30/06/2018,225000,Stade Rennais,Ligue1
+Defender,23,30/06/2019,30/06/2018,1350000,AS Saint-Etienne,Ligue1
+Midfield,19,30/06/2019,30/06/2018,540000,AS Saint-Etienne,Ligue1
+Midfield,23,30/06/2020,30/06/2018,2700000,AS Saint-Etienne,Ligue1
+Midfield,22,NA,30/06/2018,1350000,AS Saint-Etienne,Ligue1
+Forward,26,30/06/2019,30/06/2018,4050000,AS Saint-Etienne,Ligue1
+Defender,29,30/06/2019,30/06/2018,720000,RC Starsbourg,Ligue1
+Defender,24,30/06/2021,30/06/2018,1800000,RC Starsbourg,Ligue1
+Midfield,20,30/06/2019,30/06/2018,360000,RC Starsbourg,Ligue1
+Midfield,23,30/06/2020,30/06/2018,900000,Toulouse,Ligue1
+Midfield,22,NA,30/06/2018,135000,ES Troyes,Ligue1
+Forward,21,NA,30/06/2018,-,ES Troyes,Ligue1
+Defender,29,30/06/2019,30/06/2018,4500000,Real Madrid,LaLiga
+Midfield,24,30/06/2020,30/06/2018,1800000,Real Madrid,LaLiga
+Midfield,26,30/06/2021,30/06/2019,45000000,Real Madrid,LaLiga
+Midfield,17,NA,31/07/2019,-,Real Madrid,LaLiga
+Defender,22,30/06/2020,30/06/2019,4500000,FC Barcelona,LaLiga
+Defender,27,30/06/2019,30/06/2018,1350000,FC Barcelona,LaLiga
+Midfield,22,30/06/2019,30/06/2018,3150000,FC Barcelona,LaLiga
+Midfield,22,30/06/2019,30/06/2018,8100000,FC Barcelona,LaLiga
+Keeper,21,30/06/2022,30/06/2018,900000,Atletico Madrid,LaLiga
+Defender,23,30/06/2019,30/06/2018,900000,Atletico Madrid,LaLiga
+Midfield,22,NA,30/06/2018,360000,Atletico Madrid,LaLiga
+Midfield,22,30/06/2021,30/06/2018,1350000,Atletico Madrid,LaLiga
+Midfield,27,30/06/2022,31/12/2017,27000000,Atletico Madrid,LaLiga
+Forward,20,30/06/2021,30/06/2018,7200000,Atletico Madrid,LaLiga
+Forward,21,30/06/2019,30/06/2018,450000,Sevilla,LaLiga
+Midfield,27,30/06/2021,30/06/2018,4500000,Villareal,LaLiga
+Midfield,21,30/06/2021,30/06/2018,900000,Villareal,LaLiga
+Midfield,20,30/06/2020,30/06/2018,540000,Villareal,LaLiga
+Midfield,22,30/06/2021,30/06/2018,2250000,Villareal,LaLiga
+Midfield,20,30/06/2018,30/06/2018,1350000,Villareal,LaLiga
+Defender,21,30/06/2019,30/06/2018,540000,Real Sociedad,LaLiga
+Defender,26,30/06/2019,30/06/2018,540000,Real Sociedad,LaLiga
+Defender,25,30/06/2020,30/06/2018,1350000,Real Sociedad,LaLiga
+Midfield,31,30/06/2019,30/06/2018,1350000,Real Sociedad,LaLiga
+Midfield,20,30/06/2020,30/06/2018,720000,Real Sociedad,LaLiga
+Keeper,22,30/06/2019,30/06/2018,540000,Athletic Bilbao,LaLiga
+Defender,22,30/06/2018,30/06/2018,270000,Athletic Bilbao,LaLiga
+Defender,22,30/06/2018,30/06/2018,270000,Athletic Bilbao,LaLiga
+Midfield,21,30/06/2019,30/06/2018,1800000,Athletic Bilbao,LaLiga
+Forward,19,30/06/2019,30/06/2018,630000,Athletic Bilbao,LaLiga
+Keeper,31,30/06/2019,30/06/2018,1800000,Espanyol Barcelona,LaLiga
+Defender,21,30/06/2020,30/06/2018,225000,Deportivo Alavés,LaLiga
+Midfield,21,30/06/2020,30/06/2018,180000,Deportivo Alavés,LaLiga
+Midfield,23,30/06/2020,30/06/2018,360000,Deportivo Alavés,LaLiga
+Defender,24,30/06/2019,30/06/2018,270000,SD Eibar,LaLiga
+Defender,22,30/06/2019,30/06/2018,720000,SD Eibar,LaLiga
+Midfield,24,30/06/2019,30/06/2018,270000,SD Eibar,LaLiga
+Midfield,24,30/06/2020,30/06/2018,450000,SD Eibar,LaLiga
+Forward,22,30/06/2021,30/06/2018,630000,SD Eibar,LaLiga
+Defender,24,30/06/2020,30/06/2018,900000,Malaga,LaLiga
+Defender,29,30/06/2019,30/06/2018,720000,Malaga,LaLiga
+Defender,20,30/06/2020,30/06/2018,360000,Malaga,LaLiga
+Midfield,24,30/06/2020,30/06/2018,720000,Malaga,LaLiga
+Forward,24,30/06/2020,30/06/2018,2250000,Malaga,LaLiga
+Defender,28,30/06/2020,30/06/2018,5400000,Valencia,LaLiga
+Defender,28,30/06/2020,31/12/2018,3150000,Valencia,LaLiga
+Defender,23,30/06/2021,30/06/2018,18000000,Valencia,LaLiga
+Midfield,23,30/06/2020,30/06/2018,2250000,Valencia,LaLiga
+Midfield,22,30/06/2019,30/06/2018,270000,Valencia,LaLiga
+Midfield,30,30/06/2019,30/06/2018,9000000,Valencia,LaLiga
+Midfield,21,30/06/2020,30/06/2018,1800000,Valencia,LaLiga
+Defender,22,30/06/2020,30/06/2018,900000,Celta de Vigo,LaLiga
+Defender,24,30/06/2021,30/06/2018,450000,Celta de Vigo,LaLiga
+Midfield,22,30/06/2019,30/06/2018,270000,Celta de Vigo,LaLiga
+Midfield,29,30/06/2021,30/06/2018,2700000,Celta de Vigo,LaLiga
+Midfield,21,30/06/2019,30/06/2018,2700000,Celta de Vigo,LaLiga
+Forward,24,30/06/2019,30/06/2018,450000,Celta de Vigo,LaLiga
+Midfield,21,30/06/2020,30/06/2018,1080000,UD Las Palmas,LaLiga
+Forward,24,30/06/2020,30/06/2018,2250000,UD Las Palmas,LaLiga
+Forward,25,30/06/2020,30/06/2018,1800000,UD Las Palmas,LaLiga
+Defender,26,30/06/2021,30/06/2018,5400000,Real Betis,LaLiga
+Midfield,25,30/06/2020,30/06/2018,3600000,Real Betis,LaLiga
+Midfield,26,30/06/2020,31/12/2017,2700000,Real Betis,LaLiga
+Midfield,25,30/06/2019,30/06/2018,135000,Real Betis,LaLiga
+Forward,24,30/06/2021,30/06/2018,1800000,Real Betis,LaLiga
+Forward,36,30/06/2019,31/12/2017,900000,Real Betis,LaLiga
+Defender,22,30/06/2020,30/06/2018,900000,Deportivo Coruna,LaLiga
+Midfield,32,30/06/2019,30/06/2018,900000,Deportivo Coruna,LaLiga
+Defender,19,30/06/2022,30/06/2018,225000,CD Leganes,LaLiga
+Midfield,20,30/06/2022,30/06/2018,225000,CD Leganes,LaLiga
+Keeper,21,30/06/2020,30/06/2018,90000,Levante UD,LaLiga
+Defender,26,30/06/2020,30/06/2018,450000,Levante UD,LaLiga
+Midfield,30,30/06/2019,30/06/2018,1080000,Levante UD,LaLiga
+Midfield,25,30/06/2019,30/06/2018,1620000,Levante UD,LaLiga
+Midfield,24,30/06/2019,30/06/2018,1080000,Levante UD,LaLiga
+Defender,24,30/06/2019,30/06/2018,540000,Girona,LaLiga
+Midfield,26,30/06/2020,30/06/2018,450000,Girona,LaLiga
+Forward,25,30/06/2019,30/06/2018,360000,Girona,LaLiga
+Forward,32,30/06/2019,30/06/2018,360000,Girona,LaLiga
+Keeper,32,30/06/2018,30/06/2018,450000,Getafe,LaLiga
+Keeper,23,30/06/2020,30/06/2018,270000,Getafe,LaLiga
+Midfield,20,30/06/2021,30/06/2018,450000,Getafe,LaLiga
+Forward,27,30/06/2019,30/06/2018,900000,Getafe,LaLiga
+Midfield,20,30/06/2021,30/06/2018,19800000,Bayern Munich,Bundesliga
+Midfield,27,30/06/2020,30/06/2018,27000000,Bayern Munich,Bundesliga
+Midfield,22,30/06/2020,30/06/2018,13500000,Bayern Munich,Bundesliga
+Keeper,24,30/06/2019,30/06/2018,675000,RB Leipzig,Bundesliga
+Defender,24,30/06/2020,30/06/2018,1350000,RB Leipzig,Bundesliga
+Defender,25,30/06/2019,30/06/2018,720000,RB Leipzig,Bundesliga
+Midfield,19,30/06/2021,30/06/2018,315000,RB Leipzig,Bundesliga
+Midfield,19,30/06/2021,30/06/2018,90000,RB Leipzig,Bundesliga
+Midfield,22,30/06/2019,30/06/2018,450000,RB Leipzig,Bundesliga
+Midfield,24,30/06/2019,30/06/2018,1800000,RB Leipzig,Bundesliga
+Forward,28,30/06/2018,30/06/2018,900000,RB Leipzig,Bundesliga
+Forward,19,30/06/2020,30/06/2019,135000,RB Leipzig,Bundesliga
+Defender,19,30/06/2021,30/06/2019,2700000,Borussia Dortmund,Bundesliga
+Midfield,21,30/06/2021,30/06/2018,2250000,Borussia Dortmund,Bundesliga
+Midfield,19,30/06/2019,30/06/2018,225000,Borussia Dortmund,Bundesliga
+Keeper,22,30/06/2019,30/06/2018,630000,Hoffenheim,Bundesliga
+Defender,20,30/06/2020,30/06/2018,180000,Hoffenheim,Bundesliga
+Midfield,22,30/06/2019,30/06/2018,720000,Hoffenheim,Bundesliga
+Midfield,22,30/06/2020,30/06/2018,1130000,Hoffenheim,Bundesliga
+Midfield,22,NA,31/12/2017,450000,Hoffenheim,Bundesliga
+Forward,21,30/06/2020,30/06/2018,1130000,Hoffenheim,Bundesliga
+Forward,24,30/06/2019,30/06/2018,720000,Hoffenheim,Bundesliga
+Forward,21,NA,NA,180000,Hoffenheim,Bundesliga
+Keeper,22,30/06/2019,30/06/2018,315000,Hertha BSC,Bundesliga
+Keeper,20,30/06/2019,30/06/2018,225000,Hertha BSC,Bundesliga
+Defender,21,30/06/2019,30/06/2018,270000,Freibrug,Bundesliga
+Midfield,22,30/06/2019,30/06/2018,810000,Freibrug,Bundesliga
+Midfield,23,30/06/2019,30/06/2018,315000,Freibrug,Bundesliga
+Midfield,25,30/06/2019,30/06/2018,270000,Freibrug,Bundesliga
+Defender,28,30/06/2019,30/06/2018,1350000,Werder Bremen,Bundesliga
+Defender,21,30/06/2019,30/06/2018,450000,Werder Bremen,Bundesliga
+Midfield,26,30/06/2019,30/06/2018,720000,Werder Bremen,Bundesliga
+Midfield,28,30/06/2019,30/06/2018,900000,Werder Bremen,Bundesliga
+Forward,25,30/06/2019,30/06/2018,675000,Werder Bremen,Bundesliga
+Midfield,20,30/06/2022,30/06/2018,405000,Borussia Mönchengladbach,Bundesliga
+Midfield,20,30/06/2019,30/06/2018,90000,Borussia Mönchengladbach,Bundesliga
+Defender,29,30/06/2020,30/06/2018,16200000,Schalke 04,Bundesliga
+Defender,19,30/06/2020,30/06/2018,90000,Schalke 04,Bundesliga
+Midfield,24,30/06/2019,30/06/2018,9000000,Schalke 04,Bundesliga
+Midfield,20,30/06/2020,30/06/2018,270000,Schalke 04,Bundesliga
+Forward,19,30/06/2020,30/06/2018,180000,Schalke 04,Bundesliga
+Defender,26,30/06/2021,30/06/2018,10800000,Bayer 04 Leverkusen,Bundesliga
+Midfield,25,30/06/2020,30/06/2018,900000,Augsburg,Bundesliga
+Forward,23,30/06/2020,30/06/2018,113000,Augsburg,Bundesliga
+Midfield,21,30/06/2020,30/06/2018,3600000,Hamburger,Bundesliga
+Midfield,20,30/06/2020,30/06/2018,360000,Hamburger,Bundesliga
+Midfield,20,30/06/2020,30/06/2019,180000,Hamburger,Bundesliga
+Forward,25,30/06/2019,30/06/2018,1800000,Hamburger,Bundesliga
+Forward,21,30/06/2019,30/06/2018,540000,Hamburger,Bundesliga
+Keeper,28,30/06/2019,30/06/2018,1350000,Mainz,Bundesliga
+Midfield,22,30/06/2020,30/06/2018,900000,Mainz,Bundesliga
+Midfield,22,30/06/2019,30/06/2018,315000,Mainz,Bundesliga
+Midfield,21,30/06/2019,30/06/2018,270000,Mainz,Bundesliga
+Forward,21,30/06/2021,30/06/2018,450000,Mainz,Bundesliga
+Midfield,22,30/06/2020,30/06/2018,1800000,Wolfsburg,Bundesliga
+Midfield,20,30/06/2019,30/06/2018,135000,Wolfsburg,Bundesliga
+Midfield,19,30/06/2021,30/06/2018,2700000,Wolfsburg,Bundesliga
+Midfield,19,30/06/2020,30/06/2018,225000,Wolfsburg,Bundesliga
+Defender,19,30/06/2020,30/06/2018,1800000,Stuttgart,Bundesliga
+Defender,23,30/06/2020,30/06/2018,1130000,Stuttgart,Bundesliga
+Midfield,19,NA,30/06/2018,90000,Stuttgart,Bundesliga
+Midfield,22,30/06/2019,30/06/2018,630000,Stuttgart,Bundesliga
+Midfield,32,30/06/2019,30/06/2018,675000,Stuttgart,Bundesliga
+Forward,24,30/06/2019,30/06/2018,360000,Stuttgart,Bundesliga
+Defender,21,30/06/2020,30/06/2018,68000,Hannover,Bundesliga
+Midfield,22,30/06/2019,30/06/2018,450000,Hannover,Bundesliga
+Forward,22,30/06/2019,30/06/2018,540000,Hannover,Bundesliga
+Forward,20,30/06/2019,30/06/2018,158000,Hannover,Bundesliga

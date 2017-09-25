@@ -37,6 +37,22 @@ ggplot(league) +
   theme(legend.position="none")
 
 league <- data %>%
+          group_by(League,Team) %>%
+          summarize(n=n(),avg_age=mean(Age),av_loan=mean(n)) %>%
+          group_by(League) %>%
+          summarize(avg_loan = mean(av_loan)) %>%
+          arrange(desc(avg_loan))
+
+kable(league)
+
+ggplot(league) + 
+    geom_bar(aes(x = reorder(League,-avg_loan),y = avg_loan,fill = League),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_manual(values=c("#f06292","#ba68c8","#9575cd","#7986cb","#4db6ac"))+
+    labs(x="", y="Average players loaned",title="Average number of players loaned by league",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+league <- data %>%
           group_by(League) %>%
           summarize(n=n(),avg_age=mean(Age),avg_value=mean(Value,na.rm=T)) %>%
           arrange(desc(n))

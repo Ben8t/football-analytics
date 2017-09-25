@@ -18,7 +18,7 @@ library(viridis)
 ```{r,echo=FALSE,warning=FALSE}
 data <- read.csv("../data/loan20172018.csv", dec=",")
 data$Value = as.numeric(as.character(data$Value))
-kable(head(data))
+kable(sample_n(data,5))
 ```
 
 ## League analysis
@@ -30,9 +30,40 @@ league <- data %>%
 kable(league)
 
 ggplot(league) + 
-    geom_bar(aes(x = reorder(League,-n),y = n,fill = League),stat = "identity",position = position_stack(reverse = FALSE)) +
+    geom_bar(aes(x = reorder(League,-n),y = n,fill = League),stat = "identity",position = position_stack(reverse = TRUE)) +
     scale_fill_manual(values=c("#f06292","#ba68c8","#9575cd","#7986cb","#4db6ac"))+
-    labs(x="", y="Players loaned",title="Number of players loaned by league",subtitle="2017-2018 season",caption="by Benoit Pimpaud / @Ben8t",color="")+
+    labs(x="", y="Players loaned",title="Number of players loaned by league",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+league <- data %>%
+          group_by(League) %>%
+          summarize(n=n(),avg_age=mean(Age),avg_value=mean(Value,na.rm=T)) %>%
+          arrange(desc(n))
+kable(league)
+
+ggplot(league) + 
+    geom_bar(aes(x = reorder(League,-avg_age),y = avg_age,fill = League),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_manual(values=c("#f06292","#ba68c8","#9575cd","#7986cb","#4db6ac"))+
+    labs(x="", y="Players loaned",title="Average age of players loaned by league",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+```
+
+## Big clubs analysis
+```{r,echo=FALSE}
+league <- data %>%
+          group_by(Team) %>%
+          summarize(n=n(),avg_age=mean(Age),avg_value=mean(Value,na.rm=T)) %>%
+          arrange(desc(n)) %>%
+          slice(1:25)
+  
+kable(league)
+
+ggplot(league) + 
+    geom_bar(aes(x = reorder(Team,n),y = n,fill = n),stat = "identity",position = position_stack(reverse = FALSE)) +
+  coord_flip()+
+    labs(x="", y="Players loaned",title="Number of players loaned by club - Top 25",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
  	theme_ipsum_rc()+
   theme(legend.position="none")
 ```
@@ -49,7 +80,7 @@ ggplot(league) +
     geom_bar(aes(x = Position,y = n,fill = Position),stat = "identity",position = position_stack(reverse = FALSE)) +
     scale_x_discrete(limits=c("Keeper","Defender","Midfield","Forward"))+
     scale_fill_manual(values=c("#ba68c8","#9575cd","#7986cb","#4db6ac"))+
-    labs(x="", y="Players loaned",title="Number of players loaned by position",subtitle="2017-2018 season",caption="by Benoit Pimpaud / @Ben8t",color="")+
+    labs(x="", y="Players loaned",title="Number of players loaned by position",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
  	theme_ipsum_rc()+
   theme(legend.position="none")
 ```
@@ -66,28 +97,129 @@ kable(pl)
 
 ggplot(pl) + 
     geom_bar(aes(x = reorder(Team,n),y = n,fill=n),stat = "identity",position = position_stack(reverse = TRUE)) +
-    scale_fill_viridis()+
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
  	  coord_flip()+
-    labs(x="", y="Players loaned",title="Number of players loaned by their club in Premier League",subtitle="2017-2018 season",caption="by Benoit Pimpaud / @Ben8t",color="")+
+    labs(x="", y="Players loaned",title="Number of players loaned by their club in Premier League",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
  	theme_ipsum_rc()+
   theme(legend.position="none")
 
 ggplot(pl) + 
     geom_bar(aes(x = reorder(Team,avg_age),y = avg_age,fill=avg_age),stat = "identity",position = position_stack(reverse = TRUE)) +
-    scale_fill_viridis()+
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
  	  coord_flip()+
-    labs(x="", y="Age average",title="Average age from players loaned by their club in Premier League",subtitle="2017-2018 season",caption="by Benoit Pimpaud / @Ben8t",color="")+
+    labs(x="", y="Age average",title="Average age from players loaned by their club in Premier League",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
  	theme_ipsum_rc()+
   theme(legend.position="none")
 
 ```
 
 ### LaLiga analysis
+```{r,echo=FALSE}
+pl<- data %>%
+          filter(League=="LaLiga") %>%
+          group_by(Team) %>%
+          summarize(n=n(),avg_age=mean(Age)) %>%
+          arrange(desc(n))
+kable(pl)
+
+ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,n),y = n,fill=n),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Players loaned",title="Number of players loaned by their club in La Liga",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,avg_age),y = avg_age,fill=avg_age),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Age average",title="Average age from players loaned by their club in La Liga",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+```
 
 ### Bundesliga analysis
+```{r,echo=FALSE}
+pl<- data %>%
+          filter(League=="Bundesliga") %>%
+          group_by(Team) %>%
+          summarize(n=n(),avg_age=mean(Age)) %>%
+          arrange(desc(n))
+kable(pl)
+
+ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,n),y = n,fill=n),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Players loaned",title="Number of players loaned by their club in Bundesliga",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,avg_age),y = avg_age,fill=avg_age),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Age average",title="Average age from players loaned by their club in Bundesliga",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+```
 
 ### Serie A analysis
+```{r,echo=FALSE}
+pl<- data %>%
+          filter(League=="Serie A") %>%
+          group_by(Team) %>%
+          summarize(n=n(),avg_age=mean(Age)) %>%
+          arrange(desc(n))
+kable(pl)
+
+ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,n),y = n,fill=n),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Players loaned",title="Number of players loaned by their club in Serie A",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,avg_age),y = avg_age,fill=avg_age),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Age average",title="Average age from players loaned by their club in Serie A",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+```
 
 ### Ligue 1 analysis
+```{r,echo=FALSE}
+pl<- data %>%
+          filter(League=="Ligue1") %>%
+          group_by(Team) %>%
+          summarize(n=n(),avg_age=mean(Age)) %>%
+          arrange(desc(n))
+kable(pl)
 
+ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,n),y = n,fill=n),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Players loaned",title="Number of players loaned by their club in Ligue1",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+x<-ggplot(pl) + 
+    geom_bar(aes(x = reorder(Team,avg_age),y = avg_age,fill=avg_age),stat = "identity",position = position_stack(reverse = TRUE)) +
+    scale_fill_gradientn("Passes",colours = c("#a7ffeb","#64ffda","#1de9b6","#00bfa5"))+
+ 	  coord_flip()+
+    labs(x="", y="Age average",title="Average age from players loaned by their club in Ligue1",subtitle="2017-2018 season",caption="Data from Transfermarkt\nby Benoit Pimpaud / @Ben8t",color="")+
+ 	theme_ipsum_rc()+
+  theme(legend.position="none")
+
+x
+ggsave(filename = paste0("test.png"),x,width =14,height=8,dpi=300)
+```
 

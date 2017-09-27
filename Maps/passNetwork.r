@@ -32,11 +32,18 @@ player= data$playerIdNameDictionary %>%
     select(playerName=V1,playerId=rowname) %>% 
     mutate(playerId=as.numeric(playerId),playerName=unlist(playerName))
 
+# create final text (home team - away team - score)
+home_team = data$home$name
+away_team = data$away$name
+score_home = unlist(strsplit(data$score, "\\s+"))[1]
+score_away = unlist(strsplit(data$score, "\\s+"))[3]
 # Select team (home or away)
 if(TEAM=="home"){
     lineup = data$home$formations$playerIds[[1]] %>% as.data.frame() %>% select(.,playerId=.) %>% slice(1:11)
+    final_text = paste0(home_team," against ",away_team," - ",score_home,":",score_away)
 }else if(TEAM=="away"){
     lineup = data$away$formations$playerIds[[1]] %>% as.data.frame() %>% select(.,playerId=.) %>% slice(1:11)
+    final_text = paste0(away_team," away at ",home_team," - ",score_home,":",score_away)
 }
 
 # Bind all data
@@ -174,3 +181,4 @@ map <- ggplot(g2, aes(x = x, y = y, xend = xend, yend = yend)) +
     theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank())
 
 ggsave(filename = paste0("img/g_passnetwork_tmp.png"),map,width =14,height=8,dpi=300)
+print(final_text)

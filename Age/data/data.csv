@@ -1,0 +1,544 @@
+Team,Player,Age,Mins,Goals,Assists,Age-group,GoalsPer90,AssistsPer90
+Liverpool,Philippe Coutinho,25,2245,13,7,24-30,"0,5211581292","0,280623608"
+Liverpool,Roberto Firmino,26,3069,11,7,24-30,"0,3225806452","0,2052785924"
+Liverpool,Sadio Mané,25,2248,13,5,24-30,"0,5204626335","0,2001779359"
+Liverpool,Jordan Henderson,27,2118,1,4,24-30,"0,04249291785","0,1699716714"
+Liverpool,James Milner,31,3160,7,3,31+,"0,1993670886","0,08544303797"
+Liverpool,Dejan Lovren,28,2555,2,1,24-30,"0,07045009785","0,03522504892"
+Liverpool,Joel Matip,26,2456,1,0,24-30,"0,03664495114",0
+Liverpool,Adam Lallana,29,2350,8,7,24-30,"0,3063829787","0,2680851064"
+Liverpool,Emre Can,23,2368,5,2,<24,"0,1900337838","0,07601351351"
+Liverpool,Georginio Wijnaldum,26,2978,6,9,24-30,"0,1813297515","0,2719946273"
+Liverpool,Nathaniel Clyne,26,3324,0,2,24-30,0,"0,05415162455"
+Liverpool,Simon Mignolet,29,2520,0,0,24-30,0,0
+Liverpool,Lucas Leiva,30,1105,0,3,24-30,0,"0,2443438914"
+Liverpool,Ragnar Klavan,31,1408,0,0,31+,0,0
+Liverpool,Daniel Sturridge,28,769,3,1,24-30,"0,3511053316","0,1170351105"
+Liverpool,Divock Origi,22,1460,7,3,<24,"0,4315068493","0,1849315068"
+Liverpool,Loris Karius,24,900,0,0,24-30,0,0
+Liverpool,Alberto Moreno,25,298,0,1,24-30,0,"0,3020134228"
+Liverpool,Marko Grujic,21,38,0,0,<24,0,0
+Liverpool,Trent Alexander-Arnold,19,166,0,0,<24,0,0
+Liverpool,Ben Woodburn,17,84,0,0,<24,0,0
+Liverpool,Kevin Stewart,24,18,0,0,24-30,0,0
+Liverpool,Ovie Ejaria,19,6,0,0,<24,0,0
+Arsenal,Alexis Sánchez,28,3224,24,10,24-30,"0,6699751861","0,2791563275"
+Arsenal,Calum Chambers,22,90,1,0,<24,1,0
+Arsenal,Shkodran Mustafi,25,2275,2,2,24-30,"0,07912087912","0,07912087912"
+Arsenal,Mesut Özil,28,2848,8,9,24-30,"0,2528089888","0,2844101124"
+Arsenal,Laurent Koscielny,32,2824,2,0,31+,"0,06373937677",0
+Arsenal,Santi Cazorla,32,619,2,2,31+,"0,2907915994","0,2907915994"
+Arsenal,Carl Jenkinson,25,83,0,0,24-30,0,0
+Arsenal,Alex Oxlade Chamberlain,24,1563,2,7,24-30,"0,1151631478","0,4030710173"
+Arsenal,Theo Walcott,28,1925,10,2,24-30,"0,4675324675","0,09350649351"
+Arsenal,Kieran Gibbs,28,702,0,1,24-30,0,"0,1282051282"
+Arsenal,Nacho Monreal,31,3153,0,2,31+,0,"0,05708848716"
+Arsenal,Rob Holding,22,810,0,0,<24,0,0
+Arsenal,Granit Xhaka,25,2486,2,2,24-30,"0,07240547064","0,07240547064"
+Arsenal,Petr Cech,35,3098,0,0,31+,0,0
+Arsenal,Gabriel Paulista,26,1516,0,0,24-30,0,0
+Arsenal,Olivier Giroud,31,1198,12,3,31+,"0,9015025042","0,225375626"
+Arsenal,Héctor Bellerín,22,2500,1,4,<24,"0,036","0,144"
+Arsenal,Francis Coquelin,26,1786,0,0,24-30,0,0
+Arsenal,Alex Iwobi,21,1463,3,3,<24,"0,1845522898","0,1845522898"
+Arsenal,Per Mertesacker,33,37,0,0,31+,0,0
+Arsenal,Aaron Ramsey,26,1231,1,4,24-30,"0,07311129163","0,2924451665"
+Arsenal,Emiliano Martínez,25,180,0,0,24-30,0,0
+Arsenal,Danny Welbeck,26,746,2,2,24-30,"0,2412868633","0,2412868633"
+Arsenal,Mohamed El Neny,25,694,0,1,24-30,0,"0,1296829971"
+Arsenal,Mathieu Debuchy,32,16,0,0,31+,0,0
+Arsenal,Jack Wilshere,25,37,0,0,24-30,0,0
+Arsenal,Lucas Pérez,29,265,1,0,24-30,"0,3396226415",0
+Arsenal,David Ospina,29,142,0,0,24-30,0,0
+Arsenal,Ainsley Maitland-Niles,20,1,0,0,<24,0,0
+Bournmouth,Nathan Aké,22,733,3,0,<24,"0,3683492497",0
+Bournmouth,Steve Cook,26,3420,2,0,24-30,"0,05263157895",0
+Bournmouth,Joshua King,25,2721,16,2,24-30,"0,5292171996","0,06615214994"
+Bournmouth,Simon Francis,32,2941,0,1,31+,0,"0,03060183611"
+Bournmouth,Charlie Daniels,31,3060,4,3,31+,"0,1176470588","0,08823529412"
+Bournmouth,Junior Stanislas,27,1476,7,5,24-30,"0,4268292683","0,3048780488"
+Bournmouth,Adam Smith,26,3099,1,5,24-30,"0,02904162633","0,1452081317"
+Bournmouth,Jack Wilshere,25,1916,0,2,24-30,0,"0,09394572025"
+Bournmouth,Marc Pugh,30,1333,2,2,24-30,"0,1350337584","0,1350337584"
+Bournmouth,Lewis Cook,20,431,0,2,<24,0,"0,4176334107"
+Bournmouth,Harry Arter,27,2959,1,4,24-30,"0,03041568097","0,1216627239"
+Bournmouth,Ryan Fraser,23,1769,3,5,<24,"0,1526286037","0,2543810062"
+Bournmouth,Artur Boruc,37,3150,0,0,31+,0,0
+Bournmouth,Ryan Allsop,25,90,0,0,24-30,0,0
+Bournmouth,Andrew Surman,31,1792,0,1,31+,0,"0,05022321429"
+Bournmouth,Dan Gosling,27,1358,2,0,24-30,"0,1325478645",0
+Bournmouth,Adam Federici,32,180,0,0,31+,0,0
+Bournmouth,Callum Wilson,25,1367,6,0,24-30,"0,3950256035",0
+Bournmouth,Benik Afobe,24,1454,6,3,24-30,"0,371389271","0,1856946355"
+Bournmouth,Jordon Ibe,21,1059,0,0,<24,0,0
+Bournmouth,Tyrone Mings,24,506,0,0,24-30,0,0
+Bournmouth,Baily Cargill,22,12,0,0,<24,0,0
+Bournmouth,Lewis Grabban,29,58,0,1,24-30,0,"1,551724138"
+Bournmouth,Max Gradel,29,126,0,0,24-30,0,0
+Bournmouth,Brad Smith,23,272,0,0,<24,0,0
+Bournmouth,Lys Mousset,21,265,0,0,<24,0,0
+Bournmouth,Matt Worthington,19,16,0,0,<24,0,0
+Burnley,Ben Mee,28,3016,1,0,24-30,"0,02984084881",0
+Burnley,Michael Keane,24,3150,2,1,24-30,"0,05714285714","0,02857142857"
+Burnley,Matthew Lowton,28,3240,0,2,24-30,0,"0,05555555556"
+Burnley,Joey Barton,35,1104,1,0,31+,"0,08152173913",0
+Burnley,Tom Heaton,31,3150,0,0,31+,0,0
+Burnley,Stephen Ward,32,3233,1,1,31+,"0,02783792144","0,02783792144"
+Burnley,Sam Vokes,27,2055,10,3,24-30,"0,4379562044","0,1313868613"
+Burnley,Jon Flanagan,24,359,0,0,24-30,0,0
+Burnley,Steven Defour,29,1080,1,3,24-30,"0,08333333333","0,25"
+Burnley,Robbie Brady,25,716,1,2,24-30,"0,125698324","0,251396648"
+Burnley,Kevin Long,27,270,0,0,24-30,0,0
+Burnley,Ashley Barnes,27,1779,6,2,24-30,"0,3035413153","0,1011804384"
+Burnley,George Boyd,32,2845,2,1,31+,"0,06326889279","0,0316344464"
+Burnley,Johann Berg Gudmundsson,26,997,1,2,24-30,"0,09027081244","0,1805416249"
+Burnley,Dean Marney,33,1770,1,2,31+,"0,05084745763","0,1016949153"
+Burnley,Scott Arfield,28,2107,1,0,24-30,"0,04271476032",0
+Burnley,Paul Robinson,37,270,0,0,31+,0,0
+Burnley,Jeff Hendrick,25,2696,2,1,24-30,"0,06676557864","0,03338278932"
+Burnley,Andre Gray,26,2268,9,3,24-30,"0,3571428571","0,119047619"
+Burnley,James Tarkowski,24,556,0,0,24-30,0,0
+Burnley,Ashley Westwood,27,550,0,0,24-30,0,0
+Burnley,Michael Kightly,31,103,0,0,31+,0,0
+Burnley,Aiden O'Neill,19,83,0,0,<24,0,0
+Burnley,Daniel Agyei,20,24,0,0,<24,0,0
+Burnley,Lukas Jutkiewicz,28,11,0,0,24-30,0,0
+Burnley,David Jones,32,87,0,0,31+,0,0
+Burnley,Patrick Bamford,24,34,0,0,24-30,0,0
+Chelsea,Eden Hazard,26,3007,16,5,24-30,"0,4788826072","0,1496508148"
+Chelsea,Marcos Alonso,26,2694,6,3,24-30,"0,2004454343","0,1002227171"
+Chelsea,Diego Costa,29,3090,20,7,24-30,"0,5825242718","0,2038834951"
+Chelsea,N'Golo Kanté,26,3139,1,1,24-30,"0,02867155145","0,02867155145"
+Chelsea,Victor Moses,26,2498,3,2,24-30,"0,1080864692","0,07205764612"
+Chelsea,César Azpilicueta,28,3420,1,4,24-30,"0,02631578947","0,1052631579"
+Chelsea,David Luiz,30,2956,1,0,24-30,"0,03044654939",0
+Chelsea,Pedro,30,2151,9,9,24-30,"0,3765690377","0,3765690377"
+Chelsea,Gary Cahill,31,3296,6,0,31+,"0,1638349515",0
+Chelsea,Cesc Fàbregas,30,1328,5,12,24-30,"0,3388554217","0,813253012"
+Chelsea,Nemanja Matic,29,2697,1,7,24-30,"0,03337041157","0,233592881"
+Chelsea,Willian,29,1531,8,2,24-30,"0,4702808622","0,1175702155"
+Chelsea,Thibaut Courtois,25,3240,0,0,24-30,0,0
+Chelsea,Oscar,26,456,0,1,24-30,0,"0,1973684211"
+Chelsea,Nathan Aké,22,98,0,1,<24,0,"0,9183673469"
+Chelsea,Branislav Ivanovic,33,584,0,0,31+,0,0
+Chelsea,Kenedy,21,75,0,0,<24,0,0
+Chelsea,John Terry,36,494,1,0,31+,"0,1821862348",0
+Chelsea,Michy Batshuayi,24,239,5,1,24-30,"1,882845188","0,3765690377"
+Chelsea,Nathaniel Chalobah,22,159,0,1,<24,0,"0,5660377358"
+Chelsea,Kurt Zouma,22,247,0,1,<24,0,"0,3643724696"
+Chelsea,Ola Aina,21,25,0,0,<24,0,0
+Chelsea,Ruben Loftus-Cheek,21,31,0,0,<24,0,0
+Chelsea,Asmir Begovic,30,180,0,0,24-30,0,0
+Crystal Palace,Wilfried Zaha,24,3025,7,9,24-30,"0,2082644628","0,267768595"
+Crystal Palace,Christian Benteke,26,3138,15,2,24-30,"0,430210325","0,05736137667"
+Crystal Palace,Mile Jedinak,33,90,0,0,31+,0,0
+Crystal Palace,Mamadou Sakho,27,687,0,0,24-30,0,0
+Crystal Palace,Andros Townsend,26,2529,3,4,24-30,"0,1067615658","0,1423487544"
+Crystal Palace,Luka Milivojevic,26,1227,2,0,24-30,"0,1466992665",0
+Crystal Palace,Jason Puncheon,31,3096,0,5,31+,0,"0,1453488372"
+Crystal Palace,Joel Ward,27,3418,0,1,24-30,0,"0,02633118783"
+Crystal Palace,Jeffrey Schlupp,24,997,0,0,24-30,0,0
+Crystal Palace,Yohan Cabaye,31,2133,4,3,31+,"0,1687763713","0,1265822785"
+Crystal Palace,James Tomkins,28,1978,3,0,24-30,"0,1365015167",0
+Crystal Palace,Scott Dann,30,1744,3,1,24-30,"0,1548165138","0,05160550459"
+Crystal Palace,Pape Souaré,27,270,0,0,24-30,0,0
+Crystal Palace,James McArthur,30,2010,5,3,24-30,"0,223880597","0,1343283582"
+Crystal Palace,Wayne Hennessey,30,2610,0,0,24-30,0,0
+Crystal Palace,Patrick van Aanholt,27,715,2,0,24-30,"0,2517482517",0
+Crystal Palace,Damien Delaney,36,2009,0,2,31+,0,"0,08959681434"
+Crystal Palace,Connor Wickham,24,411,2,0,24-30,"0,4379562044",0
+Crystal Palace,Martin Kelly,27,2131,0,2,24-30,0,"0,0844673862"
+Crystal Palace,Joe Ledley,30,1163,1,0,24-30,"0,07738607051",0
+Crystal Palace,Lee Chung-yong,29,466,0,1,24-30,0,"0,1931330472"
+Crystal Palace,Steve Mandanda,32,810,0,0,31+,0,0
+Crystal Palace,Jonathan Benteke,22,6,0,0,<24,0,0
+Crystal Palace,Bakary Sako,29,136,0,0,24-30,0,0
+Crystal Palace,Ezekiel Fryers,25,183,0,1,24-30,0,"0,4918032787"
+Crystal Palace,Loïc Remy,30,131,0,0,24-30,0,0
+Crystal Palace,Fraizer Campbell,30,154,1,0,24-30,"0,5844155844",0
+Crystal Palace,Jordon Mutch,25,50,0,0,24-30,0,0
+Crystal Palace,Mathieu Flamini,33,270,0,0,31+,0,0
+Crystal Palace,Sullay Kaikai,22,23,0,0,<24,0,0
+Crystal Palace,Yannick Bolasie,28,24,0,0,24-30,0,0
+Everton,Romelu Lukaku,24,3267,25,6,24-30,"0,6887052342","0,1652892562"
+Everton,Idrissa Gueye,28,2688,1,1,24-30,"0,03348214286","0,03348214286"
+Everton,Yannick Bolasie,28,1028,1,4,24-30,"0,08754863813","0,3501945525"
+Everton,Ross Barkley,23,2909,5,8,<24,"0,1546923341","0,2475077346"
+Everton,Phil Jagielka,35,2251,3,2,31+,"0,1199466904","0,07996446024"
+Everton,Seamus Coleman,28,2317,4,3,24-30,"0,1553733276","0,1165299957"
+Everton,Ashley Williams,33,3159,1,3,31+,"0,02849002849","0,08547008547"
+Everton,Morgan Schneiderlin,27,1059,1,0,24-30,"0,08498583569",0
+Everton,Joel Robles,27,1736,0,1,24-30,0,"0,05184331797"
+Everton,Leighton Baines,32,2822,2,3,31+,"0,06378454996","0,09567682495"
+Everton,Mason Holgate,20,1373,0,1,<24,0,"0,06554989075"
+Everton,Kevin Mirallas,30,2081,4,6,24-30,"0,172993753","0,2594906295"
+Everton,Gareth Barry,36,2114,2,1,31+,"0,08514664144","0,04257332072"
+Everton,Ramiro Funes Mori,26,1539,0,1,24-30,0,"0,05847953216"
+Everton,Tom Davies,19,1544,2,3,<24,"0,1165803109","0,1748704663"
+Everton,Bryan Oviedo,27,477,0,0,24-30,0,0
+Everton,James McCarthy,26,614,1,1,24-30,"0,1465798046","0,1465798046"
+Everton,Enner Valencia,27,708,3,1,24-30,"0,3813559322","0,1271186441"
+Everton,Maarten Stekelenburg,35,1684,0,0,31+,0,0
+Everton,Gerard Deulofeu,23,458,0,0,<24,0,0
+Everton,Matthew Pennington,23,180,1,0,<24,"0,5",0
+Everton,Ademola Lookman,19,290,1,0,<24,"0,3103448276",0
+Everton,Aaron Lennon,30,510,0,1,24-30,0,"0,1764705882"
+Everton,Tom Cleverley,28,403,0,0,24-30,0,0
+Everton,Dominic Calvert-Lewin,20,346,1,0,<24,"0,2601156069",0
+Everton,Arouna Koné,33,72,0,0,31+,0,0
+Everton,Jonjoe Kenny,20,12,0,0,<24,0,0
+Leicester,Wilfred Ndidi,20,1522,2,1,<24,"0,1182654402","0,05913272011"
+Leicester,Christian Fuchs,31,3104,2,4,31+,"0,05798969072","0,1159793814"
+Leicester,Riyad Mahrez,26,2837,6,3,24-30,"0,1903419105","0,09517095523"
+Leicester,Marc Albrighton,27,2425,2,6,24-30,"0,07422680412","0,2226804124"
+Leicester,Kasper Schmeichel,30,2667,0,0,24-30,0,0
+Leicester,Jamie Vardy,30,2810,13,5,24-30,"0,4163701068","0,1601423488"
+Leicester,Robert Huth,33,2929,2,2,31+,"0,0614544213","0,0614544213"
+Leicester,Daniel Drinkwater,27,2467,1,1,24-30,"0,03648155655","0,03648155655"
+Leicester,Yohan Benalouane,30,921,0,0,24-30,0,0
+Leicester,Danny Simpson,30,2990,0,2,24-30,0,"0,0602006689"
+Leicester,Ben Chilwell,20,696,1,0,<24,"0,1293103448",0
+Leicester,Islam Slimani,29,1280,7,4,24-30,"0,4921875","0,28125"
+Leicester,Wes Morgan,33,2430,1,0,31+,"0,03703703704",0
+Leicester,Andy King,28,1445,1,0,24-30,"0,06228373702",0
+Leicester,Daniel Amartey,22,1666,1,1,<24,"0,05402160864","0,05402160864"
+Leicester,Shinji Okazaki,31,1578,3,1,31+,"0,1711026616","0,05703422053"
+Leicester,Demarai Gray,21,1039,1,3,<24,"0,08662175168","0,2598652551"
+Leicester,Nampalys Mendy,25,272,0,0,24-30,0,0
+Leicester,Luis Hernández,28,326,0,0,24-30,0,0
+Leicester,Leonardo Ulloa,31,435,1,0,31+,"0,2068965517",0
+Leicester,Marcin Wasilewski,37,90,0,0,31+,0,0
+Leicester,Ahmed Musa,24,755,2,0,24-30,"0,238410596",0
+Leicester,Jeffrey Schlupp,24,139,0,0,24-30,0,0
+Leicester,Ron-Robert Zieler,28,753,0,0,24-30,0,0
+Leicester,Matty James,26,1,0,0,24-30,0,0
+Manchester City,Kevin De Bruyne,26,2885,6,18,24-30,"0,1871750433","0,56152513"
+Manchester City,Nicolás Otamendi,29,2592,1,1,24-30,"0,03472222222","0,03472222222"
+Manchester City,Gabriel Jesus,20,651,7,4,<24,"0,9677419355","0,5529953917"
+Manchester City,Sergio Agüero,29,2407,20,3,24-30,"0,7478188617","0,1121728292"
+Manchester City,Aleksandar Kolarov,31,2533,1,1,31+,"0,03553099092","0,03553099092"
+Manchester City,David Silva,31,2768,4,7,31+,"0,1300578035","0,2276011561"
+Manchester City,Vincent Kompany,31,823,3,0,31+,"0,3280680437",0
+Manchester City,Yaya Touré,34,1947,5,0,31+,"0,2311248074",0
+Manchester City,Fernandinho,32,2755,2,1,31+,"0,06533575318","0,03266787659"
+Manchester City,Ilkay Gündogan,26,710,3,1,24-30,"0,3802816901","0,1267605634"
+Manchester City,Leroy Sané,21,1788,5,3,<24,"0,2516778523","0,1510067114"
+Manchester City,Raheem Sterling,22,2517,7,6,<24,"0,2502979738","0,2145411204"
+Manchester City,Gaël Clichy,32,2125,1,0,31+,"0,04235294118",0
+Manchester City,Bacary Sagna,34,1345,0,1,31+,0,"0,06691449814"
+Manchester City,John Stones,23,2013,0,0,<24,0,0
+Manchester City,Pablo Zabaleta,32,1060,1,1,31+,"0,08490566038","0,08490566038"
+Manchester City,Willy Caballero,36,1451,0,0,31+,0,0
+Manchester City,Nolito,30,779,4,2,24-30,"0,4621309371","0,2310654685"
+Manchester City,Fabian Delph,27,220,1,0,24-30,"0,4090909091",0
+Manchester City,Jesús Navas,31,1059,0,0,31+,0,0
+Manchester City,Fernando,30,560,0,0,24-30,0,0
+Manchester City,Kelechi Iheanacho,21,528,4,3,<24,"0,6818181818","0,5113636364"
+Manchester City,Claudio Bravo,34,1969,0,0,31+,0,0
+Manchester City,Samir Nasri,30,16,0,0,24-30,0,0
+Manchester City,Aleix García,20,76,0,0,<24,0,0
+Manchester United,Josh Harrop,21,90,1,0,<24,1,0
+Manchester United,Sergio Romero,30,180,0,0,24-30,0,0
+Manchester United,Demetri Mitchell,20,90,0,0,<24,0,0
+Manchester United,Paul Pogba,24,2610,5,4,24-30,"0,1724137931","0,1379310345"
+Manchester United,Zlatan Ibrahimovic,36,2437,17,5,31+,"0,6278210915","0,1846532622"
+Manchester United,Ander Herrera,28,2467,1,6,24-30,"0,03648155655","0,2188893393"
+Manchester United,Antonio Valencia,32,2483,1,3,31+,"0,03624647604","0,1087394281"
+Manchester United,Eric Bailly,23,2060,0,0,<24,0,0
+Manchester United,Daley Blind,27,1830,1,2,24-30,"0,04918032787","0,09836065574"
+Manchester United,Phil Jones,25,1585,0,0,24-30,0,0
+Manchester United,Marcos Rojo,27,1661,1,0,24-30,"0,05418422637",0
+Manchester United,Juan Mata,29,1628,6,3,24-30,"0,3316953317","0,1658476658"
+Manchester United,Matteo Darmian,27,1334,0,0,24-30,0,0
+Manchester United,Anthony Martial,21,1558,4,6,<24,"0,2310654685","0,3465982028"
+Manchester United,Marouane Fellaini,29,1600,1,0,24-30,"0,05625",0
+Manchester United,Luke Shaw,22,692,0,1,<24,0,"0,1300578035"
+Manchester United,Henrikh Mkhitaryan,28,1352,4,1,24-30,"0,2662721893","0,06656804734"
+Manchester United,Ashley Young,32,758,0,1,31+,0,"0,1187335092"
+Manchester United,Wayne Rooney,31,1540,5,5,31+,"0,2922077922","0,2922077922"
+Manchester United,Joel Pereira,21,90,0,0,<24,0,0
+Manchester United,Chris Smalling,27,1215,1,1,24-30,"0,07407407407","0,07407407407"
+Manchester United,Jesse Lingard,24,1369,1,2,24-30,"0,06574141709","0,1314828342"
+Manchester United,Michael Carrick,36,1603,0,0,31+,0,0
+Manchester United,Axel Tuanzebe,19,305,0,0,<24,0,0
+Manchester United,Scott McTominay,20,96,0,0,<24,0,0
+Manchester United,Marcus Rashford,19,1703,5,1,<24,"0,2642395772","0,05284791544"
+Manchester United,David de Gea,26,3150,0,0,24-30,0,0
+Manchester United,Timothy Fosu-Mensah,19,96,0,0,<24,0,0
+Manchester United,Angel Gomes,17,2,0,0,<24,0,0
+Manchester United,Morgan Schneiderlin,27,11,0,0,24-30,0,0
+Manchester United,Memphis Depay,23,20,0,0,<24,0,0
+Southampton,Virgil van Dijk,26,1854,1,0,24-30,"0,04854368932",0
+Southampton,Oriol Romeu,26,3072,1,0,24-30,"0,029296875",0
+Southampton,Maya Yoshida,29,2070,1,0,24-30,"0,04347826087",0
+Southampton,Nathan Redmond,23,2909,7,1,<24,"0,2165692678","0,03093846683"
+Southampton,Cédric Soares,26,2520,0,3,24-30,0,"0,1071428571"
+Southampton,Charlie Austin,28,939,6,1,24-30,"0,5750798722","0,09584664537"
+Southampton,Ryan Bertrand,28,2508,2,4,24-30,"0,07177033493","0,1435406699"
+Southampton,José Fonte,33,1530,0,0,31+,0,0
+Southampton,Matt Targett,22,374,0,0,<24,0,0
+Southampton,Pierre-Emile Højbjerg,22,1299,0,0,<24,0,0
+Southampton,Jack Stephens,23,1469,0,1,<24,0,"0,06126616746"
+Southampton,Sofiane Boufal,24,1103,1,0,24-30,"0,08159564823",0
+Southampton,Dusan Tadic,28,2427,3,5,24-30,"0,1112484549","0,1854140915"
+Southampton,James Ward-Prowse,22,1885,4,4,<24,"0,1909814324","0,1909814324"
+Southampton,Steven Davis,32,2644,0,3,31+,0,"0,102118003"
+Southampton,Martín Cáceres,30,90,0,0,24-30,0,0
+Southampton,Manolo Gabbiadini,25,731,4,0,24-30,"0,4924760602",0
+Southampton,Cuco Martina,28,591,0,0,24-30,0,0
+Southampton,Sam McQueen,22,608,0,0,<24,0,0
+Southampton,Jay Rodriguez,28,885,5,2,24-30,"0,5084745763","0,2033898305"
+Southampton,Josh Sims,20,206,0,1,<24,0,"0,4368932039"
+Southampton,Shane Long,30,1249,3,1,24-30,"0,2161729384","0,07205764612"
+Southampton,Jordy Clasie,26,1026,1,1,24-30,"0,08771929825","0,08771929825"
+Southampton,Fraser Forster,29,3420,0,0,24-30,0,0
+Southampton,Jérémy Pied,28,126,0,0,24-30,0,0
+Southampton,Harrison Reed,22,63,0,0,<24,0,0
+Stoke City,Geoff Cameron,32,1628,0,1,31+,0,"0,05528255528"
+Stoke City,Xherdan Shaqiri,25,1709,4,2,24-30,"0,2106495026","0,1053247513"
+Stoke City,Joe Allen,27,2936,6,2,24-30,"0,1839237057","0,06130790191"
+Stoke City,Marc Muniesa,25,649,1,0,24-30,"0,1386748844",0
+Stoke City,Peter Crouch,36,1336,7,2,31+,"0,4715568862","0,1347305389"
+Stoke City,Ryan Shawcross,30,3150,1,1,24-30,"0,02857142857","0,02857142857"
+Stoke City,Lee Grant,34,2520,0,0,31+,0,0
+Stoke City,Erik Pieters,29,3151,0,1,24-30,0,"0,02856236116"
+Stoke City,Bruno Martins Indi,25,3147,1,0,24-30,"0,0285986654",0
+Stoke City,Marko Arnautovic,28,2725,6,5,24-30,"0,1981651376","0,1651376147"
+Stoke City,Jack Butland,24,450,0,0,24-30,0,0
+Stoke City,Glen Johnson,33,1955,0,0,31+,0,0
+Stoke City,Charlie Adam,31,1495,1,3,31+,"0,0602006689","0,1806020067"
+Stoke City,Philipp Wollscheid,28,180,0,0,24-30,0,0
+Stoke City,Jonathan Walters,34,1296,4,2,31+,"0,2777777778","0,1388888889"
+Stoke City,Mame Biram Diouf,29,1382,1,2,24-30,"0,06512301013","0,1302460203"
+Stoke City,Wilfried Bony,28,690,2,0,24-30,"0,2608695652",0
+Stoke City,Glenn Whelan,33,2278,0,1,31+,0,"0,03950834065"
+Stoke City,Bojan,27,475,3,0,24-30,"0,5684210526",0
+Stoke City,Phil Bardsley,32,1171,0,0,31+,0,0
+Stoke City,Ramadan Sobhi,20,849,0,1,<24,0,"0,1060070671"
+Stoke City,Shay Given,41,450,0,0,31+,0,0
+Stoke City,Giannelli Imbula,25,796,0,0,24-30,0,0
+Stoke City,Ibrahim Afellay,31,379,0,0,31+,0,0
+Stoke City,Saido Berahino,24,722,0,0,24-30,0,0
+Stoke City,Julien Ngoy,19,44,0,0,<24,0,0
+Swansea,Gylfi Sigurdsson,28,3329,9,13,24-30,"0,2433163112","0,351456894"
+Swansea,Alfie Mawson,23,2430,4,0,<24,"0,1481481481",0
+Swansea,Fernando Llorente,32,2454,15,1,31+,"0,5501222494","0,03667481663"
+Swansea,Kyle Naughton,28,2718,1,0,24-30,"0,03311258278",0
+Swansea,Federico Fernández,28,2430,0,2,24-30,0,"0,07407407407"
+Swansea,Leroy Fer,27,2405,6,2,24-30,"0,2245322245","0,07484407484"
+Swansea,Tom Carroll,25,1390,1,2,24-30,"0,06474820144","0,1294964029"
+Swansea,Martin Olsson,29,1253,2,0,24-30,"0,1436552275",0
+Swansea,Lukasz Fabianski,32,3330,0,0,31+,0,0
+Swansea,Jordan Ayew,26,865,1,3,24-30,"0,1040462428","0,3121387283"
+Swansea,Jack Cork,28,2233,0,0,24-30,0,0
+Swansea,Angel Rangel,34,823,1,0,31+,"0,1093560146",0
+Swansea,Jordi Amat,25,1408,0,0,24-30,0,0
+Swansea,Modou Barrow,24,1149,0,2,24-30,0,"0,1566579634"
+Swansea,Jay Fulton,23,694,0,0,<24,0,0
+Swansea,Mike van der Hoorn,24,661,1,0,24-30,"0,1361573374",0
+Swansea,Neil Taylor,28,922,0,0,24-30,0,0
+Swansea,Leon Britton,35,1176,0,0,31+,0,0
+Swansea,Jefferson Montero,28,375,0,1,24-30,0,"0,24"
+Swansea,Wayne Routledge,32,1930,3,1,31+,"0,1398963731","0,04663212435"
+Swansea,Ki Sung-yueng,28,1287,0,1,24-30,0,"0,06993006993"
+Swansea,Stephen Kingsley,23,1037,0,0,<24,0,0
+Swansea,Luciano Narsingh,27,411,0,3,24-30,0,"0,6569343066"
+Swansea,Kristoffer Nordfeldt,28,90,0,0,24-30,0,0
+Swansea,Nathan Dyer,29,212,0,1,24-30,0,"0,4245283019"
+Swansea,Borja Bastón,25,549,1,0,24-30,"0,1639344262",0
+Swansea,Oliver McBurnie,21,78,0,0,<24,0,0
+Tottenham,Harry Kane,24,2536,29,7,24-30,"1,029179811","0,2484227129"
+Tottenham,Christian Eriksen,25,3167,8,15,24-30,"0,2273444901","0,4262709189"
+Tottenham,Danny Rose,27,1533,2,2,24-30,"0,1174168297","0,1174168297"
+Tottenham,Dele Alli,21,3045,18,7,<24,"0,5320197044","0,2068965517"
+Tottenham,Jan Vertonghen,30,2897,0,0,24-30,0,0
+Tottenham,Victor Wanyama,26,3016,4,1,24-30,"0,1193633952","0,02984084881"
+Tottenham,Kyle Walker,27,2704,0,5,24-30,0,"0,1664201183"
+Tottenham,Mousa Dembélé,30,2066,1,1,24-30,"0,0435624395","0,0435624395"
+Tottenham,Son Heung-Min,25,2070,14,6,24-30,"0,6086956522","0,2608695652"
+Tottenham,Ben Davies,24,1735,1,3,24-30,"0,05187319885","0,1556195965"
+Tottenham,Toby Alderweireld,28,2604,1,0,24-30,"0,03456221198",0
+Tottenham,Erik Lamela,25,593,1,1,24-30,"0,1517706577","0,1517706577"
+Tottenham,Eric Dier,23,3045,2,0,<24,"0,05911330049",0
+Tottenham,Kieran Trippier,27,566,0,5,24-30,0,"0,7950530035"
+Tottenham,Hugo Lloris,30,3005,0,0,24-30,0,0
+Tottenham,Filip Lesniak,21,4,0,1,<24,0,"22,5"
+Tottenham,Michel Vorm,33,415,0,0,31+,0,0
+Tottenham,Moussa Sissoko,28,903,0,2,24-30,0,"0,1993355482"
+Tottenham,Harry Winks,21,480,1,1,<24,"0,1875","0,1875"
+Tottenham,Vincent Janssen,23,832,2,2,<24,"0,2163461538","0,2163461538"
+Tottenham,Kevin Wimmer,24,357,0,0,24-30,0,0
+Tottenham,Georges-Kévin Nkoudou,22,49,0,0,<24,0,0
+Tottenham,Josh Onomah,20,18,0,0,<24,0,0
+Tottenham,Tom Carroll,25,1,0,0,24-30,0,0
+Watford,José Holebas,33,2910,2,4,31+,"0,0618556701","0,1237113402"
+Watford,Younes Kaboul,31,1825,2,0,31+,"0,09863013699",0
+Watford,Etienne Capoue,29,3213,7,1,24-30,"0,1960784314","0,02801120448"
+Watford,Adrian Mariappa,31,561,0,0,31+,0,0
+Watford,Troy Deeney,29,2942,10,4,24-30,"0,305914344","0,1223657376"
+Watford,Heurelho Gomes,36,3339,0,0,31+,0,0
+Watford,Costel Pantilimon,30,81,0,0,24-30,0,0
+Watford,Miguel Britos,32,2285,1,2,31+,"0,03938730853","0,07877461707"
+Watford,Mauro Zárate,30,215,0,0,24-30,0,0
+Watford,M'Baye Niang,22,1254,2,2,<24,"0,1435406699","0,1435406699"
+Watford,Nordin Amrabat,30,2101,0,3,24-30,0,"0,1285102332"
+Watford,Stefano Okaka,28,955,4,0,24-30,"0,3769633508",0
+Watford,Sebastian Prödl,30,2775,1,1,24-30,"0,03243243243","0,03243243243"
+Watford,Craig Cathcart,28,1162,0,1,24-30,0,"0,07745266781"
+Watford,Roberto Pereyra,26,1040,2,2,24-30,"0,1730769231","0,1730769231"
+Watford,Tom Cleverley,28,1441,0,2,24-30,0,"0,1249132547"
+Watford,Valon Behrami,32,2038,0,0,31+,0,0
+Watford,Daryl Janmaat,28,1613,2,1,24-30,"0,1115933044","0,0557966522"
+Watford,Adlène Guédioura,31,723,0,1,31+,0,"0,1244813278"
+Watford,Christian Kabasele,26,767,2,0,24-30,"0,2346805737",0
+Watford,Abdoulaye Doucouré,24,1351,1,0,24-30,"0,0666173205",0
+Watford,Isaac Success,21,506,1,1,<24,"0,1778656126","0,1778656126"
+Watford,Juan Zuñiga,31,815,1,0,31+,"0,1104294479",0
+Watford,Odion Ighalo,28,1292,1,1,24-30,"0,06965944272","0,06965944272"
+Watford,Andrew Eleftheriou,19,51,0,0,<24,0,0
+Watford,Brandon Mason,20,112,0,0,<24,0,0
+Watford,Kenedy,21,16,0,0,<24,0,0
+Watford,Jerome Sinclair,21,115,0,0,<24,0,0
+Watford,Dion Pereira,18,23,0,0,<24,0,0
+Watford,Michael Folivi,19,9,0,0,<24,0,0
+Watford,Ikechi Anya,29,9,0,0,24-30,0,0
+Watford,Matej Vydra,25,2,0,0,24-30,0,0
+Watford,Ben Watson,32,51,0,0,31+,0,0
+West Bromwich,Gareth McAuley ,37,3143,6,1,31+,"0,1718103723","0,02863506204"
+West Bromwich,Matt Phillips ,26,2194,4,8,24-30,"0,1640838651","0,3281677302"
+West Bromwich,Jonny Evans ,29,2638,2,1,24-30,"0,06823351024","0,03411675512"
+West Bromwich,Craig Dawson ,27,3278,4,0,24-30,"0,1098230628",0
+West Bromwich,Chris Brunt ,32,2479,3,4,31+,"0,108914885","0,1452198467"
+West Bromwich,Brendan Galloway ,21,248,0,0,<24,0,0
+West Bromwich,Allan Nyom ,29,2639,0,2,24-30,0,"0,06820765441"
+West Bromwich,Claudio Yacob ,30,2418,0,0,24-30,0,0
+West Bromwich,Nacer Chadli ,28,2150,5,5,24-30,"0,2093023256","0,2093023256"
+West Bromwich,Ben Foster ,34,3420,0,0,31+,0,0
+West Bromwich,Salomón Rondón ,28,2896,8,2,24-30,"0,2486187845","0,06215469613"
+West Bromwich,Marc Wilson ,30,256,0,0,24-30,0,0
+West Bromwich,James McClean ,28,1467,1,2,24-30,"0,06134969325","0,1226993865"
+West Bromwich,James Morrison ,31,1740,5,2,31+,"0,2586206897","0,1034482759"
+West Bromwich,Darren Fletcher ,33,3235,2,3,31+,"0,05564142195","0,08346213292"
+West Bromwich,Jake Livermore ,27,1303,0,0,24-30,0,0
+West Bromwich,Jonas Olsson ,34,591,0,0,31+,0,0
+West Bromwich,Rickie Lambert ,35,12,0,0,31+,0,0
+West Bromwich,Hal Robson-Kanu ,28,683,3,2,24-30,"0,3953147877","0,2635431918"
+West Bromwich,Craig Gardner ,30,213,0,1,24-30,0,"0,4225352113"
+West Bromwich,Sam Field ,19,276,0,0,<24,0,0
+West Bromwich,Jonathan Leko ,18,111,0,1,<24,0,"0,8108108108"
+West Bromwich,Saido Berahino ,24,245,0,0,24-30,0,0
+West Ham,Dimitri Payet,30,1515,2,6,24-30,"0,1188118812","0,3564356436"
+West Ham,Andy Carroll,28,1314,7,1,24-30,"0,4794520548","0,06849315068"
+West Ham,Michail Antonio,27,2440,9,3,24-30,"0,3319672131","0,1106557377"
+West Ham,Arthur Masuaku,23,972,0,1,<24,0,"0,09259259259"
+West Ham,Manuel Lanzini,24,2716,8,2,24-30,"0,265095729","0,06627393225"
+West Ham,Winston Reid,29,2590,2,2,24-30,"0,0694980695","0,0694980695"
+West Ham,Cheikhou Kouyaté,27,2728,1,0,24-30,"0,03299120235",0
+West Ham,James Collins,34,1654,2,0,31+,"0,1088270859",0
+West Ham,José Fonte,33,1405,0,0,31+,0,0
+West Ham,Pedro Obiang,25,1767,1,1,24-30,"0,05093378608","0,05093378608"
+West Ham,Angelo Ogbonna,29,1756,0,0,24-30,0,0
+West Ham,Adrián,30,1440,0,0,24-30,0,0
+West Ham,Darren Randolph,30,1980,0,0,24-30,0,0
+West Ham,Sofiane Feghouli,27,1040,3,3,24-30,"0,2596153846","0,2596153846"
+West Ham,André Ayew,27,1442,6,3,24-30,"0,374479889","0,1872399445"
+West Ham,Mark Noble,30,2399,3,0,24-30,"0,1125468945",0
+West Ham,Sam Byram,24,1248,0,1,24-30,0,"0,07211538462"
+West Ham,Álvaro Arbeloa,34,256,0,0,31+,0,0
+West Ham,Håvard Nordtveit,27,956,0,1,24-30,0,"0,09414225941"
+West Ham,Aaron Cresswell,27,2118,0,2,24-30,0,"0,08498583569"
+West Ham,Robert Snodgrass,30,838,0,2,24-30,0,"0,214797136"
+West Ham,Diafra Sakho,27,181,1,0,24-30,"0,4972375691",0
+West Ham,Simone Zaza,26,461,0,0,24-30,0,0
+West Ham,Gökhan Töre,25,241,0,1,24-30,0,"0,3734439834"
+West Ham,Enner Valencia,27,213,0,0,24-30,0,0
+West Ham,Edimilson Fernandes,21,988,0,0,<24,0,0
+West Ham,Jonathan Calleri,24,537,1,0,24-30,"0,1675977654",0
+West Ham,Ashley Fletcher,22,354,0,0,<24,0,0
+West Ham,Declan Rice,18,1,0,0,<24,0,0
+Hull City,Harry Maguire,24,2307,2,2,24-30,"0,07802340702","0,07802340702"
+Hull City,Robert Snodgrass,30,1712,7,3,24-30,"0,3679906542","0,1577102804"
+Hull City,Curtis Davies,32,2139,0,2,31+,0,"0,08415147265"
+Hull City,Andrea Ranocchia,29,1330,2,2,24-30,"0,1353383459","0,1353383459"
+Hull City,Lazar Markovic,23,1013,2,0,<24,"0,1776900296",0
+Hull City,Jake Livermore,27,1673,1,1,24-30,"0,05379557681","0,05379557681"
+Hull City,Andrew Robertson,23,2737,1,2,<24,"0,0328827183","0,06576543661"
+Hull City,Sam Clucas,27,3190,3,1,24-30,"0,08463949843","0,02821316614"
+Hull City,Eldin Jakupovic,33,1980,0,0,31+,0,0
+Hull City,Michael Dawson,33,1721,3,0,31+,"0,1568855317",0
+Hull City,Kamil Grosicki,29,1147,0,3,24-30,0,"0,235396687"
+Hull City,Ahmed El Mohamady,30,2520,0,2,24-30,0,"0,07142857143"
+Hull City,Shaun Maloney,34,279,1,2,31+,"0,3225806452","0,6451612903"
+Hull City,Alfred N'Diaye,27,1277,1,0,24-30,"0,07047768207",0
+Hull City,Tom Huddlestone,30,2025,1,0,24-30,"0,04444444444",0
+Hull City,Dieudonne Mbokani Bezua,31,763,0,1,31+,0,"0,1179554391"
+Hull City,Adama Diomande,27,1170,2,0,24-30,"0,1538461538",0
+Hull City,David Marshall,32,1440,0,0,31+,0,0
+Hull City,Abel Hernández,27,1428,4,3,24-30,"0,2521008403","0,1890756303"
+Hull City,David Meyler,28,954,1,0,24-30,"0,09433962264",0
+Hull City,Evandro,31,578,0,0,31+,0,0
+Hull City,Oumar Niasse,27,1095,4,1,24-30,"0,3287671233","0,08219178082"
+Hull City,Josh Tymon,18,325,0,0,<24,0,0
+Hull City,Ryan Mason,26,929,1,0,24-30,"0,09687836383",0
+Hull City,Omar Elabdellaoui,25,616,0,0,24-30,0,0
+Hull City,Markus Henriksen,25,634,0,0,24-30,0,0
+Hull City,Jarrod Bowen,20,178,0,0,<24,0,0
+Hull City,Will Keane,24,282,0,0,24-30,0,0
+Middlesbrough,Calum Chambers,22,2160,1,1,<24,"0,04166666667","0,04166666667"
+Middlesbrough,Adama Traoré,21,1537,0,1,<24,0,"0,05855562785"
+Middlesbrough,George Friend,29,1960,0,2,24-30,0,"0,09183673469"
+Middlesbrough,Antonio Barragán,30,2196,0,0,24-30,0,0
+Middlesbrough,Álvaro Negredo,32,2880,9,4,31+,"0,28125","0,125"
+Middlesbrough,Gastón Ramírez,26,1550,2,3,24-30,"0,1161290323","0,1741935484"
+Middlesbrough,Fabio,27,1849,0,0,24-30,0,0
+Middlesbrough,Bernardo Espinosa,28,975,0,0,24-30,0,0
+Middlesbrough,Ben Gibson,24,3420,1,1,24-30,"0,02631578947","0,02631578947"
+Middlesbrough,Adam Clayton,28,2806,0,2,24-30,0,"0,06414825374"
+Middlesbrough,Daniel Ayala,26,917,1,0,24-30,"0,09814612868",0
+Middlesbrough,Víctor Valdés,35,2520,0,0,31+,0,0
+Middlesbrough,Marten de Roon,26,2777,4,0,24-30,"0,1296362982",0
+Middlesbrough,Nsue,28,322,0,0,24-30,0,0
+Middlesbrough,Adam Forshaw,26,2700,0,1,24-30,0,"0,03333333333"
+Middlesbrough,Cristhian Stuani,30,1362,4,0,24-30,"0,2643171806",0
+Middlesbrough,Stewart Downing,33,2212,1,3,31+,"0,04068716094","0,1220614828"
+Middlesbrough,Rudy Gestede,28,525,1,0,24-30,"0,1714285714",0
+Middlesbrough,Brad Guzan,33,900,0,0,31+,0,0
+Middlesbrough,Adlène Guédioura,31,136,0,0,31+,0,0
+Middlesbrough,Grant Leadbitter,31,708,1,0,31+,"0,1271186441",0
+Middlesbrough,Viktor Fischer,23,439,0,3,<24,0,"0,6150341686"
+Middlesbrough,Patrick Bamford,24,281,1,0,24-30,"0,3202846975",0
+Middlesbrough,Albert Adomah,29,121,0,0,24-30,0,0
+Middlesbrough,Jordan Rhodes,27,208,0,0,24-30,0,0
+Middlesbrough,David Nugent,32,40,0,0,31+,0,0
+Middlesbrough,James Husband,23,59,0,0,<24,0,0
+Sunderland,Younes Kaboul,31,90,0,0,31+,0,0
+Sunderland,Jordan Pickford,23,2610,0,0,<24,0,0
+Sunderland,Papy Djilobodji,28,1577,0,0,24-30,0,0
+Sunderland,Bryan Oviedo,27,849,0,0,24-30,0,0
+Sunderland,Patrick van Aanholt,27,1784,3,1,24-30,"0,1513452915","0,05044843049"
+Sunderland,Victor Anichebe,29,1217,3,0,24-30,"0,2218570255",0
+Sunderland,Billy Jones,30,2271,1,0,24-30,"0,03963011889",0
+Sunderland,Lamine Koné,28,2545,1,0,24-30,"0,03536345776",0
+Sunderland,Didier Ndong,23,2519,1,0,<24,"0,03572846368",0
+Sunderland,Vito Mannone,29,810,0,0,24-30,0,0
+Sunderland,Jack Rodwell,26,1493,0,1,24-30,0,"0,06028131279"
+Sunderland,Donald Love,22,607,0,1,<24,0,"0,1482701812"
+Sunderland,Jermain Defoe,35,3323,15,2,31+,"0,4062594042","0,05416792055"
+Sunderland,Duncan Watmore,23,1030,0,2,<24,0,"0,1747572816"
+Sunderland,John O'Shea,36,2161,0,1,31+,0,"0,04164738547"
+Sunderland,Jason Denayer,22,1880,0,0,<24,0,0
+Sunderland,Fabio Borini,26,1741,2,0,24-30,"0,103388857",0
+Sunderland,Adnan Januzaj,22,1630,0,3,<24,0,"0,1656441718"
+Sunderland,Javier Manquillo,23,1428,1,0,<24,"0,06302521008",0
+Sunderland,George Honeyman,23,233,0,0,<24,0,0
+Sunderland,Lee Cattermole,29,640,0,0,24-30,0,0
+Sunderland,Sebastian Larsson,32,1471,0,1,31+,0,"0,0611828688"
+Sunderland,Jeremain Lens,29,68,0,0,24-30,0,0
+Sunderland,Jan Kirchhoff,27,436,0,0,24-30,0,0
+Sunderland,Darron Gibson,29,641,0,0,24-30,0,0
+Sunderland,Wahbi Khazri,26,839,1,0,24-30,"0,1072705602",0
+Sunderland,Steven Pienaar,35,809,0,0,31+,0,0
+Sunderland,Lynden Gooch,21,365,0,0,<24,0,0
+Sunderland,Paddy McNair,22,355,0,0,<24,0,0
+Sunderland,Joleon Lescott,35,123,0,0,31+,0,0
+Sunderland,Joel Asoro,18,9,0,0,<24,0,0

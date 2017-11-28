@@ -17,7 +17,7 @@ frames = [E1415,E1516,E1617,E1718]
 data = pd.concat(frames)
 
 # Processing data
-processed_data=data_processing1(data)
+processed_data=data_processing2(data)
 
 # Modelisation
 data_model = processed_data.head(processed_data.shape[0]-E1718.shape[0]) # remove 2017/2018 data, used later for testing
@@ -47,3 +47,5 @@ model.add(Dense(3,activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 model.fit(x_train.values,y_train.values, epochs=20, batch_size=10)
+
+score = model.evaluate(x_test, y_test, batch_size=128)

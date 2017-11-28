@@ -59,3 +59,23 @@ def data_processing1(data):
 	return df_with_dummies
 
 
+def data_processing2(data):
+	"""Processing data.
+	Process data in view to modelisation process which need clean inputs - for example numerical data.
+	Arg:
+		data : A pandas DataFrame (almost raw data)
+	Return:
+		A pandas DataFrame with only numerical data
+	"""
+	df = data[['Date','HomeTeam','AwayTeam','FTR','FTHG','FTAG','Referee','B365H','B365D','B365A']]
+	df.dropna(how='any',axis=0,inplace=True)
+
+	# Get month categories
+	df['month'] = pd.DatetimeIndex(df['Date']).month.astype(int)
+	df['month'] = df['month'].apply(lambda x: calendar.month_abbr[x])
+
+	# Set dummies variables for qualitative data
+	df_with_dummies = pd.get_dummies(df, columns = ['HomeTeam','AwayTeam','FTR','Referee','month'])
+	df_with_dummies.drop(['Date','FTHG','FTAG'], axis=1, inplace=True)
+
+	return df_with_dummies

@@ -1,0 +1,7 @@
+ipython==6.1
+numpy==1.13.3
+pandas==0.21.0
+scikit-learn==0.19.1
+seaborn==0.8.1
+tensorflow
+keras

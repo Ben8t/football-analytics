@@ -24,6 +24,8 @@ processed_data=data_processing2(data)
 data_model = processed_data.head(processed_data.shape[0]-E1718.shape[0]) # remove 2017/2018 data, used later for testing
 
 x_train,y_train,x_test,y_test = split_dataset(data_model,0.3,['FTR_A','FTR_D','FTR_H'])
+x_train = preprocessing.scale(x_train.values)
+x_test = preprocessing.scale(x_test.values)
 
 # Keras neural network
 model = Sequential()

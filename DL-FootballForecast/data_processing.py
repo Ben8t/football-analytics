@@ -67,7 +67,7 @@ def data_processing2(data):
 	Return:
 		A pandas DataFrame with only numerical data
 	"""
-	df = data[['Date','HomeTeam','AwayTeam','FTR','FTHG','FTAG','Referee','B365H','B365D','B365A']]
+	df = data[['Date','HomeTeam','AwayTeam','FTR','FTHG','FTAG','Referee','B365H','B365D','B365A','HS','AS','HST','AST','HHW','AHW','HC','AC','HF','AF','HO','AO','HY','AY','HR','AR']]
 	df.dropna(how='any',axis=0,inplace=True)
 
 	# Get month categories
@@ -77,5 +77,14 @@ def data_processing2(data):
 	# Set dummies variables for qualitative data
 	df_with_dummies = pd.get_dummies(df, columns = ['HomeTeam','AwayTeam','FTR','Referee','month'])
 	df_with_dummies.drop(['Date','FTHG','FTAG'], axis=1, inplace=True)
+	x = pd.DataFrame(preprocessing.scale(df_with_dummies.drop(['FTR','FTHG','FTAG'],axis=1)))
+	y = df_with_dummies['FTR','FTHG','FTAG']
+	result = pd.concat([x,y],axis=1)
+	return result
 
-	return df_with_dummies
+
+
+
+
+
+

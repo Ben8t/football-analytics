@@ -1,10 +1,11 @@
-# model.py
+# model1.py
 
 from data_processing import *
 import numpy as np
 import pandas as pd
 from keras.models import Sequential
 from keras.layers import Dense,Dropout
+from sklearn import preprocessing
 
 # Load datasets
 E1415 = pd.read_csv('data/E1415.csv')
@@ -26,26 +27,22 @@ x_train,y_train,x_test,y_test = split_dataset(data_model,0.3,['FTR_A','FTR_D','F
 
 # Keras neural network
 model = Sequential()
-model.add(Dense(200, input_dim=x_train.shape[1], activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(500, activation='relu'))
-model.add(Dense(1000, activation='relu'))
-model.add(Dense(500, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(500, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(500, activation='relu'))
-model.add(Dense(500, activation='relu'))
-model.add(Dropout(0.5))
+model.add(Dense(250, input_dim=x_train.shape[1], activation='relu'))
 model.add(Dense(250, activation='relu'))
 model.add(Dense(250, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(200, activation='relu'))
-model.add(Dense(200, activation='relu'))
 model.add(Dense(3,activation='softmax'))
 
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-model.fit(x_train.values,y_train.values, epochs=20, batch_size=10)
+model.fit(x_train,y_train.values, epochs=20, batch_size=10)
 
-score = model.evaluate(x_test, y_test, batch_size=128)
+score = model.evaluate(x_test, y_test.values, batch_size=128)
+print(score)
+# Final test
+
+data_test = processed_data.tail(E1718.shape[0])
+x_final_test = data_test.drop(['FTR_A','FTR_D','FTR_H'],axis=1)
+y_final_test = data_test[['FTR_A','FTR_D','FTR_H']]
+
+score = model.evaluate(x_final_test.values,y_final_test.values)
+print(score)

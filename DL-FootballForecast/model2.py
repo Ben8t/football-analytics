@@ -5,9 +5,8 @@ import numpy as np
 import pandas as pd
 np.random.seed(1337)
 
-from keras.models import Sequential
-from keras.layers import Dense,Dropout
 from sklearn import preprocessing
+from sklearn.ensemble import RandomForestClassifier
 
 # Load datasets
 E1415 = pd.read_csv('data/E1415.csv')
@@ -32,18 +31,12 @@ x_train = preprocessing.scale(x_train.values)
 x_test = preprocessing.scale(x_test.values)
 
 # Keras neural network
-model = Sequential()
-model.add(Dense(250, input_dim=x_train.shape[1], activation='relu'))
-model.add(Dense(250, activation='relu'))
-model.add(Dense(250, activation='relu'))
-model.add(Dense(3,activation='softmax'))
+model = RandomForestClassifier(n_estimators=75,min_samples_split=2,random_state=0)
+model.fit(x_train,y_train.values)
 
-model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+score = model.score(x_test,y_test.values)
+print("Validation Score : ",score)
 
-model.fit(x_train,y_train.values, epochs=20, batch_size=10, shuffle=False)
-
-score = model.evaluate(x_test, y_test.values, batch_size=128)
-print("Validation Score : ",score[1])
 
 # Final test
 data_test = processed_data.tail(E1718.shape[0])
@@ -51,5 +44,5 @@ x_final_test = data_test.drop(['FTR_A','FTR_D','FTR_H'],axis=1)
 x_final_test = preprocessing.scale(x_final_test.values)
 y_final_test = data_test[['FTR_A','FTR_D','FTR_H']]
 
-score = model.evaluate(x_final_test,y_final_test.values)
-print("Final Test Score : ",score[1])
+score = model.score(x_final_test,y_final_test.values)
+print("Final Test Score : ",score)

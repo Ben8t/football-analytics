@@ -19,7 +19,7 @@ def split_dataset(data,split_rate,output_variable):
 		x_test : use for predictions
 		y_test : use for error calculation
 	"""
-	train_set, test_set = train_test_split(data, test_size = split_rate)
+	train_set, test_set = train_test_split(data, test_size = split_rate,random_state = 0)
 	x_train  = train_set.drop(output_variable,axis=1)
 	y_train = train_set[output_variable]
 	x_test  = test_set.drop(output_variable,axis=1)

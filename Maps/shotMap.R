@@ -1,4 +1,4 @@
-# passNetwork.r
+# shotMap.r
 
 library(tidyverse)
 library(hrbrthemes)
@@ -32,6 +32,14 @@ get_players_passes <- function(lineup_event){
         }
     }
     return(player_passes)
+}
+ 
+get_players_shots <- function(lineup_event){
+    # return a dataframe with all shots (on/off target, goals) with players and position (x,y)
+    players_shots = lineup_event %>% 
+                    na.omit() %>% 
+                    filter(typeValue==15 | typeValue==16 | typeValue==13)
+    return(players_shots)
 }
 
 # In command line with : Rscript passNetwork.r "data/data.json" "home" "#90caf9" 5
@@ -67,27 +75,15 @@ lineup_final_text = get_lineup_and_final_text(data,TEAM)
 lineup = lineup_final_text[1]  # get lineup for either home or away team
 lineup_event = event %>% filter(playerId %in% lineup$playerId)  # filter event accorting to home or away team
 
-player_passes = get_players_passes(lineup_event)  # get passes for each teammates
+player_shots = get_players_shots(lineup_event)  # get passes for each teammates
+player_shots = player_shots %>% select(playerName,x,y,typeDisplayName)
 
-# get ball touch coordinates and touch ball frequency
-touch_coordinates_and_count = event %>% 
-    na.omit() %>% 
-    filter(isTouch==TRUE) %>%
-    filter(playerId %in% lineup$playerId) %>% 
-    group_by(playerName) %>% 
-    summarise(x_avg=mean(x),y_avg=mean(y),n=n()) %>%
-    select(name=playerName,x_avg,y_avg,nb_touch=n) %>%
-    as.data.frame()
 
-# get passes from a teammates to another and frequency
-passes_from_to_count_data <- player_passes %>% 
-    group_by(from,to) %>% 
-    summarise(n=n()) %>% 
-    filter(n>=PASS_NUMBERS)
-
-igraph_data <- graph.data.frame(passes_from_to_count_data, directed = TRUE, vertices = touch_coordinates_and_count)  # create igraph object
-layout_bound <- layout.norm(as.matrix(touch_coordinates_and_count[,2:3])) # fit coordinates between -1 and 1
-
+map <- ggplot(data=player_shots,aes(x=x,y=y,color=playerName)) + geom_density2d()
+map <- ggplot(data=player_shots,aes(x=x,y=y)) +
+    stat_density_2d(geom = "raster", aes(fill = ..density..), contour = FALSE) + 
+    geom_point(aes(color = typeDisplayName)) + 
+    geom_text(aes(label=playerName),hjust=0, vjust=0)
 # plot and aesthetics
 ggnetwork_data <- ggnetwork(igraph_data,layout=layout_bound,weights = "n")
 map <- ggplot(ggnetwork_data, aes(x = x, y = y, xend = xend, yend = yend)) +

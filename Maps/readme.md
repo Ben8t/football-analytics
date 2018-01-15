@@ -27,12 +27,12 @@ This command generate a `g_passnetwork_tmp.png` file (image file).
 > **Note** : You will need some R packages
 
 > * tidyverse
-* hrbrthemes
-* jsonlite
-* grid
-* gridExtra
-* igraph
-* ggnetwork
+> * hrbrthemes
+> * jsonlite
+> * grid
+> * gridExtra
+> * igraph
+> * ggnetwork
 
 ## Example (with some additions on Photoshop)
 ![example pass network](img/arsenal/arsenal03012018.jpg)

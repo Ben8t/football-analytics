@@ -35,16 +35,23 @@ get_players_passes <- function(lineup_event){
 }
 
 # In command line with : Rscript passNetwork.r "data/data.json" "home" "#90caf9" 5
+# In command line with : Rscript passNetwork.r "https://www.whoscored.com/Matches/1190338/Live/England-Premier-League-2017-2018-Bournemouth-Arsenal" "data/arsenal1718" "away" "#90caf9" 5
 args = commandArgs(trailingOnly=TRUE)
 
 # Or in R shell
-# args = c("data/divers/manUtd-newcastle18112017.json","home","#90caf9",5)
+# args = c("https://www.whoscored.com/Matches/1190338/Live/England-Premier-League-2017-2018-Bournemouth-Arsenal","data/arsenal1718", "away","#90caf9",5)
 
 # VARIABLE
-DATA_FILE = args[1]
-TEAM = args[2]
-TEAM_COLOR =args[3]
-PASS_NUMBERS = args[4]
+DATA_URL = args[1]
+DATA_PATH = args[2]
+TEAM = args[3]
+TEAM_COLOR =args[4]
+PASS_NUMBERS = args[5]
+
+# Download data
+source(file="crawler.r")
+get_data(DATA_URL,DATA_PATH)
+DATA_FILE = paste0(DATA_PATH,get_name_from_url(DATA_URL))
 
 # Load data from json file
 data = jsonlite::fromJSON(DATA_FILE)

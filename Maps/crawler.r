@@ -11,15 +11,14 @@ get_name_from_url <- function(url){
     return(name)
 }
 
-get_data <- function(url){
+get_data <- function(url,path="data/divers/"){
     filename = get_name_from_url(url)
     json = url %>% read_html() %>% html_nodes(xpath='//*[@id="layout-content-wrapper"]/script[1]/text()') %>% html_text() %>% nth(1)
     m <- regexpr("\\{.*\\}", json, perl=TRUE)
     res <- regmatches(json, m)
-    write(res,filename)
+    write(res,paste0(path,filename))
 }
 
-url = "https://www.whoscored.com/Matches/1190346/Live/England-Premier-League-2017-2018-Crystal-Palace-Burnley"
-
-get_name_from_url(url)
-get_data(url)
+# url = "https://www.whoscored.com/Matches/1190346/Live/England-Premier-League-2017-2018-Crystal-Palace-Burnley"
+# get_name_from_url(url)
+# get_data(url)

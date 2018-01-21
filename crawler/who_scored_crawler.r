@@ -1,4 +1,4 @@
-# crawler.r
+# who_scored_crawler
 
 library(tidyverse)
 library(rvest)
@@ -20,6 +20,12 @@ get_data <- function(url,path="data/divers/"){
     write(res,paste0(path,filename))
 }
 
-# url = "https://www.whoscored.com/Matches/1190346/Live/England-Premier-League-2017-2018-Crystal-Palace-Burnley"
-# get_name_from_url(url)
-# get_data(url)
+download_data <- function(csv,path){
+    # csv : a csv file with at least a column named "URL" with whoScored match url
+    # path : path to save data (json files)
+    data_url <- read_csv(csv) %>% na.omit() %>% select(URL)
+    for(url in data_url$URL){
+        get_data(url,path=path)
+    }
+}
+

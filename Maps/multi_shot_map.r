@@ -11,6 +11,7 @@ library(igraph)
 library(ggnetwork)
 
 get_home_away_list <- function(files, team){
+    # get either home or away from a list of game (Opta json template)
     res=c()
     for(file in files){
         data = jsonlite::fromJSON(file)
@@ -48,16 +49,17 @@ get_players_passes <- function(lineup_event){
     }
     return(player_passes)
 }
- 
+
 get_players_shots <- function(lineup_event){
     # return a dataframe with all shots (on/off target, goals) with players and position (x,y)
-    players_shots = lineup_event %>% 
-                    na.omit() %>% 
+    players_shots = lineup_event %>%
+                    na.omit() %>%
                     filter(typeValue==15 | typeValue==16 | typeValue==13)
     return(players_shots)
 }
 
-encapsuled_player_shots <- function(DATA_FILE, TEAM){
+process_player_shots <- function(DATA_FILE, TEAM){
+    # player shot process
     # Load data from json file
     data = jsonlite::fromJSON(DATA_FILE)
     # get all event data
@@ -65,12 +67,12 @@ encapsuled_player_shots <- function(DATA_FILE, TEAM){
 
     # get player list
     all_players= data$playerIdNameDictionary %>%
-        t %>% 
-        as.data.frame() %>% 
-        t %>% 
-        as.data.frame() %>% 
-        tibble::rownames_to_column() %>% 
-        select(playerName=V1,playerId=rowname) %>% 
+        t %>%
+        as.data.frame() %>%
+        t %>%
+        as.data.frame() %>%
+        tibble::rownames_to_column() %>%
+        select(playerName=V1,playerId=rowname) %>%
         mutate(playerId=as.numeric(playerId),playerName=unlist(playerName))
 
     event = left_join(event,all_players,by=c("playerId"))  # add player names to event dataframe
@@ -84,9 +86,10 @@ encapsuled_player_shots <- function(DATA_FILE, TEAM){
 }
 
 all_time_player_shots <- function(list_data, list_team){
+    # get a list of file and a list of "home"/"away" and return a dataframe with all shot location
     res = data.frame()
     for(i in c(1:length(list_data))){
-        data = encapsuled_player_shots(list_data[i], list_team[i])
+        data = process_player_shots(list_data[i], list_team[i])
         print(i)
         print(list_data[i])
         print(data)
@@ -100,20 +103,11 @@ home_away_list = get_home_away_list(file_list, "Swansea")
 player_shots = all_time_player_shots(file_list, home_away_list)
 
 map <-  ggplot(data=player_shots,aes(x=x,y=y))+
-    geom_segment(aes(x = 100, y = 0, xend = 100, yend = 100), colour="grey") + geom_segment(aes(x = 50, y = 0, xend = 100, yend = 0), colour="grey") + geom_segment(aes(x = 50, y = 100, xend = 100, yend = 100), colour="grey") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="grey") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="grey") + geom_segment(aes(x=83, y=21.2, xend=100, yend=21.2), colour="grey") + geom_segment(aes(x=83, y=21, xend=83, yend=79), colour="grey") + geom_segment(aes(x=83, y=79, xend=100, yend=79), colour="grey")+ geom_segment(aes(x=100, y=36.8, xend=94.2, yend=36.8), colour="grey") + geom_segment(aes(x=94.2, y=36.8, xend=94.2, yend=63.2), colour="grey") + geom_segment(aes(x=100, y= 63.2, xend=94.2, yend=63.2), colour="grey") + 
-    stat_density2d(aes(fill=..level..,alpha=..level..),geom='polygon',colour="#253494", show.legend=FALSE) + 
+    geom_segment(aes(x = 100, y = 0, xend = 100, yend = 100), colour="grey") + geom_segment(aes(x = 50, y = 0, xend = 100, yend = 0), colour="grey") + geom_segment(aes(x = 50, y = 100, xend = 100, yend = 100), colour="grey") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="grey") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="grey") + geom_segment(aes(x=83, y=21.2, xend=100, yend=21.2), colour="grey") + geom_segment(aes(x=83, y=21, xend=83, yend=79), colour="grey") + geom_segment(aes(x=83, y=79, xend=100, yend=79), colour="grey")+ geom_segment(aes(x=100, y=36.8, xend=94.2, yend=36.8), colour="grey") + geom_segment(aes(x=94.2, y=36.8, xend=94.2, yend=63.2), colour="grey") + geom_segment(aes(x=100, y= 63.2, xend=94.2, yend=63.2), colour="grey") +
+    stat_density2d(aes(fill=..level..,alpha=..level..),geom='polygon',colour="#253494", show.legend=FALSE) +
     scale_fill_continuous(low = "#1d91c0", high = "#253494") +
     geom_point(aes(color = typeDisplayName)) +
     scale_colour_manual(values = c("#00c853", "#ec407a", "#ff6f00"), name = "Shot type") +
     theme_ipsum_rc()+
-    theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank()) + 
+    theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank()) +
     theme(panel.background = element_rect(fill = '#1de9b6', colour = '#1de9b6'))
-
-
-
-
-
-
-
-
-

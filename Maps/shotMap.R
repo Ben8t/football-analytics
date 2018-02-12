@@ -78,13 +78,31 @@ lineup_event = event %>% filter(playerId %in% lineup$playerId)  # filter event a
 player_shots = get_players_shots(lineup_event)  # get passes for each teammates
 player_shots = player_shots %>% select(playerName,x,y,typeDisplayName)
 
+# Vertical (x=x, y=y)
 map <-  ggplot(data=player_shots,aes(x=x,y=y))+
-    geom_segment(aes(x = 100, y = 0, xend = 100, yend = 100), colour="grey") + geom_segment(aes(x = 50, y = 0, xend = 100, yend = 0), colour="grey") + geom_segment(aes(x = 50, y = 100, xend = 100, yend = 100), colour="grey") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="grey") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="grey") + geom_segment(aes(x=83, y=21.2, xend=100, yend=21.2), colour="grey") + geom_segment(aes(x=83, y=21, xend=83, yend=79), colour="grey") + geom_segment(aes(x=83, y=79, xend=100, yend=79), colour="grey")+ geom_segment(aes(x=100, y=36.8, xend=94.2, yend=36.8), colour="grey") + geom_segment(aes(x=94.2, y=36.8, xend=94.2, yend=63.2), colour="grey") + geom_segment(aes(x=100, y= 63.2, xend=94.2, yend=63.2), colour="grey") + 
-    stat_density2d(aes(fill=..level..,alpha=..level..),geom='polygon',colour="#253494", show.legend=FALSE) + 
-    scale_fill_continuous(low = "#1d91c0", high = "#253494") +
-    geom_point(aes(color = typeDisplayName)) +
-    scale_colour_manual(values = c("#00c853", "#ec407a", "#ff6f00"), name = "Shot type") +
+    geom_segment(aes(x = 100, y = 0, xend = 100, yend = 100), colour="#eee9d6") + geom_segment(aes(x = 50, y = 0, xend = 100, yend = 0), colour="#eee9d6") + geom_segment(aes(x = 50, y = 100, xend = 100, yend = 100), colour="#eee9d6") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="#eee9d6") + geom_segment(aes(x=50, y= 0, xend = 50, yend = 100), colour="#eee9d6") + geom_segment(aes(x=83, y=21.2, xend=100, yend=21.2), colour="#eee9d6") + geom_segment(aes(x=83, y=21, xend=83, yend=79), colour="#eee9d6") + geom_segment(aes(x=83, y=79, xend=100, yend=79), colour="#eee9d6")+ geom_segment(aes(x=100, y=36.8, xend=94.2, yend=36.8), colour="#eee9d6") + geom_segment(aes(x=94.2, y=36.8, xend=94.2, yend=63.2), colour="#eee9d6") + geom_segment(aes(x=100, y= 63.2, xend=94.2, yend=63.2), colour="#eee9d6") +
+    stat_density2d(aes(fill=..level..,alpha=..level..),geom='polygon',colour="#eee9d6", show.legend=FALSE) +
+    scale_fill_gradient2(low = "#a7ffeb", mid="#64ffda", high = "#1de9b6") +
+    geom_point(aes(color = typeDisplayName), size=2) +
+    scale_colour_manual(values = c("#ffc400", "#448aff", "#b388ff"), name = "Shot type") +
     theme_ipsum_rc()+
-    theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank())
+    theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank()) +
+    theme(legend.text = element_text(colour="#eee9d6", size=15), legend.title = element_text(colour="#eee9d6", size=20)) +
+    theme(panel.background = element_rect(fill = '#293555', colour = '#293555'), plot.background = element_rect(fill = "#293555"))
+
+# Horizontal (x=y, y=-x)
+map <-  ggplot(data=player_shots,aes(x=y,y=-x))+
+    geom_segment(aes(x = 0, y = -100, xend = 100, yend = -100), colour="#eee9d6") + geom_segment(aes(x=0, y= -50, xend = 100, yend = -50), colour="#293555") + geom_segment(aes(x=21.2, y=-83, xend=21.2, yend=-100), colour="#eee9d6") + geom_segment(aes(x=21, y=-83, xend=79, yend=-83), colour="#eee9d6") + geom_segment(aes(x=79, y=-83, xend=79, yend=-100), colour="#eee9d6")+ geom_segment(aes(x=36.8, y=-100, xend=36.8, yend=-94.2), colour="#eee9d6") + geom_segment(aes(x=36.8, y=-94.2, xend=63.2, yend=-94.2), colour="#eee9d6") + geom_segment(aes(x=63.2, y= -100, xend=63.2, yend=-94.2), colour="#eee9d6") +
+    stat_density2d(aes(fill=..level..,alpha=..level..),geom='polygon',colour="#eee9d6", show.legend=FALSE) +
+    scale_fill_gradient2(low = "#a7ffeb", mid="#64ffda", high = "#1de9b6") +
+    geom_point(aes(color = typeDisplayName), size=2) +
+    scale_colour_manual(values = c("#ffc400", "#448aff", "#b388ff"), name = "Shot type") +
+    theme_ipsum_rc()+
+    theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank()) +
+    theme(legend.text = element_text(colour="#eee9d6", size=15), legend.title = element_text(colour="#eee9d6", size=20)) +
+    theme(panel.background = element_rect(fill = '#293555', colour = '#293555'), plot.background = element_rect(fill = "#293555"))
+
+ggsave(filename = paste0("img/g_shotmap_tmp.png"),map,width=10,height=7.5,dpi=300)
+
 
 

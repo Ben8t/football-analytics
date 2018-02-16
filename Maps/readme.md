@@ -1,5 +1,5 @@
-# Passnetwork with R
-Create passnetwork thanks to data from WhoScored.com (Opta) in R with `igraph` and `ggnetwork` libraries. 
+# Passnetwork and Shotmap with R
+Create passnetwork and shotmap thanks to data from WhoScored.com (Opta) in R with `igraph` and `ggnetwork` libraries. 
 
 ## Gather data from WhoScored
 Get the match url directly from WhoScored (Match Centre link on a game webpage)
@@ -35,8 +35,9 @@ This command generate a `g_passnetwork_tmp.png` file (image file).
 > * ggnetwork
 
 ## Example (with some additions on Photoshop)
-![example pass network](img/arsenal/arsenal03012018.jpg)
+![example pass network](img/passnetwork/arsenal/arsenal03012018.jpg)
 
+![example shot map](img/shotmap/realmadrid14022017.jpg)
 ## What's next ?
 * Add directly text features and team logo.
 * Working on a website to directly create passnetwork with an user-friendly interface... #RShiny

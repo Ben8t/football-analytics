@@ -17,8 +17,9 @@ It's better to see directly [details here](https://github.com/DevBen8/FootScrape
 
 While data is the main problem for that kind of plot, I found that WhoScored let they data in their javascript. I dev a crawler to get them easly and save them into a json file.
 
-![example pass network](Maps/img/arsenal/arsenal03012018.jpg)
+![example pass network](Maps/img/passnetwork/arsenal/arsenal03012018.jpg)
 
+![example shot map](Maps/img/shotmap/realmadrid14022017.jpg)
 ### Lineup
 
 Plot lineups evolution

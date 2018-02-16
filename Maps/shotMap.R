@@ -46,7 +46,7 @@ get_players_shots <- function(lineup_event){
 # args = commandArgs(trailingOnly=TRUE)
 
 # Or in R shell
-args = c("data/arsenal1718/England-Premier-League-2017-2018-Arsenal-Everton.json","home","#90caf9",5)
+args = c("data/divers/Europe-UEFA-Champions-League-2017-2018-Real-Madrid-Paris-Saint-Germain.json","away","#90caf9",5)
 
 # VARIABLE
 DATA_FILE = args[1]

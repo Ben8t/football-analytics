@@ -99,7 +99,8 @@ all_time_player_shots <- function(list_data, list_team){
 }
 
 file_list = list.files("data/arsenal1718/", full.names=TRUE)
-home_away_list = get_home_away_list(file_list, "Arsenal")
+file_list = list.files("~/Downloads/zio", full.names=TRUE)
+home_away_list = get_home_away_list(file_list, "Lazio")
 player_shots = all_time_player_shots(file_list, home_away_list)
 
 map <-  ggplot(data=player_shots,aes(x=x,y=y))+

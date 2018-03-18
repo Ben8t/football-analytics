@@ -10,7 +10,7 @@ library(gridExtra)
 library(igraph)
 library(ggnetwork)
 
-data = jsonlite::fromJSON(jsonfile)
+#data = jsonlite::fromJSON(jsonfile)
 
 
 # EVENT PROCESSING #

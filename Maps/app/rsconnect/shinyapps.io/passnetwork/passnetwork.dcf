@@ -5,6 +5,6 @@ account: passnetwork
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 321081
-bundleId: 1316226
+bundleId: 1316966
 url: https://passnetwork.shinyapps.io/passnetwork/
-when: 1523566453.72093
+when: 1523612266.63066

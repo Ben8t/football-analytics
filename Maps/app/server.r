@@ -18,8 +18,9 @@ get_name_from_url <- function(url){
 }
 
 get_data <- function(url){
+    print("DOWNLOAD DATA...")
     filename = get_name_from_url(url)
-    print(filename)
+    print(url)
     json = url %>% read_html() %>% html_nodes(xpath='//*[@id="layout-content-wrapper"]/script[1]/text()') %>% html_text() %>% nth(1)
     m <- regexpr("\\{.*\\}", json, perl=TRUE)
     res <- regmatches(json, m)
@@ -112,6 +113,7 @@ passnetwork <-function(TEAM="home", TEAM_COLOR="black", PASS_NUMBERS=5, URL){
             theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank())
 
         # save passnetwork in a tmp file
+        print("SAVING passnetwork tmp")
         ggsave(filename = "g_passnetwork_tmp_shiny.png", map, width =14, height=8, dpi=300)
         output = list()
         output$team_scoreboard = lineup_final_text[[2]]
@@ -124,20 +126,37 @@ server <- function(input, output, session) {
     observeEvent(input$action, {
         # CREATE PASSNETWORK
         passnetwork_data = passnetwork(URL=input$url,TEAM_COLOR=input$color,TEAM=input$radio)
+        print("LOAD BACKGROUND")
         background = image_read("./data/background.png")
+        print("LOAD PASSNETWORK TMP")
         passnetwork = image_read("g_passnetwork_tmp_shiny.png")
-        logo = image_read(input$logo_file$name)
+        print("LOAD LOGO")
+        logo = image_read(input$logo_file$datapath)
 
         full_image <- image_composite(background, image_scale(passnetwork,"3600"), offset = "+200+480") %>%
                       image_composite(., image_scale(logo,"450"), offset="+80+40") %>%
                       image_annotate(.,"Passnetwork", font = 'Roboto Condensed', size = 180, location="+585+0", color="#373737") %>%
                       image_annotate(.,passnetwork_data$team_scoreboard, font = 'Roboto Condensed', size = 130, location="+620+200", color="white") %>%
-                      image_annotate(.,paste0("League"," - ",passnetwork_data$datetime), font = 'Roboto Condensed', size = 70, location="+630+350", color="white") %>%
+                      image_annotate(.,paste0(input$league," - ",passnetwork_data$datetime), font = 'Roboto Condensed', size = 70, location="+630+350", color="white") %>%
                       image_annotate(.,"Lines for 5 passes or more \nData from WhoScored/Opta", font = 'Roboto Condensed', size = 50, location="+50+2300", color="#373737") %>%
                       image_annotate(.,"by Benoit Pimpaud / @Ben8t", font = 'Roboto Condensed', size = 70, location="+50+2420", color="#373737")
 
+        print("WRITE FULL IMAGE")
         image_write(full_image, path = "passnetwork.png", format = "png")
         image_write(image_scale(full_image,700), path = "passnetwork_thumbnails.png", format = "png")
+
+        output$downloadData <- downloadHandler(
+          filename <- function() {
+            "passnetwork.png"
+          },
+
+          content <- function(file) {
+            file.copy("passnetwork.png", file)
+          },
+          contentType = "image/png"
+        )
+        
+        
 
         output$preImage <- renderImage({
             filename <- "passnetwork_thumbnails.png"
@@ -147,6 +166,7 @@ server <- function(input, output, session) {
                  alt = "Image number")
 
           }, deleteFile = FALSE)
+        print("JOB DONE")
     })
 
 }

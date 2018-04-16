@@ -1,75 +1,16 @@
-# ui.r #
+## ui.R ##
 
-library(shinythemes)
 library(colourpicker)
 
-ui <- fluidPage(theme = shinytheme("united"),
-        titlePanel("Passnetwork builder"),
-        p("RShiny app to build passnetwork"),
-        p("Data come from ",a(href="https://www.whoscored.com", target="_blanck","WhoScored")),
-        fluidRow(
-            column(3,
-                h4("Premier league colors"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF")),
-            column(3,
-                h4("Serie A colors"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF")),
-            column(3,
-                h4("Liga BBVA colors"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF")),
-            column(3,
-                h4("Bundesliga colors"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"),
-                p("Arsenal : #FFFFFF"),
-                p("Chelsea : #FFFFFF"))),
-        fluidRow(
-            column(12,textInput("url", label = h3("URL"), value = "https://www.whoscored.com/Matches/1225382/Live/Italy-Serie-A-2017-2018-Inter-Benevento"))
-        ),
-        fluidRow(
-            column(3,fileInput("logo_file", label = h3("Logo"))),
-            column(3,radioButtons("radio", label = h3("Team"),
-                    choices = list("Home" = "home", "Away" = "away"), 
-                    selected = "home")),
-            column(3, textInput("league", label = h3("League"), value = "Premier League")),
-            column(3,colourInput("color", h3("Select colour"), "red"))
-         ),   
-        fluidRow(
-            column(12,actionButton("action", label = "GO")),
-            column(12,downloadButton('downloadData', 'Download full size image'))
-        ),
-        imageOutput("preImage",width = "10%")
-        )
+ui <- bootstrapPage(htmlTemplate("template.html",
+  url = textInput("url", label="", value="https://www.whoscored.com/Matches/1225382/Live/Italy-Serie-A-2017-2018-Inter-Benevento"),
+  logo = fileInput("logo_file", label = ""),
+  radio = radioButtons("radio", label = "",
+                    choices = list("Home" = "home", "Away" = "away"),
+                    selected = "home"),
+  league = textInput("league", label = "", value = "Premier League"),
+  color = colourInput("color", label="", "red"),
+  go = actionButton("action", label = "Go"),
+  download = downloadButton('downloadData'),
+  image = imageOutput("preImage", width = "10%")
+))

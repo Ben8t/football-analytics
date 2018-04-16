@@ -1,0 +1,422 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: white;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+a {
+  color: rgb(80, 80,80);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #33cc99;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-primary {
+  background: linear-gradient(red,#64ffda) !important;
+}
+
+.bg-dark {
+  background-color: green !important;
+}
+
+.text-faded {
+  color: rgba(230, 230, 230, 0.9);
+}
+
+section {
+  margin-top: 3rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+#mainNav {
+  background : linear-gradient(#32e8b5,#43ddd5) !important;
+  font-family: 'Space Mono', monospace;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #64ffda;
+  font-family: 'Space Mono', monospace;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f05f40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #64ffda;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #64ffda !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #64ffda;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f05f40;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #64ffda;
+  }
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("background1.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(230,230,230) !important;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+}
+
+.service-box {
+  max-width: 400px;
+}
+
+#services{
+  background: #2b9a6f !important;
+  color : #fff;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 1;
+  color: #fff;
+  background: rgba(28, 68, 91, 0.9);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+.text-primary {
+  color: #64ffda !important;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Space Mono', monospace;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background: #2b9a6f !important;
+  border-color: #2b9a6f !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background: #33cc99 !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.text-content{
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+}
+
+.text-content a{
+    color: rgb(200, 200, 200) !important;
+}
+.order {
+  opacity: 1;
+  -webkit-animation: bounce .9s infinite alternate;
+  -o-animation: bounce .9s infinite alternate;
+  -moz-animation: bounce .9s infinite alternate;
+  animation: bounce .9s infinite alternate;
+}
+@-webkit-keyframes bounce {
+  to { transform: scale(1.1);}
+}
+@-o-keyframes bounce {
+  to { transform: scale(1.1);}
+}
+@-moz-keyframes bounce {
+  to { transform: scale(1.1);}
+}
+@keyframes bounce {
+  to { transform: scale(1.1);}
+}
+
+.contact-box{
+    margin-top: 5rem;
+}
+
+span.btn.btn-default.btn-file{
+    background-color: white;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: -13px;
+}
+
+.progress{
+    height: 0rem !important;
+}
+
+
+.fa-color{
+    color: white;
+}
+
+.beta{
+    color: red;
+    font-size: 8pt;
+    position: relative;
+    top : -1.2rem;
+}
+
+.go-download{
+    background-color: #29b6f6;
+    padding-top: 2rem;
+}
+
+
+.title{
+    padding-top : 3rem;
+}
+
+h2.step{
+    background-color: #33cc99;
+    padding: 1rem;
+    margin-right: 50rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+h2.final-step{
+    background-color: #81d4fa !important;
+}
+
+.container-fluid{
+    padding-left: 0rem;
+}
+
+@media (max-width: 1200px){
+h2.step{
+    background-color: #33cc99;
+    padding: 1rem;
+    margin-right: 5rem !important;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+}
+
+button#action.btn.btn-default.action-button{
+    width: 10rem;
+    background-color:#81d4fa;
+    color: white;
+}
+
+button#action.btn.btn-default.action-button:hover{
+    width: 10rem;
+    background-color:#01579b;
+    color: white;
+}
+
+a#downloadData.btn.btn-default.shiny-download-link{
+    width: 10rem;
+    background-color:#81d4fa;
+    color: white !important;
+}
+
+a#downloadData.btn.btn-default.shiny-download-link:hover{
+    width: 10rem;
+    background-color:#01579b;
+    color: white !important;
+}

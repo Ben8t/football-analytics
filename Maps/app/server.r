@@ -121,6 +121,7 @@ passnetwork <-function(TEAM="home", TEAM_COLOR="black", PASS_NUMBERS=5, URL){
 }
 
 server <- function(input, output, session) {
+    print('SERVER LAUNCHED')
     observeEvent(input$action, {
         # CREATE PASSNETWORK
         passnetwork_data = passnetwork(URL=input$url,TEAM_COLOR=input$color,TEAM=input$radio)

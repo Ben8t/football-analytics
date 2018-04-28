@@ -128,5 +128,10 @@ ggplot() + geom_point(data=all,aes(x=matchday,y=player,color=lineup),size=2) + s
 all = read.csv2("data/arsenal1718.csv")
 ggplot() +geom_point(data=all,aes(x=matchday,y=player,color=lineup),size=2) + scale_colour_manual(values=c("#ff8a80","#69f0ae")) + scale_y_discrete(limits=c("Petr Cech", "David Ospina", "Matt Macey","","Héctor Bellerín", "Mathieu Debuchy","Nacho Monreal", "Ainsley Maitland-Niles","Sead Kolasinac", "Laurent Koscielny", "Shkodran Mustafi", "Calum Chambers", "Per Mertesacker","Rob Holding","","Granit Xhaka","Aaron Ramsey", "Jack Wilshere", "Mesut Özil","Francis Coquelin", "Mohamed Elneny","","Alexis Sánchez","Henrikh Mkhitaryan", "Alex Iwobi", "Alex Oxlade-Chamberlain", "Theo Walcott","Reiss Nelson","","Alexandre Lacazette","Pierre-Emerick Aubameyang", "Olivier Giroud","Danny Welbeck", "Edward Nketiah"))+ scale_x_continuous(breaks=c(1,10,20,30,38))+labs(x="Matchday", y="",title="Arsenal Squad Rotation",subtitle="2017-2018 season 3/4",caption="by Benoit Pimpaud / @Ben8t",color="") + theme_ipsum_rc()
 
+# Arsenal2017-2018 35 matchdays
+# b=unique(all %>% select(player,post)) %>% arrange(desc(post))
+all = read.csv2("data/arsenal_lineup35days.csv")
+ggplot() +geom_point(data=all,aes(x=matchday,y=player,color=lineup),size=2) + scale_colour_manual(values=c("#ff8a80","#69f0ae")) + scale_y_discrete(limits=c("Petr Cech", "David Ospina", "Matt Macey","","Héctor Bellerín", "Mathieu Debuchy","Nacho Monreal", "Ainsley Maitland-Niles","Sead Kolasinac", "Laurent Koscielny", "Shkodran Mustafi", "Calum Chambers", "Per Mertesacker","Rob Holding","","Granit Xhaka","Aaron Ramsey", "Jack Wilshere", "Mesut Özil","Francis Coquelin", "Mohamed Elneny","","Alexis Sánchez","Henrikh Mkhitaryan", "Alex Iwobi", "Alex Oxlade-Chamberlain", "Theo Walcott","Reiss Nelson","","Alexandre Lacazette","Pierre-Emerick Aubameyang", "Olivier Giroud","Danny Welbeck", "Edward Nketiah"))+ scale_x_continuous(breaks=c(1,10,20,30,38))+labs(x="Matchday", y="",title="Arsenal Squad Rotation",subtitle="Premier League 2017-2018 season, matchday 35",caption="by Benoit Pimpaud / @Ben8t",color="") + theme_ipsum_rc()
+
 
 

@@ -1,7 +1,7 @@
 # FootScrapeViz repository
 
 This repository consist of data-visualization and some R scripts on football data.
-Most of these works are developed with R, especially : 
+Most of these works are developed in R, especially with :
 
 * dplyr
 * ggplot2
@@ -17,6 +17,7 @@ It's better to see directly [details here](https://github.com/DevBen8/FootScrape
 
 While data is the main problem for that kind of plot, I found that WhoScored let they data in their javascript. I dev a crawler to get them easly and save them into a json file.
 
+This work live now in a webapp (beta) : [passnetwork.pimpaudben.fr](passnetwork.pimpaudben.fr)
 ![example pass network](Maps/img/passnetwork/arsenal/arsenal03012018.jpg)
 
 ![example shot map](Maps/img/shotmap/realmadrid14022017.jpg)

@@ -1,17 +1,24 @@
 # Passnetwork and Shotmap with R
-Create passnetwork and shotmap thanks to data from WhoScored.com (Opta) in R with `igraph` and `ggnetwork` libraries. 
+Create passnetwork and shotmap thanks to data from WhoScored.com (Opta) in R with `igraph` and `ggnetwork` libraries.
+
+
+## [BETA] Web app
+
+This work live now in a webapp (beta) : [passnetwork.pimpaudben.fr](passnetwork.pimpaudben.fr)
+
+This app is build with RShiny on a Amazon EC2 instance. Still in beta version, it need better features, design, UX, instructions, and so on...
 
 ## Gather data from WhoScored
 Get the match url directly from WhoScored (Match Centre link on a game webpage)
 
 Example : https://www.whoscored.com/Matches/1190338/Live/England-Premier-League-2017-2018-Bournemouth-Arsenal
 
-> **Note** : You can get data directly from WhoScored with copy-paste command below in your web navigator javascript console : 
-`copy(JSON.stringify(matchCentreData));` 
+> **Note** : You can get data directly from WhoScored with copy-paste command below in your web navigator javascript console :
+`copy(JSON.stringify(matchCentreData));`
 This command put a json object in your clipboard that you can paste in a json file.
 
 ## PassNetwork builder
-Run this command in a shell: 
+Run this command in a shell:
 `Rscript passNetwork.r "url" "path_to_save_data" "team" "color" pass_number`
 
 * `url` is the WhoScored url we talk about above.
@@ -38,6 +45,3 @@ This command generate a `g_passnetwork_tmp.png` file (image file).
 ![example pass network](img/passnetwork/arsenal/arsenal03012018.jpg)
 
 ![example shot map](img/shotmap/realmadrid14022017.jpg)
-## What's next ?
-* Add directly text features and team logo.
-* Working on a website to directly create passnetwork with an user-friendly interface... #RShiny

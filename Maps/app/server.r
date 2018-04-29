@@ -142,7 +142,7 @@ server <- function(input, output, session) {
                       image_composite(., image_scale(logo,"450"), offset="+80+40") %>%
                       image_annotate(.,"Passnetwork", font = 'Roboto Condensed', size = 180, location="+585+40", color="#373737") %>%
                       image_annotate(.,passnetwork_data$team_scoreboard, font = 'Roboto Condensed', size = 130, location="+620+240", color="white") %>%
-                      image_annotate(.,paste0(input$league," - ",passnetwork_data$datetime), font = 'Roboto Condensed', size = 70, location="+630+385", color="white") %>%
+                      image_annotate(.,paste0(input$league," - ",passnetwork_data$datetime), font = 'Roboto Condensed', size = 70, location="+630+375", color="white") %>%
                       image_annotate(.,"Lines for 5 passes or more \nData from WhoScored/Opta", font = 'Roboto Condensed', size = 50, location="+50+2340", color="#373737") %>%
                       image_annotate(.,"by Benoit Pimpaud / @Ben8t", font = 'Roboto Condensed', size = 70, location="+50+2460", color="#373737")
 

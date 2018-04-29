@@ -123,24 +123,31 @@ passnetwork <-function(TEAM="home", TEAM_COLOR="black", PASS_NUMBERS=5, URL){
 server <- function(input, output, session) {
     print('SERVER LAUNCHED')
     observeEvent(input$action, {
+        withProgress(message = 'Making graphic...', value = 0, {
+
         # CREATE PASSNETWORK
+        incProgress(0.5, detail = "Download and process data...")
         passnetwork_data = passnetwork(URL=input$url,TEAM_COLOR=input$color,TEAM=input$radio)
         print("LOAD BACKGROUND")
+        incProgress(0.5, detail = "Loading background")
         background = image_read("./data/background.png")
         print("LOAD PASSNETWORK TMP")
+        incProgress(0.5, detail = "Loading images...")
         passnetwork = image_read("g_passnetwork_tmp_shiny.png")
         print("LOAD LOGO")
+        incProgress(0.5, detail = "Loading image logo...")
         logo = image_read(input$logo_file$datapath)
 
         full_image <- image_composite(background, image_scale(passnetwork,"3600"), offset = "+200+480") %>%
                       image_composite(., image_scale(logo,"450"), offset="+80+40") %>%
                       image_annotate(.,"Passnetwork", font = 'Roboto Condensed', size = 180, location="+585+40", color="#373737") %>%
                       image_annotate(.,passnetwork_data$team_scoreboard, font = 'Roboto Condensed', size = 130, location="+620+240", color="white") %>%
-                      image_annotate(.,paste0(input$league," - ",passnetwork_data$datetime), font = 'Roboto Condensed', size = 70, location="+630+390", color="white") %>%
+                      image_annotate(.,paste0(input$league," - ",passnetwork_data$datetime), font = 'Roboto Condensed', size = 70, location="+630+385", color="white") %>%
                       image_annotate(.,"Lines for 5 passes or more \nData from WhoScored/Opta", font = 'Roboto Condensed', size = 50, location="+50+2340", color="#373737") %>%
                       image_annotate(.,"by Benoit Pimpaud / @Ben8t", font = 'Roboto Condensed', size = 70, location="+50+2460", color="#373737")
 
         print("WRITE FULL IMAGE")
+        incProgress(0.5, detail = "Writing full graphic...")
         image_write(full_image, path = "passnetwork.png", format = "png")
         image_write(image_scale(full_image,700), path = "passnetwork_thumbnails.png", format = "png")
 
@@ -165,7 +172,10 @@ server <- function(input, output, session) {
                  alt = "Image number")
 
           }, deleteFile = FALSE)
+        incProgress(0.5, detail = "Done")
         print("JOB DONE")
+            
+        })
     })
 
 }

@@ -130,7 +130,10 @@ server <- function(input, output, session) {
         passnetwork_data = passnetwork(URL=input$url,TEAM_COLOR=input$color,TEAM=input$radio)
         print("LOAD BACKGROUND")
         incProgress(0.5, detail = "Loading background")
-        background = image_read("./data/background.png")
+        background = image_read("./data/background_worldcup.png")
+        print("LOAD FOREGROUND")
+        incProgress(0.5, detail = "Loading background")
+        foreground= image_read("./data/foreground_worldcup.png")
         print("LOAD PASSNETWORK TMP")
         incProgress(0.5, detail = "Loading images...")
         passnetwork = image_read("g_passnetwork_tmp_shiny.png")
@@ -139,6 +142,7 @@ server <- function(input, output, session) {
         logo = image_read(input$logo_file$datapath)
 
         full_image <- image_composite(background, image_scale(passnetwork,"3600"), offset = "+200+480") %>%
+                      image_composite(foreground) %>%
                       image_composite(., image_scale(logo,"450"), offset="+80+40") %>%
                       image_annotate(.,"Passnetwork", font = 'Roboto Condensed', size = 180, location="+585+40", color="#373737") %>%
                       image_annotate(.,passnetwork_data$team_scoreboard, font = 'Roboto Condensed', size = 130, location="+620+240", color="white") %>%

@@ -1,13 +1,6 @@
 # Passnetwork and Shotmap with R
 Create passnetwork and shotmap thanks to data from WhoScored.com (Opta) in R with `igraph` and `ggnetwork` libraries.
 
-
-## [BETA] Web app
-
-This work live now in a webapp (beta) : [passnetwork.pimpaudben.fr](passnetwork.pimpaudben.fr)
-
-This app is build with RShiny on a Amazon EC2 instance. Still in beta version, it need better features, design, UX, instructions, and so on...
-
 ## Gather data from WhoScored
 Get the match url directly from WhoScored (Match Centre link on a game webpage)
 

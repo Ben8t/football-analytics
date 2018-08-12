@@ -15,6 +15,7 @@ library(ggnetwork)
 
 # EVENT PROCESSING #
 event_to_dataframe <- function(data){
+    # Transform json data to dataframe
     event = data.frame(id=data$events$id,
                        eventId=data$events$eventId,
                        minute=data$events$minute,
@@ -32,6 +33,7 @@ event_to_dataframe <- function(data){
 }
 
 playersId_playersNames <- function(data){
+    # Gather player names with player id
     playersId_playersNames = data$playerIdNameDictionary %>% 
         t %>% 
         as.data.frame() %>% 
@@ -44,6 +46,7 @@ playersId_playersNames <- function(data){
 }
 
 teamsId_teamsNames <- function(data){
+    # Gather team id with tema names
     teamsId_teamsNames = data.frame(teamId=c(data$home$teamId, data$away$teamId),
                                     teamName=c(data$home$name, data$away$name))
     return(teamsId_teamsNames)

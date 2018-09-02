@@ -46,7 +46,7 @@ get_players_shots <- function(lineup_event){
 # args = commandArgs(trailingOnly=TRUE)
 
 # Or in R shell
-args = c("/Users/ben/Documents/DevData/passnetwork/data/England-Premier-League-2018-2019-Manchester-United-Leicester/data.json","home","#90caf9",5)
+args = c("/Users/ben/Documents/DevData/passnetwork/data/England-Premier-League-2018-2019-Liverpool-Brighton/data.json","home","#90caf9",5)
 
 # VARIABLE
 DATA_FILE = args[1]
@@ -76,7 +76,7 @@ lineup = lineup_final_text[1]  # get lineup for either home or away team
 lineup_event = event %>% filter(playerId %in% lineup$playerId)  # filter event accorting to home or away team
 
 player_shots = get_players_shots(lineup_event)  # get passes for each teammates
-player_shots = player_shots %>% select(playerName,x,y,typeDisplayName)
+player_shots = player_shots %>% select(playerName,x,y,typeDisplayName) %>% filter(playerName=="Mohamed Salah")
 
 # Vertical (x=x, y=y)
 map <-  ggplot(data=player_shots,aes(x=x,y=y))+
@@ -104,5 +104,14 @@ map <-  ggplot(data=player_shots,aes(x=y,y=-x))+
 
 ggsave(filename = paste0("img/g_shotmap_tmp.png"),map,width=10,height=7.5,dpi=300)
 
+# For goalkeeper
+# map <-  ggplot(data=player_shots,aes(x=y,y=-x))+
+#     geom_segment(aes(x = 0, y = 0, xend = 100, yend = 0), colour="#eee9d6") + geom_segment(aes(x=21.2, y=-17, xend=21.2, yend=0), colour="#eee9d6") + geom_segment(aes(x=21, y=-17, xend=79, yend=-17), colour="#eee9d6") + geom_segment(aes(x=79, y=-17, xend=79, yend=-0), colour="#eee9d6")+ geom_segment(aes(x=36.8, y=0, xend=36.8, yend=-5.8), colour="#eee9d6") + geom_segment(aes(x=36.8, y=-5.8, xend=63.2, yend=-5.8), colour="#eee9d6") + geom_segment(aes(x=63.2, y= 0, xend=63.2, yend=-5.8), colour="#eee9d6") +
+#     geom_point(aes(color = typeDisplayName), size=2) +
+#     scale_colour_manual(values = c("#ffc400", "#d63031", "#b388ff","#55efc4"), name = "Ball type") + 
+#     theme_ipsum_rc()+
+#     theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank()) +
+#     theme(legend.text = element_text(colour="#eee9d6", size=15), legend.title = element_text(colour="#eee9d6", size=20)) +
+#     theme(panel.background = element_rect(fill = '#293555', colour = '#293555'), plot.background = element_rect(fill = "#293555"))
 
 

@@ -1,4 +1,4 @@
 .Rhistory
-data/*
-Maps/data/*
-crawler/*
+visualisation/data/*
+visualisation/Maps/data/*
+visualisation/crawler/*

@@ -2,3 +2,5 @@
 visualisation/data/*
 visualisation/Maps/data/*
 visualisation/crawler/*
+*.csv
+*.pkl

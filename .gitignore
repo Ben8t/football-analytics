@@ -2,5 +2,7 @@
 visualisation/data/*
 visualisation/Maps/data/*
 visualisation/crawler/*
+*__pycache__
+*.DS_Store
 *.csv
 *.pkl

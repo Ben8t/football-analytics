@@ -1,6 +1,8 @@
 """
 Expected goal model application
-Usage:
+Compute xG for shots data
+
+Usage :
 python3 -m expected_goal.main "/Users/username/folder/data.json"
 python3 -m expected_goal.main "/Users/username/folder/"
 python3 -m expected_goal.main "/Users/username/folder/*pattern*"

@@ -35,10 +35,12 @@ def split_dataset(data, split_rate, output_variable):
 
 
 if __name__ == "__main__":
-    data = load_data("premier_league_shots.csv")
-    x_train, y_train, x_test, y_test = split_dataset(data, 0.3, "is_goal")
+    data = load_data("premier_league_shots.csv") # load training dataset
+    x_train, y_train, x_test, y_test = split_dataset(data, 0.3, "is_goal")  # split data
+
     model = RandomForestClassifier(n_estimators=100)
     model.fit(x_train, y_train)
     y_pred = model.predict(x_test)
     print(classification_report(y_test, y_pred))
-    joblib.dump(model, 'expected_goal/expected_goal_model.pkl') 
+
+    joblib.dump(model, 'expected_goal/expected_goal_model.pkl')  # save model

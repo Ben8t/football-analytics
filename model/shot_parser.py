@@ -1,5 +1,6 @@
 """
 Shot parser
+Parse shots data from a list of files
 """
 
 import os
@@ -72,10 +73,10 @@ class ShotParser():
 
 
 if __name__ == "__main__":
-    data_list = glob.glob("/Users/ben/Downloads/pl_data/*.json")
+    data_list = glob.glob("/Users/ben/Downloads/pl_data/*.json")  # list all files
     shot_parser = ShotParser(data_list)
-    processed_data = shot_parser.get_shots()
-    processed_data.to_csv("premier_league_shots.csv", index=False)
+    processed_data = shot_parser.get_shots() # filterinr and processing shots
+    processed_data.to_csv("premier_league_shots.csv", index=False)  # save processed data
 
 
 

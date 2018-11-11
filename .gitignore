@@ -3,6 +3,7 @@ visualisation/data/*
 visualisation/Maps/data/*
 visualisation/crawler/*
 *__pycache__
+*Rplots.pdf
 *.DS_Store
 *.csv
 *.pkl

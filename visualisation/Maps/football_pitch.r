@@ -1,8 +1,8 @@
 library(ggplot2)
 library(ggforce)
 
-background_color = "#8DE3C1"
-foreground_color = "#FDFEFE"
+background_color = "#2162AA"
+foreground_color = "#F7F6F4"
 
 ggplot() +  geom_rect(aes(xmin = 0, xmax = 105, ymin = 0, ymax = 68), #entire pitch with FIFA dimensions
             fill = background_color, 

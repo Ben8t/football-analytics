@@ -19,7 +19,7 @@ services:
 
     # Copy files from dbinit into the image so that they will be run on boot
     volumes:
-      - /Users/ben/Downloads/pgdata:/var/lib/postgresql/data
+      - soccer_database_volume:/var/lib/postgresql/data
 
   pgadmin:
     # For more details on configuring the pgadmin4 Docker image, see:
@@ -38,3 +38,7 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: 'root@example.com'
       PGADMIN_DEFAULT_PASSWORD: 'root'
+
+volumes:
+  soccer_database_volume:
+    driver: local

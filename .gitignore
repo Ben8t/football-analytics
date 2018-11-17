@@ -7,3 +7,4 @@ visualisation/crawler/*
 *.DS_Store
 *.csv
 *.pkl
+*config.json

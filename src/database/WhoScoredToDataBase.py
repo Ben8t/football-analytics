@@ -30,8 +30,6 @@ class WhoScoredToDataBase():
         self.__insert_player_dictionnary(id, data)
         self.__insert_events(id, data)
         self.__connection.commit()
-        self.__cursor.close()
-        self.__connection.close()
 
     def __insert_metadata(self, id, data):
         """
@@ -129,3 +127,7 @@ class WhoScoredToDataBase():
             ))
         args_str = ','.join(self.__cursor.mogrify("(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)", x).decode('utf-8') for x in values)
         self.__cursor.execute("INSERT INTO public.events (game_id, event_id, minute, second, team_id, player_id, x, y, type_value, type_name, outcome_type_value, outcome_type_name, is_touch) VALUES " + args_str) 
+
+    def close_connection(self):
+        self.__cursor.close()
+        self.__connection.close()

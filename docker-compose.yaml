@@ -13,9 +13,9 @@ services:
     container_name: postgres
 
     environment:
-      POSTGRES_USER: 'postgres'
-      POSTGRES_PASSWORD: 'pgpass'
-      POSTGRES_DB: 'postgres'
+      POSTGRES_USER: 'root'
+      POSTGRES_PASSWORD: 'root'
+      POSTGRES_DB: 'soccer'
 
     # Copy files from dbinit into the image so that they will be run on boot
     volumes:
@@ -36,5 +36,5 @@ services:
       - postgres:postgres
 
     environment:
-      PGADMIN_DEFAULT_EMAIL: 'admin@example.com'
-      PGADMIN_DEFAULT_PASSWORD: 'admin'
+      PGADMIN_DEFAULT_EMAIL: 'root@example.com'
+      PGADMIN_DEFAULT_PASSWORD: 'root'

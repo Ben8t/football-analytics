@@ -1,0 +1,40 @@
+version: '3'
+services:
+
+  postgres:
+    # For more details on configuring the Postgres Docker image, see:
+    #   https://hub.docker.com/_/postgres/
+    image: postgres:10.3-alpine
+
+    # Expose the default Postgres port on localhost
+    ports:
+      - '5432:5432'
+    network_mode: bridge
+    container_name: postgres
+
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'pgpass'
+      POSTGRES_DB: 'postgres'
+
+    # Copy files from dbinit into the image so that they will be run on boot
+    volumes:
+      - /Users/ben/Downloads/pgdata:/var/lib/postgresql/data
+
+  pgadmin:
+    # For more details on configuring the pgadmin4 Docker image, see:
+    #   https://hub.docker.com/r/dpage/pgadmin4/
+    image: dpage/pgadmin4
+
+    # Expose the web UI on localhost port 8080
+    ports:
+      - '8080:80'
+    network_mode: bridge
+    container_name: pgadmin
+    # Link this container to the postgres container with hostname 'postgres'
+    external_links:
+      - postgres:postgres
+
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'admin@example.com'
+      PGADMIN_DEFAULT_PASSWORD: 'admin'

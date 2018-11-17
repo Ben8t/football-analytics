@@ -17,7 +17,9 @@ and all the awesome tidyverse...
 
 ![example pass sonar](https://pbs.twimg.com/media/DrgsT32XcAAZgd-.jpg)
 
-![example shot map](Maps/img/shotmap/realmadrid14022017.jpg)
+![example shot map](/visualisation/Maps/img/shotmap/milinkovic-savic34season20172018.jpg)
+
+![example xg map](/visualisation/Maps/img/xg_map/lacazette_xgmap.jpg)
 ### Lineup
 
 Plot lineups evolution

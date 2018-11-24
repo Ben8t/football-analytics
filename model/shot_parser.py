@@ -57,6 +57,7 @@ class ShotParser():
             for event in data["events"]:
                 processed_data = {}
                 if "Shot" in event["type"]["displayName"] or "Goal" in event["type"]["displayName"]:
+                    processed_data["game_id"] = hashlib.md5(data["timeStamp"].encode("utf-8")).hexdigest()
                     processed_data["id"] = str(event["id"])
                     processed_data["x_shot"] = 105*event["x"]/100
                     processed_data["y_shot"] = 68*event["y"]/100

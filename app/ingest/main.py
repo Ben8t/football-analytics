@@ -27,7 +27,7 @@ if __name__ == "__main__":
         wsdb.process_file(file)
         i = i + 1
         if i % 25 == 0:
-            print("Processing in progress: ", i/len(files)," %")
+            print("Processing in progress: ", i*100/len(files)," %")
 
     wsdb.close_connection()
     

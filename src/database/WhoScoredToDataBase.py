@@ -6,6 +6,7 @@ import json
 import hashlib
 import psycopg2
 from psycopg2.extensions import AsIs
+from src.database.ShotParser import ShotParser
 
 class WhoScoredToDataBase():
 
@@ -29,6 +30,7 @@ class WhoScoredToDataBase():
         self.__insert_metadata(id, data)
         self.__insert_player_dictionnary(id, data)
         self.__insert_events(id, data)
+        self.__insert_event_shots(id, data)
         self.__connection.commit()
 
     def __insert_metadata(self, id, data):
@@ -127,6 +129,19 @@ class WhoScoredToDataBase():
             ))
         args_str = ','.join(self.__cursor.mogrify("(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)", x).decode('utf-8') for x in values)
         self.__cursor.execute("INSERT INTO public.events (game_id, event_id, minute, second, team_id, player_id, x, y, type_value, type_name, outcome_type_value, outcome_type_name, is_touch) VALUES " + args_str) 
+
+    def __insert_event_shots(self, id, data):
+        shot_parser = ShotParser()
+        processed_data = shot_parser.get_shots(id, data)
+        for event in processed_data:
+            values = []
+            columns = []
+            for key, value in event.items():
+                values.append(value)
+                columns.append('"' + key + '"')
+            insert_statement = "INSERT INTO public.event_shots (%s) VALUES %s"
+            self.__cursor.execute(insert_statement, (AsIs(','.join(columns)), tuple(values)))
+        
 
     def close_connection(self):
         self.__cursor.close()

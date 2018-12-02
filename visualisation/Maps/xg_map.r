@@ -86,15 +86,15 @@ create_graphic <- function(xg_map, text, stats, filepath){
 
 
 # Launcher 
-data_file = "/Users/ben/Downloads/ars.csv"
-text = "Olivier Giroud shots from 2017-2018 Premier League season"
+data_file = "/Users/ben/Downloads/mu_xg.csv"
+text = "Manchester United from 2017-2018 Premier League season"
 final_filename = "/Users/ben/Downloads/tmp_xgmap.png"
 
 # load data
 data <-  read_csv(data_file)
 # filter data
 # you can filter on team_name or player_name
-data <- data %>% filter(player_name=="Olivier Giroud")
+data <- data %>% filter(team_id==32 & startDate > "2017-07-01")
 
 stats <- get_stats(data)
 # build xG map

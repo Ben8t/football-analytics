@@ -6,9 +6,9 @@ library(ggthemes)
 library(hrbrthemes)
 
 
-raw_data <- read_csv("xg-ars.csv")
-id = 13
-subtitle = "Arsenal - 2015 to 2017 Premier League season"
+raw_data <- read_csv("/Users/ben/Downloads/mu_xg.csv")
+id = 32
+subtitle = "Manchester United - 2015 to 2017 Premier League seasons"
 
 data <- raw_data %>% 
     mutate(team=ifelse(team_id==id, "xG", "xGC"), id=row_number()) %>% 

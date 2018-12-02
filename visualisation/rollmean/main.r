@@ -23,7 +23,7 @@ grouped_data$id <- rep(1:(nrow(grouped_data)/2), each=2)
 ggplot() + 
     geom_line(data=grouped_data %>% filter(team=="xG"), aes(x=id, y=rollmean(xg, 15, na.pad=TRUE), color=team)) +
     geom_point(data=grouped_data %>% filter(team=="xG"), aes(x=id, y=rollmean(xg, 15, na.pad=TRUE), , color=team)) +
-    scale_color_manual(values=c("#56FFAE", "#C64E96")) +
+    scale_color_manual(values=c("#56FFAE", "#FCA337")) +
     geom_line(data=grouped_data %>% filter(team=="xGC"), aes(x=id, y=rollmean(xg, 15, na.pad=TRUE), color=team)) +
     geom_point(data=grouped_data %>% filter(team=="xGC"), aes(x=id, y=rollmean(xg, 15, na.pad=TRUE), color=team)) + 
     geom_vline(xintercept=39, color="white", linetype="dashed") +
@@ -32,7 +32,7 @@ ggplot() +
     geom_text(aes(x=77, y=0.3, label="\nchange in season"), colour="white", angle=90, size=3)+
     scale_x_continuous(breaks=seq(1,nrow(grouped_data)/2-5, 5), limits=c(15,nrow(grouped_data)/2-5), labels=unique(grouped_data$date)[seq(1,nrow(grouped_data)/2-5, 5)]) +
     scale_y_continuous(breaks=c(0,0.5,1,1.5,2,2.5,3), limits=c(0,3)) +
-    labs(x="", y="xG/xGC",title="xG/xGC rolling averages",subtitle=subtitle,caption="15 games rolling averages\nby @Ben8t",color="") +
+    labs(x="", y="xG/xGC",title="xG & xGC rolling averages",subtitle=subtitle,caption="15 games rolling averages\nby @Ben8t",color="") +
     theme_ipsum_rc() +
     theme(
         plot.title = element_text(size=35),
@@ -42,4 +42,4 @@ ggplot() +
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         plot.background = element_rect(fill = "#2162AA")) +
-    theme(axis.text.x = element_text(angle = 30, hjust = 1))
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))

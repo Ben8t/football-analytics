@@ -1,6 +1,6 @@
 """
 Shot parser
-Parse shots data from a list of files
+Parse shots data
 """
 import numpy
 import hashlib

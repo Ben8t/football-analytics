@@ -10,7 +10,7 @@ CREATE TABLE public.player_base
     player_id varchar(80),
     player_name varchar(80),
     player_position varchar(80),
-    player_height int,
-    player_weight int,
+    player_height float,
+    player_weight float,
     player_age int
 );

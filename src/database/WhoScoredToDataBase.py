@@ -7,6 +7,7 @@ import hashlib
 import psycopg2
 from psycopg2.extensions import AsIs
 from src.database.ShotParser import ShotParser
+from src.database.PassParser import PassParser
 
 class WhoScoredToDataBase():
 
@@ -31,6 +32,7 @@ class WhoScoredToDataBase():
         self.__insert_player_dictionnary(id, data)
         self.__insert_events(id, data)
         self.__insert_event_shots(id, data)
+        self.__insert_event_pass(id, data)
         self.__connection.commit()
 
     def __insert_metadata(self, id, data):
@@ -140,6 +142,18 @@ class WhoScoredToDataBase():
                 values.append(value)
                 columns.append('"' + key + '"')
             insert_statement = "INSERT INTO public.event_shots (%s) VALUES %s"
+            self.__cursor.execute(insert_statement, (AsIs(','.join(columns)), tuple(values)))
+        
+    def __insert_event_pass(self, id, data):
+        pass_parser = PassParser()
+        processed_data = pass_parser.get_pass(id, data)
+        for event in processed_data:
+            values = []
+            columns = []
+            for key, value in event.items():
+                values.append(value)
+                columns.append('"' + key + '"')
+            insert_statement = "INSERT INTO public.event_pass (%s) VALUES %s"
             self.__cursor.execute(insert_statement, (AsIs(','.join(columns)), tuple(values)))
         
 

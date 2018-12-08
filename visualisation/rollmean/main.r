@@ -8,7 +8,7 @@ library(hrbrthemes)
 
 raw_data <- read_csv("/Users/ben/Downloads/mu_xg.csv")
 id = 32
-subtitle = "Manchester United - 2015 to 2017 Premier League seasons"
+subtitle = "Manchester United - 2015 to 2018 Premier League seasons"
 
 data <- raw_data %>% 
     mutate(team=ifelse(team_id==id, "xG", "xGC"), id=row_number()) %>% 
@@ -30,6 +30,8 @@ ggplot() +
     geom_text(aes(x=39, y=0.3, label="\nchange in season"), colour="white", angle=90, size=3)+
     geom_vline(xintercept=77, color="white", linetype="dashed") +
     geom_text(aes(x=77, y=0.3, label="\nchange in season"), colour="white", angle=90, size=3)+
+    geom_vline(xintercept=115, color="white", linetype="dashed") +
+    geom_text(aes(x=115, y=0.3, label="\nchange in season"), colour="white", angle=90, size=3)+
     scale_x_continuous(breaks=seq(1,nrow(grouped_data)/2-5, 5), limits=c(15,nrow(grouped_data)/2-5), labels=unique(grouped_data$date)[seq(1,nrow(grouped_data)/2-5, 5)]) +
     scale_y_continuous(breaks=c(0,0.5,1,1.5,2,2.5,3), limits=c(0,3)) +
     labs(x="", y="xG/xGC",title="xG & xGC rolling averages",subtitle=subtitle,caption="15 games rolling averages\nby @Ben8t",color="") +
@@ -41,5 +43,10 @@ ggplot() +
         axis.text.x = element_text(colour="white"),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
-        plot.background = element_rect(fill = "#2162AA")) +
-    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+        plot.background = element_rect(fill = "black")) +
+    theme(
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.line.x = element_line(color="white"),
+        axis.line.y = element_line(color="white"),
+        axis.ticks.y = element_line(color="white"),
+    )

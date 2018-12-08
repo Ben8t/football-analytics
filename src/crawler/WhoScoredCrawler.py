@@ -45,7 +45,7 @@ class WhoScoredCrawler():
             json.dump(loaded_data, outfile)
 
         self.__download_images(loaded_data)
-        
+        self.__driver.close()
         return file_path
     
 

@@ -1,9 +1,9 @@
 """
-main.py
+ingest_raw_files.py
 
-Ingest WhoScored data into Postgres database
+Ingest downloaded data into Postgres database
 Example:
-python -m app.ingest.main <WhoScored URL>
+python -m app.ingest.ingest_raw_files.py (base folder is data/raw/)
 """
 
 import json
@@ -14,16 +14,17 @@ from src.crawler.WhoScoredCrawler import WhoScoredCrawler
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("url", help="WhoScored URL")
-    args = parser.parse_args()
-    
     config = json.load(open("app/ingest/config.json"))
-    crawler = WhoScoredCrawler()
     wsdb = WhoScoredToDataBase(config["database"], config["host"], config["user"], config["password"])
+    files = glob.glob("data/raw/*.json")
+    i = 0
+    for file in files:
+        print("Processing : ", file)
+        wsdb.process_file(file)
+        i = i + 1
+        if i % 25 == 0:
+            print("Processing in progress: ", i*100/len(files)," %")
 
-    file = crawler.crawl(args.url)
-    wsdb.process_file(file)
     wsdb.close_connection()
     
 

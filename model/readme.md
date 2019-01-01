@@ -9,3 +9,7 @@ This is why more and more sports analytics turn to the advanced models like xG, 
 Goal here is to create a simple model for shot quality evaluation. It can be improve with more data and more modelling.
 
 ![scheme xg](expected_goal/xg_model_scheme.png)
+
+## Expected assist
+
+Expected assist (xA) are the same as expected goals but for passes. Each passe is evaluate according to its likelihood of being an assist.

@@ -45,12 +45,12 @@ class PassParser():
                 processed_data["player_id"] = str(event["playerId"])
                 processed_data["team_id"] = str(event["teamId"])
                 is_assist = 0
-                    if "IntentionalGoalAssist" in clean_dict:
-                        is_assist = 1
-                    elif data["events"][i+1]["type"]["displayName"] == "Goal":
-                        is_assist = 1
-                    else:
-                        is_assist = 0
+                if "IntentionalGoalAssist" in clean_dict:
+                    is_assist = 1
+                elif data["events"][i+1]["type"]["displayName"] == "Goal":
+                    is_assist = 1
+                else:
+                    is_assist = 0
                 processed_data["is_assist"] = is_assist
                 processed_data["key_pass"] = 1 if "KeyPass" in clean_dict else 0
                 processed_data["big_chance_created"] = 1 if "BigChanceCreated" in clean_dict else 0

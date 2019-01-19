@@ -9,22 +9,37 @@ python -m app.ingest.main <WhoScored URL>
 import json
 import argparse
 import glob 
+import time
 from src.database.WhoScoredToDataBase import WhoScoredToDataBase
 from src.crawler.WhoScoredCrawler import WhoScoredCrawler
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("url", help="WhoScored URL")
+    parser.add_argument("-u", "--url", type=str, help="WhoScored URL")
+    parser.add_argument("-c", "--csv", type=str, help="CSV file with a list of WhoScored URL")
     args = parser.parse_args()
     
     config = json.load(open("app/ingest/config.json"))
     crawler = WhoScoredCrawler()
     wsdb = WhoScoredToDataBase(config["database"], config["host"], config["user"], config["password"])
 
-    file = crawler.crawl(args.url)
-    wsdb.process_file(file)
-    wsdb.close_connection()
+    if args.url:
+        file = crawler.crawl(args.url)
+        wsdb.process_file(file)
+        wsdb.close_connection()
+    elif args.csv:
+        with open(args.csv, "r") as urls:
+            for url in urls.readlines():
+                file = crawler.crawl(url)
+                wsdb.process_file(file)
+                time.sleep(20)
+            crawler.close()
+            wsdb.close_connection()
+
+    else:
+        print("No argument")
+
     
 
 

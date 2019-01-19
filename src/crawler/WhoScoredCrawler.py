@@ -40,12 +40,11 @@ class WhoScoredCrawler():
 
         loaded_data = json.loads(json_data)
 
-        file_path = "data/raw/" + url.split("/")[-1] + ".json"
+        file_path = "data/raw/" + url.split("/")[-1].replace("\n","") + ".json"
         with open(file_path, 'w') as outfile:
             json.dump(loaded_data, outfile)
 
         self.__download_images(loaded_data)
-        self.__driver.close()
         return file_path
     
 
@@ -60,3 +59,6 @@ class WhoScoredCrawler():
             response = requests.get(base_url + id + ".png").content
             with open("data/images/" + id + ".png", "wb") as file:
                 file.write(response)
+
+    def close(self):
+        self.__driver.quit()

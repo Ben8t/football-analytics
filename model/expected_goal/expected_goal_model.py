@@ -60,4 +60,5 @@ if __name__ == "__main__":
     y_pred = model.predict_classes(x_test)
     print(classification_report(y_test, y_pred))
 
-    joblib.dump(model, 'expected_goal/expected_goal_model.pkl')  # save model
+    # joblib.dump(model, 'expected_goal/expected_goal_model.pkl')  # save model
+    model.save('expected_goal/expected_goal_model.h5')

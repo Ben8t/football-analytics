@@ -3,7 +3,7 @@ Expected goal model application
 Compute xG for shots data
 
 Usage :
-python3 -m model.expected_goal.main "/Users/username/folder/data.csv"
+python -m model.expected_goal.main "/Users/username/folder/data.csv"
 
 Wildcard:
 -s input for saving file
@@ -12,6 +12,8 @@ Wildcard:
 import argparse
 import pandas
 from sklearn.externals import joblib
+from keras.models import load_model
+
 
 def model_application(model, shots_data):
     """
@@ -27,11 +29,10 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--save", help="input for saving file", action="store_true")
     args = parser.parse_args()
 
-    model = joblib.load("model/expected_goal/expected_goal_model.pkl")
+    model = load_model('model/expected_goal/expected_goal_model.h5')
     shots_data = pandas.read_csv(args.data)
-
     xG = model_application(model, shots_data)
-    print(xG)
+    
 
     # Saving option
     if args.save:

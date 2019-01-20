@@ -8,3 +8,4 @@ visualisation/crawler/*
 *.csv
 *.pkl
 *config.json
+*.h5

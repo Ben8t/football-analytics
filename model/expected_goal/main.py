@@ -18,7 +18,7 @@ def model_application(model, shots_data):
     Return Expected goal for every shot
     """
     y_pred = model.predict_proba(shots_data[["x_shot", "y_shot", "goal_distance", "big_chance"]])
-    shots_data["xG"] = [y[1] for y in y_pred]
+    shots_data["xG"] = [y[0] for y in y_pred]
     return shots_data
 
 if __name__ == "__main__":

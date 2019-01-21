@@ -72,10 +72,10 @@ get_stats <- function(data){
 }
 
 create_graphic <- function(xg_map, text, stats, filepath){
-    ggsave(filename="img/g_xgmap_tmp.png", xg_map + theme(plot.margin=unit(c(3.5,0,-0.3,0),"cm")), width=10.5, height=8, dpi=150, bg="#2162AA")
-    xg_map <- image_read("img/g_xgmap_tmp.png")
-    title <- image_read("template/xg_map/title.png")
-    foreground <- image_read("template/xg_map/foreground.png")
+    ggsave(filename="/data/visualisation/Maps/img/g_xgmap_tmp.png", xg_map + theme(plot.margin=unit(c(3.5,0,-0.3,0),"cm")), width=10.5, height=8, dpi=150, bg="#2162AA")
+    xg_map <- image_read("/data/visualisation/Maps/img/g_xgmap_tmp.png")
+    title <- image_read("/data/visualisation/Maps/template/xg_map/title.png")
+    foreground <- image_read("/data/visualisation/Maps/template/xg_map/foreground.png")
     full_image <- xg_map %>%
         image_composite(image_scale(title,"600"), offset="+70-40") %>%
         image_composite(foreground) %>%
@@ -86,15 +86,15 @@ create_graphic <- function(xg_map, text, stats, filepath){
 
 
 # Launcher 
-data_file = "/Users/ben/Downloads/mu_xg.csv"
-text = "Manchester United from 2017-2018 Premier League season"
-final_filename = "/Users/ben/Downloads/tmp_xgmap.png"
+data_file = "/data/expected_goal_conceded_wolves.csv"
+text = "Wolverhampton conceded shots from 2018-2019 Premier League season (data as of January 20)"
+final_filename = "/data/tmp_xgmap.png"
 
 # load data
 data <-  read_csv(data_file)
 # filter data
 # you can filter on team_name or player_name
-data <- data %>% filter(team_id==32 & startDate > "2017-07-01")
+# data <- data %>% filter(team_id==32 & startDate > "2018-08-01")
 
 stats <- get_stats(data)
 # build xG map

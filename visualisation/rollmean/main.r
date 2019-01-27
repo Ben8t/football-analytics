@@ -5,9 +5,9 @@ library(dplyr)
 library(hrbrthemes)
 
 
-raw_data <- read_csv("/Users/ben/Downloads/mu_xg.csv")
-id = 32
-subtitle = "Manchester United in Premier League"
+raw_data <- read_csv("wolves_xg_xgc.csv")
+id = 161
+subtitle = "Wolverhampton in Premier League"
 rolling = 15
 
 data <- raw_data %>% 

@@ -72,10 +72,10 @@ get_stats <- function(data){
 }
 
 create_graphic <- function(xa_map, text, stats, filepath){
-    ggsave(filename="img/g_xamap_tmp.png", xa_map + theme(plot.margin=unit(c(3.5,0,-0.3,0),"cm")), width=10.5, height=8, dpi=150, bg="#2162AA")
-    xg_map <- image_read("img/g_xamap_tmp.png")
-    title <- image_read("template/xa_map/title.png")
-    foreground <- image_read("template/xa_map/foreground.png")
+    ggsave(filename="visualisation/maps/img/g_xamap_tmp.png", xa_map + theme(plot.margin=unit(c(3.5,0,-0.3,0),"cm")), width=10.5, height=8, dpi=150, bg="#2162AA")
+    xg_map <- image_read("visualisation/maps/img/g_xamap_tmp.png")
+    title <- image_read("visualisation/maps/template/xa_map/title.png")
+    foreground <- image_read("visualisation/maps/template/xa_map/foreground.png")
     full_image <- xg_map %>%
         image_composite(image_scale(title,"600"), offset="+70-40") %>%
         image_composite(foreground) %>%
@@ -85,9 +85,9 @@ create_graphic <- function(xa_map, text, stats, filepath){
 }
 
 # Launcher 
-data_file = "/Users/ben/Downloads/ozil_xa.csv"
-text = "Mezut Ozil passes from 2017-2018 Premier League seasons"
-final_filename = "/Users/ben/Downloads/tmp_xamap.png"
+data_file = "wolves_conceded_xa.csv"
+text = "Wolverhampton conceded passes from 2018-2019 Premier League seasons"
+final_filename = "tmp_xamap.png"
 
 # load data
 data <-  read_csv(data_file)

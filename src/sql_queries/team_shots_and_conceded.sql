@@ -5,5 +5,5 @@ LEFT JOIN (
 ) AS met
 ON met.game_id = event_shots.game_id
 WHERE event_shots.game_id IN (
-    SELECT game_id FROM metadata WHERE home_team_id = '18' OR away_team_id = '18'
+    SELECT game_id FROM metadata WHERE home_team_id = '161' OR away_team_id = '161'
 )

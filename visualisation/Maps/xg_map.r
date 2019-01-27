@@ -86,15 +86,15 @@ create_graphic <- function(xg_map, text, stats, filepath){
 
 
 # Launcher 
-data_file = "/data/expected_goal_conceded_wolves.csv"
-text = "Wolverhampton conceded shots from 2018-2019 Premier League season (data as of January 20)"
+data_file = "/data/palace_conceded_xg.csv"
+text = "Crystal Palace conceded shots from 2018-2019 Premier League season."
 final_filename = "/data/tmp_xgmap.png"
 
 # load data
 data <-  read_csv(data_file)
 # filter data
 # you can filter on team_name or player_name
-# data <- data %>% filter(team_id==32 & startDate > "2018-08-01")
+data <- data %>% filter(startDate > "2018-08-01")
 
 stats <- get_stats(data)
 # build xG map

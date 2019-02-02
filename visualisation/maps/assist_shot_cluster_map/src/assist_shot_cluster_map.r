@@ -1,13 +1,3 @@
-library(dplyr)
-library(rvest)
-library(hrbrthemes)
-library(magick)
-library(viridis)
-library(ggforce)
-library(gtable)
-library(gridExtra)
-library(grid)
-library(readr)
 
 assist_shot_cluster_map <- function(data, background_color, foreground_color, line_color, cluster_number){
     data <- data %>% filter(x_shot>105/2) %>% filter(x_pass_begin>105/2)
@@ -79,38 +69,14 @@ assist_shot_cluster_map <- function(data, background_color, foreground_color, li
     coord_cartesian(ylim=c(55, 105))
 }
 
-create_graphic <- function(map, text, filepath){
-    ggsave(filename="visualisation/maps/img/g_assist_shot_cluster_tmp.png", map + theme(plot.margin=unit(c(3.5,0,-0.3,0),"cm")), width=10.5, height=8, dpi=150, bg="#2162AA")
-    assist_shot_cluster_map <- image_read("visualisation/maps/img/g_assist_shot_cluster_tmp.png")
-    title <- image_read("visualisation/maps/template/assist_shot_cluster_map/title.png")
-    foreground <- image_read("visualisation/maps/template/assist_shot_cluster_map/foreground.png")
+create_graphic <- function(map, text, filepath, background_color, text_color){
+    ggsave(filename="img/g_assist_shot_cluster_tmp.png", map + theme(plot.margin=unit(c(3.5,0,-0.3,0),"cm")), width=10.5, height=8, dpi=150, bg=background_color)
+    assist_shot_cluster_map <- image_read("img/g_assist_shot_cluster_tmp.png")
+    title <- image_read("template/title.png")
+    foreground <- image_read("template/foreground.png")
     full_image <- assist_shot_cluster_map %>%
         image_composite(image_scale(title,"1000"), offset="+80+80") %>%
         image_composite(foreground) %>%
-        image_annotate(text, font="Roboto", size=35, location="+80+190", color="white")
+        image_annotate(text, font="Roboto", size=35, location="+80+190", color=text_color)
     image_write(full_image, path=filepath)
 }
-
-
-
-background_color = "#2162AA"
-foreground_color = "#F7F6F4"
-line_color = c("#00A6FF", "#00C3FF", "#00DAE5", "#00EBB8", "#9DF68A", "#F9F871")
-CLUSTER_NUMBER = 6
-
-# Launcher 
-data_file = "arsenal_assists_shots_against_20172018.csv"
-text = "Arsenal assists-shots conceded in 2017-2018 Premier League season."
-final_filename = "tmp_assists_shots_cluster_map.png"
-
-# Load data
-data <- read_csv(data_file, 
-    col_types = cols(event_id = col_character(), 
-        next_event_id = col_character(), 
-        x_pass_end = col_double(), x_shot = col_double(), 
-        y_pass_end = col_double(), y_shot = col_double()
-    )
-)
-
-map <- assist_shot_cluster_map(data, background_color, foreground_color, line_color, CLUSTER_NUMBER)
-create_graphic(map, text, final_filename)

@@ -29,6 +29,7 @@ On [another repository](https://gitlab.com/ben8t/passnetwork) I built a specific
 
 ![pass-sonar](https://pbs.twimg.com/media/DwBMF3wXQAIsQPB.jpg)
 
+![assist-shot cluster map](visualisation/maps/img/assists_shots_cluster_map/arsenal1819_cluster10_assists_shots_cluster_map.png)
 ## TODO
 
 * Merge passmap repository in this one

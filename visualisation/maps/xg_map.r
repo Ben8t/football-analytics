@@ -86,8 +86,8 @@ create_graphic <- function(xg_map, text, stats, filepath){
 
 
 # Launcher 
-data_file = "/data/palace_conceded_xg.csv"
-text = "Crystal Palace conceded shots from 2018-2019 Premier League season."
+data_file = "/data/wolve_xg.csv"
+text = "Wolverhampton shots from 2018-2019 Premier League season."
 final_filename = "/data/tmp_xgmap.png"
 
 # load data

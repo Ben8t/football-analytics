@@ -96,19 +96,11 @@ create_graphic <- function(map, text, filepath){
 background_color = "#2162AA"
 foreground_color = "#F7F6F4"
 line_color = c("#00A6FF", "#00C3FF", "#00DAE5", "#00EBB8", "#9DF68A", "#F9F871")
-<<<<<<< HEAD
-CLUSTER_NUMBER = 7
-
-# Launcher 
-data_file = "wolves_conceded_action.csv"
-text = "Wolverhampton assists-shots conceded in 2018-2019 Premier League season."
-=======
 CLUSTER_NUMBER = 6
 
 # Launcher 
 data_file = "arsenal_assists_shots_against_20172018.csv"
 text = "Arsenal assists-shots conceded in 2017-2018 Premier League season."
->>>>>>> f40797dee71b1182f6815a6b6834429c0afcdb55
 final_filename = "tmp_assists_shots_cluster_map.png"
 
 # Load data

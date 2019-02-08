@@ -12,8 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 from sklearn.externals import joblib
-from keras.models import Sequential, Model
-from keras.layers import Input, Dense
+import tensorflow as tf
 
 def load_data(csv_file):
     data = pandas.read_csv(csv_file, sep=",")
@@ -38,14 +37,14 @@ def simple_neural_network(input_dim):
     """ 
     Simple neural net structure 
     """
-    model = Sequential([
-        Dense(100, input_dim=input_dim, activation='relu'),
-        Dense(50, activation='relu'),
-        Dense(50, activation='relu'),
-        Dense(50, activation='relu'),
-        Dense(25, activation='relu'),
-        Dense(25, activation='relu'),
-        Dense(1, activation='sigmoid')])
+    model = tf.keras.models.Sequential([
+        tf.keras.layers.Dense(100, input_dim=input_dim, activation='relu'),
+        tf.keras.layers.Dense(50, activation='relu'),
+        tf.keras.layers.Dense(50, activation='relu'),
+        tf.keras.layers.Dense(50, activation='relu'),
+        tf.keras.layers.Dense(25, activation='relu'),
+        tf.keras.layers.Dense(25, activation='relu'),
+        tf.keras.layers.Dense(1, activation='sigmoid')])
     model.compile(loss='binary_crossentropy', optimizer='adam')
     return model
 
@@ -59,6 +58,5 @@ if __name__ == "__main__":
     model.fit(x_train, y_train, epochs=50)
     y_pred = model.predict_classes(x_test)
     print(classification_report(y_test, y_pred))
-
     # joblib.dump(model, 'expected_goal/expected_goal_model.pkl')  # save model
     model.save('expected_goal/expected_goal_model.h5')

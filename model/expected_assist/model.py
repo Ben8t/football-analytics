@@ -35,7 +35,7 @@ def split_dataset(data, split_rate, output_variable):
 
 
 if __name__ == "__main__":
-    data = load_data("premier_league_pass.csv") # load training dataset
+    data = load_data("model/expected_assist/resources/premier_league_pass.csv") # load training dataset
     x_train, y_train, x_test, y_test = split_dataset(data, 0.3, "is_assist")  # split data
 
     model = RandomForestClassifier(n_estimators=100)
@@ -43,4 +43,4 @@ if __name__ == "__main__":
     y_pred = model.predict(x_test)
     print(classification_report(y_test, y_pred))
 
-    joblib.dump(model, 'expected_assist/expected_assist_model.pkl')  # save model
+    joblib.dump(model, 'model/expected_assist/resources/model.pkl')  # save model

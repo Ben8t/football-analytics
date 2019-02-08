@@ -50,7 +50,7 @@ def simple_neural_network(input_dim):
 
 
 if __name__ == "__main__":
-    data = load_data("premier_league_shots.csv") # load training dataset
+    data = load_data("model/expected_goal/resources/premier_league_shots.csv") # load training dataset
     x_train, y_train, x_test, y_test = split_dataset(data, 0.3, "is_goal")  # split data
 
     # model = RandomForestClassifier(n_estimators=100)
@@ -58,5 +58,5 @@ if __name__ == "__main__":
     model.fit(x_train, y_train, epochs=50)
     y_pred = model.predict_classes(x_test)
     print(classification_report(y_test, y_pred))
-    # joblib.dump(model, 'expected_goal/expected_goal_model.pkl')  # save model
-    model.save('expected_goal/expected_goal_model.h5')
+    # joblib.dump(model, 'expected_goal/expected_goal_model.pkl')  # save model with scikit
+    model.save('model/expected_goal/resources/dnn_model.h5')

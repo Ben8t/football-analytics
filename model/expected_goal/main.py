@@ -29,7 +29,7 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--save", help="input for saving file", action="store_true")
     args = parser.parse_args()
 
-    model = load_model('model/expected_goal/expected_goal_model.h5')
+    model = load_model('model/expected_goal/resources/dnn_model.h5')
     shots_data = pandas.read_csv(args.data)
     xG = model_application(model, shots_data)
     

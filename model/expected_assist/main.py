@@ -29,7 +29,7 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--save", help="input for saving file", action="store_true")
     args = parser.parse_args()
 
-    model = joblib.load("model/expected_assist/expected_assist_model.pkl")
+    model = joblib.load("model/expected_assist/resources/model.pkl")
     pass_data = pandas.read_csv(args.data)
 
     xA = model_application(model, pass_data)

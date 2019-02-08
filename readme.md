@@ -5,8 +5,8 @@
 This repository is a personal project where I develop football models and visualisations.
 
 It's build on top of different technologies such as:
-* Python: for data processing and machine learning.
-* R: all data-visualisation stuff.
+* Python: for data processing and machine learning (Tensorflow & Scikit Learn)
+* R: all data-visualisation stuff (dplyr, ggplot2, magick).
 * Postgres SQL: storing and querying data easily.
 * Docker: to orchestrate all these elements together and easy install/startup.
 

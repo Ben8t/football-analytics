@@ -12,8 +12,8 @@ library(gtable)
 library(gridExtra)
 library(grid)
 
-source("src/core.r")
-source("utils/utils.r")
+source("visualisation/maps/passmap/src/core.r")
+source("visualisation/maps/passmap/src/utils.r")
 
 g_legend <- function(a.gplot){ 
   tmp <- ggplot_gtable(ggplot_build(a.gplot)) 
@@ -139,11 +139,11 @@ passsonar <- function(cleaned_data, lineup){
 }
 
 create_graphic <- function(passsonar, folder, team, team_name, team_scoreboard, datetime, league_name){
-  ggsave(filename=paste0(folder, "g_passsonar_tmp.png"), passsonar, width=15, height=18, dpi=150, bg = "#1b4d99")
-  background <- image_read("./template/passsonar/background_passsonar.png")
-  foreground <- image_read("./template/passsonar/foreground_passsonar.png")
-  title <- image_read("./template/passsonar/title_passsonar.png")
-  passsonar <- image_read(paste0(folder, "g_passsonar_tmp.png"))
+  ggsave(filename=paste0("visualisation/maps/passmap/data/",folder,"/g_passsonar_tmp.png"), passsonar, width=15, height=18, dpi=150, bg = "#1b4d99")
+  background <- image_read("visualisation/maps/passmap/template/passsonar/background_passsonar.png")
+  foreground <- image_read("visualisation/maps/passmap/template/passsonar/foreground_passsonar.png")
+  title <- image_read("visualisation/maps/passmap/template/passsonar/title_passsonar.png")
+  passsonar <- image_read(paste0("visualisation/maps/passmap/data/",folder,"/g_passsonar_tmp.png"))
   logo <- image_read(paste0(folder, team, "_logo.png"))
   full_image <- background %>% 
     image_composite(passsonar, offset="+0+150") %>% 

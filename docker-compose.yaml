@@ -44,6 +44,8 @@ services:
 
   python:
     image: my_python
+    ports:
+      - '8081:5000'
     networks:
             football-viz-net:
                 ipv4_address: 172.28.1.3

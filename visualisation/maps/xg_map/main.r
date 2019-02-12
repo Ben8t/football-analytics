@@ -13,9 +13,9 @@ library(readr)
 source(file="src/xg_map.r")  # import xg map functions
 
 # Launcher 
-data_file <- "data/wolve_xg_1819.csv"
-text <- "Wolverhampton shots from 2018-2019 Premier League season."
-final_filename <- "img/wolves_xgmap_1819.png"
+data_file <- "data/wolves_xg_conceded.csv"
+text <- "Wolverhampton conceded shots in Premier League as date of February 13, 2019."
+final_filename <- "img/wolves_xgmap_conceded.png"
 
 # Colors
 background_color <- "#2162AA"

@@ -8,7 +8,7 @@ library(ggnetwork)
 library(magick)
 
 source("src/core.r")
-source("utils/utils.r")
+source("src/utils.r")
 
 passnetwork <- function(event_data, lineup, line_color, team_color, pass_number) {
     # Create passnetwork with igraph/ggnetwork
@@ -106,7 +106,7 @@ create_graphic <- function(passnetwork, folder, team, team_name, team_scoreboard
         #   Save the full image in the folder as png file
         ggsave(filename=paste0(folder, "g_passnetwork_tmp.png"), passnetwork, width=14, height=8, dpi=300)
         passnetwork <- image_read(paste0(folder, "g_passnetwork_tmp.png"))
-        foreground <- image_read("./template/passnetwork/foreground_passnetwork.png")
+        foreground <- image_read("template/passnetwork/foreground_passnetwork.png")
         logo <- image_read(paste0(folder, team, "_logo.png"))
 
         full_image <- image_scale(passnetwork,"3600") %>%

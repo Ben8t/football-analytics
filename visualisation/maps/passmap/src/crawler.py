@@ -17,6 +17,7 @@ def last_whoscored_games():
     url = "https://whoscored.com"
     options = webdriver.ChromeOptions()
     options.add_argument('headless')
+    options.add_argument('--no-sandbox')
     driver = webdriver.Chrome(chrome_options=options)
     driver.implicitly_wait(30)
     driver.get(url)
@@ -28,7 +29,7 @@ def last_whoscored_games():
         links = div.findAll('a')
         for a in links:
             games_url.append("https://whoscored.com" + a['href'])
-
+    print(games_url)
     return games_url
 
 
@@ -45,7 +46,7 @@ def download_data(url):
     driver = webdriver.Chrome(chrome_options=options)
     driver.implicitly_wait(30)
 
-    folder_name = "visualisation/maps/passmap/data/" + url.split("/")[-1]
+    folder_name = "data/" + url.split("/")[-1]
     file_name = "{folder_name}/data.json".format(folder_name=folder_name)
     if os.path.exists(folder_name):
         shutil.rmtree(folder_name)

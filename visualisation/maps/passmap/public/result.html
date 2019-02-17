@@ -1,0 +1,45 @@
+<div class="ui success teal message">
+<div class="ui content">
+    <p>
+        <b>Success!</b> {{folder}}.
+    </p>
+</div>
+</div>
+<div class="ui basic modal">
+    <div class="ui icon header">
+      <i class="archive icon"></i>
+      Download graphics
+    </div>
+    <div class="content">
+      <p>The server has finished creating the graphics, do you want to download them?</p>
+      <p>{{folder}}</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        <i class="remove icon"></i>
+        No
+      </div>
+      <button value={{folder}} class="ui green ok inverted button">
+        <i class="checkmark icon"></i>
+        Yes
+      </button>
+    </div>
+</div>
+<script>
+  $(".ok").click(function(){
+    folder = $(this).val();
+    $.ajax({
+        url: "/download",
+        type: "get",
+        data: {folder: folder},
+        success: function(response){
+          var url = URL.createObjectURL(response);
+          var $a = $('<a />', {
+          'href': url,
+          'download': 'data.zip',
+          'text': "click"
+        }).hide().appendTo("body")[0].click();
+        }
+      });
+  })
+</script>

@@ -9,111 +9,160 @@
   <!-- Site Properties -->
   <title>Passmap</title>
   <link rel="stylesheet" type="text/css" href="public/css/semantic.css">
-
-  <script src="public/js/jquery.min.js"></script>
-  <script src="public/js/semantic.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
 
 </head>
 <body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
 
-<h1 class="ui center aligned header">Passmap</h1>
+  <div class="ui title huge center aligned header">
+    Passmap
+  </div>
 
 <div class="ui container">
-  <div class="ui info message">
+  <div class="ui info message blue">
     <div class="ui content">
       <p>
-        <b>Heads up!</b> This an alpha version.
+        <b>Heads up!</b> This is an alpha version.
       </p>
     </div>
   </div>
-  {% if folder %}
-  <div class="ui success message">
-    <div class="ui content">
-        <p>
-          <b>Success!</b> {{folder}}.
-        </p>
+  <div id="success"></div>
+</div>
+
+<div class="ui segment container">
+    <div class="ui two column very relaxed grid">
+      <div class="column">
+        <div class="ui header center aligned">Recent games</div></br>
+              {% for url in last_urls %}
+              <div class="field">
+                  <label>{{url.split("/")[-1].replace("-", " ")}}</label></br>
+                  <button class="ui animated button display_success blue" name="game_url" value="{{url}}" tabindex="0">
+                    <div class="visible content">Create graphics</div>
+                    <div class="hidden content">
+                      <i class="right arrow icon"></i>
+                    </div>
+                  </button>
+      
+              </div>
+              <br/>
+              {% endfor%}
+      </div>
+      <div class="column">
+        <div class="ui header center aligned">Specific game</div></br>
+        <div class="field">
+            <form class="ui form action" onsubmit="console.log('allez');">
+                <input type="text" name="game_url" placeholder="URL"></br>
+                <button class="ui animated button blue" name="game_url" value="{{url}}" tabindex="0">
+                    <div class="visible content">Create graphics</div>
+                    <div class="hidden content">
+                      <i class="right arrow icon"></i>
+                    </div>
+                  </button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <div class="ui vertical divider">
+      or
     </div>
   </div>
-  {% endif %}
-</div>
 
-<div class="ui container aligned header">
-        {% for url in last_urls %}
-        <form class="ui form" method="POST" action="/result">
-          <div class="field">
-            <label>{{url.split("/")[-1].replace("-", " ")}}</label>
-            <button type="submit" name="game_url" value="{{url}}" class="ui button">Submit</button>
-          </div>
-        </form>
-        <br/>
-        {% endfor%}
-</div>
-
-
+  <img class="ui huge centered rounded image" src="/public/img/passmap.jpg">
 
 <!-- Content JS HERE !-->
 <style>
   .last.container {
     margin-bottom: 300px !important;
   }
-  h1.ui.center.header {
+  div.ui.title.header {
     margin-top: 3em;
   }
-  h2.ui.center.header, {
-    margin: 4em 0em 2em;
-  }
-  h3.ui.center.header {
-    margin-top: 2em;
-    padding: 2em 0em;
+  button {
+    margin-top: 1rem !important;
   }
 </style>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="public/js/semantic.js"></script>
+<script>
+  $(".display_success").click(function(){
+      var game_url = $(this).val();
+      var element = $(this);
+      element.toggleClass("loading");
+      $.ajax({
+        url: "/result",
+        type: "get",
+        data: {jsdata: game_url},
+        success: function(response) {
+          $("#success").html(response);
+          $('body .modals').remove();
+          $('.ui.basic.modal').modal('show');
+          element.toggleClass("loading");
+        }
+      });
+  });
+  $(".form").on("submit", function(e){
+    e.preventDefault();
+    var element = $(this);
+    element.toggleClass("loading");
+    game_url = $(this).serializeArray()[0]["value"];
+    $.ajax({
+        url: "/result",
+        type: "get",
+        data: {jsdata: game_url},
+        success: function(response) {
+          $("#success").html(response);
+          $('body .modals').remove();
+          $('.ui.basic.modal').modal('show');
+          element.toggleClass("loading");
+        }
+      });
+  });
+  </script>
+
 <script type="text/javascript">
-$(document).ready(function() {
-
-  var
-    $headers     = $('body > h3'),
-    $header      = $headers.first(),
-    ignoreScroll = false,
-    timer
-  ;
-
-  // Preserve example in viewport when resizing browser
-  $(window)
-    .on('resize', function() {
-      // ignore callbacks from scroll change
-      clearTimeout(timer);
-      $headers.visibility('disable callbacks');
-
-      // preserve position
-      $(document).scrollTop( $header.offset().top );
-
-      // allow callbacks in 500ms
-      timer = setTimeout(function() {
-        $headers.visibility('enable callbacks');
-      }, 500);
-    })
-  ;
-  $headers
-    .visibility({
-      // fire once each time passed
-      once: false,
-
-      // don't refresh position on resize
-      checkOnRefresh: true,
-
-      // lock to this element on resize
-      onTopPassed: function() {
-        $header = $(this);
-      },
-      onTopPassedReverse: function() {
-        $header = $(this);
-      }
-    })
-  ;
-});
+  $(document).ready(function() {
+  
+    var
+      $headers     = $('body > h3'),
+      $header      = $headers.first(),
+      ignoreScroll = false,
+      timer
+    ;
+  
+    // Preserve example in viewport when resizing browser
+    $(window)
+      .on('resize', function() {
+        // ignore callbacks from scroll change
+        clearTimeout(timer);
+        $headers.visibility('disable callbacks');
+  
+        // preserve position
+        $(document).scrollTop( $header.offset().top );
+  
+        // allow callbacks in 500ms
+        timer = setTimeout(function() {
+          $headers.visibility('enable callbacks');
+        }, 500);
+      })
+    ;
+    $headers
+      .visibility({
+        // fire once each time passed
+        once: false,
+  
+        // don't refresh position on resize
+        checkOnRefresh: true,
+  
+        // lock to this element on resize
+        onTopPassed: function() {
+          $header = $(this);
+        },
+        onTopPassedReverse: function() {
+          $header = $(this);
+        }
+      })
+    ;
+  });
 </script>
-
-
-
 </body></html>

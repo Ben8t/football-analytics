@@ -26,7 +26,7 @@ def result():
     subprocess.run(["Rscript", "passsonar.r", folder.replace("./", "") + "/"])
     return render_template("result.html", folder=folder)
 
-@app.route('/download')
+@app.route('/download', methods=["GET"])
 def download():
     folder = request.args.get('folder')
     zipf = zipfile.ZipFile('data.zip', 'w', zipfile.ZIP_DEFLATED)

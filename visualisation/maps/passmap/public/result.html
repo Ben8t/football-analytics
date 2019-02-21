@@ -19,27 +19,9 @@
         <i class="remove icon"></i>
         No
       </div>
-      <button value={{folder}} class="ui green ok inverted button">
+      <a href="/download?folder={{folder}}" target="_blank" class="ui green ok inverted button">
         <i class="checkmark icon"></i>
         Yes
-      </button>
+      </a>
     </div>
 </div>
-<script>
-  $(".ok").click(function(){
-    folder = $(this).val();
-    $.ajax({
-        url: "/download",
-        type: "get",
-        data: {folder: folder},
-        success: function(response){
-          var url = URL.createObjectURL(response);
-          var $a = $('<a />', {
-          'href': url,
-          'download': 'data.zip',
-          'text': "click"
-        }).hide().appendTo("body")[0].click();
-        }
-      });
-  })
-</script>

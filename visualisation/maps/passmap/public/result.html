@@ -1,0 +1,27 @@
+<div class="ui success teal message">
+<div class="ui content">
+    <p>
+        <b>Success!</b> {{folder}}.
+    </p>
+</div>
+</div>
+<div class="ui basic modal">
+    <div class="ui icon header">
+      <i class="archive icon"></i>
+      Download graphics
+    </div>
+    <div class="content">
+      <p>The server has finished creating the graphics, do you want to download them?</p>
+      <p>{{folder}}</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        <i class="remove icon"></i>
+        No
+      </div>
+      <a href="/download?folder={{folder}}" target="_blank" class="ui green ok inverted button">
+        <i class="checkmark icon"></i>
+        Yes
+      </a>
+    </div>
+</div>

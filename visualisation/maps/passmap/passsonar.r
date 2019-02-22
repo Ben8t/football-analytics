@@ -21,7 +21,7 @@ g_legend <- function(a.gplot){
   legend <- tmp$grobs[[leg]] 
   return(legend)}
 
-pass_angles <- function(cleaned_data, lineup) {
+pass_angles <- function(cleaned_data, lineup, sonar_colors, text_color) {
     player_passes <- get_players_passes(cleaned_data)
     pass_angles_plots = list()
     for (i in c(1:length(lineup$playerName))){
@@ -40,8 +40,8 @@ pass_angles <- function(cleaned_data, lineup) {
             geom_bar(stat="identity", aes(x=angle, y=freq, fill=mean_distance)) + 
             coord_polar(start=pi, direction=1) +
             scale_x_continuous(limits=c(-180,180),breaks=seq(-180, 180, 45)) + 
-            scale_fill_gradientn(colours=c("#83FFC3","#56FFAE","#00CB69","#00793F")) + 
-            theme(legend.title=element_text(size=20, color="#FEFEFE"),legend.text = element_text(colour="#FEFEFE", size=20),legend.position="bottom",legend.direction="horizontal",legend.background=element_rect(fill=alpha('#FEFEFE', 0.0))) +
+            scale_fill_gradientn(colours=sonar_colors) + 
+            theme(legend.title=element_text(size=20, color=text_color),legend.text = element_text(colour=text_color, size=20),legend.position="bottom",legend.direction="horizontal",legend.background=element_rect(fill=alpha(text_color, 0.0))) +
             guides(fill=guide_colorbar(
                 title="Average Pass Distance",
                 title.position="top", 
@@ -73,35 +73,35 @@ pass_angles <- function(cleaned_data, lineup) {
     return(results)
 }
 
-passsonar <- function(cleaned_data, lineup){
-  pass_angles_graphic <- pass_angles(cleaned_data, lineup)
+passsonar <- function(cleaned_data, lineup, background_color, foreground_color, sonar_colors, text_color, alternative_text_color){
+  pass_angles_graphic <- pass_angles(cleaned_data, lineup, sonar_colors, text_color)
   base <- ggplot(lineup) + 
     geom_rect(aes(xmin = -10, xmax = 0, ymin = 0, ymax = 12), #entire pitch with FIFA dimensions
-        fill = "#1b4d99", 
-        colour = "#80A0C6", 
+        fill = background_color, 
+        colour = foreground_color, 
         size = .5) +
-    geom_circle(aes(x0 = -5, y0 = 6, r = 1), colour="#80A0C6") + #centre circle
-    geom_circle(aes(x0 = -5, y0 = 1.7, r = 0.7), colour="#80A0C6") + #penalty arc
-    geom_circle(aes(x0 = -5, y0 = 10.3, r = 0.7), colour="#80A0C6") + #penalty arc
+    geom_circle(aes(x0 = -5, y0 = 6, r = 1), colour=foreground_color) + #centre circle
+    geom_circle(aes(x0 = -5, y0 = 1.7, r = 0.7), colour=foreground_color) + #penalty arc
+    geom_circle(aes(x0 = -5, y0 = 10.3, r = 0.7), colour=foreground_color) + #penalty arc
     geom_rect(aes(xmin = -7, xmax = -3, ymin = 0, ymax = 2), #penalty box
-              fill = "#1b4d99", 
-              colour = "#A9C4DF", 
+              fill = background_color, 
+              colour = foreground_color, 
               size = .5) +
     geom_rect(aes(xmin = -7, xmax = -3, ymin = 10, ymax = 12),  #penalty box
-              fill = "#1b4d99", 
-              colour = "#80A0C6", 
+              fill = background_color, 
+              colour = foreground_color, 
               size = .5) +
-    geom_point(aes(x = -5, y = 1.5), colour="#80A0C6") + #penalty spot
-    geom_point(aes(x = -5, y = 10.5), colour="#80A0C6") + #penalty spot
+    geom_point(aes(x = -5, y = 1.5), colour=foreground_color) + #penalty spot
+    geom_point(aes(x = -5, y = 10.5), colour=foreground_color) + #penalty spot
     geom_rect(aes(xmin = -6, xmax = -4, ymin = 0, ymax = 1), #6 yard box
-              fill = "#1b4d99", 
-              colour = "#80A0C6", 
+              fill = background_color, 
+              colour = foreground_color, 
               size = .5) +
     geom_rect(aes(xmin = -6, xmax = -4, ymin = 11, ymax = 12),  #6 yard box
-              fill = "#1b4d99", 
-              colour = "#80A0C6", 
+              fill = background_color, 
+              colour = foreground_color, 
               size = .5) +
-    geom_segment(aes(x = -10, y = 6, xend = 0, yend = 6), colour="#80A0C6") + #halfway line
+    geom_segment(aes(x = -10, y = 6, xend = 0, yend = 6), colour=foreground_color) + #halfway line
     coord_fixed() +
     theme(rect = element_blank(), #remove additional ggplot2 features: lines, axis, etc...
           line = element_blank(),axis.title.y = element_blank(),
@@ -109,7 +109,7 @@ passsonar <- function(cleaned_data, lineup){
           axis.title.x = element_blank(),
           axis.text.x = element_blank(),
           axis.text.y = element_blank()) +
-    geom_text(aes(x=-horizontal, y=vertical, label=playerName), hjust=0.5, vjust=-6, size=8, color="#FEFEFE")
+    geom_text(aes(x=-horizontal, y=vertical, label=playerName), hjust=0.5, vjust=-6, size=8, color=text_color)
 
   final_plot <- base + 
       pass_angles_graphic[[1]][[1]]$plot + 
@@ -129,7 +129,7 @@ passsonar <- function(cleaned_data, lineup){
                     axis.ticks=element_blank(),
                     panel.background=element_blank(),
                     legend.position="none",
-                    plot.background = element_rect(fill = "#1b4d99"),
+                    plot.background = element_rect(fill = background_color),
                     panel.grid.major = element_blank(),
                     panel.grid.minor = element_blank()) +
       annotation_custom(grob=pass_angles_graphic[[2]], xmin=-9.5, ymin=0.3, xmax=-7.5, ymax=1) +
@@ -139,7 +139,7 @@ passsonar <- function(cleaned_data, lineup){
 }
 
 create_graphic <- function(passsonar, folder, team, team_name, team_scoreboard, datetime, league_name){
-  ggsave(filename=paste0(folder,"g_passsonar_tmp.png"), passsonar, width=15, height=18, dpi=150, bg = "#1b4d99")
+  ggsave(filename=paste0(folder,"g_passsonar_tmp.png"), passsonar, width=15, height=18, dpi=150, bg = background_color)
   background <- image_read("template/passsonar/background_passsonar.png")
   foreground <- image_read("template/passsonar/foreground_passsonar.png")
   title <- image_read("template/passsonar/title_passsonar.png")
@@ -150,9 +150,9 @@ create_graphic <- function(passsonar, folder, team, team_name, team_scoreboard, 
     image_composite(foreground) %>% 
     image_composite(image_scale(logo,"220"), offset = "+250+200") %>% 
     image_composite(title) %>%
-    image_annotate(team_scoreboard, font="Roboto", size=75, location="+500+220", color="white") %>% 
-    image_annotate(paste0(league_name, " - ", datetime), font="Roboto", size=45, location="+500+320", color="grey") %>% 
-    image_annotate("Bar length = pass angle frequency\n                                              @Ben8t", font="Roboto", size=35, location="+1465+2560", color="white")
+    image_annotate(team_scoreboard, font="Roboto", size=75, location="+500+220", color=text_color) %>% 
+    image_annotate(paste0(league_name, " - ", datetime), font="Roboto", size=45, location="+500+320", color=alternative_text_color) %>% 
+    image_annotate("Bar length = pass angle frequency\n                                              @Ben8t", font="Roboto", size=35, location="+1465+2560", color=text_color)
   
   file_name <- paste0("passsonar_", gsub(" ", "", team_name, fixed=TRUE), "_", gsub("/", "", datetime, fixed=TRUE), ".png")
   image_write(full_image, path=paste0(folder, file_name), format="png")
@@ -167,10 +167,17 @@ data <- jsonlite::fromJSON(paste0(folder, "data.json"))
 cleaned_data <- event_cleaning(data)
 datetime <- get_game_datetime(data)
 
+background_color = "#1b4d99"
+foreground_color = "#80A0C6"
+sonar_colors = c("#83FFC3","#56FFAE","#00CB69","#00793F")
+text_color = "#FEFEFE"
+alternative_text_color = "#e8e8e8"
+
+
 for(team in c("home", "away")) {
     lineup <- get_lineup(data, team) %>% left_join(., get_playersId_playersNames(data), by="playerId")
     team_name <- get_team_name(data, team)
     team_scoreboard <- get_game_information_text(data, team)
-    map <- passsonar(cleaned_data, lineup)
+    map <- passsonar(cleaned_data, lineup, background_color, foreground_color, sonar_colors, text_color, alternative_text_color)
     create_graphic(map, folder, team, team_name, team_scoreboard, datetime, template_settings$league_name)
 }

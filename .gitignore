@@ -9,3 +9,4 @@ visualisation/crawler/*
 *.pkl
 *config.json
 *.h5
+*.zip

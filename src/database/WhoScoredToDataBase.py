@@ -28,12 +28,29 @@ class WhoScoredToDataBase():
         """
         data = json.load(open(file))
         id = hashlib.md5(data["timeStamp"].encode("utf-8")).hexdigest()  # create a unique game id based on timeStamp
-        self.__insert_metadata(id, data)
-        self.__insert_player_dictionnary(id, data)
-        self.__insert_events(id, data)
-        self.__insert_event_shots(id, data)
-        self.__insert_event_pass(id, data)
-        self.__connection.commit()
+        if not self.is_id_already_exist(id):
+            self.__insert_metadata(id, data)
+            self.__insert_player_dictionnary(id, data)
+            self.__insert_events(id, data)
+            self.__insert_event_shots(id, data)
+            self.__insert_event_pass(id, data)
+            self.__connection.commit()
+        else:
+            print("This file has already been ingested. ID: {id}".format(id=id))
+
+    def is_id_already_exist(self, id):
+        """
+        Check if a given id (ie. game) already exist in the database
+        :param id: game id
+        :return: boolean
+        """
+        select_statement = "SELECT game_id FROM public.metadata WHERE game_id = '{id}'".format(id=id)
+        self.__cursor.execute(select_statement)
+        result = self.__cursor.fetchone()
+        if result:
+            return result[0] == id
+        else:
+            return False
 
     def __insert_metadata(self, id, data):
         """

@@ -42,12 +42,12 @@ services:
       PGADMIN_DEFAULT_EMAIL: 'root@example.com'
       PGADMIN_DEFAULT_PASSWORD: 'root'
 
-  python:
+  core:
     image: my_python:latest
     networks:
             football-viz-net:
                 ipv4_address: 172.28.1.3
-    container_name: football-viz
+    container_name: core
     command: tail -F anything
     volumes:
       - ".:/data"

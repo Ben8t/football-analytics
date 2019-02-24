@@ -1,8 +1,8 @@
 
-assist_shot_cluster_map <- function(data, background_color, foreground_color, line_color, cluster_number){
-    data <- data %>% filter(x_shot>105/2) %>% filter(x_pass_begin>105/2)
-    set.seed(42)
-    kmeans_result = kmeans(data %>% 
+build_cluster_data <- function(data, cluster_number){
+	set.seed(42)
+	data <- data %>% filter(x_shot>105/2) %>% filter(x_pass_begin>105/2
+	kmeans_result = kmeans(data %>% 
                    select(x_pass_begin, 
                           y_pass_begin, 
                           x_pass_end, 
@@ -10,7 +10,20 @@ assist_shot_cluster_map <- function(data, background_color, foreground_color, li
                           x_shot, 
                           y_shot) %>% 
                    na.omit(), cluster_number, iter.max = 50)
+	return(kmeans_result)
+}
 
+add_cluster_information <- function(kmeans_result, group_name="group")
+	cluster_data <- kmeans_result$centers %>%
+				as.data.frame() %>%
+				mutate(size=kmeans_result$size,
+				       cluster_name=LETTERS[1:nrow(kmeans_result$centers)]
+				       group_name=group_name)
+}
+
+assist_shot_cluster_map <- function(data, background_color, foreground_color, line_color, cluster_number){
+    kmeans_result <- build_cluster_data(data, cluster_number)
+    cluster_data <- add_cluster_information(cluster)
     cluster_centroid = kmeans_result$centers %>% as.data.frame() %>% mutate(size=kmeans_result$size,cluster_name=LETTERS[1:cluster_number])
 
     ggplot() +  geom_rect(aes(xmin = 0, xmax = 68, ymin = 0, ymax = 105), #entire pitch with FIFA dimensions

@@ -3,7 +3,7 @@ Expected goal model application
 Compute xG for shots data
 
 Usage :
-python -m model.expected_goal.main "/Users/username/folder/data.csv"
+python -m model.expected_goal.main <shots_data_file.csv>
 
 Wildcard:
 -s input for saving file

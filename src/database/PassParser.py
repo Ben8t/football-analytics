@@ -2,7 +2,7 @@
 Pass parser
 Parse pass data
 """
-import numpy
+import math
 import hashlib
 
 
@@ -15,7 +15,7 @@ class PassParser():
     def distance(x1, y1, x2, y2):
         if x1 is None or y1 is None:
             return None
-        return numpy.sqrt( (x2 - x1)**2 + (y2 - y1)**2 )
+        return math.sqrt( (x2 - x1)**2 + (y2 - y1)**2 )
 
     def get_pass(self, id, data):
         """

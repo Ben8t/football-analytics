@@ -42,12 +42,22 @@ services:
       PGADMIN_DEFAULT_EMAIL: 'root@example.com'
       PGADMIN_DEFAULT_PASSWORD: 'root'
 
-  core:
-    image: my_python:latest
+  crawling:
+    build: src/crawler
     networks:
             football-viz-net:
                 ipv4_address: 172.28.1.3
-    container_name: core
+    container_name: crawler
+    command: tail -F anything
+    volumes:
+      - ".:/data"
+
+  model:
+    build: model
+    networks:
+            football-viz-net:
+                ipv4_address: 172.28.1.4
+    container_name: model
     command: tail -F anything
     volumes:
       - ".:/data"
@@ -58,7 +68,7 @@ services:
       - '8081:5000'
     networks:
             football-viz-net:
-                ipv4_address: 172.28.1.4
+                ipv4_address: 172.28.1.5
     container_name: passmap
     volumes:
       - ".:/data"

@@ -2,7 +2,7 @@
 Shot parser
 Parse shots data
 """
-import numpy
+import math
 import hashlib
 
 
@@ -13,7 +13,7 @@ class ShotParser():
     
     @staticmethod
     def distance(x1, y1, x2, y2):
-        return numpy.sqrt( (x2 - x1)**2 + (y2 - y1)**2 )
+        return math.sqrt( (x2 - x1)**2 + (y2 - y1)**2 )
 
     def get_shots(self, id, data):
         """

@@ -5,7 +5,7 @@
 This repository is a personal project where I develop football models and visualisations.
 
 It's build on top of different technologies such as:
-* Python: for data processing and machine learning (Tensorflow & Scikit Learn) and web app (Flask)
+* Python: for data processing and machine learning (Tensorflow, Scikit-Learn and MLFlow).
 * R: all data-visualisation stuff (dplyr, ggplot2, magick).
 * Postgres SQL: storing and querying data easily.
 * Docker: to orchestrate all these elements together and easy install/startup.
@@ -46,7 +46,7 @@ The project contains five folders:
 ## TODO
 
 * Improve models
-* Moving to [MLFlow](https://www.mlflow.org/docs/latest/index.html) for modelisation setup.
+* [WIP] Moving to [MLFlow](https://www.mlflow.org/docs/latest/index.html) for modelisation setup.
 
 
 ## Contacts

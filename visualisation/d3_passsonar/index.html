@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-
+<head>
+    <style>
+        .bar {
+            fill: #1E3552;
+        }
+        .highlight {
+            fill: #83ED42;
+        }
+    </style>
+</head>
 <!-- Load d3.js -->
 <script src="http://d3js.org/d3.v4.js"></script>
 
@@ -8,23 +17,44 @@
 <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery/LIB/d3-scale-radial.js"></script>
 
 <!-- Create a div where the graph will take place -->
-<div class="viz" id="my_dataviz"></div>
+<div class="viz" id="my_dataviz">
+        <circle id='top' cx="80" cy="80" r="80" fill="url(#image1)" fill-opacity=".6"/>
+</div>
+<div id="mytext"></div>
+<div class="viz" id="my_dataviz2"></div>
 <script>
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
     width = 460 - margin.left - margin.right,
     height = 460 - margin.top - margin.bottom,
-    innerRadius = 30,
+    innerRadius = 50,
     outerRadius = Math.min(width, height) / 1.5;   // the outerRadius goes from the middle of the SVG area to the border
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
+var chart1 = d3.select("#my_dataviz")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + ( height/2+10 )+ ") scale(1,-1)"); // Add 100 on Y translation, cause upper bars are longer
 
+    chart1.append("defs")
+        .append("pattern")
+        .attr("id", "image1")
+        .attr("x", -innerRadius).attr("y", -innerRadius)
+        .attr("patternUnits", "userSpaceOnUse")
+        .attr("height", 200).attr("width", 200)
+        .append("image").attr("xlink:href", "http://eastbridge-sb.com/wp-content/uploads/2018/12/Luka-Modric-500x500.jpg")
+        .attr("width", innerRadius*2)
+        .attr("x", 0).attr("y", 0);
+
+    chart1.append("circle")
+        .attr("id", "top").attr("cx", 0).attr("cy", 0)
+        .attr("r", innerRadius).attr("fill", "url(#image1)")
+        .attr("transform", "scale(1,-1)")
+
+    
+    
 d3.csv("data_perso3.csv", function(data) {
 
     // X scale
@@ -39,12 +69,12 @@ d3.csv("data_perso3.csv", function(data) {
         .domain([0, 20]); // Domain of Y is from 0 to the max seen in the data
 
     // Add bars
-    svg.append("g")
+    chart1.append("g")
     .selectAll("path")
     .data(data)
     .enter()
     .append("path")
-        .attr("fill", "#69b3a2")
+        .attr("class", "bar")
         .attr("d", d3.arc()     // imagine your doing a part of a donut plot
             .innerRadius(innerRadius)
             .outerRadius(function(d) { return y(d['freq']); })
@@ -52,6 +82,67 @@ d3.csv("data_perso3.csv", function(data) {
             .endAngle(function(d) { return x(d.angle) + x.bandwidth(); })
             .padAngle(0.05)
             .padRadius(innerRadius))
+    .on("mouseover", onMouseOver)
+    .on("mouseout", onMouseOut)
+
+    function onMouseOver(d, i){
+        d3.select(this).attr("class", "highlight");
+        d3.select("#mytext")
+            .text(function(){return d.freq});
+    }
+
+    function onMouseOut(d, i){
+        d3.select(this).attr("class", "bar");
+    }
+
+});
+
+var chart2 = d3.select("#my_dataviz2")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + ( height/2+10 )+ ") scale(1,-1)"); // Add 100 on Y translation, cause upper bars are longer
+
+d3.csv("data_perso.csv", function(data) {
+
+    // X scale
+    var x = d3.scaleBand()
+        .range([0, 2 * Math.PI])    // X axis goes from 0 to 2pi = all around the circle. If I stop at 1Pi, it will be around a half circle
+        .align(0)                  // This does nothing ?
+        .domain(data.map(function(d) { return d.angle; }) ); // The domain of the X axis is the list of states.
+        
+    // Y scale
+    var y = d3.scaleRadial()
+        .range([innerRadius, outerRadius])   // Domain will be define later.
+        .domain([0, 20]); // Domain of Y is from 0 to the max seen in the data
+
+    // Add bars
+    chart2.append("g")
+    .selectAll("path")
+    .data(data)
+    .enter()
+    .append("path")
+        .attr("class", "bar")
+        .attr("d", d3.arc()     // imagine your doing a part of a donut plot
+            .innerRadius(innerRadius)
+            .outerRadius(function(d) { return y(d['freq']); })
+            .startAngle(function(d) { return x(d.angle); })
+            .endAngle(function(d) { return x(d.angle) + x.bandwidth(); })
+            .padAngle(0.05)
+            .padRadius(innerRadius))
+    .on("mouseover", onMouseOver)
+    .on("mouseout", onMouseOut)
+
+    function onMouseOver(d, i){
+        d3.select(this).attr("class", "highlight");
+        d3.select("#mytext")
+            .text(function(){return d.freq});
+    }
+
+    function onMouseOut(d, i){
+        d3.select(this).attr("class", "bar");
+    }
 
 });
 </script>

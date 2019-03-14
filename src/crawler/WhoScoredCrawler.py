@@ -29,6 +29,10 @@ class WhoScoredCrawler():
         :param url: a WhoScored URL
         :return file_path: file path
         """
+        file_path = "data/raw/" + url.split("/")[-1].replace("\n","") + ".json"
+        if os.path.isfile(file_path):
+            print("Data already download: ", file_path)
+            return  
         print("Processing: ", url)
         self.__driver.get(url)
         response = self.__driver.page_source
@@ -40,7 +44,6 @@ class WhoScoredCrawler():
 
         loaded_data = json.loads(json_data)
 
-        file_path = "data/raw/" + url.split("/")[-1].replace("\n","") + ".json"
         with open(file_path, 'w') as outfile:
             json.dump(loaded_data, outfile)
 

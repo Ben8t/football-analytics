@@ -32,8 +32,9 @@ if __name__ == "__main__":
         with open(args.csv, "r") as urls:
             for url in urls.readlines():
                 file = crawler.crawl(url)
-                wsdb.process_file(file)
-                time.sleep(20)
+                if file:
+                    wsdb.process_file(file)
+                    time.sleep(20)
             crawler.close()
             wsdb.close_connection()
 

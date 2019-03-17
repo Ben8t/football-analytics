@@ -4,19 +4,49 @@ from model.pass2vec.src.SequenceFactory import SequencesFactory
 # from keras.models import Sequential
 # from keras.layers import Flatten, Dense
 # from sklearn.manifold import TSNE
+from keras.layers import Input, Dense
+from keras.models import Model
 
 
 if __name__ == "__main__":
-    data = pandas.read_csv("model/pass2vec/resources/raw_passes.csv").head(100000).dropna(axis=0)
+    data = pandas.read_csv("model/pass2vec/resources/raw_passes.csv").head(10000).dropna(axis=0)
     print(data.shape)
     sequences_factory = SequencesFactory()
     pass_list = sequences_factory.build_pass_list(data)
     sequences = sequences_factory.build_sequences(pass_list)
-    result = sequences_factory.build_data(sequences)
-    print(len(result))
-    print(numpy.array(result).shape)
-    # training_data = sequences_factory.build_data(sequences, 2, 2)
-    # # training_data.to_csv("test.csv", index=False)
-    # data_embedded = TSNE(n_components=2).fit_transform(training_data.drop(["game_id", "team_id", "sequence_length"], axis=1).dropna(axis=0))
-    # result = pandas.concat((training_data, pandas.DataFrame(data_embedded, columns=["c1", "c2"])), axis=1)
-    # result.to_csv("result_tsne.csv", index=False)
+    result = sequences_factory.build_data(sequences, save_img=False)
+    print(result.shape)
+
+    split_rate = 0.3
+    x_train = result[:int(split_rate * result.shape[0])]
+    x_test = result[int(split_rate * result.shape[0]):]
+    x_train = x_train.astype('float32') / 255.
+    x_test = x_test.astype('float32') / 255.
+
+    x_test_id = [sequence.id for sequence in sequences[int(split_rate * result.shape[0]):]]
+
+    encoding_dim = 32
+
+    input_img = Input(shape=(16384,))
+
+    encoded = Dense(encoding_dim, activation='relu')(input_img)
+    decoded = Dense(16384, activation='sigmoid')(encoded)
+    autoencoder = Model(input_img, decoded)
+
+    encoder = Model(input_img, encoded)
+
+    encoded_input = Input(shape=(encoding_dim,))
+    decoder_layer = autoencoder.layers[-1]
+    decoder = Model(encoded_input, decoder_layer(encoded_input))
+
+    autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
+
+    autoencoder.fit(x_train, x_train,
+                epochs=5,
+                batch_size=256,
+                shuffle=True,
+                validation_data=(x_test, x_test))
+
+    encoded_imgs = encoder.predict(x_test)
+
+    encoded_sequence = pandas.DataFrame(encoded_imgs, columns=[f"f{i}" for i in range(32)])

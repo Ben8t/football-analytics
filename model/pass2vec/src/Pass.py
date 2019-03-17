@@ -5,13 +5,15 @@ A simple class to declare a pass information
 
 class Pass:
 
-    def __init__(self, x_begin, y_begin, x_end, y_end, game_id=None, team_id=None):
+    def __init__(self, x_begin, y_begin, x_end, y_end, game_id=None, team_id=None, player_id=None, event_id=None):
         self.__x_begin = x_begin
         self.__y_begin = y_begin
         self.__x_end = x_end
         self.__y_end = y_end
         self.__game_id = game_id
-        self.__team_id = team_id
+        self.__team_id = str(team_id)
+        self.__player_id = str(player_id)
+        self.__event_id = str(int(event_id))
 
     @property
     def game_id(self):
@@ -20,6 +22,10 @@ class Pass:
     @property
     def team_id(self):
         return self.__team_id
+
+    @property
+    def player_id(self):
+        return self.__player_id
 
     @property
     def x_begin(self):
@@ -42,5 +48,12 @@ class Pass:
         return [self.x_begin, self.y_begin, self.x_end, self.y_end]
 
     @property
-    def id(self):
+    def sequence_id(self):
+        """
+        sequence_id is an identifier to find pass from a same sequence
+        """
         return str(self.game_id) + str(self.team_id)
+
+    @property
+    def event_id(self):
+        return self.__event_id

@@ -42,11 +42,7 @@ if __name__ == "__main__":
     autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
 
     autoencoder.fit(x_train, x_train,
-                epochs=5,
-                batch_size=256,
+                epochs=100,
+                batch_size=32,
                 shuffle=True,
                 validation_data=(x_test, x_test))
-
-    encoded_imgs = encoder.predict(x_test)
-
-    encoded_sequence = pandas.DataFrame(encoded_imgs, columns=[f"f{i}" for i in range(32)])

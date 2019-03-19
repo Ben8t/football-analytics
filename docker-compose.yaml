@@ -54,6 +54,8 @@ services:
 
   model:
     build: model
+    ports:
+      - "8081:5000"
     networks:
             football-viz-net:
                 ipv4_address: 172.28.1.4
@@ -65,7 +67,7 @@ services:
   passmap:
     build: visualisation/maps/passmap
     ports:
-      - '8081:5000'
+      - '8082:8082'
     networks:
             football-viz-net:
                 ipv4_address: 172.28.1.5

@@ -14,8 +14,13 @@ class SequencesFactory:
         return numpy.floor(value / step) * step
 
     def build_pass_list(self, data):
-        """
-        Build a pass list from a dataframe (and process row data)
+        """Build a pass list from a dataframe (and process row data).
+
+        Args:
+            data: A pandas dataframe containing passes informations.
+
+        Returns:
+            A list of pass instances.
         """
         pass_list = []
         for index, row in data.iterrows():
@@ -32,8 +37,13 @@ class SequencesFactory:
 
     @staticmethod
     def build_sequences(pass_list):
-        """
-        Build passses sequences from a list of pass
+        """Build passses sequences from a list of pass.
+
+        Args:
+            pass_list: A list of pass instances.
+
+        Returns:
+            A list of sequence instances.
         """
         sequences = []
         pass_sequence = []

@@ -1,6 +1,5 @@
-"""
-Pass.py
-A simple class to declare a pass information
+"""Pass.py
+A simple class to declare a pass information.
 """
 
 class Pass:
@@ -49,8 +48,13 @@ class Pass:
 
     @property
     def sequence_id(self):
-        """
-        sequence_id is an identifier to find pass from a same sequence
+        """A sequence_id as identifier to find pass from a same sequence.
+
+        It's used from a list of pass to differentiate a sequence of pass from a
+        team to another.
+
+        Returns:
+            A string corresponding to concatenation of game_id and team_id
         """
         return str(self.game_id) + str(self.team_id)
 

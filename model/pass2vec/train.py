@@ -34,7 +34,7 @@ if __name__ == "__main__":
     x_train = x_train.astype('float32') / 255.
     x_test = x_test.astype('float32') / 255.
 
-    with mlflow.start_run():
+    with mlflow.start_run(run_name="pass2vec_encoder"):
         input_img = Input(shape=(128*128,))
         
         encoded = Dense(args.encoding_dim, activation='relu')(input_img)
@@ -60,3 +60,5 @@ if __name__ == "__main__":
         mlflow.log_param("epochs", args.epochs)
         mlflow.log_param("encoding_dim", args.encoding_dim)
         mlflow.log_param("batch_size", args.batch_size)
+
+        mlflow.keras.log_model(encoder, "encoder_model")

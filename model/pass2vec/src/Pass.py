@@ -12,7 +12,7 @@ class Pass:
         self.__game_id = game_id
         self.__team_id = str(team_id)
         self.__player_id = str(player_id)
-        self.__event_id = str(int(event_id))
+        self.__event_id = str(event_id)
 
     @property
     def game_id(self):

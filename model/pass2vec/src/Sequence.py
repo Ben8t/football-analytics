@@ -13,11 +13,23 @@ class Sequence:
         self.__id = "_".join([str(pass_list[0].game_id) + str(pass_list[0].team_id)] + [passe.event_id for passe in pass_list])
         self.__game_id = str(pass_list[0].game_id)
         self.__team_id = str(pass_list[0].team_id)
-        self.__player_list = [passe.player_id for passe in pass_list]
+        self.__player_list = "_".join([passe.player_id for passe in pass_list])
 
     @property
     def id(self):
         return self.__id
+
+    @property
+    def game_id(self):
+        return self.__game_id
+
+    @property
+    def team_id(self):
+        return self.__team_id
+
+    @property
+    def player_list(self):
+        return self.__player_list
 
     @property
     def pass_list(self):
@@ -44,6 +56,7 @@ class Sequence:
                 passe.y_end - y_init,
                 self.__pass_list[0].game_id,
                 self.__pass_list[0].team_id,
+                passe.player_id,
                 passe.event_id)
             new_sequence.append(new_passe)
         return Sequence(new_sequence)

@@ -25,9 +25,11 @@ def model_application(model, data):
     processed_data = sequences_factory.build_data(sequences, save_img=False)
     processed_data = processed_data.astype('float32') / 255.
     encoded_img = model.predict(processed_data)
+
+    sequences_informations = sequences_factory.get_metadata(sequences)
     header = [f"f_{i}" for i in range(0, encoded_img.shape[1])]
     encoded_pass = pandas.DataFrame(data=encoded_img, columns=header)
-    return pandas.concat((data, encoded_pass), axis=1)
+    return pandas.concat((sequences_informations, encoded_pass), axis=1)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

@@ -31,6 +31,7 @@ class SequencesFactory:
                 self.to_bin(row["y_end"], 2), 
                 row["game_id"], 
                 row["team_id"],
+                row["player_id"],
                 row["event_id"])
             pass_list.append(pass_data)
         return pass_list
@@ -67,6 +68,21 @@ class SequencesFactory:
                 result.append(row_image)
         return numpy.array(result)
         
+    @staticmethod
+    def get_metadata(sequences):
+        """Retrieve metadata from many sequences.
+        Get id, team_id, game_id and player_list for each sequence
+
+        Args:
+            sequences: a list of sequence
+
+        Returns:
+            A pandas dataframe with all metadata
+        """
+        data = []
+        for sequence in sequences:
+            data.append([sequence.id, sequence.team_id, sequence.game_id, sequence.player_list])
+        return pandas.DataFrame(data, columns=["id", "team_id", "game_id", "player_list"])
 
     # def build_data(self, sequences, starting_window, ending_window):
     #     null_pass = Pass(0, 0, 0, 0)

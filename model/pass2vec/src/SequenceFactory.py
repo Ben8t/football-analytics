@@ -84,6 +84,7 @@ class SequencesFactory:
             data.append([sequence.id, sequence.team_id, sequence.game_id, sequence.player_list])
         return pandas.DataFrame(data, columns=["id", "team_id", "game_id", "player_list"])
 
+
     # def build_data(self, sequences, starting_window, ending_window):
     #     null_pass = Pass(0, 0, 0, 0)
     #     processed_sequences = []

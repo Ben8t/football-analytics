@@ -5,6 +5,7 @@ A class to declare a pass sequence with processing.
 from model.pass2vec.src.Pass import Pass
 import numpy
 import cv2
+import random
 
 class Sequence:
 
@@ -71,11 +72,12 @@ class Sequence:
         Returns:
             A flatten image as a numpy array object.
         """
-        img = numpy.zeros((128,128,1), numpy.uint8)
+        img = numpy.zeros((68,105,1), numpy.uint8)
         # build shades of grey from 155 to 255 according to then number of pass in the sequence
         colors = [int(155 + i * (255-155)/(len(self.__pass_list)-1)) for i in range(0, len(self.__pass_list))]
         for i, passe in zip(range(len(self.__pass_list)), self.__pass_list):
             img = cv2.line(img, (int(passe.x_begin),int(passe.y_begin)), (int(passe.x_end),int(passe.y_end)), (colors[i],0,0), 1)
         if save:
-            cv2.imwrite(f"{img_folder}/seq_{self.__id}.png", img)
+            if random.random() >= 0.9:
+                cv2.imwrite(f"{img_folder}/seq_{self.__id}.png", img)
         return img.flatten()

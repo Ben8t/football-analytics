@@ -35,8 +35,13 @@ if __name__ == "__main__":
 
     with mlflow.start_run(run_name="pass2vec_encoder"):
         input_img = Input(shape=(105*68,))
+        encoded = Dense(4096, activation='relu')(input_img)
+        encoded = Dense(2048, activation='relu')(encoded)
+        encoded = Dense(args.encoding_dim, activation='relu')(encoded)
         
-        encoded = Dense(args.encoding_dim, activation='relu')(input_img)
+        decoded = Dense(args.encoding_dim, activation='relu')(encoded)
+        decoded = Dense(2048, activation='relu')(decoded)
+        decoded = Dense(4096, activation='relu')(decoded)
         decoded = Dense(105*68, activation='sigmoid')(encoded)
         
         autoencoder = Model(input_img, decoded)

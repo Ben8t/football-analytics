@@ -14,7 +14,7 @@ import cv2
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--split_dataset_rate", default=0.3, type=float)
+    parser.add_argument("--split_dataset_rate", default=0.7, type=float)
     parser.add_argument("--encoding_dim", default=256, type=int)
     parser.add_argument("--epochs", default=10, type=int)
     parser.add_argument("--batch_size", default=256, type=int)
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     sequences_factory = SequencesFactory()
     pass_list = sequences_factory.build_pass_list(data)
     sequences = sequences_factory.build_sequences(pass_list)
-    result = sequences_factory.build_data(sequences, save_img=True)
+    result = sequences_factory.build_data(sequences, save_img=False)
     print("Sequences processed.")
 
     x_train = result[:int(args.split_dataset_rate * result.shape[0])]
@@ -35,13 +35,9 @@ if __name__ == "__main__":
 
     with mlflow.start_run(run_name="pass2vec_encoder"):
         input_img = Input(shape=(105*68,))
-        encoded = Dense(4096, activation='relu')(input_img)
-        encoded = Dense(2048, activation='relu')(encoded)
-        encoded = Dense(args.encoding_dim, activation='relu')(encoded)
+        encoded = Dense(args.encoding_dim, activation='relu')(input_img)
         
         decoded = Dense(args.encoding_dim, activation='relu')(encoded)
-        decoded = Dense(2048, activation='relu')(decoded)
-        decoded = Dense(4096, activation='relu')(decoded)
         decoded = Dense(105*68, activation='sigmoid')(encoded)
         
         autoencoder = Model(input_img, decoded)
@@ -52,7 +48,7 @@ if __name__ == "__main__":
         decoder_layer = autoencoder.layers[-1]
         decoder = Model(encoded_input, decoder_layer(encoded_input))
 
-        autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
+        autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy', metrics=['accuracy'])
 
         history = autoencoder.fit(x_train, x_train,
                     epochs=args.epochs,

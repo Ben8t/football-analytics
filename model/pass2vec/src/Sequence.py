@@ -78,6 +78,5 @@ class Sequence:
         for i, passe in zip(range(len(self.__pass_list)), self.__pass_list):
             img = cv2.line(img, (int(passe.x_begin),int(passe.y_begin)), (int(passe.x_end),int(passe.y_end)), (colors[i],0,0), 1)
         if save:
-            if random.random() >= 0.9:
-                cv2.imwrite(f"{img_folder}/seq_{self.__id}.png", img)
+            cv2.imwrite(f"{img_folder}/seq_{self.__id}.png", img)
         return img.flatten()

@@ -18,6 +18,19 @@ from model.pass2vec.src.SequenceFactory import SequencesFactory
 from keras.models import load_model
 from sklearn.manifold import TSNE
 
+def load_models(mlrun_id):
+    """Load encoder and decoder models
+
+    Args:
+        mlrun_id (string): mlflow run id
+
+    Returns:
+        Encoder and decoder models
+    """
+    encoder_model = load_model(f"mlruns/0/{mlrun_id}/artifacts/encoder_model/model.h5")
+    decoder_model = load_model(f"mlruns/0/{mlrun_id}/artifacts/decoder_model/model.h5")
+    return encoder_model, decoder_model
+
 def vec_to_img(vector, id=0, width=68, height=105, img_folder="model/pass2vec/resources"):
     """Rebuild image from decoded embeded data
     Utils function to test if the model did well
@@ -38,7 +51,7 @@ def vec_to_img(vector, id=0, width=68, height=105, img_folder="model/pass2vec/re
     cv2.imwrite(f"{img_folder}/seq_decoded_{id}.png", norm_image)
     return norm_image
 
-def model_application(models, data, decoding=False):
+def model_application(encoder_model, decoder_model, data, decoding=False):
     """Return Expected goal for every shot
 
     Args:
@@ -53,14 +66,14 @@ def model_application(models, data, decoding=False):
     processed_data = sequences_factory.build_data(sequences, save_img=False)
 
     processed_data = processed_data.astype('float32') / 255.
-    encoded_img = models["encoder_model"].predict(processed_data)
+    encoded_img = encoder_model.predict(processed_data)
 
     if decoding:
         for id, img, sequence in zip(sequences_informations["id"], encoded_img, sequences):
-            vec_to_img(models["decoder_model"].predict(numpy.array([img])), id)
+            vec_to_img(decoder_model.predict(numpy.array([img])), id)
             sequence.to_vec(True)
 
-    print("TSNE computing...")
+    logging.info("TSNE computing...")
     reducted_img = TSNE(n_components=2, perplexity=50, n_iter=1000, random_state=8).fit_transform(encoded_img)
 
     header = [f"f_{i}" for i in range(0, encoded_img.shape[1])]
@@ -77,12 +90,11 @@ if __name__ == "__main__":
 
     logging.getLogger().setLevel(logging.INFO)
 
-    encoder_model = load_model('mlruns/0/c344bdd35a7249b980fea83c5a0c5535/artifacts/encoder_model/model.h5')
-    decoder_model = load_model('mlruns/0/c344bdd35a7249b980fea83c5a0c5535/artifacts/decoder_model/model.h5')
-    models = {"encoder_model": encoder_model, "decoder_model": decoder_model}
+    
     logging.info("Loading data")
     pass_data = pandas.read_csv(args.data).dropna(axis=0).head(100000)
-    encoded_passes = model_application(models, pass_data, args.decoding)
+    encoder_model, decoder_model = load_models("c344bdd35a7249b980fea83c5a0c5535")
+    encoded_passes = model_application(encoder_model , decoder_model, pass_data, args.decoding)
 
     # Saving option
     if args.save:

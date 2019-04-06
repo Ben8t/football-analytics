@@ -13,3 +13,7 @@ Goal here is to create a simple model for shot quality evaluation. It can be imp
 ## Expected assist
 
 Expected assist (xA) are the same as expected goals but for passes. Each passe is evaluate according to its likelihood of being an assist.
+
+## Pass2Vec
+
+For a full explanaition of this model, you can read the [Medium blogpost](https://www.google.com)

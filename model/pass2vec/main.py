@@ -13,6 +13,7 @@ import argparse
 import numpy
 import pandas
 import cv2
+import logging
 from model.pass2vec.src.SequenceFactory import SequencesFactory
 from keras.models import load_model
 from sklearn.manifold import TSNE
@@ -50,14 +51,17 @@ def model_application(models, data, decoding=False):
     sequences = sequences_factory.build_sequences(pass_list)
     sequences_informations = sequences_factory.get_metadata(sequences)
     processed_data = sequences_factory.build_data(sequences, save_img=False)
+
     processed_data = processed_data.astype('float32') / 255.
     encoded_img = models["encoder_model"].predict(processed_data)
+
     if decoding:
         for id, img, sequence in zip(sequences_informations["id"], encoded_img, sequences):
             vec_to_img(models["decoder_model"].predict(numpy.array([img])), id)
             sequence.to_vec(True)
-    
-    reducted_img = TSNE(n_components=2, perplexity=30, n_iter=1000, random_state=8).fit_transform(encoded_img)
+
+    print("TSNE computing...")
+    reducted_img = TSNE(n_components=2, perplexity=50, n_iter=1000, random_state=8).fit_transform(encoded_img)
 
     header = [f"f_{i}" for i in range(0, encoded_img.shape[1])]
     encoded_pass = pandas.DataFrame(data=encoded_img, columns=header)
@@ -71,9 +75,12 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--save", help="input for saving file", action="store_true")
     args = parser.parse_args()
 
+    logging.getLogger().setLevel(logging.INFO)
+
     encoder_model = load_model('mlruns/0/c344bdd35a7249b980fea83c5a0c5535/artifacts/encoder_model/model.h5')
     decoder_model = load_model('mlruns/0/c344bdd35a7249b980fea83c5a0c5535/artifacts/decoder_model/model.h5')
     models = {"encoder_model": encoder_model, "decoder_model": decoder_model}
+    logging.info("Loading data")
     pass_data = pandas.read_csv(args.data).dropna(axis=0).head(100000)
     encoded_passes = model_application(models, pass_data, args.decoding)
 

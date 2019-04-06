@@ -4,6 +4,7 @@ from itertools import islice, tee
 import pandas
 import numpy
 import cv2
+import logging
 import datetime
 
 
@@ -22,6 +23,7 @@ class SequencesFactory:
         Returns:
             A list of pass instances.
         """
+        logging.info("Build pass list")
         pass_list = []
         for index, row in data.iterrows():
             pass_data = Pass(
@@ -46,6 +48,7 @@ class SequencesFactory:
         Returns:
             A list of sequence instances.
         """
+        logging.info("Build sequences")
         sequences = []
         pass_sequence = []
         for i in range(0, len(pass_list)-1):
@@ -61,6 +64,7 @@ class SequencesFactory:
 
 
     def build_data(self, sequences, save_img=False):
+        logging.info("Build data")
         result = []
         for sequence in sequences:
             if len(sequence.pass_list) > 1:
@@ -71,7 +75,7 @@ class SequencesFactory:
     @staticmethod
     def get_metadata(sequences):
         """Retrieve metadata from many sequences.
-        Get id, team_id, game_id and player_list for each sequence
+        Get id, team_id, game_id and player_list and length for each sequence
 
         Args:
             sequences: a list of sequence
@@ -79,10 +83,11 @@ class SequencesFactory:
         Returns:
             A pandas dataframe with all metadata
         """
+        logging.info("Get sequences metadata")
         data = []
         for sequence in sequences:
-            data.append([sequence.id, sequence.team_id, sequence.game_id, sequence.player_list])
-        return pandas.DataFrame(data, columns=["id", "team_id", "game_id", "player_list"])
+            data.append([sequence.id, sequence.team_id, sequence.game_id, sequence.player_list, len(sequence)])
+        return pandas.DataFrame(data, columns=["id", "team_id", "game_id", "player_list", "sequence_length"])
 
 
     # def build_data(self, sequences, starting_window, ending_window):

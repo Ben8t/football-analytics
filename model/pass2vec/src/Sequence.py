@@ -16,6 +16,9 @@ class Sequence:
         self.__team_id = str(pass_list[0].team_id)
         self.__player_list = "_".join([passe.player_id for passe in pass_list])
 
+    def __len__(self):
+        return len(self.__pass_list)
+
     @property
     def id(self):
         return self.__id
@@ -62,7 +65,7 @@ class Sequence:
             new_sequence.append(new_passe)
         return Sequence(new_sequence)
 
-    def to_vec(self, save=False, img_folder="model/pass2vec/resources"):
+    def to_vec(self, save=False, img_width=105, img_height=68, img_folder="model/pass2vec/resources"):
         """Convert a sequence of pass to flatten image vector.
 
         Args:
@@ -72,7 +75,7 @@ class Sequence:
         Returns:
             A flatten image as a numpy array object.
         """
-        img = numpy.zeros((68,105,1), numpy.uint8)
+        img = numpy.zeros((img_height,img_width,1), numpy.uint8)
         # build shades of grey from 155 to 255 according to then number of pass in the sequence
         colors = [int(155 + i * (255-155)/(len(self.__pass_list)-1)) for i in range(0, len(self.__pass_list))]
         for i, passe in zip(range(len(self.__pass_list)), self.__pass_list):

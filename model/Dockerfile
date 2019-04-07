@@ -5,7 +5,7 @@ RUN apt-get -qq update -y && \
     apt-get install unzip -y && \
     apt-get install -my wget gnupg
 
-RUN pip install flask mlflow
+RUN pip install flask mlflow MulticoreTSNE
 
 # Set the locale
 ENV LC_ALL C.UTF-8

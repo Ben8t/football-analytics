@@ -16,7 +16,9 @@ import cv2
 import logging
 from model.pass2vec.src.SequenceFactory import SequencesFactory
 from keras.models import load_model
-from sklearn.manifold import TSNE
+# from sklearn.manifold import TSNE
+from MulticoreTSNE import MulticoreTSNE as TSNE
+
 
 def load_models(mlrun_id):
     """Load encoder and decoder models
@@ -74,7 +76,7 @@ def model_application(encoder_model, decoder_model, data, decoding=False):
             sequence.to_vec(True)
 
     logging.info("TSNE computing...")
-    reducted_img = TSNE(n_components=2, perplexity=50, n_iter=1000, random_state=8).fit_transform(encoded_img)
+    reducted_img = TSNE(n_jobs=4, n_components=2, perplexity=30, n_iter=2000, random_state=8).fit_transform(encoded_img)
 
     header = [f"f_{i}" for i in range(0, encoded_img.shape[1])]
     encoded_pass = pandas.DataFrame(data=encoded_img, columns=header)
@@ -92,7 +94,7 @@ if __name__ == "__main__":
 
     
     logging.info("Loading data")
-    pass_data = pandas.read_csv(args.data).dropna(axis=0).head(100000)
+    pass_data = pandas.read_csv(args.data).dropna(axis=0).head(300000)
     encoder_model, decoder_model = load_models("c344bdd35a7249b980fea83c5a0c5535")
     encoded_passes = model_application(encoder_model , decoder_model, pass_data, args.decoding)
 

@@ -90,10 +90,10 @@ man_city_plot
 
 ```{r, echo=FALSE}
 spread_team_cluster <- data_clustered %>% 
-	count(team_id, cluster) %>% 
-	mutate(prop = prop.table(n)) %>%
+	group_by(team_id, cluster) %>% 
+	summarise(count = n()) %>%
 	as.data.frame() %>%
-    spread(key=cluster, value=prop)
+    spread(key=cluster, value=count)
 
 kable(spread_team_cluster)
 

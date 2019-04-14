@@ -7,7 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE, warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.align="center") 
+knitr::opts_chunk$set(fig.width=20, fig.height=15, fig.align="center") 
 library(tidyverse)
 library(hrbrthemes)
 library(gghighlight)
@@ -41,7 +41,7 @@ ggsave(filename="notebooks/pass2vec/img/tsne.png", tsne_plot, width=14, height=8
 ## T-SNE with cluster on encoded features
 
 ```{r, echo=FALSE}
-cluster_number <- 20
+cluster_number <- 50
 kmeans_result <- kmeans(data %>% 
                            select(t1, t2) %>% # contains("f_")
                            na.omit(),
@@ -66,27 +66,6 @@ tsne_plot_cluster
 ggsave(filename="notebooks/pass2vec/img/tsne_cluster_encoded_features.png", tsne_plot_cluster, width=14, height=8, dpi=300)
 ```
 
-```{r, echo=FALSE, results='asis'}
-clusters_img <- data_clustered %>% 
-	filter(img_exist==1) %>% 
-	group_by(cluster) %>%
-	top_n(n=1, wt = img_file) %>%
-	select(cluster, img_file) %>%
-	mutate(img_file=pandoc.image.return(img_file))
-
-clusters_freq <- data_clustered %>% 
-	group_by(cluster) %>% 
-	summarise(n=n()) %>% 
-	mutate(freq=round(100*n/sum(n), 2)) %>% 
-	arrange(desc(freq))
-
-cluster_summary <- merge(clusters_img, clusters_freq) %>%
-	select(cluster, freq, img_file) %>% 
-	arrange(desc(freq))
-
-kable(cluster_summary)
-```
-
 ## Teams dispatch
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -104,9 +83,31 @@ spread_team_cluster %>% gather(col, Value, -team_id) %>%
         arrange(desc(Value)) %>%
         ggplot(aes(x=reorder(row, Value), y=col, fill = Value)) +
         geom_tile() +
-        scale_fill_viridis(option="viridis") + 
+        scale_fill_viridis(option="magma") + 
         theme_minimal() + 
         labs(x="", y="")
+```
+
+```{r, echo=FALSE, results='asis'}
+clusters_img <- data_clustered %>% 
+	filter(img_exist==1) %>% 
+	group_by(cluster) %>%
+	top_n(n=5, wt = img_file) %>%
+	select(cluster, img_file) %>%
+	mutate(img_file=pandoc.image.return(img_file))
+
+clusters_freq <- data_clustered %>% 
+	group_by(cluster) %>% 
+	summarise(n=n()) %>% 
+	mutate(freq=round(100*n/sum(n), 2)) %>% 
+	arrange(desc(freq))
+
+cluster_summary <- merge(clusters_img, clusters_freq) %>%
+	select(cluster, freq, img_file) %>% 
+	mutate(cluster=paste0("Cluster ", cluster)) %>% 
+	arrange(desc(freq))
+
+kable(cluster_summary)
 ```
 
 ## Focusing on Manchester City

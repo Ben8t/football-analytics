@@ -41,9 +41,10 @@ ggsave(filename="notebooks/pass2vec/img/tsne.png", tsne_plot, width=14, height=8
 ## T-SNE with cluster on encoded features
 
 ```{r, echo=FALSE}
+
 cluster_number <- 50
 kmeans_result <- kmeans(data %>% 
-                           select(t1, t2) %>% # contains("f_")
+                           select(contains("f_")) %>% # contains("f_")
                            na.omit(),
 					    cluster_number, 
 						iter.max = 50)
@@ -67,6 +68,12 @@ ggsave(filename="notebooks/pass2vec/img/tsne_cluster_encoded_features.png", tsne
 ```
 
 ## Teams dispatch
+
+```{r, echo=FALSE, results='asis'}
+for(team_id in unique(data$team_id)){
+	cat(paste0(team_id, ": ![img](https://d2zywfiolv4f83.cloudfront.net/img/teams/",team_id,".png)"))
+}
+```
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 spread_team_cluster <- data_clustered %>% 

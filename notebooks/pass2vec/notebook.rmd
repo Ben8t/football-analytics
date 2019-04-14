@@ -5,13 +5,14 @@ date: "09/04/2019"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.align="center") 
 library(tidyverse)
 library(hrbrthemes)
 library(gghighlight)
 library(knitr)
+library(pander)
 library(viridis)
 set.seed(42)
 ```
@@ -20,7 +21,6 @@ set.seed(42)
 
 ```{r, echo=FALSE, warning=FALSE}
 data <- read_csv("notebooks/pass2vec/data/test_seq5.csv", col_types=cols(team_id=col_character()))
-kable(sample_n(data %>% select(id, t1, t2, sequence_length), 5))
 ```
 
 ## T-SNE plotting
@@ -41,68 +41,108 @@ ggsave(filename="notebooks/pass2vec/img/tsne.png", tsne_plot, width=14, height=8
 ## T-SNE with cluster on encoded features
 
 ```{r, echo=FALSE}
-cluster_number <- 25
+cluster_number <- 20
 kmeans_result <- kmeans(data %>% 
-                           select(contains("f_")) %>% 
+                           select(t1, t2) %>% # contains("f_")
                            na.omit(),
 					    cluster_number, 
 						iter.max = 50)
 data_clustered <- data %>% 
-	mutate(cluster=kmeans_result[["cluster"]]) %>% 
-	select(id, team_id, t1, t2, cluster)
+	mutate(cluster=kmeans_result[["cluster"]],
+			img_file=paste0("/data/model/pass2vec/resources/seq_", id, ".png")) %>%
+	mutate(img_exist=as.integer(file.exists(img_file))) %>%
+	select(id, team_id, t1, t2, cluster, sequence_length, img_file, img_exist)
 
 tsne_plot_cluster <- ggplot(data_clustered) + 
 	geom_point(aes(x=t1, y=t2, color=factor(cluster))) + 
 	scale_color_viridis_d() + 
 	theme_minimal() + 
 	xlab("component 1") + 
-	ylab("component 2")
+	ylab("component 2") + 
+	theme(legend.position="none")
 
 tsne_plot_cluster
 
-ggsave(filename="notebooks/pass2vec/img/tsne_cluster.png", tsne_plot_cluster, width=14, height=8, dpi=300)
+ggsave(filename="notebooks/pass2vec/img/tsne_cluster_encoded_features.png", tsne_plot_cluster, width=14, height=8, dpi=300)
 ```
 
-## Focusing on Manchester City
+```{r, echo=FALSE, results='asis'}
+clusters_img <- data_clustered %>% 
+	filter(img_exist==1) %>% 
+	group_by(cluster) %>%
+	top_n(n=1, wt = img_file) %>%
+	select(cluster, img_file) %>%
+	mutate(img_file=pandoc.image.return(img_file))
 
-```{r, echo=FALSE}
-manchester_city <- data_clustered %>% 
-	group_by(team_id, cluster) %>% 
-	summarise(count=n()) %>% 
-	as.data.frame() %>% 
-	filter(team_id==167) %>% 
-	arrange(desc(count))
+clusters_freq <- data_clustered %>% 
+	group_by(cluster) %>% 
+	summarise(n=n()) %>% 
+	mutate(freq=round(100*n/sum(n), 2)) %>% 
+	arrange(desc(freq))
 
-kable(sample_n(manchester_city, 5))
+cluster_summary <- merge(clusters_img, clusters_freq) %>%
+	select(cluster, freq, img_file) %>% 
+	arrange(desc(freq))
 
-man_city_plot <- ggplot(data_clustered) + 
-	geom_point(aes(x=t1, y=t2, color=factor(cluster))) + 
-	scale_color_viridis_d() + 
-    gghighlight(team_id==167) + 
-	theme_minimal() + 
-	xlab("component 1") + 
-	ylab("component 2")
-
-man_city_plot
+kable(cluster_summary)
 ```
 
 ## Teams dispatch
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
 spread_team_cluster <- data_clustered %>% 
 	group_by(team_id, cluster) %>% 
 	summarise(count = n()) %>%
-	as.data.frame() %>%
-    spread(key=cluster, value=count)
+	mutate(freq=count/sum(count)) %>%
+	select(team_id, cluster, freq) %>% 
+    spread(key=cluster, value=freq)
 
-kable(spread_team_cluster)
+# kable(spread_team_cluster)
 
 spread_team_cluster %>% gather(col, Value, -team_id) %>%
         mutate(row = factor(team_id, levels = rev(unique(team_id))), Value = Value) %>% 
         arrange(desc(Value)) %>%
         ggplot(aes(x=reorder(row, Value), y=col, fill = Value)) +
         geom_tile() +
-        scale_fill_viridis(option="magma") + 
+        scale_fill_viridis(option="viridis") + 
         theme_minimal() + 
         labs(x="", y="")
+```
+
+## Focusing on Manchester City
+
+```{r, echo=FALSE}
+
+best_cluster <- data_clustered %>% 
+	group_by(team_id, cluster) %>% 
+	summarise(count = n()) %>%
+	mutate(freq=count/sum(count)) %>%
+	select(team_id, cluster, freq) %>%
+	filter(team_id==167 & freq==max(freq)) %>% .$cluster
+
+print(best_cluster[[1]])
+
+manchester_city <- data_clustered %>% 
+	filter(team_id==167 & cluster==best_cluster[[1]])
+
+# kable(sample_n(manchester_city, 5))
+
+man_city_plot <- ggplot(data_clustered %>% filter(team_id==167)) + 
+	geom_point(aes(x=t1, y=t2, color=factor(cluster))) +
+	scale_color_viridis_d() + 
+	theme_minimal() + 
+	xlab("component 1") + 
+	ylab("component 2") + 
+	theme(legend.position="none")
+
+man_city_plot
+```
+
+```{r, echo=FALSE, results='asis'}
+files <- intersect(list.files("/data/model/pass2vec/resources/"), manchester_city %>% mutate(id = paste0("seq_", id, ".png")) %>% .$id)
+
+for(img in files){
+	cat(paste0("![img](/data/model/pass2vec/resources/",img,")\n"))
+	cat("\n")
+}
 ```

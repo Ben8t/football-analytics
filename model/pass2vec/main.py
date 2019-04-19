@@ -7,7 +7,7 @@ python -m model.pass2vec.main <pass_data_file.csv>
 
 Wildcard:
 -s input for saving file
-
+-d saving decoded images
 """
 import argparse
 import numpy

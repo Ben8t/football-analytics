@@ -10,3 +10,4 @@ visualisation/crawler/*
 *config.json
 *.h5
 *.zip
+model/pass2vec/resources/*.png

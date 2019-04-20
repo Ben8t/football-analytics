@@ -9,6 +9,7 @@ It's build on top of different technologies such as:
 * R: all data-visualisation stuff (dplyr, ggplot2, magick).
 * Postgres SQL: storing and querying data easily.
 * Docker: to orchestrate all these elements together and easy install/startup.
+* Google Cloud Plateform: to run heavy jobs in cloud.
 
 ## Samples & Results
 

@@ -18,7 +18,6 @@ from model.pass2vec.src.SequenceFactory import SequencesFactory
 from keras.models import load_model
 # from sklearn.manifold import TSNE
 from MulticoreTSNE import MulticoreTSNE as TSNE
-from sklearn.cluster import AgglomerativeClustering
 
 
 def load_models(mlrun_id):
@@ -77,16 +76,12 @@ def model_application(encoder_model, decoder_model, data, decoding=False):
             sequence.to_vec(True)
 
     logging.info("TSNE computing...")
-    tnse_result = TSNE(n_jobs=4, n_components=2, perplexity=30, n_iter=2000, random_state=8).fit_transform(encoded_img)
-    
-    logging.info("Agglomerative clustering...")
-    ahc_result = AgglomerativeClustering(n_clusters=10).fit(encoded_img).labels_
+    tsne_result = TSNE(n_jobs=4, n_components=2, perplexity=30, n_iter=2000, random_state=8).fit_transform(encoded_img)
 
     header = [f"f_{i}" for i in range(0, encoded_img.shape[1])]
     encoded_pass = pandas.DataFrame(data=encoded_img, columns=header)
-    tsne_pass = pandas.DataFrame(data=tnse_result, columns=["t1", "t2"])
-    ahc_cluster = pandas.DataFrame(data=ahc_result, columns=["ahc_cluster"])
-    return pandas.concat((sequences_informations, encoded_pass, tsne_pass, ahc_cluster), axis=1)
+    tsne_pass = pandas.DataFrame(data=tsne_result, columns=["t1", "t2"])
+    return pandas.concat((sequences_informations, encoded_pass, tsne_pass), axis=1)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

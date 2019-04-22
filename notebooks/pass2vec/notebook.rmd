@@ -45,8 +45,7 @@ ggsave(filename="notebooks/pass2vec/img/tsne_sequence_length_plot.png", tsne_seq
 
 ```{r, echo=FALSE}
 
-set.seed(42)
-cluster_number <- 200
+cluster_number <- 500
 kmeans_result <- kmeans(data %>% 
 						select(t1, t2) %>% 
 						na.omit(),
@@ -77,12 +76,13 @@ for(team_id in unique(data$team_id)){
 }
 ```
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=50}
 team_cluster_frequence <- data %>% 
-	group_by(team_id, kmeans_cluster) %>% 
+	group_by(kmeans_cluster, team_id) %>% 
 	summarise(count = n()) %>%
 	mutate(freq=count/sum(count)) %>%
 	select(team_id, kmeans_cluster, freq) %>% 
+	filter(!(team_id %in% c(170, 16, 211, 23, 21, 166, 168, 24, 188, 161, 214))) %>% # removing relegated team
     spread(key=kmeans_cluster, value=freq)
 
 write.csv(team_cluster_frequence, file="notebooks/pass2vec/data/team_cluster_frequence.csv", row.names=FALSE)
@@ -98,7 +98,7 @@ team_cluster_frequence_heatmap <- team_cluster_frequence %>% gather(col, Value, 
 
 team_cluster_frequence_heatmap
 
-ggsave(filename="notebooks/pass2vec/img/team_cluster_frequence_heatmap.png", team_cluster_frequence_heatmap, width=18, height=10, dpi=300)
+ggsave(filename="notebooks/pass2vec/img/team_cluster_frequence_heatmap.png", team_cluster_frequence_heatmap, width=8, height=35, dpi=300)
 ```
 
 ## Clusters samples

@@ -43,7 +43,7 @@ pass_angles <- function(cleaned_data, lineup, sonar_colors, text_color) {
             scale_fill_gradientn(colours=sonar_colors) + 
             theme(legend.title=element_text(size=20, color=text_color),legend.text = element_text(colour=text_color, size=20),legend.position="bottom",legend.direction="horizontal",legend.background=element_rect(fill=alpha(text_color, 0.0))) +
             guides(fill=guide_colorbar(
-                title="Average Pass Distance",
+                title="Average pass distance",
                 title.position="top", 
                 title.hjust=0,
                 barheight = 3,
@@ -129,30 +129,29 @@ passsonar <- function(cleaned_data, lineup, background_color, foreground_color, 
                     axis.ticks=element_blank(),
                     panel.background=element_blank(),
                     legend.position="none",
-                    plot.background = element_rect(fill = background_color),
+                    plot.background = element_rect(fill=background_color, colour=background_color),
                     panel.grid.major = element_blank(),
                     panel.grid.minor = element_blank()) +
       annotation_custom(grob=pass_angles_graphic[[2]], xmin=-9.5, ymin=0.3, xmax=-7.5, ymax=1) +
       xlim(-10.5, 0.5) + 
-      ylim(0, 12)
+      ylim(0, 12) + 
+      theme(plot.margin=unit(c(7,1,1,1),"cm"))
   return(final_plot)
 }
 
 create_graphic <- function(passsonar, folder, team, team_name, team_scoreboard, datetime, league_name){
   ggsave(filename=paste0(folder,"g_passsonar_tmp.png"), passsonar, width=15, height=18, dpi=150, bg = background_color)
-  background <- image_read("template/passsonar/background_passsonar.png")
-  foreground <- image_read("template/passsonar/foreground_passsonar.png")
+  # background <- image_read("template/passsonar/background_passsonar.png")
+  # foreground <- image_read("template/passsonar/foreground_passsonar.png")
   title <- image_read("template/passsonar/title_passsonar.png")
   passsonar <- image_read(paste0(folder,"g_passsonar_tmp.png"))
   logo <- image_read(paste0(folder, team, "_logo.png"))
-  full_image <- background %>% 
-    image_composite(passsonar, offset="+0+150") %>% 
-    image_composite(foreground) %>% 
-    image_composite(image_scale(logo,"220"), offset = "+250+200") %>% 
-    image_composite(title) %>%
-    image_annotate(team_scoreboard, font="Roboto", size=75, location="+500+220", color=text_color) %>% 
-    image_annotate(paste0(league_name, " - ", datetime), font="Roboto", size=45, location="+500+320", color=alternative_text_color) %>% 
-    image_annotate("Bar length = pass angle frequency\n                                              @Ben8t", font="Roboto", size=35, location="+1465+2560", color=text_color)
+  full_image <-passsonar %>% 
+    image_composite(image_scale(logo,"220"), offset = "+270+250") %>% 
+    image_composite(title, offset="+0+50") %>%
+    image_annotate(team_scoreboard, font="Roboto", size=75, location="+520+280", color=text_color) %>% 
+    image_annotate(paste0(league_name, " - ", datetime), font="Roboto", size=45, location="+520+380", color=alternative_text_color) %>% 
+    image_annotate("Bar length = pass angle frequency\n                                             @Ben8t", font="Roboto", size=35, location="+1430+2560", color=text_color)
   
   file_name <- paste0("passsonar_", gsub(" ", "", team_name, fixed=TRUE), "_", gsub("/", "", datetime, fixed=TRUE), ".png")
   image_write(full_image, path=paste0(folder, file_name), format="png")

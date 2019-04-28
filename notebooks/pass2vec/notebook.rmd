@@ -20,51 +20,52 @@ set.seed(42)
 ## Data loading
 
 ```{r, echo=FALSE, warning=FALSE}
-data <- read_csv("notebooks/pass2vec/data/test_seq5.csv", col_types=cols(team_id=col_character()))
+data <- read_csv("notebooks/pass2vec/data/all_encoded_pass_with_tsne.csv", col_types=cols(team_id=col_character()))
+data <- data %>% mutate(img_file=paste0("/data/model/pass2vec/resources/seq_", id, ".png")) %>%
+	mutate(img_exist=as.integer(file.exists(img_file)))
+
 ```
 
 ## T-SNE plotting
 
 ```{r, echo=FALSE}
-tsne_plot <- ggplot(data) + 
-    geom_point(aes(x=t1, y=t2,color=sequence_length)) + 
+tsne_sequence_length_plot <- ggplot(data) + 
+    geom_point(aes(x=t1, y=t2, color=sequence_length)) + 
     scale_color_viridis(option="viridis") + 
     theme_minimal() + 
     xlab("component 1") + 
     ylab("component 2")
 
-tsne_plot
+tsne_sequence_length_plot
 
-ggsave(filename="notebooks/pass2vec/img/tsne.png", tsne_plot, width=14, height=8, dpi=300)
+ggsave(filename="notebooks/pass2vec/img/tsne_sequence_length_plot.png", tsne_sequence_length_plot, width=18, height=10, dpi=300)
 ```
 
-## T-SNE with cluster on encoded features
+## T-SNE with bucket (K-means clustering)
 
 ```{r, echo=FALSE}
 
-cluster_number <- 50
+cluster_number <- 500
 kmeans_result <- kmeans(data %>% 
-                           select(contains("f_")) %>% # contains("f_")
-                           na.omit(),
-					    cluster_number, 
+						select(t1, t2) %>% 
+						na.omit(),
+						cluster_number, 
 						iter.max = 50)
-data_clustered <- data %>% 
-	mutate(cluster=kmeans_result[["cluster"]],
-			img_file=paste0("/data/model/pass2vec/resources/seq_", id, ".png")) %>%
-	mutate(img_exist=as.integer(file.exists(img_file))) %>%
-	select(id, team_id, t1, t2, cluster, sequence_length, img_file, img_exist)
 
-tsne_plot_cluster <- ggplot(data_clustered) + 
-	geom_point(aes(x=t1, y=t2, color=factor(cluster))) + 
+data <- data %>% 
+	mutate(kmeans_cluster=kmeans_result[["cluster"]])
+
+tsne_kmeans_plot <- ggplot(data) + 
+	geom_point(aes(x=t1, y=t2, color=factor(kmeans_cluster))) + 
 	scale_color_viridis_d() + 
 	theme_minimal() + 
 	xlab("component 1") + 
 	ylab("component 2") + 
 	theme(legend.position="none")
 
-tsne_plot_cluster
+tsne_kmeans_plot
 
-ggsave(filename="notebooks/pass2vec/img/tsne_cluster_encoded_features.png", tsne_plot_cluster, width=14, height=8, dpi=300)
+ggsave(filename="notebooks/pass2vec/img/tsne_kmeans_plot.png", tsne_kmeans_plot, width=18, height=10, dpi=300)
 ```
 
 ## Teams dispatch
@@ -75,82 +76,51 @@ for(team_id in unique(data$team_id)){
 }
 ```
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-spread_team_cluster <- data_clustered %>% 
-	group_by(team_id, cluster) %>% 
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=50}
+team_cluster_frequence <- data %>% 
+	group_by(kmeans_cluster, team_id) %>% 
 	summarise(count = n()) %>%
 	mutate(freq=count/sum(count)) %>%
-	select(team_id, cluster, freq) %>% 
-    spread(key=cluster, value=freq)
+	select(team_id, kmeans_cluster, freq) %>% 
+	filter(!(team_id %in% c(170, 16, 211, 23, 21, 166, 168, 24, 188, 161, 214))) %>% # removing relegated team
+    spread(key=kmeans_cluster, value=freq)
 
-# kable(spread_team_cluster)
+write.csv(team_cluster_frequence, file="notebooks/pass2vec/data/team_cluster_frequence.csv", row.names=FALSE)
 
-spread_team_cluster %>% gather(col, Value, -team_id) %>%
+team_cluster_frequence_heatmap <- team_cluster_frequence %>% gather(col, Value, -team_id) %>%
         mutate(row = factor(team_id, levels = rev(unique(team_id))), Value = Value) %>% 
         arrange(desc(Value)) %>%
         ggplot(aes(x=reorder(row, Value), y=col, fill = Value)) +
         geom_tile() +
-        scale_fill_viridis(option="magma") + 
+        scale_fill_viridis(option="viridis") + 
         theme_minimal() + 
         labs(x="", y="")
+
+team_cluster_frequence_heatmap
+
+ggsave(filename="notebooks/pass2vec/img/team_cluster_frequence_heatmap.png", team_cluster_frequence_heatmap, width=8, height=35, dpi=300)
 ```
 
+## Clusters samples
+
 ```{r, echo=FALSE, results='asis'}
-clusters_img <- data_clustered %>% 
+clusters_img <- data %>% 
 	filter(img_exist==1) %>% 
-	group_by(cluster) %>%
+	group_by(kmeans_cluster) %>%
 	top_n(n=5, wt = img_file) %>%
-	select(cluster, img_file) %>%
+	select(kmeans_cluster, img_file) %>%
 	mutate(img_file=pandoc.image.return(img_file))
 
-clusters_freq <- data_clustered %>% 
-	group_by(cluster) %>% 
+clusters_freq <- data %>% 
+	group_by(kmeans_cluster) %>% 
 	summarise(n=n()) %>% 
 	mutate(freq=round(100*n/sum(n), 2)) %>% 
 	arrange(desc(freq))
 
 cluster_summary <- merge(clusters_img, clusters_freq) %>%
-	select(cluster, freq, img_file) %>% 
-	mutate(cluster=paste0("Cluster ", cluster)) %>% 
+	select(kmeans_cluster, freq, img_file) %>% 
+	mutate(cluster=paste0("Cluster ", kmeans_cluster)) %>% 
 	arrange(desc(freq))
 
 kable(cluster_summary)
-```
-
-## Focusing on Manchester City
-
-```{r, echo=FALSE}
-
-best_cluster <- data_clustered %>% 
-	group_by(team_id, cluster) %>% 
-	summarise(count = n()) %>%
-	mutate(freq=count/sum(count)) %>%
-	select(team_id, cluster, freq) %>%
-	filter(team_id==167 & freq==max(freq)) %>% .$cluster
-
-print(best_cluster[[1]])
-
-manchester_city <- data_clustered %>% 
-	filter(team_id==167 & cluster==best_cluster[[1]])
-
-# kable(sample_n(manchester_city, 5))
-
-man_city_plot <- ggplot(data_clustered %>% filter(team_id==167)) + 
-	geom_point(aes(x=t1, y=t2, color=factor(cluster))) +
-	scale_color_viridis_d() + 
-	theme_minimal() + 
-	xlab("component 1") + 
-	ylab("component 2") + 
-	theme(legend.position="none")
-
-man_city_plot
-```
-
-```{r, echo=FALSE, results='asis'}
-files <- intersect(list.files("/data/model/pass2vec/resources/"), manchester_city %>% mutate(id = paste0("seq_", id, ".png")) %>% .$id)
-
-for(img in files){
-	cat(paste0("![img](/data/model/pass2vec/resources/",img,")\n"))
-	cat("\n")
-}
 ```

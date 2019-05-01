@@ -25,7 +25,7 @@ def model_application(model, shots_data):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("data", help="csv file containing shots data")
+    parser.add_argument("data", help="csv file containing shots data (with at least x_shot, y_shot, goal_distance, big_chance features).")
     parser.add_argument("-s", "--save", help="input for saving file", action="store_true")
     args = parser.parse_args()
 

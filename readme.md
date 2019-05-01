@@ -32,8 +32,6 @@ It's build on top of different technologies such as:
 ![image](visualisation/dendogram/dribble_goals.png)
 
 
-
-
 ## Architecture
 
 The project contains five folders:
@@ -44,11 +42,31 @@ The project contains five folders:
 * `./src`: source file for crawlers, database connection/ingestion, SQL queries, etc...
 * `./visualisation`: source code for data-visualization, most recent works (on maps) are in `./visualisation/maps` subfolders.
 
+
+## Usage
+
+### Running model applications
+
+1. Start corresponding container: `docker-compose up -d model`.
+2. For ease of use, going into the container: `docker exec -it model bash`
+3. All data are mapped to the local environment: `cd /data`
+* Expected goal model: `python -m model.expected_goal.main --help`.
+* Expected assist model: `python -m model.expected_assist.main --help`.
+* Possession2Vec model: `python -m model.pass2vec.main --help`
+
+### Running Passmaps vizualisations
+
+1. Start corresponding container: `docker-compose up -d passmap`.
+2. Go to `http://localhost:8082/`.
+
+
 ## TODO
 
 * Improve models
-* [WIP] Moving to [MLFlow](https://www.mlflow.org/docs/latest/index.html) for modelisation setup.
+* Add more documentations.
+* Clean some viz stuff.
+* Better Docker management.
 
 
 ## Contacts
-This folder is a kind of POC toolkit for me, so it is not necessarily clean. I try to keep things organized anyway. Any questions/improves on [Twitter @Ben8t](https://twitter.com/Ben8t).
+Any questions/improves on [Twitter @Ben8t](https://twitter.com/Ben8t).

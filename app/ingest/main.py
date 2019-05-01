@@ -3,7 +3,7 @@ main.py
 
 Ingest WhoScored data into Postgres database
 Example:
-python -m app.ingest.main <WhoScored URL>
+python -m app.ingest.main -u <WhoScored URL> -c <CSV file with a list of WhoScored URL>
 """
 
 import json

@@ -11,7 +11,7 @@ low_color = "#FF6F91"
 mid_color = "#FF9671"
 high_color = "#FFC75F"
 
-data <- data <- read_csv("data.csv")
+data <- read_csv(data_file)
 
 plot <- ggplot() +  geom_rect(aes(xmin = 0, xmax = 105, ymin = 0, ymax = 68), #entire pitch with FIFA dimensions
                       fill = background_color, 

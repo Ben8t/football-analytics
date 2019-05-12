@@ -1,8 +1,9 @@
 library(tidyverse)
+library(hrbrthemes)
 library(readr)
 
 data <- read_csv("data.csv")
-sonar_colors <- c("#845EC2", "#D65DB1", "#FF6F91", "#FF9671")
+sonar_colors <- c("#B5D9FC", "#A8BCE8", "#A19FD0", "#9D81B3")
 plot <- ggplot(data) +
     geom_bar(stat="identity", aes(x=angle, y=freq, fill=distance)) + 
     coord_polar(start=pi, direction=1) +

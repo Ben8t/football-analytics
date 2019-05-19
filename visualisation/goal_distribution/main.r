@@ -1,0 +1,1 @@
+ggplot(data, aes(minute)) + geom_density(adjust=2) + theme_minimal() + facet_wrap(vars(home_team_name), ncol=3)

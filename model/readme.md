@@ -16,4 +16,4 @@ Expected assist (xA) are the same as expected goals but for passes. Each passe i
 
 ## Pass2Vec
 
-For a full explanaition of this model, you can read the [Medium blogpost](https://www.google.com)
+For a full explanaition of this model, you can read the [Medium blogpost](https://medium.com/@benoit.pimpaud/after-raw-stats-exploring-possession-styles-with-data-embeddings-d3ebef718abf)

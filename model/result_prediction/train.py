@@ -8,13 +8,35 @@ from sklearn.metrics import accuracy_score
 np.random.seed(8)
 
 def process_features(data):
+    """Process and select features
+
+    Args:
+        data (pandas.DataFrame): Dataframe
+    Returns:
+        pandas.DataFrame: Dataframe with corresponding processed features
+    """
     feature_columns = [feature for feature in list(data.columns) if "goals" in feature]
     return data[feature_columns]
 
 def process_target(data):
+    """Process target
+
+    Args:
+        data (pandas.DataFrame): Dataframe
+    Returns:
+        pandas.Series: Series with corresponding targets
+    """
     return data["result"]
 
 def split_feature_target(data):
+    """Separate features and targets
+
+    Args:
+        data (pandas.DataFrame): Dataframe
+    Returns:
+        pandas.DataFrame: DataFrame corresponding to features
+        pandas.DataFrame: DataFrame corresponding to targets
+    """
     return process_features(data), process_target(data)
 
 if __name__ == "__main__":

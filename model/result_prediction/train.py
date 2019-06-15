@@ -1,67 +1,38 @@
-
+"""train.py"""
 import numpy as np
 import pandas as pd
-import tensorflow as tf
+import mlflow
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 
-LABELS = ["home", "draw", "away"]
-LABEL = "result"
-DROP_COLUMNS = ["game_id", "startDate"]
+np.random.seed(8)
 
-def get_dataset(file_path):
-    with open(file_path, "r") as f:
-        names_row = f.readline()
-    csv_columns = names_row.rstrip("\n").split(",")
-    columns_to_use = [col for col in csv_columns if col not in DROP_COLUMNS]
-    dataset = tf.data.experimental.make_csv_dataset(
-        file_path,
-        batch_size=12,
-        column_names=csv_columns,
-        select_columns=columns_to_use, 
-        label_name=LABEL,
-        na_value="?",
-        num_epochs=1,
-        ignore_errors=True)
-    return dataset
+def process_features(data):
+    feature_columns = [feature for feature in list(data.columns) if "goals" in feature]
+    return data[feature_columns]
 
-def numeric_features():
-    feature_columns = []
+def process_target(data):
+    return data["result"]
 
-    # numeric features
-    for team_context in ["home", "away"]:
-        for name in ["scored_goals", "conceded_goals", "expected_goals"]:
-            for i in range(0,5):
-                numeric_columns_name = f"{team_context}_{name}_{i}"
-                feature_columns.append(tf.feature_column.numeric_column(numeric_columns_name))
-    return feature_columns
-
-
+def split_feature_target(data):
+    return process_features(data), process_target(data)
 
 if __name__ == "__main__":
     train_set_file = "model/result_prediction/data/train_set.csv"   
-    train_set = get_dataset(train_set_file)
-    test_set_file = "model/result_prediction/data/test_set.csv"   
-    test_set = get_dataset(test_set_file)
-    
-    feature_columns = numeric_features()
-    
-    feature_layer = tf.keras.layers.DenseFeatures(feature_columns)
+    test_set_file = "model/result_prediction/data/test_set.csv"
+    train_dataset = pd.read_csv(train_set_file)
+    test_dataset = pd.read_csv(test_set_file)
 
-    model = tf.keras.Sequential([
-        feature_layer,
-        tf.keras.layers.Dense(64, activation='relu'),
-        tf.keras.layers.Dense(64, activation='relu'),
-        tf.keras.layers.Dense(64, activation='relu'),
-        tf.keras.layers.Dense(64, activation='relu'),
-        tf.keras.layers.Dense(64, activation='relu'),
-        tf.keras.layers.Dense(3, activation='softmax')
-    ])
+    x_train, y_train = process_features(train_dataset), process_target(train_dataset)
+    x_test, y_test = process_features(test_dataset), process_target(test_dataset) 
 
-    model.compile(optimizer='adam',
-                loss='categorical_crossentropy',
-                metrics=['accuracy'],
-                run_eagerly=True)
+    with mlflow.start_run(run_name="result_prediction"):
+        n_estimators = 1000
+        model = RandomForestClassifier(n_estimators=n_estimators)
+        model.fit(x_train, y_train)
+        y_pred = model.predict(x_test)
+        accuracy = accuracy_score(y_test, y_pred)
 
-    model.fit(train_set, epochs=100)
-
-    loss, accuracy = model.evaluate(test_set)
-    print("Accuracy", accuracy)
+        mlflow.log_param("features", list(x_train.columns))
+        mlflow.log_param("n_estimators", n_estimators)
+        mlflow.log_metric("accuracy", accuracy)

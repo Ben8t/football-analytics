@@ -92,6 +92,32 @@ class TrainingDataBuilder:
         result = shots_dataframe.groupby("startDate").sum()["xG"]
         return result.tolist()
 
+    def get_conceded_expected_goals(self, date, team_id, past_offset=5):
+        """Gather past expected goals for a team
+
+        Args:
+            date (str): Date
+            team_id (str): A team id
+            past_offset (int): Time lag to watch
+        
+        Returns:
+            list: list of expected_goals
+        """
+        sql_query_file = self.__query_path + "/get_conceded_shots.sql"
+        with open(sql_query_file) as sql_query:
+            query = sql_query.read().format(
+                date=date,
+                team_id=team_id,
+                past_offset=past_offset
+            )
+        self.__cursor.execute(query)
+        results = [dict(result) for result in self.__cursor.fetchall()]
+        shots_dataframe = pandas.DataFrame(results)
+        prediction = self.__expected_goal_model.predict_proba(shots_dataframe[["x_shot", "y_shot", "goal_distance", "big_chance"]])
+        shots_dataframe["xG"] = [y[0] for y in prediction]
+        result = shots_dataframe.groupby("startDate").sum()["xG"]
+        return result.tolist()
+
     def get_features(self, date, team_id, past_offset=5):
         """Gather all features in one place
 
@@ -104,12 +130,13 @@ class TrainingDataBuilder:
             dict: features
         """
         result = {}
-        feature_names = ["scored_goals", "conceded_goals", "expected_goals"]
+        feature_names = ["scored_goals", "conceded_goals", "expected_goals", "conceded_expected_goals"]
         scored_goals = self.get_scored_goals(date, team_id, past_offset)
         conceded_goals = self.get_conceded_goals(date, team_id, past_offset)
         expected_goals = self.get_expected_goals(date, team_id, past_offset)
-        features = [scored_goals, conceded_goals, expected_goals]
-        for i in [0, 1, 2]:
+        conceded_expected_goals = self.get_conceded_expected_goals(date, team_id, past_offset)
+        features = [scored_goals, conceded_goals, expected_goals, conceded_expected_goals]
+        for i in [0, 1, 2, 3]:
             for jr in range(past_offset):
                 result[feature_names[i]+f"_{jr}"] = features[i][jr]
         return result

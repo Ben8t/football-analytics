@@ -14,6 +14,6 @@ if __name__ == "__main__":
     
     data = training_data_builder.build_training_data()
 
-    train_set, test_set = train_test_split(data, test_size=0.3, random_state=42)
+    train_set, test_set = train_test_split(data, test_size=0.2, random_state=42)
     train_set.to_csv("model/result_prediction/data/train_set.csv", index=False)
     test_set.to_csv("model/result_prediction/data/test_set.csv", index=False)

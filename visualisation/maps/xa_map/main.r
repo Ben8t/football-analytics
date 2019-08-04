@@ -14,9 +14,9 @@ library(readr)
 source(file="src/xa_map.r")
 
 # Launcher 
-data_file <- "data/wolves_conceded_xa.csv"
-text <- "Wolverhampton conceded passes from 2018-2019 Premier League season"
-final_filename <- "wolve_xa_map_1819.png"
+data_file <- "data/gundogan_xa.csv"
+text <- "Ilkay Gundogan passes from 2018-2019 Premier League season"
+final_filename <- "gundogan_xa_map_1819.png"
 
 # Colors
 background_color <- "#2162AA"
@@ -37,4 +37,4 @@ data <-  read_csv(data_file)
 # Build map
 stats <- get_stats(data)
 map <- xa_map(data, background_color, foreground_color, color1, color2, color3, high_gradient_color)
-create_graphic(map, text, stats, final_filename, background_color, text_c)
+create_graphic(map, text, stats, final_filename, background_color, text_color)

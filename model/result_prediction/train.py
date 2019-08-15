@@ -5,6 +5,8 @@ import mlflow
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
+import autosklearn.classification
+
 np.random.seed(8)
 
 def process_features(data):
@@ -49,12 +51,12 @@ if __name__ == "__main__":
     x_test, y_test = process_features(test_dataset), process_target(test_dataset) 
 
     with mlflow.start_run(run_name="result_prediction"):
-        n_estimators = 1000
-        model = RandomForestClassifier(n_estimators=n_estimators)
+        # n_estimators = 1000
+        model = autosklearn.classification.AutoSklearnClassifier(time_left_for_this_task=300)
         model.fit(x_train, y_train)
         y_pred = model.predict(x_test)
         accuracy = accuracy_score(y_test, y_pred)
 
         mlflow.log_param("features", list(x_train.columns))
-        mlflow.log_param("n_estimators", n_estimators)
+        # mlflow.log_param("n_estimators", n_estimators)
         mlflow.log_metric("accuracy", accuracy)

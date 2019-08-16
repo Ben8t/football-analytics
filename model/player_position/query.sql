@@ -1,9 +1,26 @@
 WITH players AS (
-	SELECT DISTINCT player_id, player_name, player_height, player_weight FROM player_base WHERE player_id='42686'
+	SELECT * FROM (
+        SELECT
+            player_id, 
+            player_name, 
+            player_position, 
+            player_height, 
+            player_weight,
+            COUNT(player_position) AS volume,
+            MAX(COUNT(player_position)) OVER(PARTITION BY player_id) AS max_volume
+        FROM player_base 
+        WHERE player_position != 'Sub'
+        GROUP BY player_id, player_name, player_position, player_height, player_weight
+        ) AS player
+        WHERE max_volume = volume
 )
 
 SELECT
-	player_id,
+	events.player_id,
+    player_name,
+    player_position,
+    player_height,
+    player_weight,
     CAST(SUM(CASE WHEN (type_name = 'Pass' AND outcome_type_value = 1) THEN 1 END) AS DECIMAL)/COUNT(DISTINCT game_id) AS successful_pass, 
 	CAST(SUM(CASE WHEN (type_name = 'Pass' AND outcome_type_value = 0) THEN 1 END) AS DECIMAL)/COUNT(DISTINCT game_id) AS unsuccessful_pass,
     CAST(SUM(CASE WHEN (type_name = 'Goal') THEN 1 END) AS DECIMAL)/COUNT(DISTINCT game_id) AS goal,
@@ -18,7 +35,9 @@ SELECT
     CAST(SUM(CASE WHEN (type_name = 'TakeOn' AND outcome_type_value = 0) THEN 1 END) AS DECIMAL)/COUNT(DISTINCT game_id) AS unsuccessful_takeon,
     CAST(SUM(CASE WHEN (type_name = 'Dispossessed') THEN 1 END) AS DECIMAL)/COUNT(DISTINCT game_id) AS dispossessed 
 FROM events
-GROUP BY player_id
+LEFT JOIN players
+ON events.player_id = players.player_id
+GROUP BY events.player_id, player_name, player_position, player_height, player_weight
 
 
 -- SELECT DISTINCT type_value, type_name FROM events ORDER BY type_value

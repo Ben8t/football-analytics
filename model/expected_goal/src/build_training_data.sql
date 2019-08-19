@@ -5,7 +5,8 @@ WITH shots AS (
 		x_shot,
 		y_shot,
 		goal_distance,
-		big_chance
+		big_chance,
+        is_goal
 	FROM event_shots
 )
 
@@ -22,7 +23,8 @@ SELECT
 	big_chance,
     previous_type_name,
     previous_x,
-    previous_y
+    previous_y,
+    is_goal
 FROM (
     SELECT
         events.*,
@@ -30,6 +32,7 @@ FROM (
         y_shot,
         goal_distance,
         big_chance,
+        is_goal,
         LEAD(x) OVER(ORDER BY events.game_id, minute, second) AS previous_x,
         LEAD(y) OVER(ORDER BY events.game_id, minute, second) AS previous_y,
         LEAD(type_name) OVER(ORDER BY events.game_id, minute, second) AS previous_type_name

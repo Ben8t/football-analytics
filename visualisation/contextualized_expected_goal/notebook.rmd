@@ -1,0 +1,88 @@
+---
+title: "Pass2Vec Experiments"
+author: "Benoit Pimpaud"
+date: "09/04/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width=20, fig.height=15, fig.align="center") 
+library(tidyverse)
+library(hrbrthemes)
+library(gghighlight)
+library(knitr)
+library(pander)
+library(viridis)
+library(zoo)
+set.seed(42)
+```
+
+## Load data
+
+```{r, echo=TRUE, warning=FALSE, message=FALSE}
+data <- read_csv("data/all_xg.csv")
+```
+
+We filter on 2018-2019 data : 
+
+```{r, echo=TRUE, warning=FALSE, message=FALSE}
+filtered_data <- data %>% filter(startDate > "2018-07-01" & startDate < "2019-07-01")
+```
+
+## Compute "Contextualized Expected Goal"
+
+For each game and team we compute contextualized expected goal : cumalative sum of goal minus cumulative sum of xG.
+```{r, echo=TRUE, warning=FALSE, message=FALSE}
+ceg <- filtered_data %>%
+    select(startDate, game_id, team_id, player_id, minute, is_goal, expected_goal) %>%
+    group_by(game_id, team_id) %>%
+    mutate(cum_goal=cumsum(is_goal), cum_xg=cumsum(expected_goal)) %>% 
+    mutate(xg_plus=cum_goal - cum_xg)
+```
+
+Here is an example of cXg timeline
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+timeline_plot <- ggplot() + 
+    geom_step(data=ceg %>% filter(game_id=="3702d04ff2155895a83d3fd602c5f334"), aes(x=minute, y=xg_plus, color=factor(team_id))) +
+    geom_hline(yintercept=0, color="black", linetype="dashed") + 
+    geom_text(aes(x=5, y=0.1, label="Upper you are good"), colour="black", angle=0, size=3)+
+    geom_hline(yintercept=-1, color="black", linetype="dashed") + 
+    geom_text(aes(x=5, y=-0.9, label="Lower you are bad"), colour="black", angle=0, size=3)+
+    labs(x="", y="Goal - xG",title="Contextualized Expected Goal",subtitle="",caption="by @Ben8t",color="") +
+    theme_ipsum_rc() +
+    theme(
+        plot.title = element_text(size=35),
+        text = element_text(colour="black"),
+        axis.text.y = element_text(colour="black"),
+        axis.text.x = element_text(colour="black"),
+        plot.background = element_rect(fill = "white")) +
+    theme(axis.text.x = element_text(angle = 0, hjust = 1))
+
+timeline_plot
+```
+
+## cXg distriubtion
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+ceg_distribution <- ceg %>% group_by(team_id) %>% mutate(mean_xgp=mean(xg_plus))
+ceg_distribution$team_id = reorder(factor(ceg_distribution$team_id), ceg_distribution$xg_plus, median)
+ggplot(ceg_distribution, aes(x=team_id , y=xg_plus)) + 
+    geom_violin(aes(fill=factor(team_id), group=factor(team_id))) +
+    geom_boxplot(width=0.1) + 
+    theme_minimal()
+```
+
+## Team timeline
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+ceg_team_timeline <- ceg %>% 
+    group_by(game_id, startDate, team_id) %>% 
+    summarise(cxg=mean(xg_plus)) %>%
+    arrange(., startDate)
+
+ggplot(ceg_team_timeline, aes(x=startDate, y=rollmeanr(cxg, 5, fill=NA))) + 
+    geom_line() + 
+    facet_grid(team_id ~ .) +
+    theme_minimal()
+```

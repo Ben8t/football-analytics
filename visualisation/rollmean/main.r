@@ -5,18 +5,18 @@ library(dplyr)
 library(hrbrthemes)
 
 
-raw_data <- read_csv("wolves_xg_xgc.csv")
+raw_data <- read_csv("data/artifacts/all_xg.csv")
 id = 161
 subtitle = "Wolverhampton in Premier League"
 rolling = 15
 
 data <- raw_data %>% 
     mutate(team=ifelse(team_id==id, "xG", "xGC"), id=row_number()) %>% 
-    select(startDate, team, xG)
+    select(startDate, team, expected_goal)
 
 grouped_data <- data %>% 
     group_by(startDate, team) %>% 
-    summarise(xg=sum(xG)) %>% as.data.frame() %>%
+    summarise(xg=sum(expected_goal)) %>% as.data.frame() %>%
     mutate(date=format(as.Date(startDate), format="%Y-%m-%d"))
 grouped_data$id <- rep(1:(nrow(grouped_data)/2), each=2)
 

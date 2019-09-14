@@ -14,9 +14,9 @@ library(readr)
 source(file="src/xa_map.r")
 
 # Launcher 
-data_file <- "data/gundogan_xa.csv"
-text <- "Ilkay Gundogan passes from 2018-2019 Premier League season"
-final_filename <- "gundogan_xa_map_1819.png"
+data_file <- "data/bernardo_silva_xa.csv"
+text <- "Bernardo Silva passes from 2018-2019 Premier League season"
+final_filename <- "bernardo_silva_xa_map_1819.png"
 
 # Colors
 background_color <- "#2162AA"

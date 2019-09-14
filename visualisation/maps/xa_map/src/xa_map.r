@@ -2,7 +2,7 @@
 xa_map <- function(data, background_color, foreground_color, color1, color2, color3, high_gradient_color){
       data <- data %>% filter(xA >= 0 | is_assist == 1)
       data$xA_cut = cut(data$xA, breaks=c(0,0.1,1), right = FALSE)
-      dataa = data %>% mutate(xA_cut = ifelse(is_assist==1, "assist", xA_cut))
+      data = data %>% mutate(xA_cut = ifelse(is_assist==1, "assist", xA_cut))
       if(length(table(data$xA_cut)) == 3){
             colors_value = c(color1, color2, color3)
       }else{

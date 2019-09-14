@@ -1,7 +1,7 @@
 ---
-title: "Pass2Vec Experiments"
+title: "Contextualized Expected Goal"
 author: "Benoit Pimpaud"
-date: "09/04/2019"
+date: "07/09/2019"
 output: html_document
 ---
 
@@ -85,4 +85,16 @@ ggplot(ceg_team_timeline, aes(x=startDate, y=rollmeanr(cxg, 5, fill=NA))) +
     geom_line() + 
     facet_grid(team_id ~ .) +
     theme_minimal()
+```
+
+## Minute distribution
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+ceg_minute_distribution <- ceg %>% 
+    group_by(minute, team_id) %>%
+    summarise(mean_cxg=mean(xg_plus))
+
+ggplot(ceg_minute_distribution, aes(x=minute, color=factor(team_id))) + 
+    geom_density()
+
 ```
